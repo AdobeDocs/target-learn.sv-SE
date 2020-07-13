@@ -9,7 +9,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 0%
@@ -78,13 +78,17 @@ Följ stegen ovan för att skapa en publik som returnerar användare.
 
    ![Skapa en återkommande användarpublik](assets/audience_returning_mobile_app_users.jpg)
 
->[!NOTE] Alla livscykelvärden och dimensioner som samlas in i SDK för mobila enheter ( [!DNL Target] mobile) prepenseras med&quot;a&quot; (t.ex. a.Launches) och är tillgängliga i alternativet&quot;Custom&quot; (Anpassad) på den nedrullningsbara menyn och kan användas för att skapa målgrupper.
+>[!NOTE]
+>
+>Alla livscykelvärden och dimensioner som samlas in i SDK för mobila enheter ( [!DNL Target] mobile) prepenseras med&quot;a&quot; (t.ex. a.Launches) och är tillgängliga i alternativet&quot;Custom&quot; (Anpassad) på den nedrullningsbara menyn och kan användas för att skapa målgrupper.
 
 ### Skapa en publik för användare som bokar en resa till San Diego
 
 Därefter ska vi skapa några målgrupper för några av de destinationer som erbjuds av appen We.Travel. I den sista lektionen passerade vi målet som en positionsparameter i platsförfrågan wetravel_context_dest. Den parametern är tillgänglig i alternativet Egen på den nedrullningsbara menyn.
 
->[!NOTE] Om en parameter som du förväntar ska visas i listrutan Egen inte visas i [!DNL Target] gränssnittet, kontrollerar du att den skickas i begäran. Om du har verifierat att det finns i begäran, men inte har läst in något språk i [!DNL Target] gränssnittet, kan du bara skriva parameternamnet och trycka på Retur för att fortsätta definiera målgruppen
+>[!NOTE]
+>
+>Om en parameter som du förväntar ska visas i listrutan Egen inte visas i [!DNL Target] gränssnittet, kontrollerar du att den skickas i begäran. Om du har verifierat att det finns i begäran, men inte har läst in något språk i [!DNL Target] gränssnittet, kan du bara skriva parameternamnet och trycka på Retur för att fortsätta definiera målgruppen
 
 1. Namnge målgruppen _Mål: San Diego_.
 1. Använd en anpassad regel med den här definitionen: _locationDest innehåller San Diego_.
