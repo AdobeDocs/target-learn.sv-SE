@@ -7,7 +7,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -47,7 +47,9 @@ Kör emulatorn och använd Logcat för att validera livscykelparametrarna. Filtr
 
 Egenskaper för Adobe Target definieras i gränssnittet och används för att [!DNL Target] skapa gränser för personalisering av appar och webbplatser. Parametern at_property identifierar den specifika egenskap där dina erbjudanden och aktiviteter finns tillgängliga och underhålls. Vi ska lägga till en egenskap till förhämtnings- och live-platsförfrågningarna.
 
->[!NOTE] Beroende på vilken licens du har kan du eventuellt se egenskapsalternativen i [!DNL Target] gränssnittet. Om du inte har de här alternativen, eller om du inte använder Egenskaper i ditt företag, går du vidare till nästa avsnitt i den här lektionen.
+>[!NOTE]
+>
+>Beroende på vilken licens du har kan du eventuellt se egenskapsalternativen i [!DNL Target] gränssnittet. Om du inte har de här alternativen, eller om du inte använder Egenskaper i ditt företag, går du vidare till nästa avsnitt i den här lektionen.
 
 Du kan hämta at_property-värdet i [!DNL Target] gränssnittet under [!UICONTROL Setup] > [!UICONTROL Properties].  Håll markören över egenskapen, markera kodfragmentsikonen och kopiera `at_property` värdet:
 
@@ -140,9 +142,13 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 Kör emulatorn och öppna Logcat. Filtrera efter en av parametrarna för att verifiera att begäran innehåller de parametrar som krävs:
 ![Validera de anpassade parametrarna i Live-platsbegäran](assets/parameters_live_location_validation.jpg)
 
->[!NOTE] Begäranden och parametrar för orderbekräftelse: Även om de inte används i det här demoprojektet registreras orderinformationen vanligtvis i en verklig implementering så att orderdetaljer kan användas som mått/mått. [!DNL Target] I dokumentationen finns instruktioner om hur du [implementerar begäran om orderbekräftelse och parametrarna](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html).
+>[!NOTE]
+>
+>Begäranden och parametrar för orderbekräftelse: Även om de inte används i det här demoprojektet registreras orderinformationen vanligtvis i en verklig implementering så att orderdetaljer kan användas som mått/mått. [!DNL Target] I dokumentationen finns instruktioner om hur du [implementerar begäran om orderbekräftelse och parametrarna](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html).
 
->[!NOTE] Analytics för Target (A4T): Adobe Analytics kan konfigureras som rapportkälla för [!DNL Target]. På så sätt kan alla mått som samlas in av Target SDK visas i Adobe Analytics. Mer information finns i [A4T-översikten](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) .
+>[!NOTE]
+>
+>Analytics för Target (A4T): Adobe Analytics kan konfigureras som rapportkälla för [!DNL Target]. På så sätt kan alla mått som samlas in av Target SDK visas i Adobe Analytics. Mer information finns i [A4T-översikten](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) .
 
 Snyggt jobbat! Nu när parametrarna finns på plats är vi redo att använda dessa parametrar för att skapa målgrupper och erbjudanden i Adobe Target.
 
