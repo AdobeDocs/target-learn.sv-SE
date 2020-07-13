@@ -9,7 +9,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -35,7 +35,9 @@ När lektionen är klar kan du:
 
 I demoappen från våra tidigare lektioner ska vi lägga till en ny plats som heter&quot;wetravel_feature_flag_recs&quot; i förhämtningsbegäran i hemaktiviteten och läsa in den på skärmen med en ny Java-metod.
 
->[!NOTE] En av fördelarna med att använda en förhämtningsbegäran är att tillägg av en ny begäran inte lägger till ytterligare nätverksbelastning eller orsakar ytterligare laddningsarbete eftersom begäran paketeras i förhämtningsbegäran
+>[!NOTE]
+>
+>En av fördelarna med att använda en förhämtningsbegäran är att tillägg av en ny begäran inte lägger till ytterligare nätverksbelastning eller orsakar ytterligare laddningsarbete eftersom begäran paketeras i förhämtningsbegäran
 
 Kontrollera först att konstanten wetravel_feature_flag_recs har lagts till i filen Constant.java:
 
