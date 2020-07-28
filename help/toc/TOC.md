@@ -1,5 +1,5 @@
 ---
-user-guide-title: Självstudiekurser för Adobe Target
+user-guide-title: Adobe Target Tutorials
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 audience: end-user
 solution: Target
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Självstudiekurser för Adobe Target {#tutorials}
+# Adobe Target Tutorials {#tutorials}
 
 + [Översikt](../overview.md)
 + Implementering{#implementation}
@@ -54,14 +54,14 @@ ht-degree: 0%
    + [Förstå Enterprise-användarbehörigheter](../administration/understanding-enterprise-user-permissions.md)
    + [Konfigurera arbetsytor](../administration/set-up-workspaces.md)
    + [Konfigurera egenskaper](../administration/set-up-properties.md)
-+ Rekommendationer{#recommendations}
-   + [Skapa en rekommendationsaktivitet](../recommendations/create-a-recommendations-activity.md)
-   + [Använd rekommendationer](../recommendations/use-recommendations-offers.md)
++ Recommendations{#recommendations}
+   + [Skapa en Recommendations-aktivitet](../recommendations/create-a-recommendations-activity.md)
+   + [Använd Recommendations-erbjudanden](../recommendations/use-recommendations-offers.md)
    + [Förstå flöden](../recommendations/understanding-feeds.md)
    + [Skapa en feed](../recommendations/create-a-feed.md)
    + [Skapa villkor](../recommendations/create-criteria.md)
    + [Skapa egna designer](../recommendations/create-custom-designs.md)
    + [Skapa samlingar och undantag](../recommendations/create-collections-and-exclusions.md)
 + Felsökning{#troubleshooting}
-   + [Felsöka med felsökaren i Experience Cloud](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
+   + [Felsök med Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
    + [Felsöka med Target Traces](../troubleshooting/troubleshoot-with-target-traces.md)
