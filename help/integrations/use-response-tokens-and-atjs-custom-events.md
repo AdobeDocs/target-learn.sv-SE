@@ -33,7 +33,7 @@ Med svarstoken och `at.js` anpassade händelser kan du dela profilinformation fr
 
 ## Ytterligare resurser
 
-* [Använda felsökningsprogrammet Experience Cloud med Adobe Target](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
+* [Använd Experience Cloud Debugger med Adobe Target](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
 * [Dokumentation för svarstoken](https://docs.adobe.com/help/en/target/using/administer/response-tokens.html)
 * [Anpassad händelsedokumentation för At.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/atjs-custom-events.html)
 * [Använda Data Providers i Adobe Target](use-data-providers-to-integrate-third-party-data.md)
