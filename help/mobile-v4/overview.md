@@ -23,7 +23,7 @@ Du får en demo-Android-app för att slutföra lektionerna. När du är klar med
 
 När du är klar med den här självstudiekursen kan du:
 
-* Validera SDK-konfigurationen för [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)
+* Validera SDK-inställningen för [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)
 * Implementera följande typer av [!DNL Target] förfrågningar:
    * Förhämtning av [!DNL Target] innehåll
    * Gruppera flera [!DNL Target] platser (mbox) i en enda begäran
