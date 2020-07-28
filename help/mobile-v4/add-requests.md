@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Lägg till Adobe Target-begäranden
 
-Adobe Mobile Services SDK (v4) innehåller metoder och funktioner för Adobe Target som gör att du kan anpassa din app med olika upplevelser för olika användare. Normalt görs en eller flera förfrågningar från appen till Adobe Target för att hämta det personaliserade innehållet och mäta effekten av det innehållet.
+Adobe Mobile Services SDK (v4) innehåller Adobe Target metoder och funktioner som gör att du kan anpassa din app med olika upplevelser för olika användare. Normalt görs en eller flera förfrågningar från appen till Adobe Target för att hämta det personaliserade innehållet och mäta effekten av det innehållet.
 
 I den här lektionen ska du förbereda appen We.Travel för personalisering genom att implementera [!DNL Target] förfrågningar.
 
@@ -45,7 +45,7 @@ Nedan finns några viktiga Target-termer som vi kommer att använda i resten av 
 * **Batchbegäran:**  en enda begäran som innehåller flera platser
 * **Förhämtningsbegäran:**  en enda begäran som hämtar erbjudanden och cachelagrar dem i minnet för framtida bruk i appen
 * **Förhämtningsbegäran för grupp:**  en enda förfrågan som förhämtar erbjudanden för flera platser
-* **Målgrupp:**  en grupp besökare som definieras i [!DNL Target] gränssnittet eller som delas med andra [!DNL Target] Adobe-program (t.ex. &quot;iPhone X-besökare&quot;,&quot;besökare i Kalifornien&quot;,&quot;First App Open&quot;)
+* **Målgrupp:**  en grupp besökare som definieras i [!DNL Target] gränssnittet eller som delas till [!DNL Target] från andra Adobe-program (t.ex. &quot;iPhone X-besökare&quot;,&quot;besökare i Kalifornien&quot;,&quot;First App Open&quot;)
 * **Aktivitet:**  en [!DNL Target] konstruktion som definieras i [!DNL Target] användargränssnittet (eller med API) och som länkar platser, erbjudanden och målgrupper för att skapa en personaliserad upplevelse
 
 ## Lägg till en förhämtningsbegäran för grupp
