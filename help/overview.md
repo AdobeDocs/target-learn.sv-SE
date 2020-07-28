@@ -1,6 +1,6 @@
 ---
-title: Adobe Target - översikt över självstudiekurser
-seo-title: Adobe Target - översikt över självstudiekurser
+title: Översikt över Adobe Target Tutorials
+seo-title: Översikt över Adobe Target Tutorials
 description: En samling instruktionsvideor och självstudiekurser som gör dig till en kraftfull användare av Adobe Target
 translation-type: tm+mt
 source-git-commit: 0ef2d3c853aa85fef8c9f524588b29b02c7aceda
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 # Översikt
 
-Adobe Target är Adobe Experience Cloud-lösningen som innehåller allt ni behöver för att skräddarsy och personalisera kundupplevelsen, så att ni kan maximera intäkterna från era webbplatser, mobilsajter, appar, sociala medier och andra digitala kanaler. Använd dessa videoklipp och självstudiekurser för att lära dig Adobe Target.
+Adobe Target är en Adobe Experience Cloud-lösning som innehåller allt ni behöver för att skräddarsy och personalisera kundupplevelsen, så att ni kan maximera intäkterna på era webbplatser, mobilsajter, appar, sociala medier och andra digitala kanaler. Använd dessa videoklipp och självstudiekurser för att lära dig Adobe Target.
 
 ## Nyheter
 
-* **[Använd rekommendationer (video)](recommendations/use-recommendations-offers.md)**   <br>
+* **[Använd Recommendations-erbjudanden (video)](recommendations/use-recommendations-offers.md)**   <br>
    *Använd produktrekommendationer i A/B-tester och aktiviteter för målinriktning mot upplevelser.*
 
 * **[Implementera Target Visual Experience Composer i Android™-appar (självstudiekurs)](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)**   <br>
    *Implementera Target marknadsföringsvänliga Visual Experience Composer (VEC) i Android-appar.*
 
-* **[Skapa en rekommendationsaktivitet (video)](recommendations/create-a-recommendations-activity.md)**   <br>
+* **[Skapa en Recommendations-aktivitet (video)](recommendations/create-a-recommendations-activity.md)**   <br>
    *Rekommendera produkter till era kunder i stor skala med denna Premium-funktion.*
 
 ## Personalval
@@ -58,11 +58,11 @@ Adobe Target är Adobe Experience Cloud-lösningen som innehåller allt ni behö
   </td>
   <td>
     <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-      <img alt="Felsöka Target med Felsökning för Experience Cloud" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
+      <img alt="Felsöka Target med Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
     </a>
     <div>
       <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-    <strong>Felsöka Target med Felsökning för Experience Cloud</strong>
+    <strong>Felsöka Target med Experience Cloud Debugger</strong>
     </a>
     </div>
     <p>
