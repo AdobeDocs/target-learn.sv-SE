@@ -1,6 +1,6 @@
 ---
 title: Lägg till parametrar i begäranden
-description: I den här lektionen ska vi lägga till Adobe-livscykelvärden och anpassade parametrar till de Target-begäranden som lades till i den föregående lektionen. Dessa mått och parametrar kommer att användas för att skapa personaliserade målgrupper senare i självstudiekursen.
+description: I den här lektionen ska vi lägga till Adobe livscykelvärden och anpassade parametrar till de Target-förfrågningar som lagts till i den föregående lektionen. Dessa mått och parametrar kommer att användas för att skapa personaliserade målgrupper senare i självstudiekursen.
 feature: mobile
 kt: 3040
 audience: developer
@@ -17,20 +17,20 @@ ht-degree: 0%
 
 # Lägg till parametrar i begäranden
 
-I den här lektionen ska vi lägga till Adobes livscykelvärden och anpassade parametrar till de [!DNL Target] förfrågningar som lades till i föregående lektion. Dessa mått och parametrar kommer att användas för att skapa personaliserade målgrupper senare i självstudiekursen.
+I den här lektionen ska vi lägga till Adobe livscykelvärden och anpassade parametrar till de [!DNL Target] förfrågningar som lades till i den föregående lektionen. Dessa mått och parametrar kommer att användas för att skapa personaliserade målgrupper senare i självstudiekursen.
 
 ## Utbildningsmål
 
 När lektionen är klar kan du:
 
-* Lägg till Adobes livscykelstatistik för mobila enheter
+* Lägg till livscykelstatistik för Adobe mobila livscykel
 * Lägga till parametrar i en förhämtningsbegäran
 * Lägga till parametrar till en aktiv plats
 * Validera parametrarna för båda förfrågningarna
 
 ## Lägg till livscykelparametrar
 
-Låt oss aktivera [Adobes mobilstatistik](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html). Detta lägger till parametrar i platsförfrågningar som innehåller omfattande information om användarens enhet och hur appen används. Vi bygger målgrupper i nästa lektion med hjälp av data som tillhandahålls i livscykelbegäran.
+Låt oss aktivera [Adobe mobil livscykelstatistik](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html). Detta lägger till parametrar i platsförfrågningar som innehåller omfattande information om användarens enhet och hur appen används. Vi bygger målgrupper i nästa lektion med hjälp av data som tillhandahålls i livscykelbegäran.
 
 Om du vill aktivera livscykelmått öppnar du hemaktivitetskontrollen igen och lägger till `Config.collectLifecycleData(this);` i funktionen onResume():
 
@@ -148,7 +148,7 @@ Kör emulatorn och öppna Logcat. Filtrera efter en av parametrarna för att ver
 
 >[!NOTE]
 >
->Analytics för Target (A4T): Adobe Analytics kan konfigureras som rapportkälla för [!DNL Target]. På så sätt kan alla mått som samlas in av Target SDK visas i Adobe Analytics. Mer information finns i [A4T-översikten](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) .
+>Analytics för Target (A4T): Adobe Analytics kan konfigureras som rapportkälla för [!DNL Target]. Detta gör att alla mått som samlas in av Target SDK kan visas i Adobe Analytics. Mer information finns i [A4T-översikten](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) .
 
 Snyggt jobbat! Nu när parametrarna finns på plats är vi redo att använda dessa parametrar för att skapa målgrupper och erbjudanden i Adobe Target.
 
