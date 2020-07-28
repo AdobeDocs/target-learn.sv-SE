@@ -25,20 +25,20 @@ Nu är det dags att sammanföra allt och skapa personaliserade upplevelser. En _
 
 När lektionen är klar kan du:
 
-* Build Activities in Adobe Target
+* Bygga aktiviteter i Adobe Target
 * Validera aktiviteterna i exempelappen
 
 ## Skapa aktiviteter i Adobe Target
 
 Lär dig hur du skapar aktiviteter för engagerande användare och sammanhangsbaserade erbjudanden.
 
-### First Activity - &quot;Engage Users&quot;
+### Första aktiviteten -&quot;Engagera användare&quot;
 
-Here is a summary of the activity we&#39;ll build:
+Här är en sammanfattning av aktiviteten vi ska bygga:
 
-| Audience | Platser | Erbjudanden |
+| Målgrupp | Platser | Erbjudanden |
 |---|---|---|
-| New Mobile App Users | web_engage_home, wetravel_engage_search | Hem: Engagera nya användare, sök: Engagera nya användare |
+| Nya mobilappsanvändare | web_engage_home, wetravel_engage_search | Hem: Engagera nya användare, sök: Engagera nya användare |
 | Returnerar användare av mobilappar | web_engage_home, wetravel_engage_search | Hem: Returnerande användare, default_content |
 
 Gör följande i [!DNL Target] gränssnittet:
@@ -50,20 +50,20 @@ Gör följande i [!DNL Target] gränssnittet:
 1. Klicka på **[!UICONTROL Mobile App]**.
 1. Markera **[!UICONTROL Form composer]**.
 1. Markera arbetsytan (samma arbetsyta som du använde i tidigare lektioner).
-1. Select your Property  (the same property you used in previous lessons).
+1. Välj din egenskap (samma egenskap som du använde i tidigare lektioner).
 1. Klicka på **[!UICONTROL Next]**.
 
    ![Skapa aktivitet](assets/activity_create_2.jpg)
 
-1. Change the activity title to **[!UICONTROL Engage Users]**.
+1. Ändra aktivitetsrubriken till **[!UICONTROL Engage Users]**.
 1. Välj **[!UICONTROL ellipsis]** > **[!UICONTROL Change Audience]**.
    ![Nya mobilappsanvändare ändrar målgrupp](assets/activity_create_3.jpg)
 1. Ställ in målgruppen på **[!UICONTROL New Mobile App Users]**.
 1. Klicka på **[!UICONTROL Done]**.
    ![Ny målgrupp för mobilappsanvändare](assets/activity_create_4.jpg)
 
-1. Change the location to _wetravel_engage_home_.
-1. Select the dropdown arrow next to Default Content and select **[!UICONTROL Change HTML Offer]**.
+1. Ändra platsen till _wetravel_engage_home_.
+1. Markera listrutepilen bredvid Standardinnehåll och välj **[!UICONTROL Change HTML Offer]**.
 
    ![Ny målgrupp för mobilappsanvändare](assets/activity_create_5.jpg)
 
@@ -117,17 +117,17 @@ Nu ska vi slutföra aktivitetsinställningarna:
 
 1. Behåll alla andra inställningar på skärmen till standardinställningarna.
 1. Klicka **[!UICONTROL Save & Close]** för att spara aktiviteten.
-1. Activate the **[!UICONTROL Activity]** on the next screen.
+1. Aktivera **[!UICONTROL Activity]** på nästa skärm.
 
 ![Experience B Audience](assets/activity_create_13.jpg)
 
-Our first activity is now live and ready to test!
+Vår första aktivitet är nu levande och redo att testas!
 
-### Second Activity - &quot;Contextual Offers&quot;
+### Andra aktiviteten -&quot;Kontextuella erbjudanden&quot;
 
-Here is a summary of the second activity we&#39;ll build:
+Här är en sammanfattning av den andra aktiviteten vi ska bygga:
 
-| Audience | Plats | Erbjudanden |
+| Målgrupp | Plats | Erbjudanden |
 | --- | --- | --- |
 | Mål: San Diego | web_context_dest | Kampanj för San Diego |
 | Mål: Los Angeles | web_context_dest | Kampanj för Los Angeles |
@@ -136,7 +136,7 @@ Upprepa samma process som ovan för nästa aktivitet -&quot;Kontextuella erbjuda
 
 #### San Diego
 
-![Contextual Offers - Experience A](assets/activity_contextual_a_final.jpg)
+![Sammanhangsbaserade erbjudanden - Upplev A](assets/activity_contextual_a_final.jpg)
 
 #### Los Angeles
 
@@ -148,13 +148,13 @@ I steget Mål och inställningar ändrar vi det primära målet till den plats d
 1. Ange åtgärden till **[!UICONTROL Viewed an mbox]** > _wetravel_context_dest_ (i den här aktiviteten är det här måttet praktiskt taget meningslöst eftersom det här också är den plats som levererar upplevelsen).
 1. Klicka på **[!UICONTROL Save & Close]**.
 
-![Contextual Offers - Experience](assets/activity_create_14.jpg)
+![Sammanhangsbaserade erbjudanden - upplevelse](assets/activity_create_14.jpg)
 
 Aktivera aktiviteten på nästa skärm.
 
 Nu är vår andra aktivitet live och redo att testa!
 
-## Validate the Home Offer
+## Validera erbjudandet
 
 Kör Emulatorn och håll utkik efter det första erbjudandet som ska visas längst ned på startskärmen. Om du är en återkommande användare med fem eller fler appstarter visas _erbjudandet om återkoppling_ . Om du är en ny användare (mindre än fem program startas) bör du se det _nya_ meddelandet:
 
@@ -178,17 +178,17 @@ På resultatskärmen bör du se _meddelandet om att använda filter_ . Om du är
 
 ## Validera sammanhangsbaserade erbjudanden på Tack-skärmen
 
-Now continue through the booking process:
+Fortsätt nu genom bokningsprocessen:
 
-* Select a bus on the results screen.
+* Välj en buss på resultatskärmen.
 * Välj en plats på utcheckningsskärmen.
-* Select **[!UICONTROL Credit Card]** on the payment screen (leave the payment info blank - no actual booking will take place).
+* Välj **[!UICONTROL Credit Card]** på betalningsskärmen (lämna betalningsinformationen tom - ingen faktisk bokning görs).
 
-Since San Diego was selected as the destination, you should see the _DJ SAM_ offer banner on the confirmation screen:
+Eftersom San Diego valdes som mål bör du se _erbjudandebannern DJ SAM_ på bekräftelseskärmen:
 
-![Validate Context Offer - San Diego](assets/layout_context_san_diego.jpg)
+![Bekräfta kontexterbjudande - San Diego](assets/layout_context_san_diego.jpg)
 
-Now select **[!UICONTROL Done]** and try another booking with Los Angeles as the destination. The confirmation screen should display the _Universal Studios_ banner:
+Välj **[!UICONTROL Done]** och prova en annan bokning med Los Angeles som mål. På bekräftelseskärmen ska bannern _Universal Studios_ visas:
 
 ![Bekräfta kontexterbjudande - Los Angeles](assets/layout_context_los_angeles.jpg)
 
