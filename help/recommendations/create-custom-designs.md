@@ -1,5 +1,5 @@
 ---
-title: Skapa anpassade designer i rekommendationer
+title: Skapa egna designer i Recommendations
 seo-title: Skapa egna designer i Adobe Target Recommendations
 audience: marketer
 difficulty: 3
@@ -15,15 +15,15 @@ ht-degree: 0%
 ---
 
 
-# Skapa anpassade designer i rekommendationer
+# Skapa egna designer i Recommendations
 
 >[!VIDEO](https://video.tv.adobe.com/v/27687?quality=12)
 
 ## Ytterligare resurser
 
 * [Skapa samlingar och undantag](create-collections-and-exclusions.md)
-* [Skapa en rekommendationsaktivitet](create-a-recommendations-activity.md)
+* [Skapa en Recommendations-aktivitet](create-a-recommendations-activity.md)
 * [Förstå flöden](understanding-feeds.md)
 * [Skapa en feed](create-a-feed.md)
 * [Skapa villkor](create-criteria.md)
-* [Dokumentation om rekommendationer](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations Documentation](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
