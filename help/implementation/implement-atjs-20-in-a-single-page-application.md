@@ -28,7 +28,7 @@ Den senaste versionen av `at.js` innehåller många funktioner som gör det möj
 * Implementera `adobe.target.triggerView()` funktionen när du visar ändringar i SPA-filen. Du kan använda olika tekniker för att göra detta, t.ex. avlyssna ändringar i URL-hash, lyssna efter anpassade händelser som utlösts av SPA eller bädda in `triggerView()` koden direkt i programmet. Du bör välja det alternativ som fungerar bäst för ditt specifika enkelsidiga program.
 * Vynamnet är den första parametern i `triggerView()` funktionen. Använd enkla, tydliga och unika namn för att göra dem enkla att välja i Target visuella upplevelsedisposition.
 * Du kan utlösa vyer i små vyändringar, liksom i andra sammanhang än SPA, t.ex. halvvägs nedåt och en oändlig rullningssida.
-* `at.js` 2.0 och `triggerView()` kan implementeras via en tagghanteringslösning, till exempel Adobe Experience Platform Launch.
+* `at.js` 2.0 och `triggerView()` kan implementeras via en tagghanteringslösning som Adobe Experience Platform Launch.
 
 ## at.js 2.0 Begränsningar
 
