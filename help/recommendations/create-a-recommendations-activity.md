@@ -1,6 +1,6 @@
 ---
-title: Skapa en rekommendationsaktivitet
-seo-title: Skapa en rekommendationsaktivitet i Adobe Target
+title: Skapa en Recommendations-aktivitet
+seo-title: Skapa en Recommendations-aktivitet i Adobe Target
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -15,16 +15,16 @@ ht-degree: 0%
 ---
 
 
-# Skapa en rekommendationsaktivitet
+# Skapa en Recommendations-aktivitet
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?quality=12)
 
 ## Ytterligare resurser
 
-* [Använd rekommendationserbjudanden i A/B-tester och aktivitetsmål för upplevelser](use-recommendations-offers.md)
+* [Använd Recommendations-erbjudanden i A/B-tester och upplevelseinriktade aktiviteter](use-recommendations-offers.md)
 * [Förstå flöden](understanding-feeds.md)
 * [Skapa en feed](create-a-feed.md)
 * [Skapa villkor](create-criteria.md)
 * [Skapa egna designer](create-custom-designs.md)
 * [Skapa samlingar och undantag](create-collections-and-exclusions.md)
-* [Dokumentation om rekommendationer](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations Documentation](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
