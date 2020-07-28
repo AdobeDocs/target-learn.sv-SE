@@ -1,6 +1,6 @@
 ---
-title: Förstå feeds i rekommendationer
-seo-title: Förstå feeds i Adobe Target rekommendationer
+title: Förstå feeds i Recommendations
+seo-title: Förstå feeds i Adobe Target Recommendations
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Förstå feeds i rekommendationer
+# Förstå feeds i Recommendations
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?quality=12)
 
@@ -25,5 +25,5 @@ ht-degree: 0%
 * [Skapa villkor](create-criteria.md)
 * [Skapa egna designer](create-custom-designs.md)
 * [Skapa samlingar och undantag](create-collections-and-exclusions.md)
-* [Skapa en rekommendationsaktivitet](create-a-recommendations-activity.md)
-* [Dokumentation om rekommendationer](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Skapa en Recommendations-aktivitet](create-a-recommendations-activity.md)
+* [Recommendations Documentation](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
