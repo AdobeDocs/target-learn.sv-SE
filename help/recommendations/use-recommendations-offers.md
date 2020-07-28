@@ -1,7 +1,7 @@
 ---
-title: Använd rekommendationserbjudanden i A/B-tester och aktivitetsmål för upplevelser
-seo-title: Använd rekommendationer i A/B-tester och aktiviteter för målinriktning mot upplevelser i Adobe Target
-description: Rekommendationserbjudanden kan användas med A/B-tester och aktiviteter för målinriktning mot upplevelser.
+title: Använd Recommendations-erbjudanden i A/B-tester och upplevelseinriktade aktiviteter
+seo-title: Använd Recommendations-erbjudanden i A/B-tester och aktivitetsmål för upplevelser i Adobe Target
+description: Recommendations erbjudanden kan användas med A/B Test och Experience Targeting Activity.
 feature: recommendations
 kt: kt-3451
 audience: marketer
@@ -16,9 +16,9 @@ ht-degree: 0%
 ---
 
 
-# Använd rekommendationserbjudanden i A/B-tester och aktivitetsmål för upplevelser
+# Använd Recommendations-erbjudanden i A/B-tester och upplevelseinriktade aktiviteter
 
-Rekommendationserbjudanden kan användas med A/B-tester och aktiviteter för målinriktning mot upplevelser. Den här funktionen öppnar upp helt nya funktioner, som:
+Recommendations erbjudanden kan användas med A/B Test och Experience Targeting Activity. Den här funktionen öppnar upp helt nya funktioner, som:
 
 * Blanda rekommendationer och icke-rekommendationsinnehåll inom samma aktivitet
 * Experimentera enkelt med olika rekommendationer på sidan, t.ex. i vilken ordning rekommendationerna ska skickas
@@ -29,5 +29,5 @@ Rekommendationserbjudanden kan användas med A/B-tester och aktiviteter för må
 
 ## Ytterligare resurser
 
-* [Rekommendationer som erbjudandedokumentation](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
-* [Videofilm om aktiviteten Rekommendationer](create-a-recommendations-activity.md)
+* [Recommendations som erbjudandedokumentation](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
+* [Skapa en Recommendations Activity Video](create-a-recommendations-activity.md)
