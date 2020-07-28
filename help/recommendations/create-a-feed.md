@@ -1,5 +1,5 @@
 ---
-title: Skapa en feed i rekommendationer
+title: Skapa en feed i Recommendations
 seo-title: Skapa en feed i Adobe Target Recommendations
 audience: marketer
 difficulty: 3
@@ -15,15 +15,15 @@ ht-degree: 0%
 ---
 
 
-# Skapa en feed i rekommendationer
+# Skapa en feed i Recommendations
 
 >[!VIDEO](https://video.tv.adobe.com/v/27696?quality=12)
 
 ## Ytterligare resurser
 
 * [Förstå flöden](understanding-feeds.md)
-* [Skapa en rekommendationsaktivitet](create-a-recommendations-activity.md)
+* [Skapa en Recommendations-aktivitet](create-a-recommendations-activity.md)
 * [Skapa villkor](create-criteria.md)
 * [Skapa egna designer](create-custom-designs.md)
 * [Skapa samlingar och undantag](create-collections-and-exclusions.md)
-* [Dokumentation om rekommendationer](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations Documentation](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
