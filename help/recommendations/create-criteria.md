@@ -1,6 +1,6 @@
 ---
-title: Skapa villkor i rekommendationer
-seo-title: Skapa villkor i Adobe Target-rekommendationer
+title: Skapa villkor i Recommendations
+seo-title: Skapa villkor i Adobe Target Recommendations
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Skapa villkor i rekommendationer
+# Skapa villkor i Recommendations
 
 >[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 * [Skapa egna designer](create-custom-designs.md)
 * [Skapa samlingar och undantag](create-collections-and-exclusions.md)
-* [Skapa en rekommendationsaktivitet](create-a-recommendations-activity.md)
+* [Skapa en Recommendations-aktivitet](create-a-recommendations-activity.md)
 * [Förstå flöden](understanding-feeds.md)
 * [Skapa en feed](create-a-feed.md)
-* [Dokumentation om rekommendationer](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations Documentation](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
