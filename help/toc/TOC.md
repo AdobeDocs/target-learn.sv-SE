@@ -4,9 +4,9 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9b9b03e8c3ea837f345a8535e7147450bf55b6ad
+source-git-commit: b1f825112e7a8ae2af3f94bca9b4a86cf5ec7856
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 + Rapporter{#reports}
    + [Använd Insikter-rapporter om personalisering](../reports/use-the-personalization-insights-reports.md)
 + Integreringar{#integrations}
-   + [Använd Analytics som datakälla för Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [Använd Analytics som datakälla för mål (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
    + [Data i: Använd Data Providers för att integrera data från tredje part](../integrations/use-data-providers-to-integrate-third-party-data.md)
    + [Data i: Implementera dataleverantörer för att integrera data från tredje part](../integrations/implement-data-providers-to-integrate-third-party-data.md)
    + [Data ut: Använd svarstoken och anpassade at.js-händelser](../integrations/use-response-tokens-and-atjs-custom-events.md)
@@ -64,4 +64,8 @@ ht-degree: 0%
    + [Skapa samlingar och undantag](../recommendations/create-collections-and-exclusions.md)
 + Felsökning{#troubleshooting}
    + [Felsök med Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
-   + [Felsöka med Target Traces](../troubleshooting/troubleshoot-with-target-traces.md)
+   + [Felsöka med målspår](../troubleshooting/troubleshoot-with-target-traces.md)
++ API:er{#apis}
+   + [Förstå mål-API:er](../apis/api-overview.md)
+   + [Konfigurera Adobe API-autentisering](../apis/configure-io-target-integration.md)
+   + [Använda Recommendations API:er](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)
