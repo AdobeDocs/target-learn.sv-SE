@@ -11,7 +11,7 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 18a9b664fe935fd5c52682b2bd798cafd75b6591
+source-git-commit: 7265fd8611aacc94d1a66c10cd641c0644f2d43f
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 0%
@@ -23,7 +23,8 @@ ht-degree: 0%
 
 Adobe Target- och Adobe Target-API: [!DNL Recommendations] erna kan användas för att leverera svar på webbsidor, men kan också användas i icke-HTML-baserade upplevelser som appar, skärmar, konsoler, e-post, kioskdatorer och andra visningsenheter. Med andra ord, när [!DNL Target] bibliotek och JavaScript inte kan användas, tillåter **[!DNL Target]Delivery API **fortfarande att vi får tillgång till alla[!DNL Target]funktioner för att leverera personaliserade upplevelser.
 
-> [!NOTE]
+>[!NOTE]
+>
 > När du begär innehåll som innehåller faktiska rekommendationer (rekommenderade produkter eller objekt) använder du [!DNL Target] leverans-API:t.
 
 Om du vill hämta rekommendationer skickar du ett Adobe Target Delivery API POST-anrop med lämplig sammanhangsberoende information, som kan innehålla ett användar-ID (som kan användas med profilspecifika rekommendationer som användarens nyligen visade objekt), relevant mbox-namn, mbox-parametrar, profilparametrar eller andra attribut. Svaret inkluderar rekommenderade entity.ids (och kan inkludera andra entitetsdata) i JSON- eller HTML-format, som sedan kan visas i enheten.
@@ -71,7 +72,7 @@ Syntaxen för [leverans-API](https://developers.adobetarget.com/api/delivery-api
 
 1. Observera att klientkoden krävs. Du hittar din klientkod i Adobe Target genom att navigera till **[!UICONTROL Recommendations]>[!UICONTROL Settings]**. Observera **[!UICONTROL Client Code]**värdet i **[!UICONTROL Recommendation API Token]**avsnittet.   ![client-code.png](assets/client-code.png)
 1. När du har fått din klientkod konstruerar du ett leverans-API-anrop. Exemplet nedan börjar med det **[!UICONTROL Web Batched Mboxes Delivery API Call]** som anges i [Delivery API Postman-samlingen](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection)och gör relevanta ändringar. Exempel:
-   * objekten för **webbläsare** och **adress** har tagits bort från **brödtexten**, eftersom de inte behövs för icke-HTML-användning
+   * objekten för **webbläsare** och **adress** har tagits bort från **brödtexten** eftersom de inte behövs för andra användningsområden än HTML
    * *api_charter* listas som platsnamn i det här exemplet
    * entity.id anges eftersom den här rekommendationen baseras på innehållets likhet, vilket kräver att en aktuell artikelnyckel skickas till [!DNL Target].
       ![server-side-Delivery-API-call.png](assets/server-side-delivery-api-call2.png)Kom ihåg att konfigurera frågeparametrarna korrekt. Se till exempel till att ange`{{CLIENT_CODE}}` det som behövs. <!--Q: In the updated call syntax, entity.id is listed as a profileParameter instead of an mboxParameter as in older versions. --> <!--Q: Old image ![server-side-create-recs-post.png](assets/server-side-create-recs-post.png) Old accompanying text: "Note this recommendation is based on Content Similar products based on the entity.id sent via mboxParameters." -->
