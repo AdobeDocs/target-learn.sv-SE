@@ -4,9 +4,9 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: b1f825112e7a8ae2af3f94bca9b4a86cf5ec7856
+source-git-commit: 51c9942aba45fbe7a28dec18ae6cd2a6979bacfc
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,39 @@ ht-degree: 0%
 # Adobe Target Tutorials {#tutorials}
 
 + [Översikt](../overview.md)
++ Administration{#administration}
+   + [Implementeringsstrategi och systemstyrning](../dev101/1.1-implementation-strategy-sys-governance.md)
+   + [Konfigurera kontoinställningar](../administration/set-up-account-preferences.md)
+   + [Förstå Enterprise-användarbehörigheter](../administration/understanding-enterprise-user-permissions.md)
+   + [Konfigurera Enterprise-användarbehörigheter](../dev101/1.2-configure-ent-user-permissions.md)
+   + [Konfigurera arbetsytor](../administration/set-up-workspaces.md)
+   + [Introduktion till Administrationsinställningar](../dev101/1.3-intro-to-admin-setup.md)
+   + [Konfigurera egenskaper](../administration/set-up-properties.md)
 + Implementering{#implementation}
+   + [Introduktion till målinriktad implementering](../dev101/2.1-intro-to-target-implementation.md)
+   + [Integrera Target med Launch](../dev101/3.1-target-launch.md)
    + [Implementera webbplatser med Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)
-   + [Implementera i iOS Swift Apps](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
-   + [Implementera iOS mål-C-appar](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
-   + [Implementera i Android-appar](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
+   + [Fördelar med att använda platser](../dev101/2.2-benefits-of-locations.md)
+   + [Introduktion till målbegäranden](../dev101/2.3-intro-to-target-requests.md)
+   + [Introduktion till målparametrar](../dev101/2.4-intro-to-target-params.md)
+   + [Se hur at.js 2.0 Works](../implementation/understanding-how-atjs-20-works.md)
    + [Implementera at.js 2.0 i ett Single Page Application (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
-   + [Understanding How at.js 2.0 Works](../implementation/understanding-how-atjs-20-works.md)
+   + [Utforma en målinriktad implementering](../dev101/2.5-design-target-implementation.md)
+   + [Nästa steg för att utforma en målinriktad implementering](../dev101/2.6-next-steps-design-target-implementation.md)
    + [Använd Opt-in för att styra Experience Cloud-lösningar baserat på användargodkännande](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
++ Integreringar{#integrations}
+   + [Integrera Target med Analytics](../dev101/3.2-target-analytics.md)
+   + [Använd Analytics som datakälla för mål (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [Integrera Target med Audience Manager](../dev101/3.3-target-dmp.md)
+   + [Integrera Target med Experience Cloud-målgrupper](../dev101/3.4-target-exc-audiences.md)
+   + [Integrera Target med Campaign](../dev101/3.6-target-campaign.md)
+   + [Integrera Target med Adobe I/O](../dev101/3.7-target-io.md)
+   + [Integrera Target med Scene7](../dev101/3.8-target-scene7.md)
+   + [Integrera Target med Adobe Experience Manager](../dev101/3.5-target-aem.md)
+   + [Använd AEM Experience Fragments i Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [Data i: Använd Data Providers för att integrera data från tredje part](../integrations/use-data-providers-to-integrate-third-party-data.md)
+   + [Data i: Implementera dataleverantörer för att integrera data från tredje part](../integrations/implement-data-providers-to-integrate-third-party-data.md)
+   + [Data ut: Använd svarstoken och anpassade at.js-händelser](../integrations/use-response-tokens-and-atjs-custom-events.md)
 + Verksamhet{#activities}
    + [Förstå olika typer av aktiviteter](../activities/understanding-the-types-of-activities.md)
    + [Använd artificiell intelligens och automatisering för att möta utmaningarna med personalisering](../activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
@@ -43,17 +68,6 @@ ht-degree: 0%
    + [Använd AEM Experience Fragments i Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Rapporter{#reports}
    + [Använd Insikter-rapporter om personalisering](../reports/use-the-personalization-insights-reports.md)
-+ Integreringar{#integrations}
-   + [Använd Analytics som datakälla för mål (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
-   + [Data i: Använd Data Providers för att integrera data från tredje part](../integrations/use-data-providers-to-integrate-third-party-data.md)
-   + [Data i: Implementera dataleverantörer för att integrera data från tredje part](../integrations/implement-data-providers-to-integrate-third-party-data.md)
-   + [Data ut: Använd svarstoken och anpassade at.js-händelser](../integrations/use-response-tokens-and-atjs-custom-events.md)
-   + [Använd AEM Experience Fragments i Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
-+ Administration{#administration}
-   + [Konfigurera kontoinställningar](../administration/set-up-account-preferences.md)
-   + [Förstå Enterprise-användarbehörigheter](../administration/understanding-enterprise-user-permissions.md)
-   + [Konfigurera arbetsytor](../administration/set-up-workspaces.md)
-   + [Konfigurera egenskaper](../administration/set-up-properties.md)
 + Recommendations{#recommendations}
    + [Skapa en Recommendations-aktivitet](../recommendations/create-a-recommendations-activity.md)
    + [Använd Recommendations-erbjudanden](../recommendations/use-recommendations-offers.md)
@@ -65,6 +79,11 @@ ht-degree: 0%
 + Felsökning{#troubleshooting}
    + [Felsök med Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
    + [Felsöka med målspår](../troubleshooting/troubleshoot-with-target-traces.md)
+   + [Felsöka Mbox-fel](../dev101/4.1-troubleshoot-mbox-errors.md)
+   + [Felsöka aktivitetsfel](../dev101/4.2-troubleshoot-activity-errors.md)
+   + [Felsöka A4T-integreringsfel](../dev101/4.3-troubleshoot-integration-errors.md)
++ Mobil{#mobile}
+   + [Implementera Adobe Target med Adobe Mobile Services SDK v4 för Android](../mobile-v4/overview.md)
 + API:er{#apis}
    + [Förstå mål-API:er](../apis/api-overview.md)
    + [Konfigurera Adobe API-autentisering](../apis/configure-io-target-integration.md)
