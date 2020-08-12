@@ -1,11 +1,11 @@
 ---
-title: Översikt över Adobe Target Tutorials
-seo-title: Översikt över Adobe Target Tutorials
+title: Adobe Target Tutorials - översikt
+seo-title: Adobe Target Tutorials - översikt
 description: En samling instruktionsvideor och självstudiekurser som gör dig till en kraftfull användare av Adobe Target
 translation-type: tm+mt
-source-git-commit: 0ef2d3c853aa85fef8c9f524588b29b02c7aceda
+source-git-commit: 49b21a85ca776f9da12f14cab85772395ba4ce16
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
@@ -13,18 +13,23 @@ ht-degree: 0%
 
 # Översikt
 
-Adobe Target är en Adobe Experience Cloud-lösning som innehåller allt ni behöver för att skräddarsy och personalisera kundupplevelsen, så att ni kan maximera intäkterna på era webbplatser, mobilsajter, appar, sociala medier och andra digitala kanaler. Använd dessa videoklipp och självstudiekurser för att lära dig Adobe Target.
+Adobe Target är en Adobe Experience Cloud-lösning som innehåller allt ni behöver för att skräddarsy och personalisera kundupplevelsen, så att ni kan maximera intäkterna från era webbplatser, mobilsajter, appar, sociala medier och andra digitala kanaler. Använd dessa videor och självstudiekurser för att lära dig de många komponenterna i Adobe Target.
 
 ## Nyheter
 
+* **[Använda Recommendations API (självstudiekurs)](recommendations-api-tutorial/recs-api-overview.md)**   <br>
+   *För utvecklare: Praktiska tips om hur du använder API:[!DNL Recommendations]er för att konfigurera och hantera[!DNL Recommendations]kataloger och anpassade kriterier, med mera.*
+
+* **[Implementera Adobe Target med Adobe Mobile Services SDK v4 för Android (självstudiekurs)](mobile-v4/overview.md)**   <br>
+   *För utvecklare som redan använder Adobe Mobile Services SDK v4: lär dig hur ni börjar personalisera appupplevelser med Adobe Target. Dessa steg tillhandahålls som äldre användarsupport.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
+
 * **[Använd Recommendations-erbjudanden (video)](recommendations/use-recommendations-offers.md)**   <br>
-   *Använd produktrekommendationer i A/B-tester och aktiviteter för målinriktning mot upplevelser.*
+   *För alla målanvändare: Lär dig hur du använder produktrekommendationer i A/B- och Experience Targeting-aktiviteter.*
 
-* **[Implementera Target Visual Experience Composer i Android™-appar (självstudiekurs)](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)**   <br>
-   *Implementera Target marknadsföringsvänliga Visual Experience Composer (VEC) i Android-appar.*
-
-* **[Skapa en Recommendations-aktivitet (video)](recommendations/create-a-recommendations-activity.md)**   <br>
-   *Rekommendera produkter till era kunder i stor skala med denna Premium-funktion.*
+<!--
+* **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
+    <br>
+    *Recommend products to your customers at scale with this Premium feature.* -->
 
 ## Personalval
 
@@ -58,11 +63,11 @@ Adobe Target är en Adobe Experience Cloud-lösning som innehåller allt ni beh�
   </td>
   <td>
     <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-      <img alt="Felsöka Target med Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
+      <img alt="Felsök Target med Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
     </a>
     <div>
       <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-    <strong>Felsöka Target med Experience Cloud Debugger</strong>
+    <strong>Felsök Target med Experience Cloud Debugger</strong>
     </a>
     </div>
     <p>
