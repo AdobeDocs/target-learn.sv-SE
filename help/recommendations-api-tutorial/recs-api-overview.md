@@ -11,9 +11,9 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 78b30bc0018527f9d8b2a5b50edee86e877d14c7
+source-git-commit: b0e36ff68732f79c61797181da781ec7401f3f84
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,12 @@ ht-degree: 0%
 
 # Adobe Recommendations API - översikt
 
-API:er som är relevanta för [!DNL Recommendations] inkluderar [admin-API:er](https://docs.adobe.com/content/help/en/target-learn/apis/api-overview.md) som gör att du kan:
+API:er som är relevanta för [!DNL Recommendations] inkluderar [admin-API:er](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html) som gör att du kan:
 
 * Hantera din katalog med rekommenderade produkter eller innehåll
 * Hantera dina [!DNL Recommendations] algoritmer och aktiviteter
 
-Med [!DNL Target] leverans-API [](https://docs.adobe.com/content/help/en/target-learn/apis/api-overview.md) med Recommendations kan man också
+Med [!DNL Target] leverans-API [](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html) med Recommendations kan man också
 
 * Hämta rekommendationer i JSON-, HTML- eller XML-objekt så att de kan visas i webben, mobiler, e-post, sakernas internet (IOT) och andra kanaler.
 
