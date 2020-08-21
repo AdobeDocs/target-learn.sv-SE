@@ -116,7 +116,7 @@ Nu ska vi skapa ett enkelt JSON-erbjudande som fungerar som en flagga eller utl�
 
 ![JSON-erbjudande för Create Feature Flag](assets/feature_flag_json_offer.jpg)
 
-Låt oss kalla det&quot;Funktionsflagga v1&quot; med värdet {&quot;enable&quot;:1&quot;
+Låt oss kalla det&quot;Funktionsflagga v1&quot; med värdet {&quot;enable&quot;:1}
 
 ![feature_flag_v1 JSON-erbjudande](assets/feature_flag_json_name.jpg)
 
