@@ -11,9 +11,9 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 562cf1fe659ade7fa085a3ba6cb9e7ae3c1957a5
+source-git-commit: c67105ec2ec4a72f7c1080dccc0051f5a7ef5b26
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1826'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ I den här lektionen går vi igenom de preliminära steg som krävs för att gen
 
 | Resurs | Detaljer |
 | --- | --- |
-| Postman | För att kunna slutföra de här stegen måste du skaffa [Postman-appen](https://www.postman.com/downloads/) för ditt operativsystem. Postman Basic är kostnadsfritt när man skapar konto. Även om det inte krävs för att använda Adobe Target API:er i allmänhet, underlättar Postman API-arbetsflödena, och Adobe Target tillhandahåller flera Postman-samlingar som hjälper till att köra API:erna och lära sig hur de fungerar. Resten av den här självstudiekursen förutsätter att Postman har praktiska kunskaper. Om du behöver hjälp kan du läsa [Postmans dokumentation](https://learning.getpostman.com/). |
+| Postman | För att kunna slutföra de här stegen måste du skaffa [Postman-appen](https://www.postman.com/downloads/) för ditt operativsystem. Postman Basic är kostnadsfritt när man skapar konto. Även om det inte krävs för att kunna använda Adobe Target API:er i allmänhet, underlättar Postman API-arbetsflödena, och Adobe Target tillhandahåller flera Postman-samlingar som hjälper till att köra API:erna och lära sig hur de fungerar. Resten av den här självstudiekursen förutsätter att Postman har praktiska kunskaper. Om du behöver hjälp kan du läsa [Postmans dokumentation](https://learning.getpostman.com/). |
 | Referenser | Du bör känna till följande resurser under resten av kursen:<UL><li>[Adobe I/O Github](https://github.com/adobeio)</li><li>[Adobe I/O-dokumentation](https://developers.adobetarget.com/api/#introduction)</li><li>[Recommendations API-dokumentation](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
 ## Skapa ett I/O-projekt för Adobe
@@ -115,7 +115,9 @@ Dessa steg finns också nedan.
 7. Observera att värdena `CLIENT_SECRET` och `API_KEY` (tillsammans med andra variabler) är förifyllda, tagna från din integrering enligt definitionen i Adobe Developer Console. (Postman- `CLIENT_SECRET` variabeln ska matcha de `CLIENT SECRET` Adobe-autentiseringsuppgifter som visas i Developer Console, och `API_KEY` i Postman ska likaså matcha dem `CLIENT ID` i Developer Console.) Observera, `PRIVATE_KEY`och `JWT_TOKEN``ACCESS_TOKEN` är tomma. Låt oss börja med att ange `PRIVATE_KEY` värdet.
    ![JWT7](assets/configure-io-target-jwt7.png)
 
-   >[!SURPRISE]
+   >[!NOTE]
+   >
+   >**Överraskning!**
    >
    >Pop quiz! Minns du var din privata nyckel är?
    >Det stämmer, det finns i den fil som du laddade ned tidigare från Adobe Developer Console! `config`
@@ -178,7 +180,7 @@ I den här övningen använder du din nya innehavaråtkomsttoken genom att skick
    ![testtoken4](assets/configure-io-target-testtoken4a.png)
 1. Öppna modal Manage Environment (Hantera miljöer) och välj din miljö.
    ![JWT11](assets/configure-io-target-jwt11.png)
-1. Skriv för att lägga till en ny `{{TENANT_ID}}` miljövariabel. Kopiera och klistra in ditt klient-ID-värde i fälten **INITIAL VALUE** och **CURRENT VALUE** för den nya `TENANT_ID` miljövariabeln.
+1. Skriv om du vill lägga till en ny `{{TENANT_ID}}` miljövariabel. Kopiera och klistra in ditt klient-ID-värde i fälten **INITIAL VALUE** och **CURRENT VALUE** för den nya `TENANT_ID` miljövariabeln.
    ![testtoken5](assets/configure-io-target-testtoken5.png)
    >[!NOTE]
    >
