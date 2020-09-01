@@ -2,7 +2,7 @@
 cloud: marketing-cloud
 product: target
 solution: Adobe Target Tutorials
-solution-title: Target
+solution-title: Mål
 solution-hub-url: https://helpx.adobe.com/support/target.html
 getting-started-title: Komma igång
 getting-started-url: https://helpx.adobe.com/target/get-started.html
@@ -11,8 +11,9 @@ tutorials-url: /content/help/en/target-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/target-learn.sv-SE
 index: true
 mini-toc-levels: 2
+type: Tutorials
 translation-type: tm+mt
-source-git-commit: ab8e22db5626d318c48c2e69c08ad955aae26922
+source-git-commit: e399ad319b28a1988b7d30cb4f255f8b82915722
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 Filen metadata.md innehåller metadata på postnivå som skickas till TOC.md-filer för användarhandboken i svaret. Om du vill ändra metadata.md-innehåll för en användarhandbok gör du det i en TOC.md-fil.
 
-| metadata | what it does |
+| metadata | vad den gör |
 |--- |--- |
 | solution-title | Används i artikelrubriken som länk |
 | solution-hub-url | Öppnar navet för hjälpfunktioner |
@@ -32,4 +33,4 @@ Filen metadata.md innehåller metadata på postnivå som skickas till TOC.md-fil
 | getting-started-url | Länk till hjälpsidan Komma igång |
 | tutorials-url | Länka till videosjälvstudiekurser - antingen hjälpstudiekurser eller självstudiekurser på engelska |
 | mini-toc-nivåer | Anger antalet rubriknivåer som visas i den högra listen. standard är 2 |
-| git-repo | Anger platsen för huvudrapporten för intern användning |
+| git-repo | Anger platsen för den överordnad rapporten för intern användning |
