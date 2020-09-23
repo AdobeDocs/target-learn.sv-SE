@@ -8,10 +8,10 @@ doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 78b30bc0018527f9d8b2a5b50edee86e877d14c7
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 1%
@@ -45,7 +45,7 @@ POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities
 
 Du kan till exempel använda Spara enheter för att uppdatera artiklar när vissa tröskelvärden har uppnåtts, t.ex. tröskelvärden för lager eller pris, för att flagga dessa artiklar och förhindra att de rekommenderas.
 
-1. Navigera till **[!DNL Target]>[!UICONTROL Setup]>[!UICONTROL Hosts]>[!UICONTROL Environments]**för att få det[!DNL Target]miljö-ID där du vill lägga till eller uppdatera ett objekt.
+1. Navigera till **[!DNL Target]>[!UICONTROL Setup]>[!UICONTROL Hosts]>[!UICONTROL Environments]** för att få det [!DNL Target] miljö-ID där du vill lägga till eller uppdatera ett objekt.
 
    ![SaveEntities1](assets/SaveEntities01.png)
 
@@ -127,7 +127,7 @@ JSON-objektet kan skalas för att skicka flera produkter. Denna JSON anger till 
 
 1. Nu är det din tur! Använd API:t **Spara enheter** för att lägga till följande objekt i katalogen. Använd JSON-exempelkoden ovan som utgångspunkt. (Du måste utöka JSON för att inkludera ytterligare entiteter.)
 
-   ![SaveEntities6.png](assets/SaveEntities06.png)
+   ![SaveEntities5.png](assets/SaveEntities06.png)
 
 De sista två objekten hör inte hemma. Låt oss inspektera dem med **Get Entity** API och vid behov ta bort dem med API:t **Delete Entities** .
 
@@ -178,7 +178,7 @@ DELETE https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities?ids=[comma-delimit
 Detta API tar bort entiteter som refereras av de ID som du anger.
 Om inga enhets-ID anges tas alla enheter i den angivna miljön bort. Om inget miljö-ID anges tas enheter bort från alla miljöer. Använd detta med försiktighet!
 
-1. Navigera till **[!DNL Target]>[!UICONTROL Setup]>[!UICONTROL Hosts]>[!UICONTROL Environments]**för att hämta det[!DNL Target]miljö-ID som du vill ta bort objekt från.
+1. Navigera till **[!DNL Target]>[!UICONTROL Setup]>[!UICONTROL Hosts]>[!UICONTROL Environments]** för att hämta det [!DNL Target] miljö-ID som du vill ta bort objekt från.
 
    ![DeleteEntities1](assets/SaveEntities01.png)
 
