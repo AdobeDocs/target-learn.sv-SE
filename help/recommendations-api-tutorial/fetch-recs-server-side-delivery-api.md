@@ -8,10 +8,10 @@ doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 7265fd8611aacc94d1a66c10cd641c0644f2d43f
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Hämtning [!DNL Recommendations] med leverans-API
 
-Adobe Target- och Adobe Target-API: [!DNL Recommendations] erna kan användas för att leverera svar på webbsidor, men kan också användas i icke-HTML-baserade upplevelser som appar, skärmar, konsoler, e-post, kioskdatorer och andra visningsenheter. Med andra ord, när [!DNL Target] bibliotek och JavaScript inte kan användas, tillåter **[!DNL Target]Delivery API **fortfarande att vi får tillgång till alla[!DNL Target]funktioner för att leverera personaliserade upplevelser.
+Adobe Target- och Adobe Target-API: [!DNL Recommendations] erna kan användas för att leverera svar på webbsidor, men kan också användas i icke-HTML-baserade upplevelser som appar, skärmar, konsoler, e-post, kioskdatorer och andra visningsenheter. Med andra ord, när [!DNL Target] bibliotek och JavaScript inte kan användas, tillåter **[!DNL Target]Delivery API** fortfarande att vi får tillgång till alla [!DNL Target] funktioner för att leverera personaliserade upplevelser.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Om du vill skapa rekommendationer som kan användas med leverans-API:t använder
 
    ![server-side-create-recs-json-design.png](assets/server-side-create-recs-json-design.png)
 
-2. Gå [!DNL Target]till **[!UICONTROL Activities]>[!UICONTROL Create Activity]>[!UICONTROL Recommendations]**och markera **[!UICONTROL Form]**.
+2. Gå [!DNL Target]till **[!UICONTROL Activities]>[!UICONTROL Create Activity]>[!UICONTROL Recommendations]** och markera **[!UICONTROL Form]**.
 
    ![server-side-create-recs.png](assets/server-side-create-recs.png)
 
@@ -70,9 +70,10 @@ Syntaxen för [leverans-API](https://developers.adobetarget.com/api/delivery-api
 
 `POST https://{{CLIENT_CODE}}.tt.omtrdc.net/rest/v1/delivery`
 
-1. Observera att klientkoden krävs. Du hittar din klientkod i Adobe Target genom att navigera till **[!UICONTROL Recommendations]>[!UICONTROL Settings]**. Observera **[!UICONTROL Client Code]**värdet i **[!UICONTROL Recommendation API Token]**avsnittet.   ![client-code.png](assets/client-code.png)
+1. Observera att klientkoden krävs. Du hittar din klientkod i Adobe Target genom att navigera till **[!UICONTROL Recommendations]>[!UICONTROL Settings]**. Observera **[!UICONTROL Client Code]** värdet i **[!UICONTROL Recommendation API Token]** avsnittet.
+   ![client-code.png](assets/client-code.png)
 1. När du har fått din klientkod konstruerar du ett leverans-API-anrop. Exemplet nedan börjar med det **[!UICONTROL Web Batched Mboxes Delivery API Call]** som anges i [Delivery API Postman-samlingen](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection)och gör relevanta ändringar. Exempel:
-   * objekten för **webbläsare** och **adress** har tagits bort från **brödtexten** eftersom de inte behövs för andra användningsområden än HTML
+   * objekten för **webbläsare** och **adress** har tagits bort från **brödtexten**, eftersom de inte behövs för icke-HTML-användning
    * *api_charter* listas som platsnamn i det här exemplet
    * entity.id anges eftersom den här rekommendationen baseras på innehållets likhet, vilket kräver att en aktuell artikelnyckel skickas till [!DNL Target].
       ![server-side-Delivery-API-call.png](assets/server-side-delivery-api-call2.png)Kom ihåg att konfigurera frågeparametrarna korrekt. Se till exempel till att ange`{{CLIENT_CODE}}` det som behövs. <!--Q: In the updated call syntax, entity.id is listed as a profileParameter instead of an mboxParameter as in older versions. --> <!--Q: Old image ![server-side-create-recs-post.png](assets/server-side-create-recs-post.png) Old accompanying text: "Note this recommendation is based on Content Similar products based on the entity.id sent via mboxParameters." -->
