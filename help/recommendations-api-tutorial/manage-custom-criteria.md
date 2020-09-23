@@ -8,10 +8,10 @@ doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 78b30bc0018527f9d8b2a5b50edee86e877d14c7
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Hantera anpassade villkor
 
-Ibland kan algoritmerna som tillhandahålls av [!DNL Recommendations] inte visa vissa objekt som du vill lyfta fram. I sådana fall kan du med anpassade kriterier leverera en specifik uppsättning rekommenderade objekt för ett visst nyckelobjekt eller en viss kategori. Du definierar mappningen mellan nyckelobjektet eller kategorin och de rekommenderade objekten och importerar mappningen som ett anpassat villkor. Den här processen beskrivs i dokumentationen [för](https://docs.adobe.com/content/help/en/target/using/recommendations/criteria/recommendations-csv.html)anpassade villkor. Som du kan se i den dokumentationen kan du skapa, redigera och ta bort anpassade villkor via [!DNL Target] användargränssnittet. Det finns dock [!DNL Target] även en uppsättning API:er för anpassade kriterier som gör att du kan hantera dina anpassade villkor mer ingående.
+Ibland kan algoritmerna som tillhandahålls av [!DNL Recommendations] inte visa vissa element som du vill lyfta fram. I sådana fall kan du med anpassade kriterier leverera en specifik uppsättning rekommenderade objekt för ett visst nyckelobjekt eller en viss kategori. Du definierar mappningen mellan nyckelobjektet eller kategorin och de rekommenderade objekten och importerar mappningen som ett anpassat villkor. Den här processen beskrivs i dokumentationen [för](https://docs.adobe.com/content/help/en/target/using/recommendations/criteria/recommendations-csv.html)anpassade villkor. Som du kan se i den dokumentationen kan du skapa, redigera och ta bort anpassade villkor via [!DNL Target] användargränssnittet. Det finns dock [!DNL Target] även en uppsättning API:er för anpassade kriterier som gör att du kan hantera dina anpassade villkor mer ingående.
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ Fortsätt bara med den här självstudiekursen när du har läst varningen ovan 
 
    ![CreateCustomCriteria3](assets/CreateCustomCriteria3.png)
 
-4. Om du vill verifiera att dina anpassade villkor har skapats går du till **[!UICONTROL Recommendations]>[!UICONTROL Criteria]**i Adobe Target och söker efter villkoren efter namn, eller använder API:t för **listanpassade villkor**i nästa steg.
+4. Om du vill verifiera att dina anpassade villkor har skapats går du till **[!UICONTROL Recommendations]>[!UICONTROL Criteria]** i Adobe Target och söker efter villkoren efter namn, eller använder API:t för **listanpassade villkor** i nästa steg.
 
    ![CreateCustomCriteria4](assets/CreateCustomCriteria4.png)
 
