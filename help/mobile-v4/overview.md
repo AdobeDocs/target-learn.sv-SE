@@ -7,15 +7,15 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: d6cedd55dcc9c08d2d2ca5709e15fe5ea9fab8b8
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
 
 
-# Översikt
+# Adobe Target med Adobe Mobile Services SDK v4 för Android - översikt
 
 _Adobe Target med Adobe Mobile Services SDK v4 för Android_ är den perfekta startpunkten för Android-utvecklare som redan använder Adobe Mobile Services SDK v4 och vill börja personalisera appupplevelser med Adobe Target.
 
@@ -41,7 +41,7 @@ När du är klar med den här självstudiekursen kan du:
 I dessa lektioner antas att du:
 
 * Ha ett Adobe-ID och åtkomst på godkännarnivå till Adobe Target-gränssnittet (se verifieringsstegen nedan)
-* Lär känna din klientkod för Adobe Target så att du kan göra förfrågningar till ditt eget konto. Klientkoden visas i Adobe Target-gränssnittet på skärmen Inställningar > Implementering > Redigera at.js-inställningar
+* Lär känna Adobe Target klientkod så att du kan göra förfrågningar till ditt eget konto. Klientkoden visas i Adobe Target-gränssnittet på skärmen Inställningar > Implementering > Redigera at.js-inställningar
 * Har tillgång till och känner till användargränssnittet för [mobiltjänster](https://mobilemarketing.adobe.com)
 * Utveckla mobilappar med IDE för Android. Den här självstudiekursen innehåller [Android Studio](https://developer.android.com/studio/install) i olika steg och skärmbilder
 
@@ -51,12 +51,12 @@ Du måste också känna till Android-utvecklingen i Java. Du behöver inte vara 
 
 ### Verifiera åtkomst till Adobe Target
 
-Den här lektionen kräver tillgång till Adobe Target. Kontrollera att du har tillgång till Adobe Target genom att göra följande innan du går igenom nästa steg:
+Den här lektionen kräver tillgång till Adobe Target. Innan du går igenom de följande stegen måste du se till att du har tillgång till Adobe Target genom att göra följande:
 
 1. Logga in på [Adobe Experience Cloud](https://experience.adobe.com/)
 1. På startskärmen i Experience Cloud klickar du på [!DNL Target]:
    ![Experience Cloud hemskärm](assets/aec_homeScreen_clickTarget.png)
-1. Du bör gå till aktivitetslistan i Adobe Target, enligt bilden nedan, och du bör se att din användare har åtkomst på godkännarnivå. Om du inte kan komma åt [!DNL Target] eller verifiera åtkomsten på godkännarnivå kontaktar du någon av Experience Cloud-administratörerna i ditt företag, begär åtkomst och återupptar den här självstudiekursen när den har beviljats:
+1. Du bör gå till aktivitetslistan i Adobe Target, som bilden nedan visar, och du bör se att din användare har åtkomst på godkännarnivå. Om du inte kan komma åt [!DNL Target] eller verifiera åtkomsten på godkännarnivå kontaktar du någon av Experience Cloud-administratörerna i ditt företag, begär åtkomst och återupptar den här självstudiekursen när den har beviljats:
 
    ![Adobe UI](assets/targetUI_approver.png)
 
