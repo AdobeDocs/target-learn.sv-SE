@@ -11,7 +11,7 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
+source-git-commit: 624172d4bc4bc2431ad8af0956c93d3bcc0b9870
 workflow-type: tm+mt
 source-wordcount: '1834'
 ht-degree: 2%
@@ -181,13 +181,17 @@ I den här övningen använder du din nya innehavaråtkomsttoken genom att skick
 1. Öppna modal Manage Environment (Hantera miljöer) och välj din miljö.
    ![JWT11](assets/configure-io-target-jwt11.png)
 1. Skriv om du vill lägga till en ny `{{TENANT_ID}}` miljövariabel. Kopiera och klistra in ditt klient-ID-värde i fälten **INITIAL VALUE** och **CURRENT VALUE** för den nya `TENANT_ID` miljövariabeln.
+
    ![testtoken5](assets/configure-io-target-testtoken5.png)
+
    >[!NOTE]
    >
    >Klient-ID:t skiljer sig från ditt [!DNL Target]`clientcode`. Klient-ID:t finns i URL:en när du är inloggad på [!DNL Target]. Logga in på [!DNL Adobe Experience Cloud], öppna [!DNL Target]och klicka på [!DNL Target] kortet för att få ditt klient-ID. Använd det klient-ID som anges i URL-underdomänen.
    >
    >Om din URL-adress när du är inloggad på Adobe Target till exempel är
-   ><https://mycompany.experiencecloud.adobe.com/...>
+   >
+   >`<https://mycompany.experiencecloud.adobe.com/...>`
+   >
    >blir ditt klient-ID&quot;mincompany&quot;.
 
 1. Skicka din begäran efter att du har valt rätt miljö. Du bör få ett svar med din lista över aktiviteter.
