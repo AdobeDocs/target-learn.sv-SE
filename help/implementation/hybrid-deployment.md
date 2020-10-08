@@ -1,6 +1,6 @@
 ---
 title: Driftsättning av Adobe Target Hybrid
-description: null
+description: Adobe Target erbjuder en unik hybridmodell för personalisering, som kombinerar implementeringar på både klient- och serversidan.
 topics: implementation
 feature: implementation
 audience: developer, architect
@@ -10,9 +10,9 @@ team: Technical Marketing
 kt: 6165
 thumbnail: null
 translation-type: tm+mt
-source-git-commit: 1c5349efc4a8faeca007ff51b115b61d035602ab
+source-git-commit: eeb11a0ab043d8db4cb5b732baedd4cc44f6f57b
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
