@@ -3,27 +3,33 @@ title: Adobe Target Tutorials - översikt
 seo-title: Adobe Target Tutorials - översikt
 description: En samling instruktionsvideor och självstudiekurser som gör dig till en kraftfull användare av Adobe Target
 translation-type: tm+mt
-source-git-commit: 49b21a85ca776f9da12f14cab85772395ba4ce16
+source-git-commit: c5b9c78f8934d3973ef78723fe3e57173bb65035
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
 
 
-# Översikt
+# Adobe Target Tutorials - översikt
 
 Adobe Target är en Adobe Experience Cloud-lösning som innehåller allt ni behöver för att skräddarsy och personalisera kundupplevelsen, så att ni kan maximera intäkterna från era webbplatser, mobilsajter, appar, sociala medier och andra digitala kanaler. Använd dessa videor och självstudiekurser för att lära dig de många komponenterna i Adobe Target.
 
 ## Nyheter
 
-* **[Använda Recommendations API (självstudiekurs)](recommendations-api-tutorial/recs-api-overview.md)**   <br>
+* **[Använda Recommendations API (självstudiekurs)](recommendations-api-tutorial/recs-api-overview.md)**
+
+   <br>
    *För utvecklare: Praktiska tips om hur du använder API:[!DNL Recommendations]er för att konfigurera och hantera[!DNL Recommendations]kataloger och anpassade kriterier, med mera.*
 
-* **[Implementera Adobe Target med Adobe Mobile Services SDK v4 för Android (självstudiekurs)](mobile-v4/overview.md)**   <br>
+* **[Implementera Adobe Target med Adobe Mobile Services SDK v4 för Android (självstudiekurs)](mobile-v4/overview.md)**
+
+   <br>
    *För utvecklare som redan använder Adobe Mobile Services SDK v4: lär dig hur ni börjar personalisera appupplevelser med Adobe Target. Dessa steg tillhandahålls som äldre användarsupport.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
 
-* **[Använd Recommendations-erbjudanden (video)](recommendations/use-recommendations-offers.md)**   <br>
+* **[Använd Recommendations-erbjudanden (video)](recommendations/use-recommendations-offers.md)**
+
+   <br>
    *För alla målanvändare: Lär dig hur du använder produktrekommendationer i A/B- och Experience Targeting-aktiviteter.*
 
 <!--
