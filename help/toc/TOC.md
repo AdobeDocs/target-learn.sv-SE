@@ -1,13 +1,13 @@
 ---
 title: Adobe Target Tutorials
 user-guide-title: Adobe Target Tutorials
-breadcrumb-title: Target Tutorials
+breadcrumb-title: Tutorials
 audience: end-user
 solution: Target
 translation-type: tm+mt
 source-git-commit: 6b8bded0235ed9d894fe30ff505d39b789fbeef1
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
    + [Introduktion till målbegäranden](../dev101/2.3-intro-to-target-requests.md)
    + [Introduktion till målparametrar](../dev101/2.4-intro-to-target-params.md)
    + [Se hur at.js 2.0 Works](../implementation/understanding-how-atjs-20-works.md)
-   + [Implementera at.js 2.0 i ett Single Page Application (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
+   + [Implementera at.js 2.0 i ett enkelsidigt program (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Utforma en målinriktad implementering](../dev101/2.5-design-target-implementation.md)
    + [Nästa steg för att utforma en målinriktad implementering](../dev101/2.6-next-steps-design-target-implementation.md)
    + [Använd Opt-in för att styra Experience Cloud-lösningar baserat på användargodkännande](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
