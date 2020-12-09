@@ -3,9 +3,9 @@ title: Adobe Target Tutorials
 seo-title: Adobe Target Tutorials
 description: En samling instruktionsvideor och självstudiekurser som gör dig till en kraftfull användare av Adobe Target
 translation-type: tm+mt
-source-git-commit: eeb11a0ab043d8db4cb5b732baedd4cc44f6f57b
+source-git-commit: f7aef8f332173c8dfca9fbb09d13c5a43a42ffbc
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -17,20 +17,18 @@ Adobe Target är en Adobe Experience Cloud-lösning som innehåller allt ni beh�
 
 ## Nyheter
 
-* **[Använda Recommendations API (självstudiekurs)](recommendations-api-tutorial/recs-api-overview.md)**
+* **[Beslutsöversikt på enheten](implementation/on-device-decisioning-overview.md)**
 
-   <br>
-   *För utvecklare: Praktiska tips om hur du använder API:[!DNL Recommendations]er för att konfigurera och hantera[!DNL Recommendations]kataloger och anpassade kriterier, med mera.*
+   *För arkitekter: Kom igång med att fatta beslut direkt på enheten för att leverera upplevelser som nästan inte ger någon fördröjning till era kunder!*
+* **[Använda Recommendations API (självstudiekurs)](recommendations-api-tutorial/recs-api-overview.md)**
+   *För utvecklare: Praktiska tips om hur du använder API: [!DNL Recommendations] er för att konfigurera och hantera [!DNL Recommendations] kataloger och anpassade kriterier, med mera.*
 
 * **[Implementera Adobe Target med Adobe Mobile Services SDK v4 för Android (självstudiekurs)](mobile-v4/overview.md)**
 
-   <br>
    *För utvecklare som redan använder Adobe Mobile Services SDK v4: lär dig hur ni börjar personalisera appupplevelser med Adobe Target. Dessa steg tillhandahålls som äldre användarsupport.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
 
-* **[Använd Recommendations-erbjudanden (video)](recommendations/use-recommendations-offers.md)**
-
-   <br>
-   *För alla målanvändare: Lär dig hur du använder produktrekommendationer i A/B- och Experience Targeting-aktiviteter.*
+<!--* **[Use Recommendations Offers (Video)](recommendations/use-recommendations-offers.md)**
+    *For all Target Users: Learn how to use product recommendations in A/B and Experience Targeting Activities.*-->
 
 <!--
 * **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
@@ -56,11 +54,11 @@ Adobe Target är en Adobe Experience Cloud-lösning som innehåller allt ni beh�
   </td>
   <td>
     <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-      <img alt="Implementera at.js 2.0 i ett Single Page Application (SPA)" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
+      <img alt="Implementera at.js 2.0 i ett enkelsidigt program (SPA)" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
     </a>
     <div>
       <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-    <strong>Implementera at.js 2.0 i ett Single Page Application (SPA)</strong>
+    <strong>Implementera at.js 2.0 i ett enkelsidigt program (SPA)</strong>
     </a>
     </div>
     <p>
