@@ -4,10 +4,11 @@ user-guide-title: Adobe Target Tutorials
 breadcrumb-title: Tutorials
 audience: end-user
 solution: Target
+type: tutorial
 translation-type: tm+mt
-source-git-commit: 6b8bded0235ed9d894fe30ff505d39b789fbeef1
+source-git-commit: 009b19539470c64d7497e848e6042f8399192903
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,7 @@ ht-degree: 0%
    + [Nästa steg för att utforma en målinriktad implementering](../dev101/2.6-next-steps-design-target-implementation.md)
    + [Använd Opt-in för att styra Experience Cloud-lösningar baserat på användargodkännande](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
    + [Förstå Adobe Target Hybrid-driftsättning](../implementation/hybrid-deployment.md)
+   + [Beslutsöversikt på enheten](../implementation/on-device-decisioning-overview.md)
 + Integreringar{#integrations}
    + [Integrera Target med Analytics](../dev101/3.2-target-analytics.md)
    + [Använd Analytics som datakälla för mål (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
