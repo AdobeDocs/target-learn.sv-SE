@@ -1,6 +1,6 @@
 ---
-title: Implementera Mbox-parametrar för Target med DTM
-seo-title: Implementera Mbox-parametrar för Target med DTM
+title: Implementera Mbox-parametrar för mål med DTM
+seo-title: Implementera Mbox-parametrar för mål med DTM
 description: 'null'
 audience: developer
 difficulty: 3
