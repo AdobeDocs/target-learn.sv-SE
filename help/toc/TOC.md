@@ -52,7 +52,7 @@ ht-degree: 0%
    + [Data i: Använd Data Providers för att integrera data från tredje part](../integrations/use-data-providers-to-integrate-third-party-data.md)
    + [Data i: Implementera dataleverantörer för att integrera data från tredje part](../integrations/implement-data-providers-to-integrate-third-party-data.md)
    + [Data ut: Använd svarstoken och anpassade at.js-händelser](../integrations/use-response-tokens-and-atjs-custom-events.md)
-+ Verksamhet{#activities}
++ Aktiviteter{#activities}
    + [Förstå olika typer av aktiviteter](../activities/understanding-the-types-of-activities.md)
    + [Använd artificiell intelligens och automatisering för att möta utmaningarna med personalisering](../activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
    + [Skapa A/B-tester](../activities/create-ab-tests.md)
@@ -61,11 +61,11 @@ ht-degree: 0%
    + [Använd aktivitetsmål](../activities/use-activity-targeting.md)
    + [Använd aktivitetsinställningar](../activities/use-activity-settings.md)
    + [Använd mått i aktiviteter](../activities/use-metrics-in-activities.md)
-+ Audiences{#audiences}
++ Målgrupper{#audiences}
    + [Använd målgrupper](../audiences/use-audiences.md)
    + [Skapa profilskript](../audiences/create-profile-scripts.md)
    + [Använd profiljämförelse för att skapa målgrupper](../audiences/use-profile-comparison-to-build-audiences.md)
-+ Erfarenheter{#experiences}
++ Upplevelser{#experiences}
    + [Använda Visual Experience Composer](../experiences/use-the-visual-experience-composer.md)
    + [Använda Visual Experience Composer för Single Page-program (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
    + [Använda den formulärbaserade Experience Composer](../experiences/use-the-form-based-experience-composer.md)
