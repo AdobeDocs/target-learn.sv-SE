@@ -19,25 +19,25 @@ ht-degree: 1%
 ---
 
 
-# Hantera din [!DNL Recommendations] katalog med API:er
+# Hantera din [!DNL Recommendations]-katalog med API:er
 
-Nu har du lärt dig att generera en åtkomsttoken med JWT-autentiseringsflödet för att använda Adobe Target Admin API:er med Adobe I/O.
+Nu har du lärt dig att generera en åtkomsttoken med hjälp av JWT-autentiseringsflödet för att använda Adobe Target Admin API:er med Adobe I/O.
 
-Du kan använda [Recommendations API:er](https://developers.adobetarget.com/api/recommendations/) för att lägga till, uppdatera eller ta bort objekt i din rekommendationskatalog. Precis som med övriga Adobe Target Admin API:er kräver [!DNL Recommendations] API:erna autentisering.
+Du kan använda [Recommendations API:er](https://developers.adobetarget.com/api/recommendations/) för att lägga till, uppdatera eller ta bort objekt i din rekommendationskatalog. Precis som med övriga API:er för Adobe Target Admin kräver API:erna för [!DNL Recommendations] autentisering.
 
 >[!TIP]
 >
->Skicka begäran när du behöver uppdatera din åtkomsttoken för autentisering, eftersom den upphör att gälla efter 24 timmar. **[!UICONTROL IMS: JWT Generate + Auth via User Token]** Mer information finns i [Konfigurera Adobe API-autentisering](../apis/configure-io-target-integration.md) .
+>Skicka **[!UICONTROL IMS: JWT Generate + Auth via User Token]**-begäran när du behöver uppdatera din åtkomsttoken för autentisering, eftersom den upphör att gälla efter 24 timmar. Mer information finns i [Konfigurera Adobe API-autentisering](../apis/configure-io-target-integration.md).
 
 ![JWT3ff](assets/configure-io-target-jwt3ff.png)
 
 >[!NOTE]
 >
->Hämta [Recommendations Postman-samlingen](https://developers.adobetarget.com/api/recommendations/#section/Postman)innan du fortsätter.
+>Hämta [Recommendations Postman-samlingen](https://developers.adobetarget.com/api/recommendations/#section/Postman) innan du fortsätter.
 
 ## Skapa och uppdatera objekt med API:t för att spara enheter
 
-Om du vill fylla i din [!DNL Recommendations] produktdatabas med API:t i stället för en CSV-produktfeed eller - [!DNL Target] begäran som aktiveras på produktsidor använder du API:t för [Spara entiteter](https://developers.adobetarget.com/api/recommendations/#operation/saveEntities). Denna begäran lägger till eller uppdaterar ett objekt i en enda [!DNL Target] miljö. Syntaxen är:
+Använd [API:t för att fylla i din [!DNL Recommendations]-produktdatabas med API:t i stället för en CSV-produktfeed eller [!DNL Target]-begäranden som aktiveras på produktsidor. ](https://developers.adobetarget.com/api/recommendations/#operation/saveEntities) Den här begäran lägger till eller uppdaterar ett objekt i en enskild [!DNL Target]-miljö. Syntaxen är:
 
 ```
 POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities
@@ -45,15 +45,15 @@ POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities
 
 Du kan till exempel använda Spara enheter för att uppdatera artiklar när vissa tröskelvärden har uppnåtts, t.ex. tröskelvärden för lager eller pris, för att flagga dessa artiklar och förhindra att de rekommenderas.
 
-1. Navigera till **[!DNL Target]>[!UICONTROL Setup]>[!UICONTROL Hosts]>[!UICONTROL Environments]** för att få det [!DNL Target] miljö-ID där du vill lägga till eller uppdatera ett objekt.
+1. Navigera till **[!DNL Target]> [!UICONTROL Setup] > [!UICONTROL Hosts] >[!UICONTROL Environments]** för att få det [!DNL Target] miljö-ID där du vill lägga till eller uppdatera ett objekt.
 
    ![SaveEntities1](assets/SaveEntities01.png)
 
-2. Kontrollera `TENANT_ID` och `API_KEY` referera till Postman-miljövariablerna som etablerats tidigare. Använd bilden nedan för att jämföra. Om det behövs kan du ändra rubrikerna och sökvägen i din API-begäran så att de matchar dem i bilden nedan.
+2. Verifiera att `TENANT_ID` och `API_KEY` refererar till Postman-miljövariablerna som etablerats tidigare. Använd bilden nedan för att jämföra. Om det behövs kan du ändra rubrikerna och sökvägen i din API-begäran så att de matchar dem i bilden nedan.
 
    ![SaveEntities3](assets/SaveEntities03.png)
 
-3. Ange din JSON som **rå** kod i **Body**. Glöm inte att ange ditt miljö-ID med hjälp av `environment` variabeln. (I exemplet nedan är miljö-ID 6781.)
+3. Ange din JSON som **raw**-kod i **Body**. Glöm inte att ange ditt miljö-ID med variabeln `environment`. (I exemplet nedan är miljö-ID 6781.)
 
    ![SaveEntities4.png](assets/SaveEntities04.png)
 
@@ -125,15 +125,15 @@ JSON-objektet kan skalas för att skicka flera produkter. Denna JSON anger till 
     }
 ```
 
-1. Nu är det din tur! Använd API:t **Spara enheter** för att lägga till följande objekt i katalogen. Använd JSON-exempelkoden ovan som utgångspunkt. (Du måste utöka JSON för att inkludera ytterligare entiteter.)
+1. Nu är det din tur! Använd API:t **Spara entiteter** för att lägga till följande objekt i katalogen. Använd JSON-exempelkoden ovan som utgångspunkt. (Du måste utöka JSON för att inkludera ytterligare entiteter.)
 
-   ![SaveEntities5.png](assets/SaveEntities06.png)
+   ![SaveEntities6.png](assets/SaveEntities06.png)
 
-De sista två objekten hör inte hemma. Låt oss inspektera dem med **Get Entity** API och vid behov ta bort dem med API:t **Delete Entities** .
+De sista två objekten hör inte hemma. Låt oss undersöka dem med API:t **Hämta entitet** och, om det behövs, ta bort dem med API:t **Ta bort entiteter**.
 
 ## Hämta objektinformation med Get Entity API
 
-Om du vill hämta information om ett befintligt objekt använder du [Get Entity API](https://developers.adobetarget.com/api/recommendations/#operation/getEntity). Syntaxen är:
+Om du vill hämta information om ett befintligt objekt använder du [Hämta enhets-API](https://developers.adobetarget.com/api/recommendations/#operation/getEntity). Syntaxen är:
 
 ```
 GET https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities/[entity.id]
@@ -145,30 +145,31 @@ Enhetsinformation kan bara hämtas för en enskild entitet åt gången. Du kan a
 
    ![GetEntity1](assets/GetEntity1.png)
 
-2. Kontrollera `TENANT_ID` och `API_KEY` referera till Postman-miljövariablerna som etablerats tidigare. Använd bilden nedan för att jämföra. Om det behövs kan du ändra rubrikerna och sökvägen i din API-begäran så att de matchar dem i bilden nedan.
+2. Verifiera att `TENANT_ID` och `API_KEY` refererar till Postman-miljövariablerna som etablerats tidigare. Använd bilden nedan för att jämföra. Om det behövs kan du ändra rubrikerna och sökvägen i din API-begäran så att de matchar dem i bilden nedan.
 
    ![GetEntity2](assets/GetEntity2.png)
 
 3. Skicka begäran.
 
-   ![GetEntity3](assets/GetEntity3.png)Om du får ett felmeddelande om att enheten inte hittades, som visas i exemplet ovan, kontrollerar du att du skickar begäran till rätt [!DNL Target] miljö.
+   ![GetEntity3](assets/GetEntity3.png)
+Om du får ett felmeddelande om att enheten inte hittades, som visas i exemplet ovan, kontrollerar du att du skickar begäran till rätt  [!DNL Target] miljö.
 
    >[!NOTE]
-   Om ingen miljö uttryckligen anges försöker Get Entity att hämta entiteten enbart från din [standardmiljö](https://docs.adobe.com/content/help/en/target/using/administer/hosts.html#section_4F8539B07C0C45E886E8525C344D5FB0) . Om du vill hämta från någon annan miljö än standardmiljön måste du ange miljö-ID:t.
+   Om ingen miljö uttryckligen anges försöker Get Entity att hämta entiteten från din [standardmiljö](https://docs.adobe.com/content/help/en/target/using/administer/hosts.html#section_4F8539B07C0C45E886E8525C344D5FB0). Om du vill hämta från någon annan miljö än standardmiljön måste du ange miljö-ID:t.
 
-4. Om det behövs lägger du till `environmentId` parametern och skickar begäran igen.
+4. Om det behövs lägger du till parametern `environmentId` och skickar begäran igen.
 
    ![GetEntity4](assets/GetEntity4.png)
 
-5. Skicka ytterligare en **Get Entity** -begäran, den här gången för att inspektera entiteten vars entityId=kit2005.
+5. Skicka ytterligare en **Get Entity**-begäran, den här gången för att inspektera entiteten vars entityId=kit2005.
 
    ![GetEntity5](assets/GetEntity5.png)
 
-Anta att du måste ta bort dessa enheter från katalogen. Låt oss använda API:t **Ta bort entiteter** .
+Anta att du måste ta bort dessa enheter från katalogen. Låt oss använda API:t **Ta bort entiteter**.
 
 ## Ta bort objekt med API:t Ta bort entiteter
 
-Om du vill ta bort objekt från katalogen använder du API:t [Ta bort entiteter](https://developers.adobetarget.com/api/recommendations/#operation/deleteEntities). Syntaxen är:
+Om du vill ta bort objekt från katalogen använder du [API:t Ta bort entiteter](https://developers.adobetarget.com/api/recommendations/#operation/deleteEntities). Syntaxen är:
 
 ```
 DELETE https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities?ids=[comma-delimited-entity-ids]&environment=[environmentId]
@@ -178,19 +179,19 @@ DELETE https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities?ids=[comma-delimit
 Detta API tar bort entiteter som refereras av de ID som du anger.
 Om inga enhets-ID anges tas alla enheter i den angivna miljön bort. Om inget miljö-ID anges tas enheter bort från alla miljöer. Använd detta med försiktighet!
 
-1. Navigera till **[!DNL Target]>[!UICONTROL Setup]>[!UICONTROL Hosts]>[!UICONTROL Environments]** för att hämta det [!DNL Target] miljö-ID som du vill ta bort objekt från.
+1. Navigera till **[!DNL Target]> [!UICONTROL Setup] > [!UICONTROL Hosts] >[!UICONTROL Environments]** för att hämta det [!DNL Target] miljö-ID som du vill ta bort objekt från.
 
    ![DeleteEntities1](assets/SaveEntities01.png)
 
-2. I API-begäran anger du enhets-ID för de enheter som du vill ta bort med syntaxen `&ids=[comma-delimited-entity-ids]` (en frågeparameter). Om du tar bort mer än en enhet avgränsar du ID:n med kommatecken.
+2. I API-begäran anger du enhets-ID för de entiteter som du vill ta bort med syntaxen `&ids=[comma-delimited-entity-ids]` (en frågeparameter). Om du tar bort mer än en enhet avgränsar du ID:n med kommatecken.
 
    ![DeleteEntities2](assets/DeleteEntities2.png)
 
-3. Ange miljö-ID med syntaxen, `&environment=[environmentId]`annars tas enheter i alla miljöer bort.
+3. Ange miljö-ID med syntaxen `&environment=[environmentId]`, annars tas enheter i alla miljöer bort.
 
    ![DeleteEntities3](assets/DeleteEntities3.png)
 
-4. Kontrollera `TENANT_ID` och `API_KEY` referera till Postman-miljövariablerna som etablerats tidigare. Använd bilden nedan för att jämföra. Om det behövs kan du ändra rubrikerna och sökvägen i din API-begäran så att de matchar dem i bilden nedan.
+4. Verifiera att `TENANT_ID` och `API_KEY` refererar till Postman-miljövariablerna som etablerats tidigare. Använd bilden nedan för att jämföra. Om det behövs kan du ändra rubrikerna och sökvägen i din API-begäran så att de matchar dem i bilden nedan.
 
    ![DeleteEntities4](assets/DeleteEntities4.png)
 
@@ -204,6 +205,6 @@ Om inga enhets-ID anges tas alla enheter i den angivna miljön bort. Om inget mi
 
    ![DeleteEntities6](assets/DeleteEntities7.png)
 
-Grattis! Nu kan du använda API: [!DNL Recommendations] erna för att skapa, uppdatera, ta bort och få information om enheterna i din katalog. I nästa avsnitt får du lära dig hur du hanterar anpassade villkor.
+Grattis! Du kan nu använda API:erna för [!DNL Recommendations] för att skapa, uppdatera, ta bort och få information om entiteterna i din katalog. I nästa avsnitt får du lära dig hur du hanterar anpassade villkor.
 
 [Nästa Hantera anpassade villkor >](manage-custom-criteria.md)
