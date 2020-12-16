@@ -1,6 +1,6 @@
 ---
-title: Lägg till Adobe Target-begäranden
-description: 'Adobe Mobile Services SDK (v4) innehåller metoder och funktioner för Adobe Target som gör att du kan anpassa din app med olika upplevelser för olika användare.   '
+title: Lägg till Adobe Target-förfrågningar
+description: 'Adobe Mobile Services SDK (v4) innehåller metoder och funktioner från Adobe Target som gör att du kan anpassa din app med olika upplevelser för olika användare.   '
 feature: mobile
 kt: 3040
 audience: developer
@@ -15,23 +15,23 @@ ht-degree: 0%
 ---
 
 
-# Lägg till Adobe Target-begäranden
+# Lägg till Adobe Target-förfrågningar
 
-Adobe Mobile Services SDK (v4) innehåller Adobe Target metoder och funktioner som gör att du kan anpassa din app med olika upplevelser för olika användare. Normalt görs en eller flera förfrågningar från appen till Adobe Target för att hämta det personaliserade innehållet och mäta effekten av det innehållet.
+Adobe Mobile Services SDK (v4) innehåller metoder och funktioner från Adobe Target som gör att du kan anpassa din app med olika upplevelser för olika användare. Normalt görs en eller flera förfrågningar från appen till Adobe Target för att hämta det personaliserade innehållet och mäta effekten av det innehållet.
 
-I den här lektionen ska du förbereda appen We.Travel för personalisering genom att implementera [!DNL Target] förfrågningar.
+I den här lektionen ska du förbereda appen We.Travel för personalisering genom att implementera [!DNL Target]-begäranden.
 
 ## Förutsättningar
 
-Var noga med att [hämta och uppdatera exempelappen](download-and-update-the-sample-app.md).
+[Hämta och uppdatera exempelprogrammet](download-and-update-the-sample-app.md).
 
 ## Utbildningsmål
 
 När lektionen är klar kan du:
 
-* Cachelagra flera [!DNL Target] erbjudanden (dvs. personaliserat innehåll) med en förhämtningsförfrågan i batch
+* Cachelagra flera [!DNL Target]-erbjudanden (dvs. anpassat innehåll) med hjälp av en förhämtningsbegäran för batch
 * Läs in förhämtade [!DNL Target] platser
-* Läsa in en [!DNL Target] plats i realtid (ej förhämtad)
+* Läs in en [!DNL Target]-plats i realtid (ej förhämtad)
 * Rensa förhämtade platser från cache
 * Validera förhämtade begäranden och begäranden i realtid
 
@@ -39,20 +39,20 @@ När lektionen är klar kan du:
 
 Nedan finns några viktiga Target-termer som vi kommer att använda i resten av kursen.
 
-* **Begäran:**  en nätverksbegäran till Adobe Target-servrarna
-* **Erbjudande:**  ett kodfragment eller annat textbaserat innehåll, som definieras i [!DNL Target] användargränssnittet (eller med API), som levereras som svar. Vanligtvis JSON när [!DNL Target] används i inbyggda mobilappar.
-* **Plats:**  ett användardefinierat namn som ges till en begäran, som används i gränssnittet för att associera erbjudanden med specifika förfrågningar [!DNL Target]
-* **Batchbegäran:**  en enda begäran som innehåller flera platser
+* **Begäran:**  en nätverksbegäran till Adobe Target-servrar
+* **Erbjudande:**  ett kodfragment eller annat textbaserat innehåll som definieras i  [!DNL Target] användargränssnittet (eller med API) och som levereras som svar. Vanligtvis JSON när [!DNL Target] används i inbyggda mobilappar.
+* **Plats:**  ett användardefinierat namn för en begäran som används i  [!DNL Target] gränssnittet för att associera erbjudanden med specifika förfrågningar
+* **Gruppbegäran:**  en enstaka begäran som innehåller flera platser
 * **Förhämtningsbegäran:**  en enda begäran som hämtar erbjudanden och cachelagrar dem i minnet för framtida bruk i appen
-* **Förhämtningsbegäran för grupp:**  en enda förfrågan som förhämtar erbjudanden för flera platser
-* **Målgrupp:**  en grupp besökare som definieras i [!DNL Target] gränssnittet eller som delas till [!DNL Target] från andra Adobe-program (t.ex. &quot;iPhone X-besökare&quot;,&quot;besökare i Kalifornien&quot;,&quot;First App Open&quot;)
-* **Aktivitet:**  en [!DNL Target] konstruktion som definieras i [!DNL Target] användargränssnittet (eller med API) och som länkar platser, erbjudanden och målgrupper för att skapa en personaliserad upplevelse
+* **Förhämtningsbegäran för grupp:**  en enda begäran som förhämtar erbjudanden för flera platser
+* **Målgrupp:**  en grupp besökare som definieras i  [!DNL Target] gränssnittet eller delas till  [!DNL Target] från andra Adobe-program (t.ex. &quot;iPhone X-besökare&quot;,&quot;besökare i Kalifornien&quot;,&quot;First App Open&quot;)
+* **Aktivitet:**  en  [!DNL Target] konstruktion som definieras i  [!DNL Target] användargränssnittet (eller med API) och som länkar platser, erbjudanden och målgrupper för att skapa en personaliserad upplevelse
 
 ## Lägg till en förhämtningsbegäran för grupp
 
-Den första begäran som vi implementerar i We.Travel är en förhämtningsbegäran i grupp med två [!DNL Target] platser på hemskärmen. I en senare lektion kommer vi att konfigurera erbjudanden för dessa platser som visar meddelanden som hjälper nya användare genom bokningsprocessen.
+Den första begäran som vi implementerar i We.Travel är en förhämtningsbegäran för en grupp med två [!DNL Target] platser på hemskärmen. I en senare lektion kommer vi att konfigurera erbjudanden för dessa platser som visar meddelanden som hjälper nya användare genom bokningsprocessen.
 
-En förhämtningsbegäran hämtar [!DNL Target] innehåll så lite som möjligt genom att cacha serversvaret från Adobe Target (erbjudande). En begäran om batchförhämtning hämtar och cachelagrar flera erbjudanden, som var och en är kopplad till en annan plats. Alla förhämtade platser cachelagras på enheten för framtida bruk i användarsessionen. Genom att förhämta flera platser på hemskärmen kan vi hämta erbjudanden som kan användas senare när besökaren navigerar genom appen. Mer information om förhämtningsmetoder finns i [förhämtningsdokumentationen](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html) .
+En förhämtningsbegäran hämtar [!DNL Target]-innehåll så minimalt som möjligt genom att cachelagra Adobe Target serversvar (erbjudande). En begäran om batchförhämtning hämtar och cachelagrar flera erbjudanden, som var och en är kopplad till en annan plats. Alla förhämtade platser cachelagras på enheten för framtida bruk i användarsessionen. Genom att förhämta flera platser på hemskärmen kan vi hämta erbjudanden som kan användas senare när besökaren navigerar genom appen. Mer information om förhämtningsmetoder finns i [förhämtningsdokumentationen](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html).
 
 ### Lägg till förhämtningsbegäran för grupp
 
@@ -64,7 +64,7 @@ Vi lägger till de två kodblocken som visas i rött:
 
 ![Förhämtningskod för HomeActivity](assets/homeactivity.jpg)
 
-Rulla ned till slutet av HomeActivity-koden och lägg till koden som anges nedan efter `setHeader()` funktionen och *ersätta* den aktuella `onResume()` funktionen:
+Rulla ned till slutet av HomeActivity-koden och lägg till koden som anges nedan efter funktionen `setHeader()` och *ersätta* den aktuella `onResume()`-funktionen:
 
 ```java
 @Override
@@ -94,16 +94,16 @@ public void targetPrefetchContent() {
 }
 ```
 
-Din utvecklingsmiljö kommer antagligen att varna dig om att du inte har [!DNL Target] klasserna importerade i filen. Se till att importera [!DNL Target] klasserna högst upp i HomeActivity-kontrollenheten enligt vad som visas i rött nedan:
+Din utvecklingsmiljö kommer antagligen att varna dig om att du inte har [!DNL Target]-klasserna importerade i filen. Se till att importera [!DNL Target]-klasserna högst upp i HomeActivity-kontrollanten enligt rött nedan:
 
 ```java
 import com.adobe.mobile.Target;
 import com.adobe.mobile.TargetPrefetchObject;
 ```
 
-![Importera Target-klasser](assets/import.jpg)
+![Importera målklasser](assets/import.jpg)
 
-Felen &quot;cannot find symbol variable wetravel_engage_home&quot; och &quot;cannot find symbol variable wetravel_engage_search&quot; visas förmodligen också. Lägg till dessa i `Constant.java` filen (i app > src > main > java > com > weravel > Utils):
+Felen &quot;cannot find symbol variable wetravel_engage_home&quot; och &quot;cannot find symbol variable wetravel_engage_search&quot; visas förmodligen också. Lägg till dessa i `Constant.java`-filen (i app > src > main > java > com > weravel > Utils):
 
 ```java
 public static final String wetravel_engage_home = "wetravel_engage_home";
@@ -116,33 +116,33 @@ public static final String wetravel_engage_search = "wetravel_engage_search";
 
 | Code | Beskrivning |
 |--- |--- |
-| `targetPrefetchContent()` | En användardefinierad funktion (ingår inte i SDK) som använder [!DNL Target] metoder för att hämta och cachelagra två [!DNL Target] platser. |
-| `prefetchContent()` | SDK- [!DNL Target] metoden som skickar förhämtningsbegäran |
+| `targetPrefetchContent()` | En användardefinierad funktion (ingår inte i SDK) som använder [!DNL Target]-metoder för att hämta och cachelagra två [!DNL Target]-platser. |
+| `prefetchContent()` | SDK-metoden [!DNL Target] som skickar förhämtningsbegäran |
 | `Constant.wetravel_engage_home` | Förhämtat [!DNL Target] platsnamn som visar erbjudandeinnehållet på hemskärmen |
 | `Constant.wetravel_engage_search` | Förhämtat [!DNL Target] platsnamn som visar erbjudandeinnehållet på skärmen Sökresultat. Eftersom detta är en andra plats i förhämtningen kallas denna förhämtningsbegäran för en&quot;förhämtningsbatchbegäran&quot;. |
-| setUp() | En användardefinierad funktion som återger appens hemskärm efter att erbjudandena [!DNL Target] har hämtats i förväg |
+| setUp() | En användardefinierad funktion som återger programmets hemskärm efter att erbjudandena [!DNL Target] har förhämtats |
 
 ### Om asynkron jämfört med synkron
 
-Med den kod vi just har implementerat görs förhämtningsbegäran som ett synkront, blockerande anrop, precis innan hemskärmen återges. När vi klistrade in den nya koden i HomeActivity-kontrollen flyttade vi funktionskörningen från `setUp()` `onResume()` funktionen till efter Target-begäran. Detta kan vara bra i scenarier där du vill anpassa innehåll när appen först öppnas, eftersom det ser till att personaliserat innehåll från Target-servrarna har returnerats (eller timeout) innan den första skärmen återges. Om du vill tillåta att begäranden läses in asynkront (i bakgrunden), anropar du `setUp()` i `onCreate()` funktionen i stället.
+Med den kod vi just har implementerat görs förhämtningsbegäran som ett synkront, blockerande anrop, precis innan hemskärmen återges. När vi klistrade in den nya koden i HomeActivity-kontrollen flyttade vi `setUp()`-funktionskörningen från funktionen `onResume()` till efter Target-begäran. Detta kan vara bra i scenarier där du vill anpassa innehåll när appen öppnas, eftersom det ser till att anpassat innehåll från målservrarna har returnerats (eller timeout) innan den första skärmen återges. Om du vill tillåta att begäranden läses in asynkront (i bakgrunden) anropar du i stället `setUp()` inom funktionen `onCreate()`.
 
 ### Validera begäran om batchförhämtning
 
 Bygg om appen och öppna Android-emulatorn. (I följande skärmbilder används Pixel 2 på Android Q version 9+, API-nivå 29). Prefetch-svaret ska vara &quot;prefetch response receive&quot;:
 
-När hemskärmen återges bör förhämtningsbegäran läsas in. Med Logcat kan du filtrera för [!DNL "Target"] att se begäran och svar:
+När hemskärmen återges bör förhämtningsbegäran läsas in. Med Logcat kan du filtrera efter [!DNL "Target"] för att se begäran och svar:
 
 ![Validera begäranden på hemskärmen](assets/prefetch_validation.jpg)
 
-Om du inte ser något positivt svar kontrollerar du inställningarna i `ADBMobileConfig.json` fil- och kodsyntaxen i filen HomeActivity.
+Om du inte ser något positivt svar kontrollerar du inställningarna i filen `ADBMobileConfig.json` och kodsyntaxen i filen HomeActivity.
 
-Två platser cachelagras nu till enheten. Platsnamnen kommer snart att läsas in i [!DNL Target] gränssnittet, där de kan väljas i olika listrutor när du använder dem i en aktivitet.
+Två platser cachelagras nu till enheten. Platsnamnen kommer snart att läsas in i [!DNL Target]-gränssnittet, där de kan väljas i olika listrutor när du använder dem i en aktivitet.
 
 ### Lägg till inläsningsbegäranden för varje cachelagrad plats
 
-Nu när platserna är förhämtade och deras svar cachelagrade till enheten lägger vi till den metod som hämtar erbjudandeinnehållet från cachen så att du kan använda den för att uppdatera programmet. `Target.loadRequest()` Vi lägger till en ny anpassad metod som kallas `engageMessage()` som körs med förhämtningsbegäran. `engageMessage()` ringer `Target.loadRequest()`. `engageMessage()` kör innan `setUp()` för att se till att inläsningsbegäran anropas innan skärmen konfigureras.
+Nu när platserna är förhämtade och deras svar cachelagrade till enheten lägger vi till metoden `Target.loadRequest()` som hämtar erbjudandeinnehållet från cachen så att du kan använda den för att uppdatera programmet. Vi lägger till en ny anpassad metod med namnet `engageMessage()` som körs med förhämtningsbegäran. `engageMessage()` ringer  `Target.loadRequest()`. `engageMessage()` kör före  `setUp()` för att se till att inläsningsbegäran anropas innan skärmen konfigureras.
 
-Lägg först till anropet och metoden för platsen weravel_engage_home i HomeActivity: `engageMessage()`
+Lägg först till anropet &amp; metoden `engageMessage()` för platsen wetravel_engage_home i HomeActivity:
 
 ![Lägg till första inläsningsbegäran](assets/wetravel_engage_home_loadRequest.jpg)
 
@@ -188,7 +188,7 @@ Här är den uppdaterade koden:
     }
 ```
 
-Lägg nu till `engageMessage()` anropet och metoden för platsen wetravel_engage_search i SearchBusActivity. Observera att `engageMessage()` anropet är inställt i `onResume()` metoden före anropet till `setUpSearch()` så att det körs innan skärmen är konfigurerad:
+Lägg nu till anropet &amp; metoden `engageMessage()` för platsen wetravel_engage_search i SearchBusActivity. Observera att anropet `engageMessage()` är inställt i metoden `onResume()` före anropet till `setUpSearch()`, så det körs innan skärmen är konfigurerad:
 
 ![Lägg till andra inläsningsbegäran](assets/wetravel_engage_search_loadRequest.jpg)
 
@@ -218,7 +218,7 @@ Här är den uppdaterade koden:
     }
 ```
 
-Eftersom du just har lagt till Target-metoder i SearchBusActivity, måste du importera [!DNL Target] klasserna:
+Eftersom du precis har lagt till Target-metoder i SearchBusActivity, måste du importera [!DNL Target]-klasserna:
 
 ```java
 import com.adobe.mobile.Target;
@@ -232,7 +232,7 @@ Nästa begäran som vi lägger till i appen blir en begäran i realtid på Tack-
 Låt oss lägga till en förfrågan i realtid på Tack-skärmen. I filen TackYouActivity gör vi de ändringar som visas i rött:
 ![Lägg till en plats i realtid på Tack-skärmen](assets/thankyou.jpg)
 
-Bläddra till slutet av filen TackAktivitet. Kommentera de tre raderna i `getRecommandations()` funktionen och lägg till anropet till `targetLoadRequest()` funktionen:
+Bläddra till slutet av filen TackAktivitet. Kommentera de tre raderna i funktionen `getRecommandations()` och lägg till anropet för funktionen `targetLoadRequest()`:
 
 ```java
 // AppDialogs.dialogLoaderHide();
@@ -240,16 +240,16 @@ Bläddra till slutet av filen TackAktivitet. Kommentera de tre raderna i `getRec
 // recommandationbAdapter.notifyDataSetChanged();
 ```
 
-Lägg till den här kodraden i `getRecommandations()` funktionen:
+Lägg till den här kodraden i funktionen `getRecommandations()`:
 
 ```java
 targetLoadRequest(recommandation.recommandations);
 ```
 
-Nu måste vi definiera `targetLoadRequest()` funktionen:
+Nu måste vi definiera funktionen `targetLoadRequest()`:
 ![Lägg till en plats i realtid på Tack-skärmen](assets/thankyou2.jpg)
 
-Lägg till det här kodblocket efter `filterRecommendationBasedOnOffer()` funktionen:
+Lägg till det här kodblocket efter funktionen `filterRecommendationBasedOnOffer()`:
 
 ```java
 public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
@@ -284,20 +284,20 @@ import com.adobe.mobile.TargetPrefetchObject;
 
 | Code | Beskrivning |
 |--- |--- |
-| `targetLoadRequest()` | En användardefinierad funktion (ingår inte i SDK) som startar `Target.loadRequest()` som läser in och visar platsen wetravel_context_dest |
-| `Target.loadRequest()` | SDK-metoden som skickar begäran till Target-servern |
-| Constant.wetravel_context_dest | Platsnamnet som tilldelats den begäran som vi kommer att använda senare när vi skapar aktiviteten i [!DNL Target] gränssnittet |
-| `filterRecommendationBasedOnOffer()` | En användardefinierad funktion i appen som hämtar platserbjudandet från Target-svaret och avgör hur appen ska ändras baserat på erbjudandets innehåll |
-| `recommandations.addAll()` | En användardefinierad funktion i appen som kördes som standard när TackYou-skärmen lästes in, men som nu körs när Target-svaret har tagits emot och tolkats av `filterRecommendationBasedOnOffer()` |
+| `targetLoadRequest()` | En användardefinierad funktion (som inte ingår i SDK) som startar `Target.loadRequest()` som läser in och visar platsen wetravel_context_dest |
+| `Target.loadRequest()` | SDK-metoden som skickar begäran till målservern |
+| Constant.wetravel_context_dest | Platsnamnet som tilldelats den begäran som vi kommer att använda senare när vi skapar aktiviteten i [!DNL Target]-gränssnittet |
+| `filterRecommendationBasedOnOffer()` | En användardefinierad funktion i appen som hämtar platsens erbjudande från Target-svaret och avgör hur appen ska ändras baserat på erbjudandets innehåll |
+| `recommandations.addAll()` | En användardefinierad funktion i appen som kördes som standard när TackYou-skärmen lästes in, men som nu körs efter att Target-svaret har tagits emot och tolkats av `filterRecommendationBasedOnOffer()` |
 
 Det här var en mer sofistikerad uppdatering som vi gjorde i appen med den begäran vi lade till på startskärmen, så vi ska titta på vad vi gjorde:
 
 1. Vi avbröt appens tidigare beteende att visa tre standardkampanjer genom att kommentera kodraderna
 1. Vi sa åt programmet att istället köra en ny funktion, som vi godtyckligt kallar targetLoadRequest
-1. Vi definierade `targetLoadRequest` funktionen för att göra en begäran till Target med metoden Target.loadRequest och kör omedelbart `filterRecommendationBasedOnOffer()` funktionen när [!DNL Target] erbjudandesvaret tas emot
-1. Funktionen tolkar `filterRecommendationBasedOnOffer()` svaret och avgör vilka kampanjer som ska användas på skärmen
+1. Vi definierade funktionen `targetLoadRequest` för att göra en begäran till Target med metoden Target.loadRequest och kör omedelbart funktionen `filterRecommendationBasedOnOffer()` när [!DNL Target]-erbjudandesvaret har tagits emot
+1. Funktionen `filterRecommendationBasedOnOffer()` tolkar svaret och avgör vilka kampanjer som ska användas på skärmen
 
-Detta är ett mycket vanligt användningsmönster när du använder [!DNL Target] i mobilappar.  Det är båda mycket kraftfullt, eftersom du kan anpassa praktiskt taget alla aspekter av din mobilapp. Det kräver också samordning mellan programkoden och de erbjudanden som vi senare kommer att definiera i [!DNL Target] gränssnittet. På grund av den här samordningen kan vissa användningsexempel kräva att du uppdaterar din app i appbutiken för att starta aktiviteten.
+Detta är ett mycket vanligt användningsmönster när du använder [!DNL Target] i mobilappar.  Det är båda mycket kraftfullt, eftersom du kan anpassa praktiskt taget alla aspekter av din mobilapp. Det kräver också samordning mellan programkoden och de erbjudanden som vi definierar senare i [!DNL Target]-gränssnittet. På grund av den här samordningen kan vissa användningsexempel kräva att du uppdaterar din app i appbutiken för att starta aktiviteten.
 
 ### Validera begäran i realtid
 
@@ -311,7 +311,7 @@ På den sista Tack-skärmen tittar du på Logcat för svaret. Svaret ska vara &q
 
 Det kan finnas situationer där förhämtade platser måste rensas under en session. När en bokning görs är det till exempel klokt att rensa de cachelagrade platserna eftersom användaren nu är&quot;engagerad&quot; och förstår bokningsprocessen. Om de bokar en annan resa under sessionen behöver de inte de ursprungliga platserna på startskärmen och sökresultatskärmen för att vägleda bokningen. Det skulle vara vettigare att rensa platserna från cacheminnet och förhämta nya erbjudanden för kanske en rabatterad andra bokning eller ett annat relevant scenario. Logik kan läggas till på startskärmen och sökresultatskärmen för att hämta nya platser i förväg om en bokning har gjorts under sessionen.
 
-I det här exemplet rensar vi förhämtade platser för sessionen när en bokning görs. Detta görs genom att anropa `Target.clearPrefetchCache()` funktionen. Ställ in funktionen inuti `targetLoadRequest()` funktionen så som visas nedan:
+I det här exemplet rensar vi förhämtade platser för sessionen när en bokning görs. Detta görs genom att anropa funktionen `Target.clearPrefetchCache()`. Ställ in funktionen i funktionen `targetLoadRequest()` så som visas nedan:
 
 ```java
 Target.clearPrefetchCache()
