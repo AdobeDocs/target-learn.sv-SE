@@ -24,9 +24,9 @@ ht-degree: 0%
 
 ## Så här använder du Data Providers
 
-1. Implementeringsexperten lägger till kod före at.js (eller i delen Library Header i at.js) som gör API-anropet till tredje part, tolkar svaret och anger med namn/värde-par från svaret som ska skickas till [!DNL Target].
-1. at.js hanterar flimmer och innehåller namn/värde-par som anpassade parametrar i den globala Target-begäran.
-1. Marketer bygger målgrupper i [!DNL Target] gränssnittet utifrån dessa anpassade parametrar.
+1. Implementeringsexperten lägger till kod före at.js (eller i bibliotekshuvudet i at.js) som gör API-anropet till tredje part, tolkar svaret och anger med namn/värde-par från svaret som ska skickas till [!DNL Target].
+1. at.js hanterar flimmer och inkluderar namn/värde-par som anpassade parametrar i den globala Target-begäran.
+1. Marketer bygger målgrupper i [!DNL Target]-gränssnittet baserat på dessa anpassade parametrar.
 1. Marknadsförare använder dessa målgrupper för att inrikta sig på upplevelser, aktiviteter och mätvärden samt för att rapportera målgrupper.
 
 >[!NOTE]
