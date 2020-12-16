@@ -1,6 +1,6 @@
 ---
-title: Implementera dataleverantörer för att integrera data från tredje part i Adobe Target
-seo-title: Implementera dataleverantörer för att integrera data från tredje part i Adobe Target
+title: Implementera Data Providers för att integrera data från tredje part i Adobe Target
+seo-title: Implementera Data Providers för att integrera data från tredje part i Adobe Target
 description: Implementeringsinformation och exempel på hur du använder funktionen Adobe Target Data Providers för att hämta data från tredjepartsleverantörer och skicka dem i Target-begäran.
 audience: developer
 difficulty: 5
@@ -16,19 +16,19 @@ ht-degree: 0%
 ---
 
 
-# Implementera [!UICONTROL Data Providers] data från tredje part i Adobe Target
+# Implementera [!UICONTROL Data Providers] för att integrera data från tredje part i Adobe Target
 
-Implementeringsinformation och exempel på hur du kan använda Adobe Target-funktionen för att hämta data från tredjepartsleverantörer av data och skicka dem i Target-begäran. [!UICONTROL Data Providers]
+Implementeringsinformation och exempel på hur du använder funktionen Adobe Target [!UICONTROL Data Providers] för att hämta data från tredjepartsdataleverantörer och skicka dem i Target-begäran.
 
 >[!NOTE]
 >
->[!UICONTROL Data Providers] kräver `at.js` 1.3 eller högre
+>[!UICONTROL Data Providers] kräver  `at.js` 1.3 eller högre
 
 ## Implementera de grundläggande komponenterna i Data Providers
 
 >[!VIDEO](https://video.tv.adobe.com/v/22348/?quality=12)
 
-En snabb översikt av grundkomponenterna i en `dataProvider` och hur du får koden i rätt ordning.\
+En snabb översikt över de grundläggande komponenterna i en `dataProvider` och hur du får koden i rätt ordning.\
 Ett fungerande exempel med koden som används i videon finns här:
 [https://target.enablementadobe.com/data-providers/simple.html](https://target.enablementadobe.com/data-providers/simple.html)
 
@@ -44,7 +44,7 @@ Ett fungerande exempel med koden som används i videon finns här:
 
 >[!VIDEO](https://video.tv.adobe.com/v/22346/)
 
-Hur man lägger in data från olika leverantörer i en global [!DNL Target] förfrågan.\
+Så här lägger du in data från flera leverantörer i din globala [!DNL Target]-begäran.\
 Ett fungerande exempel med koden som används i videon finns här:
 [https://target.enablementadobe.com/data-providers/combined.html](https://target.enablementadobe.com/data-providers/combined.html)
 
@@ -52,7 +52,7 @@ Ett fungerande exempel med koden som används i videon finns här:
 
 >[!VIDEO](https://video.tv.adobe.com/v/22347/)
 
-Minimera påverkan på sidinläsningstiden genom att lagra data i ett sessionslagringsobjekt. Du kan också skicka värdena som profilparametrar med `profile.` prefixet och bara skicka dem i sessionens första [!DNL Target] begäran. Du kan dock bara skicka femtio profilparametrar per begäran.
+Minimera påverkan på sidinläsningstiden genom att lagra data i ett sessionslagringsobjekt. Du kan också skicka värdena som profilparametrar med prefixet `profile.` och bara skicka dem i sessionens första [!DNL Target]-begäran. Du kan dock bara skicka femtio profilparametrar per begäran.
 
 Ett fungerande exempel med koden som används i videon finns här: [https://target.enablementadobe.com/data-providers/reducedCalls.html](https://target.enablementadobe.com/data-providers/reducedCalls.html)
 
