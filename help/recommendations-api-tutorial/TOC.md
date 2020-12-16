@@ -11,7 +11,7 @@ ht-degree: 0%
 ---
 
 
-# Använda Adobe Target Recommendations API:er{#recommendations-api-tutorial}
+# Använd Adobe Target Recommendations API:er{#recommendations-api-tutorial}
 
 + [Recs API - översikt](recs-api-overview.md)
 + [Hantera din katalog med API:er](manage-catalog.md)
