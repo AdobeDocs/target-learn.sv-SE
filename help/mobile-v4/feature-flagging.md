@@ -28,7 +28,7 @@ I den här lektionen ska vi skapa ett&quot;funktionsflagga&quot;-erbjudande som 
 När lektionen är klar kan du:
 
 * Lägg till en ny plats i förhämtningsbegäran för batch
-* Skapa en [!DNL Target] aktivitet med ett erbjudande som ska användas som funktionsflagga
+* Skapa en [!DNL Target]-aktivitet med ett erbjudande som ska användas som funktionsflagga
 * Läs in och validera erbjudandet om funktionsflagga i din app
 
 ## Lägg till en ny plats till förhämtningsbegäran i hemaktiviteten
@@ -112,11 +112,11 @@ När koden har lagts till kör du emulatorn på hemaktiviteten och tittar på Lo
 
 ## Skapa ett JSON-erbjudande för funktionsflagga
 
-Nu ska vi skapa ett enkelt JSON-erbjudande som fungerar som en flagga eller utlösare för en viss målgrupp - den målgrupp som skulle få tillgång till funktionen i sin app. Skapa ett nytt erbjudande i [!DNL Target] gränssnittet:
+Nu ska vi skapa ett enkelt JSON-erbjudande som fungerar som en flagga eller utlösare för en viss målgrupp - den målgrupp som skulle få tillgång till funktionen i sin app. Skapa ett nytt erbjudande i [!DNL Target]-gränssnittet:
 
 ![JSON-erbjudande för Create Feature Flag](assets/feature_flag_json_offer.jpg)
 
-Låt oss kalla det&quot;Funktionsflagga v1&quot; med värdet {&quot;enable&quot;:1}
+Låt oss kalla det&quot;Funktionsflagga v1&quot; med värdet {&quot;enable&quot;:1&quot;
 
 ![feature_flag_v1 JSON-erbjudande](assets/feature_flag_json_name.jpg)
 
@@ -130,18 +130,18 @@ Nu ska vi skapa en A/B-testaktivitet med det erbjudandet. Mer information om hur
 
    ![Aktivitetskonfiguration för funktionsflagga](assets/feature_flag_activity.jpg)
 
-1. Klicka **[!UICONTROL Add Experience]** för att lägga till upplevelse B.
+1. Klicka på **[!UICONTROL Add Experience]** för att lägga till upplevelse B.
 1. Lämna platsen &quot;wetravel_feature_flag_recs&quot;
-1. Lämna **[!UICONTROL Default Content]** innehållet
-1. Klicka **[!UICONTROL Next]** för att gå vidare till [!UICONTROL Targeting] skärmen
+1. Lämna **[!UICONTROL Default Content]** för innehållet
+1. Klicka på **[!UICONTROL Next]** för att gå vidare till skärmen [!UICONTROL Targeting]
 
    ![Aktivitetskonfiguration för funktionsflagga](assets/feature_flag_activity_2.jpg)
 
-1. På [!UICONTROL Targeting] skärmen kontrollerar du att [!UICONTROL Traffic Allocation] metoden är inställd på standardinställningen (Manuell) och att varje upplevelse har standardallokeringen på 50 %. Välj **[!UICONTROL Next]** att gå vidare till **[!UICONTROL Goals & Settings]**.
+1. På skärmen [!UICONTROL Targeting] kontrollerar du att metoden [!UICONTROL Traffic Allocation] är inställd på standardinställningen (Manuell) och att varje upplevelse har standardallokeringen på 50 %. Välj **[!UICONTROL Next]** om du vill gå vidare till **[!UICONTROL Goals & Settings]**.
 
    ![Aktivitetskonfiguration för funktionsflagga](assets/feature_flag_activity_3.jpg)
 
-1. Ställ in **[!UICONTROL Primary Goal]** på **[!UICONTROL Conversion]**.
+1. Ange **[!UICONTROL Primary Goal]** som **[!UICONTROL Conversion]**.
 1. Ställ in åtgärden på **[!UICONTROL Viewed an Mbox]**. Vi använder platsen&quot;wetravel_context_dest&quot; (eftersom den här platsen finns på bekräftelseskärmen kan vi använda den för att se om den nya funktionen leder till fler konverteringar).
 1. Klicka på **[!UICONTROL Save & Close]**.
 
@@ -151,19 +151,19 @@ Aktivera aktiviteten.
 
 ## Validera aktiviteten för funktionsflagga
 
-Använd nu emulatorn för att bevaka begäran. Eftersom vi har satt målinriktningen till 50 % av användarna ser du att svaret på funktionsflaggan innehåller `{enable:1}` värdet.
+Använd nu emulatorn för att bevaka begäran. Eftersom vi har angett målinriktningen till 50 % av användarna visas ett 50-procentigt svar på funktionsflaggan som innehåller `{enable:1}`-värdet.
 
 ![Validering av funktionsflagga](assets/feature_flag_validation.jpg)
 
-Om du inte ser `{enable:1}` värdet betyder det att du inte var inriktad på upplevelsen. Som ett tillfälligt test kan du tvinga fram erbjudandet:
+Om du inte kan se `{enable:1}`-värdet innebär det att du inte har något mål för upplevelsen. Som ett tillfälligt test kan du tvinga fram erbjudandet:
 
 1. Inaktivera aktiviteten.
 1. Ändra trafiktilldelningen till 100 % för den nya funktionsupplevelsen.
 1. Spara och återaktivera.
 1. Rensa data på emulatorn och starta sedan om programmet.
-1. Erbjudandet bör nu returnera `{enable:1}` värdet.
+1. Erbjudandet bör nu returnera `{enable:1}`-värdet.
 
-I ett livescenario kan svaret användas för att aktivera mer anpassad logik i appen för att visa den specifika funktionsuppsättning som du vill visa målgruppen. `{enable:1}`
+I ett livescenario kan `{enable:1}`-svaret användas för att aktivera mer anpassad logik i din app för att visa den specifika funktionsuppsättning som du vill visa målgruppen.
 
 ## Slutsats
 
