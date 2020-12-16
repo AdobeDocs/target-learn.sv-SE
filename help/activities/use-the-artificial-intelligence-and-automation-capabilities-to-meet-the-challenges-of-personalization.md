@@ -1,7 +1,7 @@
 ---
 title: 'Använd artificiell intelligens och automatisering i Adobe Target för att möta utmaningarna med personalisering '
-description: Den här videon handlar om hur viktig personaliseringen är, om utmaningarna med att göra personaliseringen väl, om lösningen på dessa utmaningar (de fyra AI/Automation-erbjudandena i Adobe Target) och om de viktigaste byggstenarna för att leverera personaliserade upplevelser. Det är en redigerad version av Jamie Brightons presentation från Adobe Summit 2018.
-seo-description: Den här videon handlar om hur viktig personaliseringen är, om utmaningarna med att göra personaliseringen väl, om lösningen på dessa utmaningar (de fyra AI/Automation-erbjudandena i Adobe Target) och om de viktigaste byggstenarna för att leverera personaliserade upplevelser. Det är en redigerad version av Jamie Brightons presentation från Adobe Summit 2018.
+description: Den här videon handlar om hur viktig personaliseringen är, om utmaningarna med att göra personaliseringen på ett bra sätt, om lösningen på dessa utmaningar (de fyra AI/Automation-erbjudandena i Adobe Target) och de viktigaste byggstenarna för att leverera personaliserade upplevelser. Det är en redigerad version av Jamie Brightons presentation från Adobe Summit 2018.
+seo-description: Den här videon handlar om hur viktig personaliseringen är, om utmaningarna med att göra personaliseringen på ett bra sätt, om lösningen på dessa utmaningar (de fyra AI/Automation-erbjudandena i Adobe Target) och de viktigaste byggstenarna för att leverera personaliserade upplevelser. Det är en redigerad version av Jamie Brightons presentation från Adobe Summit 2018.
 audience: marketer
 difficulty: 1
 author: Daniel Wright
@@ -19,6 +19,6 @@ ht-degree: 0%
 
 # Använd artificiell intelligens och automatisering för att möta utmaningarna med personalisering
 
-Den här videon handlar om hur viktig personaliseringen är, om utmaningarna med att göra personaliseringen väl, om lösningen på dessa utmaningar (de fyra AI/Automation-erbjudandena i Adobe Target) och om de viktigaste byggstenarna för att leverera personaliserade upplevelser. Det är en redigerad version av Jamie Brightons presentation från Adobe Summit 2018.
+Den här videon handlar om hur viktig personaliseringen är, om utmaningarna med att göra personaliseringen på ett bra sätt, om lösningen på dessa utmaningar (de fyra AI/Automation-erbjudandena i Adobe Target) och de viktigaste byggstenarna för att leverera personaliserade upplevelser. Det är en redigerad version av Jamie Brightons presentation från Adobe Summit 2018.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25440/?quality=12)
