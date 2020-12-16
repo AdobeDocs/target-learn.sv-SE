@@ -1,5 +1,5 @@
 ---
-title: Ställ in kontoinställningar i Adobe Target
+title: Konfigurera kontoinställningar i Adobe Target
 description: 'null'
 audience: administrator
 difficulty: 1
