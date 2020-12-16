@@ -17,15 +17,15 @@ ht-degree: 0%
 
 # Adobe Target med Adobe Mobile Services SDK v4 för Android - översikt
 
-_Adobe Target med Adobe Mobile Services SDK v4 för Android_ är den perfekta startpunkten för Android-utvecklare som redan använder Adobe Mobile Services SDK v4 och vill börja personalisera appupplevelser med Adobe Target.
+_Adobe Target med Adobe Mobile Services SDK v4 för_ Android är den perfekta startpunkten för Android-utvecklare som redan använder Adobe Mobile Services SDK v4 och vill börja personalisera appupplevelser med Adobe Target.
 
 Du får en demo-Android-app för att slutföra lektionerna. När du är klar med den här självstudiekursen kan du börja implementera [!DNL Target] i din egen Android-app!
 
 När du är klar med den här självstudiekursen kan du:
 
-* Validera SDK-inställningen för [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)
-* Implementera följande typer av [!DNL Target] förfrågningar:
-   * Förhämtning av [!DNL Target] innehåll
+* Verifiera installationen av [Adobe Mobile Services SDK](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)
+* Implementera följande typer av [!DNL Target]-begäranden:
+   * Förhämtning av [!DNL Target]-innehåll
    * Gruppera flera [!DNL Target] platser (mbox) i en enda begäran
    * Blockera begäranden (körs före appvisning)
    * Ej blockerande begäranden (körs i bakgrunden)
@@ -41,8 +41,8 @@ När du är klar med den här självstudiekursen kan du:
 I dessa lektioner antas att du:
 
 * Ha ett Adobe-ID och åtkomst på godkännarnivå till Adobe Target-gränssnittet (se verifieringsstegen nedan)
-* Lär känna Adobe Target klientkod så att du kan göra förfrågningar till ditt eget konto. Klientkoden visas i Adobe Target-gränssnittet på skärmen Inställningar > Implementering > Redigera at.js-inställningar
-* Har tillgång till och känner till användargränssnittet för [mobiltjänster](https://mobilemarketing.adobe.com)
+* Lär känna Adobe Target klientkod så att du kan göra förfrågningar till ditt eget konto. Klientkoden visas i Adobe Target-gränssnittet på   Inställningar > Implementering > Redigera skärmen för at.js-inställningar
+* Har tillgång till och är bekanta med användargränssnittet [Mobile Services](https://mobilemarketing.adobe.com)
 * Utveckla mobilappar med IDE för Android. Den här självstudiekursen innehåller [Android Studio](https://developer.android.com/studio/install) i olika steg och skärmbilder
 
 Om du inte har den behörighet som krävs för Experience Cloud Solutions, kontakta din Experience Cloud-administratör.
@@ -54,9 +54,9 @@ Du måste också känna till Android-utvecklingen i Java. Du behöver inte vara 
 Den här lektionen kräver tillgång till Adobe Target. Innan du går igenom de följande stegen måste du se till att du har tillgång till Adobe Target genom att göra följande:
 
 1. Logga in på [Adobe Experience Cloud](https://experience.adobe.com/)
-1. På startskärmen i Experience Cloud klickar du på [!DNL Target]:
+1. Klicka på [!DNL Target] från startskärmen i Experience Cloud:
    ![Experience Cloud hemskärm](assets/aec_homeScreen_clickTarget.png)
-1. Du bör gå till aktivitetslistan i Adobe Target, som bilden nedan visar, och du bör se att din användare har åtkomst på godkännarnivå. Om du inte kan komma åt [!DNL Target] eller verifiera åtkomsten på godkännarnivå kontaktar du någon av Experience Cloud-administratörerna i ditt företag, begär åtkomst och återupptar den här självstudiekursen när den har beviljats:
+1. Du bör gå till aktivitetslistan i Adobe Target, som bilden nedan visar, och du bör se att din användare har åtkomst på godkännarnivå. Om du inte kan komma åt [!DNL Target] eller verifiera åtkomsten på godkännarnivå kontaktar du en av ditt företags Experience Cloud-administratörer, begär den här åtkomsten och återupptar den här självstudiekursen när den har beviljats:
 
    ![Adobe UI](assets/targetUI_approver.png)
 
@@ -66,7 +66,7 @@ I den här lektionen ska du implementera Adobe Target i en demoreseapp som heter
 
 ![We.Travel app final](assets/overview_final_result.jpg)
 
-Efter att ha gått igenom implementeringen i Web.Travel-appen kan du börja använda [!DNL Target] i din egen mobilapp.
+När du gått igenom implementeringen i appen We.Travel kan du börja använda [!DNL Target] i din egen mobilapp.
 
 Kom så börjar vi!
 
