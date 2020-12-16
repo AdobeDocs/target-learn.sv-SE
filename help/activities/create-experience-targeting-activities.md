@@ -1,5 +1,5 @@
 ---
-title: Skapa aktiviteter för målinriktning på upplevelser i Adobe Target
+title: Skapa upplevelseinriktade aktiviteter i Adobe Target
 description: Med Experience Targeting-aktiviteter kan marknadsförarna rikta specifikt innehåll mot en viss målgrupp.
 seo-description: Med Experience Targeting-aktiviteter kan marknadsförarna rikta specifikt innehåll mot en viss målgrupp.
 audience: marketer
