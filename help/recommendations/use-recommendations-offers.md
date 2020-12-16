@@ -1,6 +1,6 @@
 ---
 title: Använd Recommendations-erbjudanden i A/B-tester och upplevelseinriktade aktiviteter
-seo-title: Använd Recommendations-erbjudanden i A/B-tester och aktivitetsmål för upplevelser i Adobe Target
+seo-title: Använd Recommendations-erbjudanden i A/B-tester och Experience Targeting-aktiviteter i Adobe Target
 description: Recommendations erbjudanden kan användas med A/B Test och Experience Targeting Activity.
 feature: recommendations
 kt: kt-3451
@@ -23,7 +23,7 @@ Recommendations erbjudanden kan användas med A/B Test och Experience Targeting 
 * Blanda rekommendationer och icke-rekommendationsinnehåll inom samma aktivitet
 * Experimentera enkelt med olika rekommendationer på sidan, t.ex. i vilken ordning rekommendationerna ska skickas
 * Använd Automatisk allokering för att automatiskt överföra trafik till den bästa rekommenderade upplevelsen
-* Tilldela besökare dynamiskt skräddarsydda rekommendationer baserat på deras profil med Auto-Target
+* Tilldela besökare dynamiskt anpassade rekommendationer baserat på deras profil med hjälp av Automatiskt mål
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878?quality=12)
 
