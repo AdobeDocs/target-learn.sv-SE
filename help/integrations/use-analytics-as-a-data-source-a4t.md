@@ -1,6 +1,6 @@
 ---
-title: Använd Analytics som datakälla för Target (A4T)
-seo-title: Använd Analytics som datakälla för Target (A4T)
+title: Använd Analytics som datakälla för mål (A4T)
+seo-title: Använd Analytics som datakälla för mål (A4T)
 description: 'null'
 audience: marketer
 difficulty: 2
