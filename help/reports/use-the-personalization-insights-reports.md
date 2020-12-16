@@ -1,6 +1,6 @@
 ---
 title: Använda Insights-rapporter för personalisering i Adobe Target
-description: Automated Personalization- och Auto-Target-aktiviteter använder avancerad maskininlärning för att ge varje besökare den mest skräddarsydda upplevelsen baserat på hans eller hennes individuella kundprofil och beteendet hos tidigare besökare med liknande profiler. Personalisering Insights-rapporterna ger information om hur dessa modeller fattar sina beslut.
+description: Automated Personalization- och Auto-Target-aktiviteter använder avancerad maskininlärning för att leverera den mest skräddarsydda upplevelsen till varje besökare baserat på hans eller hennes individuella kundprofil och beteendet hos tidigare besökare med liknande profiler. Personalisering Insights-rapporterna ger information om hur dessa modeller fattar sina beslut.
 audience: analyst
 difficulty: 3
 author: Daniel Wright
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Använd Insikter-rapporter om personalisering
 
-Automated Personalization- och Auto-Target-aktiviteter använder avancerad maskininlärning för att ge varje besökare den mest skräddarsydda upplevelsen baserat på hans eller hennes individuella kundprofil och beteendet hos tidigare besökare med liknande profiler. Personalisering Insights-rapporterna ger information om hur dessa modeller fattar sina beslut.
+Automated Personalization- och Auto-Target-aktiviteter använder avancerad maskininlärning för att leverera den mest skräddarsydda upplevelsen till varje besökare baserat på hans eller hennes individuella kundprofil och beteendet hos tidigare besökare med liknande profiler. Personalisering Insights-rapporterna ger information om hur dessa modeller fattar sina beslut.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?quality=12)
 
