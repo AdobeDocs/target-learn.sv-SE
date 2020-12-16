@@ -37,7 +37,7 @@ I slutet av videon kan du:
 * Beskriv beslut på enheten och dess fördelar
 * Aktivera enhetsbeslut i Target
 * Skapa en formulärbaserad dispositionsaktivitet som är avsedd att användas med enhetsspecifik beslutsfattande
-* Läs mer om SDK-konfigurationen som krävs för enhetsbeslut genom att gå till dokumentationen för [Adobe Target SDK](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* Läs mer om SDK-konfigurationen som krävs för enhetsbeslut genom att gå till [Adobe Target SDK-dokumentationen](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
 * Förstå vad slutanvändarna kommer att uppleva för innehåll som levereras genom att fatta beslut på enheten
 
 
@@ -47,4 +47,4 @@ I slutet av videon kan du:
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
 
-Mer information finns i dokumentationen för [Adobe Target SDK](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning).
+Mer information finns i [Adobe Target SDK-dokumentationen](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning).
