@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Skapa publiker och erbjudanden i Adobe Target
 
-I den här lektionen ska vi gå in i [!DNL Target] gränssnittet och skapa målgrupper och erbjudanden för de tre platser som vi implementerat i föregående lektioner.
+I den här lektionen ska vi gå in i [!DNL Target]-gränssnittet och skapa målgrupper och erbjudanden för de tre platser som vi implementerat i föregående lektioner.
 
 ## Utbildningsmål
 
@@ -51,15 +51,15 @@ Nu ska vi skapa de målgrupper vi ska använda för att personalisera appen.
 
 ### Skapa en publik för nya användare
 
-Adobe Target Publikationer används för att identifiera särskilda grupper av besökare. Erbjudandena kan sedan riktas till dessa specifika grupper. För de första två platserna använder vi en&quot;New Users&quot;-målgrupp:
+Adobe Target-målgrupper används för att identifiera särskilda grupper av besökare. Erbjudandena kan sedan riktas till dessa specifika grupper. För de första två platserna använder vi en&quot;New Users&quot;-målgrupp:
 
-1. Click **[!UICONTROL Audiences]** in the top navigation.
-1. Klicka på **[!UICONTROL Create Audience]** knappen.
+1. Klicka på **[!UICONTROL Audiences]** i den övre navigeringen.
+1. Klicka på knappen **[!UICONTROL Create Audience]**.
    ![Skapa en ny användarpublik](assets/audience_new_mobile_app_users_1.jpg)
 
 1. Ange **[!UICONTROL New Mobile App Users]** som målgruppsnamn.
 1. Välj **[!UICONTROL Add Rule]**.
-1. Välj en **[!UICONTROL Custom]** regel.
+1. Välj en **[!UICONTROL Custom]**-regel.
    ![Skapa en ny användarpublik](assets/audience_new_mobile_app_users_2.jpg)
 
 1. Välj **[!UICONTROL a.Launches]**.
@@ -72,7 +72,7 @@ Adobe Target Publikationer används för att identifiera särskilda grupper av b
 
 Följ stegen ovan för att skapa en publik som returnerar användare.
 
-1. Ange målgruppen _Returning Mobile App Users_.
+1. Namnge målgruppen _Returning Mobile App Users_.
 1. Använd **[!UICONTROL a.Launches is greater than or equal to 5]** som anpassad regel.
 1. Spara nya målgrupper.
 
@@ -80,7 +80,7 @@ Följ stegen ovan för att skapa en publik som returnerar användare.
 
 >[!NOTE]
 >
->Alla livscykelvärden och dimensioner som samlas in i SDK för mobila enheter ( [!DNL Target] mobile) prepenseras med&quot;a&quot; (t.ex. a.Launches) och är tillgängliga i alternativet&quot;Custom&quot; (Anpassad) på den nedrullningsbara menyn och kan användas för att skapa målgrupper.
+>Alla livscykelvärden och dimensioner som samlas in i [!DNL Target] mobil-SDK:n är fördefinierade med&quot;a&quot; (t.ex. a.Launches) och är tillgängliga i alternativet&quot;Custom&quot; (Anpassad) på den nedrullningsbara menyn och kan användas för att skapa målgrupper.
 
 ### Skapa en publik för användare som bokar en resa till San Diego
 
@@ -88,7 +88,7 @@ Därefter ska vi skapa några målgrupper för några av de destinationer som er
 
 >[!NOTE]
 >
->Om en parameter som du förväntar ska visas i listrutan Egen inte visas i [!DNL Target] gränssnittet, kontrollerar du att den skickas i begäran. Om du har verifierat att det finns i begäran, men inte har läst in något språk i [!DNL Target] gränssnittet, kan du bara skriva parameternamnet och trycka på Retur för att fortsätta definiera målgruppen
+>Om en parameter som du förväntar ska visas i listrutan Egen inte visas i [!DNL Target]-gränssnittet, kontrollerar du att den skickas i begäran. Om du har verifierat att det finns i begäran, men inte har läst in lat i [!DNL Target]-gränssnittet, kan du bara skriva parameternamnet och trycka på Retur för att fortsätta definiera målgruppen
 
 1. Namnge målgruppen _Mål: San Diego_.
 1. Använd en anpassad regel med den här definitionen: _locationDest innehåller San Diego_.
@@ -106,20 +106,20 @@ Därefter ska vi skapa några målgrupper för några av de destinationer som er
 
 ## Skapa erbjudanden
 
-Nu ska vi skapa erbjudanden för att visa dessa meddelanden. Som påminnelse är erbjudanden kodfragment/innehåll som levereras som [!DNL Target] svar. De skapas oftast i [!DNL Target] användargränssnittet, men kan också skapas via API eller med Experience Fragments-integrering med Adobe Experience Manager. I mobilappar är JSON-erbjudanden vanliga. I den här självstudiekursen kommer vi att använda HTML-erbjudanden som kan användas för att leverera allt slags textinnehåll (inklusive JSON) i appen.
+Nu ska vi skapa erbjudanden för att visa dessa meddelanden. Som en påminnelse är erbjudanden kodfragment/innehåll som levereras i [!DNL Target]-svaret. De skapas oftast i [!DNL Target]-användargränssnittet, men kan också skapas via API eller med Experience Fragments-integrering med Adobe Experience Manager. I mobilappar är JSON-erbjudanden vanliga. I den här självstudiekursen kommer vi att använda HTML-erbjudanden som kan användas för att leverera allt slags textinnehåll (inklusive JSON) i appen.
 
 ### Skapa erbjudandet för nya användare
 
 Först ska vi skapa erbjudanden för nya användare:
 
-1. Click **[!UICONTROL Offers]** in the top navigation.
+1. Klicka på **[!UICONTROL Offers]** i den övre navigeringen.
 1. Klicka på **[!UICONTROL Create]**.
 1. Välj **[!UICONTROL HTML Offer]**.
 
    ![Skapa hemerbjudande](assets/offer_home_1.jpg)
 
-1. Ange erbjudandets _startsida: Engagera nya användare_.
-1. Ange _Välj källa och mål om du vill söka efter tillgängliga bussar_ som kod.
+1. Ange erbjudandet _Hem: Engagera nya användare_.
+1. Ange _Välj Källa och Mål om du vill söka efter tillgängliga bussar_ som kod.
 1. Spara det nya erbjudandet.
 
    ![Skapa HTML-erbjudande för hemanvändare](assets/offer_home_2.jpg)
@@ -128,7 +128,7 @@ Först ska vi skapa erbjudanden för nya användare:
 
 Nu ska vi skapa ett erbjudande för återkommande användare (det andra erbjudandet blir standardinnehåll, som visas som ingenting):
 
-1. Ange erbjudandets _startsida: Returnerar användare_.
+1. Ange erbjudandet _Hem: Returnerar användare_.
 1. Ange _Välkommen tillbaka! Använd kampanjkoden BACK30 vid kassan för att få 10 % rabatt._ som HTML-kod.
 1. Spara det nya erbjudandet.
 
@@ -138,7 +138,7 @@ Nu ska vi skapa ett erbjudande för återkommande användare (det andra erbjudan
 
 När&quot;DJ&quot; returneras till aktiviteten TackYou visas en banderoll för funktionen filterrecommendationBasedOnOffer() för&quot;Rock Night with DJ SAM&quot;:
 
-1. Ange erbjudandet _för San Diego_.
+1. Ange erbjudandet _Kampanj för San Diego_.
 1. Ange _DJ_ som HTML-kod.
 1. Spara det nya erbjudandet.
 
