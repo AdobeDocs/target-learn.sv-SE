@@ -1,7 +1,7 @@
 ---
 title: Använd profiljämförelse för att skapa målgrupper i Adobe Target
 seo-title: Använd profiljämförelse för att skapa målgrupper i Adobe Target
-description: Med funktionen Profiljämförelse i Adobe Target kan du jämföra två numeriska profilvärden med varandra när du skapar en målgrupp. Detta är mycket användbart om du skickar skräddarsydda benägenhetspoäng till Target och vill anpassa innehåll baserat på produkten med högsta möjliga prioritet.
+description: Med funktionen Profiljämförelse i Adobe Target kan du jämföra två numeriska profilvärden med varandra när du skapar en målgrupp. Detta är mycket användbart om du skickar skräddarsydda benägenhetspoäng till Target och vill anpassa innehåll baserat på produkten med den högsta prioritetspoängen.
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Använd profiljämförelse för att skapa målgrupper i Adobe Target
 
-Med funktionen [!UICONTROL Profile Comparison] i Adobe Target kan du jämföra två numeriska profilvärden med varandra när du skapar en målgrupp. Detta är mycket användbart om du skickar in skräddarsydda poängvärden [!DNL Target] och vill anpassa innehållet baserat på produkten med högsta möjliga prioritet.
+Med funktionen [!UICONTROL Profile Comparison] i Adobe Target kan du jämföra två numeriska profilvärden med varandra när du skapar en målgrupp. Detta är mycket användbart om du skickar skräddarsydda benägenhetspoäng till [!DNL Target] och vill anpassa innehåll baserat på produkten med det högsta poängvärdet för benägenhet.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23218/?quality=12)
 
