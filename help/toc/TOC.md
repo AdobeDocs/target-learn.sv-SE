@@ -6,9 +6,9 @@ audience: end-user
 solution: Target
 type: självstudiekurs
 translation-type: tm+mt
-source-git-commit: 009b19539470c64d7497e848e6042f8399192903
+source-git-commit: 60a434ae3bac84a9dfc3715850bb93ca8598ef2b
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,7 @@ ht-degree: 0%
 + Integreringar{#integrations}
    + [Integrera Target med Analytics](../dev101/3.2-target-analytics.md)
    + [Använd Analytics som datakälla för mål (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [Ställ in A4T-rapporter i Analysis Workspace för aktiviteter som har automatisk målstyrning](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
    + [Integrera Target med Audience Manager](../dev101/3.3-target-dmp.md)
    + [Integrera Target med Experience Cloud-målgrupper](../dev101/3.4-target-exc-audiences.md)
    + [Integrera Target med Campaign](../dev101/3.6-target-campaign.md)
