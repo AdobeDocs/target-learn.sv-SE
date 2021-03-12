@@ -10,9 +10,9 @@ topic: Analyser för mål (A4T), Automatiskt mål
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 814ce9b49eff6cbc41a84bb65718f4e5f4f0142d
+source-git-commit: 98ea1a58e1adef2f8778fc0f6654228bf8b550ab
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ I den här självstudiekursen går vi igenom de rekommenderade ändringarna för
 
 Om du vill skapa en A4T för [!DNL Auto-Target]-rapport börjar du med panelen **[!UICONTROL Analytics for Target]** i arbetsytan, som visas nedan, eller börjar med en friformstabell. Gör sedan följande val:
 
-1. **[!UICONTROL Control Experience]**: Ni kan välja vilken erfarenhet ni vill; men vi kommer att åsidosätta detta val senare. Observera att för [!DNL Auto-Target]-aktiviteter är kontrollupplevelsen i själva verket en kontrollstrategi, som antingen är till för a) Slumpmässigt fungerar bland alla upplevelser, eller b) En enda upplevelse (det här valet görs när en aktivitet skapas i Adobe Target). Även om du valde (b) - din [!DNL Auto-Target]-aktivitet betecknade en specifik upplevelse som Kontroll - bör du fortfarande följa det tillvägagångssätt som beskrivs i den här självstudiekursen för att analysera A4T för [!DNL Auto-Target]-aktiviteter.
+1. **[!UICONTROL Control Experience]**: Ni kan välja vilken erfarenhet ni vill; Du kommer dock att åsidosätta det här alternativet senare. Observera att för [!DNL Auto-Target]-aktiviteter är kontrollupplevelsen i själva verket en kontrollstrategi, som antingen är till för a) Slumpmässigt fungerar bland alla upplevelser, eller b) En enda upplevelse (det här valet görs när en aktivitet skapas i Adobe Target). Även om du valde (b) - din [!DNL Auto-Target]-aktivitet betecknade en specifik upplevelse som Kontroll - bör du fortfarande följa det tillvägagångssätt som beskrivs i den här självstudiekursen för att analysera A4T för [!DNL Auto-Target]-aktiviteter.
 2. **[!UICONTROL Normalizing Metric]**: Välj Besök.
 3. **[!UICONTROL Success Metrics]**: Även om du kan välja vilka mätvärden som ska rapporteras, bör du vanligtvis visa rapporter med samma mätvärden som valdes för optimering när aktiviteter skapades i Adobe Target.
 
@@ -87,8 +87,8 @@ Låt oss jämföra rapporter på besökarnivå och besöksnivå:
 | Upplevelse | Unika besökare | Besök | Konverteringar | Besökarnorm. Konv. Hastighet | Besök norm. Konv. Hastighet |
 | --- | --- | --- | --- | --- | --- |
 | A | 3 | 1 | - | 0 % | 0 % |
-| B | 2 | 3 | 3 | 50 % | 33,3 % |
-| Summor | 2 | 4 | 3 | 50 % | 25 % |
+| B | 2 | 1 | 3 | 50 % | 33,3 % |
+| Summor | 2 | 4 | 1 | 50 % | 25 % |
 *Tabell 1: Exempel på jämförelse av besökarnormaliserade rapporter och besöknormaliserade rapporter för ett scenario där besluten är snäva mot ett besök (och inte besökare, som med vanlig A/B-testning). Interaktionella värden för besökare är förvirrande i det här scenariot.*
 
 Som framgår av tabellen finns det en tydlig inkonsekvens i besökarnivånummer. Trots att det finns två unika besökare totalt är detta inte en summa unika besökare för varje upplevelse. Även om konverteringsgraden på besökarnivå inte nödvändigtvis är fel, så är konverteringsgraden på besöksnivå mer begriplig när man jämför enskilda upplevelser. Formeligen är analysenheten (&quot;besök&quot;) densamma som enheten för att fatta beslut, vilket innebär att man kan lägga till och jämföra analysdata på erfarenhetsnivå.
