@@ -10,9 +10,9 @@ topic: Analyser för mål (A4T), Automatiskt mål
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: bb3b6e65f8c21c180b46b635268c220d882787cb
+source-git-commit: 814ce9b49eff6cbc41a84bb65718f4e5f4f0142d
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2168'
 ht-degree: 0%
 
 ---
@@ -24,19 +24,19 @@ I A4T-integreringen (Analytics for Target) för [!DNL Auto-Target]-aktiviteter a
 
 Det finns omfattande analysfunktioner i Adobe Analytics Analysis Workspace, men det krävs några ändringar i standardpanelen **[!UICONTROL Analytics for Target]** för att kunna tolka [!DNL Auto-Target]-aktiviteter korrekt, på grund av skillnader mellan experimentella aktiviteter (manuell A/B och automatisk allokering) och personaliseringsaktiviteter ([!DNL Auto-Target]).
 
-I den här artikeln beskrivs de rekommenderade ändringarna för analys av [!DNL Auto-Target]-aktiviteter i Workspace, som baseras på följande viktiga begrepp:
+I den här självstudiekursen går vi igenom de rekommenderade ändringarna för analys av [!DNL Auto-Target]-aktiviteter i Workspace, som baseras på följande nyckelbegrepp:
 
 * Dimensionen **[!UICONTROL Control vs Targeted]** kan användas för att skilja mellan kontrollupplevelser och de som hanteras av den ensemble ML-algoritmen [!DNL Auto-Target].
 * Besök bör användas som normaliseringsmått när du visar prestandaindelningar på Experience-nivå. Dessutom kan Adobe Analytics standardberäkningsmetod för [inkludera besök där användaren inte ser aktivitetsinnehåll](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=en#metrics), men detta standardbeteende kan ändras med ett segment med rätt omfång (se informationen nedan).
-* Omfattad attribuering av besök-lookback, som också kallas besökslookback-fönstret i den förskrivna attribueringsmodellen, används av Adobe Target ML-modeller under deras utbildningsfaser, och samma (ej standard) attribueringsmodell bör helst användas när målmåttet bryts ned.
+* Omfattad attribuering av besök-lookback, som också kallas besökslookback-fönstret i den förskrivna attribueringsmodellen, används av Adobe Target ML-modeller under deras utbildningsfaser, och samma (ej standard) attribueringsmodell bör användas när målmåttet bryts ned.
 
 ## Skapa A4T för panelen [!DNL Auto-Target] i arbetsytan
 
-Om du vill skapa en A4T för [!DNL Auto-Target]-rapport börjar du med den vanliga panelen Analytics for Target i Workspace, som visas nedan, eller börjar med en frihandstabell. Gör sedan följande val:
+Om du vill skapa en A4T för [!DNL Auto-Target]-rapport börjar du med panelen **[!UICONTROL Analytics for Target]** i arbetsytan, som visas nedan, eller börjar med en friformstabell. Gör sedan följande val:
 
-1. **[!UICONTROL Control Experience]**: Ni kan välja vilken erfarenhet ni vill; men vi kommer att åsidosätta detta val senare. Observera att för [!DNL Auto-Target]-aktiviteter är kontrollupplevelsen i själva verket en kontrollstrategi, som antingen är till för a) Slumpmässigt fungerar bland alla upplevelser, eller b) En enda upplevelse (det här valet görs när en aktivitet skapas i Adobe Target). Även om du valde (b) - din [!DNL Auto-Target]-aktivitet betecknade en specifik upplevelse som Kontroll - bör du fortfarande följa den metod som beskrivs i den här artikeln för att analysera A4T för [!DNL Auto-Target]-aktiviteter.
-1. **[!UICONTROL Normalizing Metric]**: Välj Besök.
-1. **[!UICONTROL Success Metrics]**: Även om du kan välja vilka mätvärden som ska rapporteras, bör du vanligtvis visa rapporter med samma mätvärden som valdes för optimering när aktiviteter skapades i Adobe Target.
+1. **[!UICONTROL Control Experience]**: Ni kan välja vilken erfarenhet ni vill; men vi kommer att åsidosätta detta val senare. Observera att för [!DNL Auto-Target]-aktiviteter är kontrollupplevelsen i själva verket en kontrollstrategi, som antingen är till för a) Slumpmässigt fungerar bland alla upplevelser, eller b) En enda upplevelse (det här valet görs när en aktivitet skapas i Adobe Target). Även om du valde (b) - din [!DNL Auto-Target]-aktivitet betecknade en specifik upplevelse som Kontroll - bör du fortfarande följa det tillvägagångssätt som beskrivs i den här självstudiekursen för att analysera A4T för [!DNL Auto-Target]-aktiviteter.
+2. **[!UICONTROL Normalizing Metric]**: Välj Besök.
+3. **[!UICONTROL Success Metrics]**: Även om du kan välja vilka mätvärden som ska rapporteras, bör du vanligtvis visa rapporter med samma mätvärden som valdes för optimering när aktiviteter skapades i Adobe Target.
 
 ![Figur 1.](assets/Figure1.png)
 *pngFigur 1: Analyser för konfiguration av målpanelen för  [!DNL Auto-Target] aktiviteter.*
@@ -54,13 +54,13 @@ Använd dimensionen **[!UICONTROL Control vs Targeted (Analytics for Target)]** 
 Observera att den här ersättningen gör standardberäkningarna för Lyft och pålitlighet ogiltiga på A4T-panelen. För att undvika förvirring kan du ta bort dessa mått från standardpanelen och lämna följande rapport:
 
 ![Figur 2.](assets/Figure2.png)
-*pngFigur 2: Rekommenderad baslinjerapport för  [!DNL Auto-Target] aktiviteter. Den här rapporten har konfigurerats för att jämföra riktad trafik (hanteras av den ensemble ML-modellen) med din Control-trafik*
+*pngFigur 2: Rekommenderad baslinjerapport för  [!DNL Auto-Target] aktiviteter. Den här rapporten har konfigurerats för att jämföra riktad trafik (hanteras av den ensemble ML-modellen) med din Control-trafik.*
 
 >[!NOTE]
 >
->För närvarande är Lyft- och konfidensvärden inte tillgängliga för Kontroll jämfört med Måldimensioner för A4T-rapporter för Automatiskt mål. Tills support har lagts till kan Lyft och pålitlighet beräknas manuellt genom att hämta [konfidensräknaren](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en).
+>För närvarande är lyft- och konfidensvärden inte tillgängliga för kontrollvärden och måldimensioner för A4T-rapporter för Automatiskt mål. Tills support har lagts till kan Lyft och pålitlighet beräknas manuellt genom att hämta [konfidensräknaren](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en).
 
-## Upplevelsenivåer
+## Lägg till analysstatistik på Experience-nivå
 
 Om du vill få mer information om hur den ensemble ML-modellen fungerar kan du undersöka uppdelningar på Experience-nivå för dimensionen **[!UICONTROL Control vs Targeted]**. Dra dimensionen **[!UICONTROL Target Experiences]** till rapporten i Arbetsyta och bryt ned de olika måtten för Kontroll och Mål separat.
 
@@ -78,7 +78,7 @@ Här visas ett exempel på den resulterande rapporten.
 
 ## Därför är &quot;besök&quot; rätt normaliseringsmått för [!DNL Auto-Target]-aktiviteter
 
-När du analyserar en [!DNL Auto-Target]-aktivitet ska du alltid välja Besök som standardmått för normalisering. [!DNL Auto-Target] personalisering väljer en upplevelse för en besökare en gång per besök (formellt en gång per Adobe Target-session), vilket innebär att den upplevelse som visas för en användare kan ändras vid varje enskilt besök. Om vi använde unika besökare som normaliseringsmått kan en enskild användare få flera upplevelser (mellan olika besök), vilket skulle leda till förvirrande konverteringsgrader.
+När du analyserar en [!DNL Auto-Target]-aktivitet ska du alltid välja Besök som standardmått för normalisering. [!DNL Auto-Target] personalisering väljer en upplevelse för en besökare en gång per besök (formellt en gång per Adobe Target-session), vilket innebär att den upplevelse som visas för en användare kan ändras vid varje besök. Om du använder unika besökare som normaliseringsmått kan det faktum att en enskild användare kan få flera upplevelser (mellan olika besök) leda till förvirrande konverteringsgrader.
 
 Ett enkelt exempel visar detta: ett scenario där två besökare deltar i en kampanj som bara har två upplevelser. Den första besökaren besöker två gånger. De tilldelas till Experience A vid det första besöket, men Experience B vid det andra besöket (eftersom deras profilstatus ändras vid det andra besöket). Efter det andra besöket konverterar besökaren genom att göra en beställning. Konverteringen tillskrivs den senast visade upplevelsen (upplevelse B). Den andra besökaren besöker också två gånger och visas Experience B båda gånger, men konverterar aldrig.
 
@@ -86,14 +86,14 @@ Låt oss jämföra rapporter på besökarnivå och besöksnivå:
 
 | Upplevelse | Unika besökare | Besök | Konverteringar | Besökarnorm. Konv. Hastighet | Besök norm. Konv. Hastighet |
 | --- | --- | --- | --- | --- | --- |
-| A | 1 | 1 | - | 0 % | 0 % |
-| B | 2 | 3 | 1 | 50 % | 33,3 % |
-| Summor | 2 | 4 | 1 | 50 % | 25 % |
+| A | 3 | 1 | - | 0 % | 0 % |
+| B | 2 | 3 | 3 | 50 % | 33,3 % |
+| Summor | 2 | 4 | 3 | 50 % | 25 % |
 *Tabell 1: Exempel på jämförelse av besökarnormaliserade rapporter och besöknormaliserade rapporter för ett scenario där besluten är snäva mot ett besök (och inte besökare, som med vanlig A/B-testning). Interaktionella värden för besökare är förvirrande i det här scenariot.*
 
-Som framgår av tabellen finns det en tydlig inkonsekvens i besökarnivånummer. Trots att det finns två unika besökare totalt är detta inte en summa unika besökare för varje upplevelse. Även om konverteringsgraden på besökarnivå inte nödvändigtvis är fel, så är konverteringsgraden på besöksnivå mer begriplig när man jämför enskilda upplevelser. Formeligen är analysenheten (&quot;besök&quot;) densamma som enheten för att fatta beslut, vilket betyder att det är rimligt att summera och jämföra resultatnivåindelningar av mätvärden.
+Som framgår av tabellen finns det en tydlig inkonsekvens i besökarnivånummer. Trots att det finns två unika besökare totalt är detta inte en summa unika besökare för varje upplevelse. Även om konverteringsgraden på besökarnivå inte nödvändigtvis är fel, så är konverteringsgraden på besöksnivå mer begriplig när man jämför enskilda upplevelser. Formeligen är analysenheten (&quot;besök&quot;) densamma som enheten för att fatta beslut, vilket innebär att man kan lägga till och jämföra analysdata på erfarenhetsnivå.
 
-## Avancerat: Icke-standardmetod för besöksinventering
+## Filter för faktiska besök i aktiviteten
 
 Adobe Analytics standardberäkningsmetod för besök i en Target-aktivitet kan omfatta besök där användaren inte interagerade med Target-aktiviteten. Detta beror på hur Target-aktivitetstilldelningar bevaras i Analytics-besökarkontexten. Resultatet är att antalet besök i Target-aktiviteten ibland kan öka, vilket leder till en minskning av konverteringsgraden.
 
@@ -102,34 +102,34 @@ Om du föredrar att rapportera besök där användaren faktiskt interagerade med
 1. Skapa ett specifikt segment som innehåller träffar från målaktiviteten i fråga och sedan
 1. Filtrera Visits-måttet med det här segmentet.
 
-### Så här skapar du rätt segment:
+**Så här skapar du segmentet:**
 
 1. Välj alternativet **[!UICONTROL Components > Create Segment]** i verktygsfältet Arbetsyta.
-1. Ange ett **[!UICONTROL Title]**-värde för ditt segment. I exemplet nedan heter segmentet [!DNL "Hit with specific Auto-Target activity"].
-1. Dra **[!UICONTROL Target Activities]**-dimensionen till segmentet **[!UICONTROL Definition]**.
-1. Använd operatorn **[!UICONTROL equals]**.
-1. Sök efter din specifika Target-aktivitet.
-1. Markera kugghjulsikonen och välj **[!UICONTROL Attribution model > Instance]** enligt bilden nedan.
-1. Klicka på **[!UICONTROL Save]**.
+2. Ange ett **[!UICONTROL Title]**-värde för ditt segment. I exemplet nedan heter segmentet [!DNL "Hit with specific Auto-Target activity"].
+3. Dra **[!UICONTROL Target Activities]**-dimensionen till segmentet **[!UICONTROL Definition]**.
+4. Använd operatorn **[!UICONTROL equals]**.
+5. Sök efter din specifika Target-aktivitet.
+6. Markera kugghjulsikonen och välj **[!UICONTROL Attribution model > Instance]** enligt bilden nedan.
+7. Klicka på **[!UICONTROL Save]**.
 
 ![Figur 5.](assets/Figure5.png)
 *pngFigur 5: Använd ett segment som det som visas här för att filtrera Visits-måttet i A4T för  [!DNL Auto-Target] rapporten*
 
-När segmentet har skapats kan vi använda det för att filtrera Visits-måttet, så att det bara omfattar besök där användaren interagerade med Target-aktiviteten.
+När segmentet har skapats kan du använda det för att filtrera Visits-måttet, så i Visits-mätningen inkluderas endast besök där användaren interagerade med Target-aktiviteten.
 
-### Så här filtrerar du besök med det här segmentet:
+**Så här filtrerar du besök med det här segmentet:**
 
 1. Dra det nyligen skapade segmentet från komponentverktygsfältet och hovra över basen för måttetiketten **[!UICONTROL Visits]** tills en blå **[!UICONTROL Filter by]**-prompt visas.
-1. Släpp segmentet. Filtret tillämpas på det måttet.
+2. Släpp segmentet. Filtret tillämpas på det måttet.
 
 Den sista panelen visas enligt följande.
 
 ![Figur 6.](assets/Figure6.png)
 *pngFigur 6: Rapporteringspanelen med segmentet&quot;Träff med specifik aktivitet med automatisk mål&quot; tillämpat på  [!UICONTROL Visits] måttet. Detta garanterar endast besök där en användare faktiskt interagerade med målaktiviteten i fråga ingår i rapporten.*
 
-## Avancerat: Besöksattribuering för målmått
+## Justera attribueringen mellan ML-modellutbildning och målmetrisk generering
 
-A4T-integreringen gör att HTML-modellen för [!DNL Auto-Target] kan *tränas* med samma konverteringshändelsedata som används för att *generera prestandarapporter* i Adobe Analytics. Det finns dock vissa antaganden som måste användas för att tolka dessa data när man utbilda ML-modellerna, som skiljer sig från de standardantaganden som gjorts under rapporteringsfasen i Adobe Analytics.
+A4T-integreringen gör att HTML-modellen för [!DNL Auto-Target] kan *tränas* med samma konverteringshändelsedata som Adobe Analytics använder för att *generera prestandarapporter*. Det finns dock vissa antaganden som måste användas för att tolka dessa data när man utbilda ML-modellerna, som skiljer sig från de standardantaganden som gjorts under rapporteringsfasen i Adobe Analytics.
 
 Adobe Target ML-modeller använder en besöksomfångsmodell. Det innebär att de antar att en konvertering måste ske vid samma besök som en visning av aktivitetens innehåll, för att konverteringen ska&quot;tillskrivas&quot; det beslut som fattas av ML-modellen. Detta krävs för att Target ska kunna garantera snabb utbildning i sina modeller. Target kan inte vänta i upp till 30 dagar på en konvertering (standardattribueringsfönstret för rapporter i Adobe Analytics) innan det inkluderas i utbildningsdata för modellerna.
 
@@ -153,7 +153,7 @@ Följ de här stegen för att visa målmått som har samma attribueringsmetod so
 
 Med hjälp av de här stegen kan du försäkra dig om att målmåttet tilldelas till visningen av upplevelsen om målmåtthändelsen inträffar *någon gång* (&quot;deltagande&quot;) vid samma besök som en upplevelse visades.
 
-## Slutligt steg: Konverteringsgrader med besöksomfattad attribuering och normalisering av filtrerade besök
+## Slutligt steg: Skapa en konverteringsgrad som fångar magin ovan
 
 Med ändringarna av besöks- och målmåtten i föregående avsnitt är den sista ändringen du bör göra av standardvärdet för A4T för [!DNL Auto-Target]-rapportpanelen att skapa konverteringsgrader som har rätt proportioner - det för ett målmått med rätt attribuering, till ett lämpligt filtrerat besöksmått.
 
@@ -165,7 +165,7 @@ Gör detta genom att skapa ett beräknat mått enligt följande steg:
 1. Dra relevanta målmått för din aktivitet (till exempel Aktivitetskonverteringar) till definitionen och använd kugghjulsikonen på det här målmåttet för att justera attribueringsmodellen till (Deltagande|Besök) enligt beskrivningen ovan.
 1. Välj **[!UICONTROL Add > Container]** i det övre högra hörnet i avsnittet **[!UICONTROL Definition]**.
 1. Välj divisionsoperatorn ( max) mellan de två behållarna.
-1. Dra det segment som du skapade tidigare, med namnet&quot;Träff med en specifik [!DNL Auto-Target]-aktivitet&quot; i den här artikeln, för den här specifika [!DNL Auto-Target]-aktiviteten.
+1. Dra det segment som du skapade tidigare - med namnet&quot;Träff med specifik [!DNL Auto-Target]-aktivitet&quot; - i den här självstudiekursen för den här specifika [!DNL Auto-Target]-aktiviteten.
 1. Dra **[!UICONTROL Visits]**-måttet till segmentbehållaren.
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -176,11 +176,11 @@ Den fullständiga definitionen för beräknade mätvärden visas här.
 
 >[!IMPORTANT]
 >
->Konverteringsgraden från A4T-panelen är inte länkad till konverteringshändelsen eller normaliseringsmåttet i tabellen. När du gör de ändringar som föreslås i den här artikeln anpassas inte konverteringsgraden till ändringarna. Om du ändrar något till en (eller båda) konverteringshändelseattribuering och normaliseringsmått måste du därför komma ihåg som ett sista steg för att även ändra konverteringsgraden, vilket visas ovan.
+>Konverteringsgraden från A4T-panelen är inte länkad till konverteringshändelsen eller normaliseringsmåttet i tabellen. När du gör de ändringar som föreslås i den här självstudiekursen anpassas inte konverteringsgraden automatiskt till ändringarna. Om du ändrar något till en (eller båda) konverteringshändelseattribuering och normaliseringsmått måste du därför komma ihåg som ett sista steg för att även ändra konverteringsgraden, vilket visas ovan.
 
 ## Sammanfattning: Slutlig exempelarbetsyta för [!DNL Auto-Target]-rapporter
 
-I bilden nedan kombineras alla ovanstående steg till en enda panel och visas en fullständig vy över den rekommenderade rapporten för A4T-aktiviteter i [!DNL Auto-Target]. Den här rapporten är densamma som den som används av Target maskininlärningsmodeller för att optimera målmåttet, och den innehåller alla nyanser och rekommendationer som beskrivs i den här artikeln. Den här rapporten är också närmast de beräkningsmetoder som används i traditionella målrapporteringsdrivna [!DNL Auto-Target]-aktiviteter.
+Om du kombinerar alla steg ovan till en enda panel visas i bilden nedan en fullständig vy över den rekommenderade rapporten för A4T-aktiviteter [!DNL Auto-Target]. Den här rapporten är densamma som den som används av Target maskininlärningsmodeller för att optimera målmätningen, och den innehåller alla nyanser och rekommendationer som diskuteras i den här självstudiekursen. Den här rapporten är också närmast de beräkningsmetoder som används i traditionella målrapporteringsdrivna [!DNL Auto-Target]-aktiviteter.
 
 ![Figur 8.](assets/Figure8.png)
 *pngFigur 8: Den sista A4T- [!DNL Auto-Target] rapporten i Adobe Analytics Workspace, som kombinerar alla justeringar av måttdefinitioner som beskrivs i de föregående avsnitten i det här dokumentet.*
