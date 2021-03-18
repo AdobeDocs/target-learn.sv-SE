@@ -1,17 +1,18 @@
 ---
 title: Anpassa layouter
-seo-title: Anpassa layouter
-description: 'I den sista lektionen ska vi bygga två personaliseringsaktiviteter i Target för våra målgrupper. Vi läser in och visar aktiviteterna i appen och validerar att innehållet visas vid rätt tidpunkt på rätt plats.  '
-seo-description: I den sista lektionen ska vi bygga två personaliseringsaktiviteter i Target för våra målgrupper. Vi läser in och visar aktiviteterna i appen och validerar att innehållet visas vid rätt tidpunkt på rätt plats.
-feature: mobile
-kt: 3040
-audience: developer
+description: 'I den sista lektionen bygger vi två personaliseringsaktiviteter i Target för våra målgrupper. Lär dig hur du läser in och visar aktiviteterna i appen och validerar att innehållet visas vid rätt tidpunkt på rätt plats.  '
+role: Utvecklare
+level: Mellanliggande
+topic: Mobil, personalisering
+feature: Implementera mobil
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
+author: Daniel Wright
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
