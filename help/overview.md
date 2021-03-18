@@ -1,17 +1,16 @@
 ---
-title: Adobe Target Tutorials
-seo-title: Adobe Target Tutorials
-description: En samling instruktionsvideor och självstudiekurser som gör dig till en kraftfull användare av Adobe Target
+title: Lär dig använda Adobe Target
+description: Lär dig använda Adobe Target med den här samlingen självstudiekurser och videor som täcker alla komponenter. Använd kraften i Adobe Target effektivt.
 translation-type: tm+mt
-source-git-commit: f7aef8f332173c8dfca9fbb09d13c5a43a42ffbc
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Target Tutorials
+# Lär dig använda Adobe Target
 
 Adobe Target är en Adobe Experience Cloud-lösning som innehåller allt ni behöver för att skräddarsy och personalisera kundupplevelsen, så att ni kan maximera intäkterna från era webbplatser, mobilsajter, appar, sociala medier och andra digitala kanaler. Använd dessa videor och självstudiekurser för att lära dig de många komponenterna i Adobe Target.
 
