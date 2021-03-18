@@ -1,20 +1,35 @@
 ---
-title: Använd aktivitetsinställningar i Adobe Target
-description: 'null'
-audience: marketer
-difficulty: 2
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Så här använder du aktivitetsinställningar
+description: I den här videon får du lära dig hur du använder olika aktivitetsinställningar i Adobe Target, inklusive mål, prioritetsnivåer, start- och sluttider samt målgrupper.
+role: Yrkesverksamma inom affärsverksamhet
+level: Nybörjare
+topic: Personalisering
+feature: Verksamhet
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 6ebdda26ef1e210cca495fe9ea73c67eca039d6f
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '10'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
 
 
 # Använd aktivitetsinställningar
+
+## Beskrivning
+
+I den här videon får du lära dig att:
+
+* Ange ett aktivitetsmål
+* Ange prioritetsnivå för dina aktiviteter
+* Schemalägg start- och sluttider
+* Lägg till målgrupper
+
+## Målgrupp
+
+* Yrkesverksamma inom affärsverksamhet
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381/?quality=12)
