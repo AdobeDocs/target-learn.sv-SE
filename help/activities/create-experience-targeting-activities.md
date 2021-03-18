@@ -1,16 +1,17 @@
 ---
-title: Skapa upplevelseinriktade aktiviteter i Adobe Target
-description: Med Experience Targeting-aktiviteter kan marknadsförarna rikta specifikt innehåll mot en viss målgrupp.
-seo-description: Med Experience Targeting-aktiviteter kan marknadsförarna rikta specifikt innehåll mot en viss målgrupp.
-audience: marketer
-difficulty: 1
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Så här skapar du aktiviteter för målinriktad upplevelse
+description: Med XT-aktiviteter (Experience Targeting) kan marknadsförare rikta specifikt innehåll till en viss målgrupp. Lär dig fördelarna med XT-aktiviteter och hur du skapar och använder dem.
+role: Yrkesverksamma inom affärsverksamhet
+level: Nybörjare
+topic: Personalisering
+feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: bab376b87bb489492bde4e51f6e22ed0c6fa098d
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -19,6 +20,16 @@ ht-degree: 0%
 # Skapa aktiviteter för målinriktad upplevelse
 
 Experience Targeting är ett första steg in i personaliseringsvärlden och börjar ofta med A/B-testning. En marknadsförare kör ett A/B-test och genom att använda rapportmålgrupper upptäcker den att olika upplevelser fungerar med olika målgrupper. Med Experience Targeting (eller XT) kan marknadsföraren enkelt utnyttja den upptäckten och gå över till långsiktig målinriktning av innehåll för de olika användarsegmenten.
+
+## Beskrivning
+
+I den här videon får du lära dig att:
+
+* Använd Adobe Target Visual Experience Composer (VEC) för att skapa en XT-aktivitet (Experience Targeting)
+
+## Målgrupp
+
+* Yrkesverksamma inom affärsverksamhet
 
 >[!VIDEO](https://video.tv.adobe.com/v/22418?quality=12)
 
