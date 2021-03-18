@@ -1,18 +1,17 @@
 ---
 title: Ställa in A4T-rapporter i Analysis Workspace för Automatisk målaktivitet
-description: Konfigurera A4T-rapporter i Analysis Workspace för att få förväntade resultat när du kör Auto-Target-aktiviteter
-kt: null
-audience: business user
-doc-type: tutorial
-activity: use, setup
+description: När ni har er integrering med Analytics for Target (A4T) på plats och ni kör Auto-Target-aktiviteter, hur kan ni se till att ni tolkar resultaten korrekt? Följ de här stegen för att konfigurera A4T-rapporter i Analysis Workspace så att du får förväntade resultat när du kör Auto-Target-aktiviteter.
+role: Yrkesverksamma inom affärsverksamhet
+level: Mellanliggande
+topic: Personalisering
 feature: Analyser för mål (A4T), Automatiskt mål
-topic: Analyser för mål (A4T), Automatiskt mål
-solution: Target
-author: Judy Kim
+doc-type: tutorial
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 98ea1a58e1adef2f8778fc0f6654228bf8b550ab
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2193'
 ht-degree: 0%
 
 ---
@@ -86,8 +85,8 @@ Låt oss jämföra rapporter på besökarnivå och besöksnivå:
 
 | Upplevelse | Unika besökare | Besök | Konverteringar | Besökarnorm. Konv. Hastighet | Besök norm. Konv. Hastighet |
 | --- | --- | --- | --- | --- | --- |
-| A | 3 | 1 | - | 0 % | 0 % |
-| B | 2 | 1 | 3 | 50 % | 33,3 % |
+| A | 3 | 3 | - | 0 % | 0 % |
+| B | 2 | 1 | 1 | 50 % | 33,3 % |
 | Summor | 2 | 4 | 1 | 50 % | 25 % |
 *Tabell 1: Exempel på jämförelse av besökarnormaliserade rapporter och besöknormaliserade rapporter för ett scenario där besluten är snäva mot ett besök (och inte besökare, som med vanlig A/B-testning). Interaktionella värden för besökare är förvirrande i det här scenariot.*
 
