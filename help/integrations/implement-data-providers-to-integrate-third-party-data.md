@@ -1,14 +1,16 @@
 ---
-title: Implementera Data Providers för att integrera data från tredje part i Adobe Target
-seo-title: Implementera Data Providers för att integrera data från tredje part i Adobe Target
-description: Implementeringsinformation och exempel på hur du använder funktionen Adobe Target Data Providers för att hämta data från tredjepartsleverantörer och skicka dem i Target-begäran.
-audience: developer
-difficulty: 5
+title: Implementera dataleverantörer för att integrera data från tredje part
+description: Den här självstudien innehåller implementeringsinformation och exempel på hur du kan använda funktionen Adobe Target Data Providers för att hämta data från tredjepartsleverantörer och skicka dem i Target-begäran.
+role: Utvecklare
+level: Erfaren
+topic: Personalisering, integrering
+feature: Implementering, integrering, API:er/SDK:er
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -36,7 +38,7 @@ Ett fungerande exempel med koden som används i videon finns här:
 
 >[!VIDEO](https://video.tv.adobe.com/v/22345/)
 
-Ett mer realistiskt exempel: att integrera ett väder-API.\
+Ett mer realistiskt exempel på integrering av ett väder-API.\
 Ett fungerande exempel med koden som används i videon finns här:
 [https://target.enablementadobe.com/data-providers/3rdparty.html](https://target.enablementadobe.com/data-providers/3rdparty.html)
 
