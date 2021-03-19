@@ -1,17 +1,17 @@
 ---
 title: Skapa publiker och erbjudanden i Adobe Target
-seo-title: Skapa publiker och erbjudanden i Adobe Target
-description: 'I den här lektionen ska vi bygga målgrupper och erbjudanden i Adobe Target för de tre platser vi implementerat i tidigare lektioner. De används för att visa personaliserade upplevelser i nästa lektion.   '
-seo-description: I den här lektionen ska vi bygga målgrupper och erbjudanden i Adobe Target för de tre platser vi implementerat i tidigare lektioner. De används för att visa personaliserade upplevelser i nästa lektion.
-feature: mobile
-kt: 3040
-audience: developer
+description: 'I den här lektionen bygger vi målgrupper och erbjudanden i Adobe Target för de tre platser vi implementerat i tidigare lektioner. De används för att visa personaliserade upplevelser i nästa lektion.   '
+role: Utvecklare
+level: Mellanliggande
+topic: Mobil, personalisering
+feature: Implementera mobil
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
