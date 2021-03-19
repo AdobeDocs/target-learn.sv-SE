@@ -1,16 +1,18 @@
 ---
-title: Använd svarstoken och anpassade at.js-händelser med Adobe Target
-seo-title: Använd svarstoken och anpassade at.js-händelser med Adobe Target
-description: Med responstoken och anpassade at.js-händelser kan du dela profilinformation från Target till tredjepartssystem. Alla objekt i målbesökarprofilen, inklusive anpassade profilattribut, geografisk information, aktivitetsinformation och inbyggda profiler, kan läggas till i Target-svaret där du kan använda anpassad JavaScript för att integrera med tredje part.
-audience: developer
-difficulty: 5
+title: Så här använder du svarstoken och anpassade at.js-händelser
+description: Lär dig hur du använder responstoken och anpassade at.js-händelser för att dela profilinformation från Target till tredjepartssystem.
+role: Utvecklare
+level: Erfaren
+topic: Personalisering, arkitektur, utveckling
+feature: Implementering
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
