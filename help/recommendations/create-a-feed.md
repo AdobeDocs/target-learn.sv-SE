@@ -1,21 +1,33 @@
 ---
-title: Skapa en feed i Recommendations
-seo-title: Skapa en feed i Adobe Target Recommendations
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Så här skapar du en feed i Recommendations
+description: Lär dig hur du skapar en datafeed i Adobe Target Recommendations
+role: Yrkesverksamma inom affärsverksamhet
+level: Mellanliggande
+topic: Personalisering
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 024678e0569b92da8e470a1299f0f7a585ba2371
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
 
 
-# Skapa en feed i Recommendations
+# Skapa en feed i Adobe Target Recommendations
+
+## Beskrivning
+
+I den här videon får du lära dig att:
+
+* Skapa en datafeed i Adobe Target Recommendations
+
+## Målgrupp
+
+* Yrkesverksamma inom affärsverksamhet
 
 >[!VIDEO](https://video.tv.adobe.com/v/27696?quality=12)
 
