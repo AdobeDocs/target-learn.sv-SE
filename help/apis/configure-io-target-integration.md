@@ -1,19 +1,18 @@
 ---
 title: Konfigurera autentisering för Adobe Target API:er
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations innehåller en dedikerad uppsättning API:er som gör att du kan hantera din katalog med rekommenderade produkter och/eller innehåll. hantera era rekommendationsalgoritmer och -kampanjer, och leverera rekommendationer i JSON-, HTML- och XML-objekt som ska visas i webben, mobiler, e-post, IOT och andra kanaler.
-kt: null
-audience: developer
+description: Den här självstudiekursen vägleder utvecklare genom de steg som krävs för att generera autentiseringstoken som behövs för att kunna interagera med Adobe Target API:er. Följ de här stegen för att använda Adobe Developer Console för att generera och testa en token för innehavaråtkomst, som behövs för att använda mål-API:erna.
+role: Utvecklare, administratör, arkitekt
+level: Mellanliggande
+topic: Personalisering, administration, integrering, utveckling
+feature: API:er/SDK:er, administration och konfiguration
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: null
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 624172d4bc4bc2431ad8af0956c93d3bcc0b9870
+source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1845'
 ht-degree: 2%
 
 ---
@@ -34,8 +33,8 @@ I den här lektionen går vi igenom de preliminära steg som krävs för att gen
 
 | Resurs | Detaljer |
 | --- | --- |
-| Postman | Om du vill slutföra de här stegen hämtar du [Postman-appen](https://www.postman.com/downloads/) för ditt operativsystem. Postman Basic är kostnadsfritt när man skapar konto. Även om det inte krävs för att kunna använda Adobe Target API:er i allmänhet, underlättar Postman API-arbetsflödena, och Adobe Target tillhandahåller flera Postman-samlingar som hjälper till att köra API:erna och lära sig hur de fungerar. Resten av den här självstudiekursen förutsätter att Postman har praktiska kunskaper. Om du behöver hjälp kan du läsa [Postman-dokumentationen](https://learning.getpostman.com/). |
-| Referenser | Du bör känna till följande resurser under resten av kursen:<UL><li>[Adobe I/O Github](https://github.com/adobeio)</li><li>[Adobe I/O-dokumentation](https://developers.adobetarget.com/api/#introduction)</li><li>[Recommendations API-dokumentation](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
+| Postman | Om du vill slutföra de här stegen hämtar du [Postman-appen](https://www.postman.com/downloads/) för ditt operativsystem. Postman Basic är kostnadsfritt när man skapar konto. Även om det inte krävs för att använda Adobe Target API:er i allmänhet, underlättar Postman API-arbetsflödena, och Adobe Target tillhandahåller flera Postman-samlingar som hjälper till att köra API:erna och lära sig hur de fungerar. Resten av den här självstudiekursen förutsätter att Postman har praktiska kunskaper. Om du behöver hjälp kan du läsa [Postman-dokumentationen](https://learning.getpostman.com/). |
+| Referenser | Du bör känna till följande resurser under resten av kursen:<UL><li>[Adobe I/O Github](https://github.com/adobeio)</li><li>[Adobe I/O dokumentation](https://developers.adobetarget.com/api/#introduction)</li><li>[Recommendations API-dokumentation](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
 ## Skapa ett Adobe I/O-projekt
 
@@ -91,7 +90,7 @@ Det finns många sätt att specificera projektdetaljer i Postman, men i det här
 >
 >Instruktioner om hur du använder Experience Cloud, inklusive [!DNL Target], finns i [Använd Postman med Experience Platform API:er](https://docs.adobe.com/content/help/en/platform-learn/tutorials/apis/postman.html). Följande avsnitt är relevanta för API:erna för [!DNL Target]:
 >
-> 1. Exportera information om Adobe I/O-integrering till Postman
+> 1. Exportera integreringsinformation för Adobe I/O till Postman
 > 2. Generera en åtkomsttoken med Postman
 
 >
@@ -145,7 +144,7 @@ I det här avsnittet genererar du en token för innehavaråtkomst som krävs fö
    ![token3](assets/configure-io-target-generatetoken3.png)
 4. I Postman importerar du samlingen genom att klistra in och skicka rå JSON från Urklipp. (Du kan också överföra den .json-fil som du sparade.) Klicka på **Fortsätt**.
    ![token4](assets/configure-io-target-generatetoken4.png)
-5. Välj **[!UICONTROL IMS: JWT Generate + Auth via User Token]**-begäran i samlingen Adobe I/O Access Token Generation Postman, kontrollera att din miljö är markerad och klicka på **Skicka** för att generera token.
+5. Markera **[!UICONTROL IMS: JWT Generate + Auth via User Token]**-begäran i samlingen Adobe I/O Access Token Generation Postman, kontrollera att din miljö är markerad och klicka på **Skicka** för att generera token.
 
    ![token5](assets/configure-io-target-generatetoken5.png)
 
@@ -162,7 +161,7 @@ I det här avsnittet genererar du en token för innehavaråtkomst som krävs fö
 >
 >F: Måste jag använda Adobe I/O Access Token Generation Postman-samlingen för att generera JSON Web Token (JWT) och innehavaråtkomsttoken?
 >
->S: Nepp! Samlingen Adobe I/O Access Token Generation Postman är smidigare att generera JWT- och Bearer-åtkomsttoken i Postman. Du kan också använda funktionerna i Adobe Developer Console för att manuellt generera en token för innehavaråtkomst.
+>S: Nepp! Adobe I/O Access Token Generation Postman-samlingen är smidigare att generera JWT- och Bearer-åtkomsttoken i Postman. Du kan också använda funktionerna i Adobe Developer Console för att manuellt generera en token för innehavaråtkomst.
 
 ## Testa innehavaråtkomsttoken
 
