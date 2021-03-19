@@ -1,19 +1,18 @@
 ---
 title: Hantera din Recommendations-katalog med API:er
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations innehåller en dedikerad uppsättning API:er som gör att du kan hantera din katalog med rekommenderade produkter och/eller innehåll. hantera era rekommendationsalgoritmer och -kampanjer, och leverera rekommendationer i JSON-, HTML- och XML-objekt som ska visas i webben, mobiler, e-post, IOT och andra kanaler.
-kt: 3815
-audience: developer
+description: I den här delen av självstudiekursen får utvecklare hjälp med att använda Adobe Target API:er för att skapa, uppdatera, spara, hämta och ta bort entiteter i din Recommendations-katalog.
+role: Utvecklare
+level: Mellanliggande
+topic: Personalisering, administration, integrering, utveckling
+feature: API:er/SDK:er, Recommendations, administration och konfiguration
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '911'
 ht-degree: 1%
 
 ---
@@ -21,7 +20,7 @@ ht-degree: 1%
 
 # Hantera din [!DNL Recommendations]-katalog med API:er
 
-Nu har du lärt dig att generera en åtkomsttoken med hjälp av JWT-autentiseringsflödet för att använda Adobe Target Admin API:er med Adobe I/O.
+Nu har du lärt dig att generera en åtkomsttoken med JWT-autentiseringsflödet för att använda Adobe Target Admin API:er med Adobe I/O.
 
 Du kan använda [Recommendations API:er](https://developers.adobetarget.com/api/recommendations/) för att lägga till, uppdatera eller ta bort objekt i din rekommendationskatalog. Precis som med övriga API:er för Adobe Target Admin kräver API:erna för [!DNL Recommendations] autentisering.
 
