@@ -1,21 +1,34 @@
 ---
-title: Implementera Mbox-parametrar för mål med DTM
-seo-title: Implementera Mbox-parametrar för mål med DTM
-description: 'null'
-audience: developer
-difficulty: 3
-author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
+title: Implementera Mbox-parametrar med DTM
+description: I den här videon visas hur utvecklare implementerar mbox-parametrar med aktivering av Adobe, som tidigare kallades DTM (Adobe Dynamic Tag Management).
+role: Utvecklare
+level: Mellanliggande
+topic: Personalisering, arkitektur, utveckling
+feature: Implementering
+doc-type: technical video
+kt: null
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '23'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
 
 
-# Implementera Mbox-parametrar för Adobe Target med DTM
+# Implementera Mbox-parametrar för Adobe Target med dynamisk tagghantering (DTM)
+
+## Mål
+
+I slutet av videon kan du:
+
+* Mappa ett statiskt namn/värde-par till en parameter eller en profilparameter i target-global-mbox
+* Förstå grunderna i ett dataelement
+* Mappa ett dynamiskt dataelementvärde till en parameter eller en profilparameter i den globala målrutan
+
+## Målgrupp
+
+* Utvecklare
 
 >[!VIDEO](https://video.tv.adobe.com/v/17383/?quality=12)
