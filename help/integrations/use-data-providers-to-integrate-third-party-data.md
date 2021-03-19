@@ -1,16 +1,18 @@
 ---
-title: Använd Data Providers för att integrera data från tredje part i Adobe Target
-seo-title: Använd Data Providers för att integrera data från tredje part i Adobe Target
-description: Data Providers är en funktion som gör att du enkelt kan skicka data från tredje part till Target.  En tredje part kan vara en vädertjänst, en datahanteringsplattform eller till och med en egen webbtjänst. Sedan kan ni använda dessa data för att skapa målgrupper, målinnehåll och berika besökarprofilen.
-audience: marketer
-difficulty: 5
+title: Använda Data Providers för att integrera data från tredje part
+description: I den här självstudiekursen introduceras användare för Data Providers. Lär dig använda Data Providers för att enkelt skicka data från tredje part till Adobe Target.
+role: Affärsledare, utvecklare
+level: Erfaren
+topic: Personalisering, integrering
+feature: Implementering, integrering, API:er/SDK:er
+doc-type: feature video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
