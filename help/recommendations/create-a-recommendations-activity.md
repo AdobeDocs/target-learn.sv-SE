@@ -1,21 +1,33 @@
 ---
-title: Skapa en Recommendations-aktivitet
-seo-title: Skapa en Recommendations-aktivitet i Adobe Target
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Så här skapar du en Recommendations-aktivitet
+description: Lär dig skapa en Adobe Target Recommendations-aktivitet
+role: Yrkesverksamma inom affärsverksamhet
+level: Mellanliggande
+topic: Personalisering
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 86131453514cc9acb67ba0594e260996902c46d3
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
 
 
-# Skapa en Recommendations-aktivitet
+# Skapa en Adobe Target Recommendations-aktivitet
+
+## Beskrivning
+
+I den här videon får du lära dig att:
+
+* Skapa en Recommendations-aktivitet
+
+## Målgrupp
+
+* Yrkesverksamma inom affärsverksamhet
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?quality=12)
 
