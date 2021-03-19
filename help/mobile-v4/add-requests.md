@@ -1,15 +1,17 @@
 ---
 title: Lägg till Adobe Target-förfrågningar
 description: 'Adobe Mobile Services SDK (v4) innehåller metoder och funktioner från Adobe Target som gör att du kan anpassa din app med olika upplevelser för olika användare.   '
-feature: mobile
-kt: 3040
-audience: developer
+role: Utvecklare
+level: Mellanliggande
+topic: Mobil, personalisering
+feature: Implementera mobil
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1810'
 ht-degree: 0%
 
 ---
