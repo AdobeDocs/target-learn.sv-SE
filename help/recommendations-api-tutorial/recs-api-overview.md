@@ -1,19 +1,18 @@
 ---
-title: Adobe Recommendations API - översikt
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations innehåller en dedikerad uppsättning API:er som gör att du kan hantera din katalog med rekommenderade produkter och/eller innehåll. hantera era rekommendationsalgoritmer och -kampanjer, och leverera rekommendationer i JSON-, HTML- och XML-objekt som ska visas i webben, mobiler, e-post, IOT och andra kanaler.
-kt: 3815
-audience: developer
+title: Vad är Adobe Recommendations API?
+description: I den här självstudiekursen får utvecklare hjälp med praktiska övningar där Adobe Target Recommendations-API:er används för att konfigurera och hantera Recommendations-kataloger och anpassade villkor, samt att använda leverans-API:t för att hämta rekommendationsinnehåll.
+role: Utvecklare
+level: Mellanliggande
+topic: Personalisering, administration, integrering, utveckling
+feature: API:er/SDK:er, Recommendations, administration och konfiguration, översikt
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -32,7 +31,7 @@ Med hjälp av [!DNL Target] [leverans-API](https://docs.adobe.com/content/help/e
 
 ## Beskrivning av självstudiekurs
 
-I den här självstudiekursen får utvecklare hjälp med praktiska övningar där [!DNL Recommendations]-API:erna används för att konfigurera och hantera [!DNL Recommendations]-kataloger och anpassade villkor, samt för att hämta rekommendationsinnehåll med hjälp av leverans-API:t. I slutet av den här självstudiekursen kan du:
+I den här självstudiekursen får utvecklare hjälp med praktiska övningar med hjälp av [!DNL Recommendations]-API:erna för att konfigurera och hantera [!DNL Recommendations]-kataloger och anpassade villkor, samt med hjälp av leverans-API:t för att hämta rekommendationsinnehåll. I slutet av den här självstudiekursen kan du:
 
 * Konfigurera och hantera entiteter med Recommendations API
 * Konfigurera och hantera anpassade villkor med Recommendations API
@@ -52,7 +51,7 @@ Observera följande resurser som är nödvändiga för att du ska kunna förstå
 
 | Resurs | Detaljer |
 | --- | --- |
-| Postman | Hämta [Postman-appen](https://www.postman.com/downloads/) för ditt operativsystem. Postman Basic är kostnadsfritt när man skapar konto. Även om det inte krävs för att kunna använda Adobe Target API:er i allmänhet, underlättar Postman API-arbetsflödena, och Adobe Target tillhandahåller flera Postman-samlingar som hjälper till att köra API:erna och lära sig hur de fungerar. Resten av den här självstudiekursen förutsätter att Postman har praktiska kunskaper. Om du behöver hjälp kan du läsa [Postman-dokumentationen](https://learning.getpostman.com/). |
-| Referenser | Du bör känna till följande resurser under resten av kursen:<UL><li>[Adobe I/O Github](https://github.com/adobeio)</li><li>[Adobe I/O-dokumentation](https://developers.adobetarget.com/api/#introduction)</li><li>[Recommendations API-dokumentation](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
+| Postman | Hämta [Postman-appen](https://www.postman.com/downloads/) för ditt operativsystem. Postman Basic är kostnadsfritt när man skapar konto. Även om det inte krävs för att använda Adobe Target API:er i allmänhet, underlättar Postman API-arbetsflödena, och Adobe Target tillhandahåller flera Postman-samlingar som hjälper till att köra API:erna och lära sig hur de fungerar. Resten av den här självstudiekursen förutsätter att Postman har praktiska kunskaper. Om du behöver hjälp kan du läsa [Postman-dokumentationen](https://learning.getpostman.com/). |
+| Referenser | Du bör känna till följande resurser under resten av kursen:<UL><li>[Adobe I/O Github](https://github.com/adobeio)</li><li>[Adobe I/O dokumentation](https://developers.adobetarget.com/api/#introduction)</li><li>[Recommendations API-dokumentation](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
 [Nästa&quot;Hantera din Recommendations-katalog&quot; >](manage-catalog.md)
