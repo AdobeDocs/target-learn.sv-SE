@@ -1,19 +1,18 @@
 ---
 title: Hämta Recommendations med leverans-API
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations innehåller en dedikerad uppsättning API:er som gör att du kan hantera din katalog med rekommenderade produkter och/eller innehåll. hantera era rekommendationsalgoritmer och -kampanjer, och leverera rekommendationer i JSON-, HTML- och XML-objekt som ska visas i webben, mobiler, e-post, IOT och andra kanaler.
-kt: 3815
-audience: developer
+description: I den här delen av självstudiekursen får utvecklare hjälp med att hämta rekommendationer med Adobe Target Delivery API.
+role: Utvecklare
+level: Mellanliggande
+topic: Personalisering, administration, integrering, utveckling
+feature: API:er/SDK:er, Recommendations, administration och konfiguration
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1440'
 ht-degree: 0%
 
 ---
@@ -108,7 +107,7 @@ Följande resurser innehåller exempel på olika implementeringar som inte är H
 
 Rekommendationer konfigureras oftast i Adobe Target-gränssnittet och används eller nås via [!DNL Target]-API:erna, av skäl som de som nämns i avsnitten ovan. Denna API-samordning är vanlig. Ibland kanske användare vill utföra alla åtgärder via API:er, både konfiguration och användning av resultat. Även om det är mycket mindre vanligt kan användare absolut konfigurera, köra, *och* utnyttja resultatet av rekommendationer helt och hållet med API:erna.
 
-I en [tidigare sektion](manage-catalog.md) lärde vi oss att hantera Adobe Target Recommendations-enheter och leverera dem på serversidan. På samma sätt kan du i Adobe I/O hantera kriterier, kampanjer, samlingar och designmallar utan att behöva logga in på Adobe Target. En fullständig lista över alla [!DNL Recommendations] API:er finns [här](http://developers.adobetarget.com/api/recommendations/), men här är en sammanfattning som referens.
+I en [tidigare sektion](manage-catalog.md) lärde vi oss att hantera Adobe Target Recommendations-enheter och leverera dem på serversidan. På samma sätt kan du i Adobe I/O hantera villkor, kampanjer, samlingar och designmallar utan att behöva logga in på Adobe Target. En fullständig lista över alla [!DNL Recommendations] API:er finns [här](http://developers.adobetarget.com/api/recommendations/), men här är en sammanfattning som referens.
 
 | Resurs | Detaljer |
 | --- | --- |
