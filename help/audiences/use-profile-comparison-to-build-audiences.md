@@ -1,16 +1,18 @@
 ---
-title: Använd profiljämförelse för att skapa målgrupper i Adobe Target
-seo-title: Använd profiljämförelse för att skapa målgrupper i Adobe Target
-description: Med funktionen Profiljämförelse i Adobe Target kan du jämföra två numeriska profilvärden med varandra när du skapar en målgrupp. Detta är mycket användbart om du skickar skräddarsydda benägenhetspoäng till Target och vill anpassa innehåll baserat på produkten med den högsta prioritetspoängen.
-audience: marketer
-difficulty: 3
+title: Så här använder du profiljämförelse för att skapa målgrupper
+description: I den här videon visas hur Adobe Target-användare använder funktionen Profiljämförelse för att jämföra två numeriska profilvärden med varandra när de skapar en målgrupp.
+role: Yrkesverksamma inom affärsverksamhet
+level: Erfaren
+topic: Personalisering
+feature: Målgrupper
+doc-type: feature video
+thumbnail: null
+kt: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
@@ -18,7 +20,18 @@ ht-degree: 0%
 
 # Använd profiljämförelse för att skapa målgrupper i Adobe Target
 
-Med funktionen [!UICONTROL Profile Comparison] i Adobe Target kan du jämföra två numeriska profilvärden med varandra när du skapar en målgrupp. Detta är mycket användbart om du skickar skräddarsydda benägenhetspoäng till [!DNL Target] och vill anpassa innehåll baserat på produkten med det högsta poängvärdet för benägenhet.
+Med funktionen [!UICONTROL Profile Comparison] i Adobe Target kan du jämföra två numeriska profilvärden med varandra när du skapar en målgrupp. Detta är mycket användbart om du till exempel skickar skräddarsydda poängtal till [!DNL Target] och vill anpassa innehåll baserat på produkten med högst prioritet.
+
+## Beskrivning
+
+I den här videon får du lära dig att:
+
+* Jämför numeriska profilvärden (poäng) som skickas till Adobe Target
+* Använd dessa poängjämförelser för att definiera målgrupper
+
+## Målgrupp
+
+* Yrkesverksamma inom affärsverksamhet
 
 >[!VIDEO](https://video.tv.adobe.com/v/23218/?quality=12)
 
