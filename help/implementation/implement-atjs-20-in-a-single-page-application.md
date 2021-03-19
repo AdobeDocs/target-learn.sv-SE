@@ -1,16 +1,18 @@
 ---
-title: Implementera Adobe Target at.js 2.0 i ett enkelsidigt program (SPA)
-seo-title: Implementera Adobe Target at.js 2.0 i ett enkelsidigt program (SPA)
-description: Den senaste versionen av at.js innehåller många funktioner som gör det möjligt för ditt företag att utföra personalisering på nästa generations klienttekniker. Den nya versionen fokuserar på att uppgradera at.js för att få harmonisk interaktion med applikationer för en sida (SPA).
-audience: developer
-difficulty: 3
+title: Implementera at.js 2.0 i ett enkelsidigt program (SPA)
+description: Adobe Target at.js 2.0 har många funktioner som gör det möjligt för ditt företag att utföra personalisering på nästa generations klienttekniker. Följ de här stegen för att implementera at.js 2.0 i ett enkelsidigt program (SPA).
+role: Utvecklare
+level: Mellanliggande
+topic: SPA, arkitektur, utveckling
+feature: Implementering
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -18,14 +20,14 @@ ht-degree: 0%
 
 # Implementera Adobe Target at.js 2.0 i ett enkelsidigt program (SPA)
 
-Den senaste versionen av `at.js` innehåller funktionsrika uppsättningar som gör det möjligt för ditt företag att utföra personalisering på nästa generations klienttekniker. Den nya versionen är inriktad på att uppgradera `at.js` för att få harmonisk interaktion med enkelsidiga program (SPA).
+Adobe Target `at.js` 2.0 innehåller funktionsrika uppsättningar som gör det möjligt för ditt företag att utföra personalisering på nästa generations klienttekniker. Den här versionen är inriktad på att uppgradera `at.js` för att få harmonisk interaktion med enkelsidiga program (SPA).
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?quality=12)
 
 ## Implementera at.js 2.0 i en SPA
 
 * Implementera `at.js` 2.0 i &lt;head> för Single Page-programmet.
-* Implementera funktionen `adobe.target.triggerView()` när visningen ändras i SPA. Du kan använda olika tekniker för att göra detta, t.ex. avlyssna ändringar i URL-hash, avlyssna anpassade händelser som utlösts av SPA eller bädda in `triggerView()`-koden direkt i programmet. Du bör välja det alternativ som fungerar bäst för ditt specifika enkelsidiga program.
+* Implementera funktionen `adobe.target.triggerView()` när visningen ändras i SPA. Du kan använda olika tekniker för att göra detta, t.ex. avlyssna ändringar i URL-hash, lyssna efter anpassade händelser som utlösts av SPA eller bädda in `triggerView()`-koden direkt i programmet. Du bör välja det alternativ som fungerar bäst för ditt specifika enkelsidiga program.
 * Vynamnet är den första parametern i funktionen `triggerView()`. Använd enkla, tydliga och unika namn för att göra dem enkla att välja i Target visuella upplevelsedisposition.
 * Du kan utlösa vyer som ändras i små vyer, liksom i andra sammanhang än SPA, t.ex. halvvägs nedåt och en oändlig rullningssida.
 * `at.js` 2.0 och  `triggerView()` kan implementeras via en tagghanteringslösning som Adobe Experience Platform Launch.
