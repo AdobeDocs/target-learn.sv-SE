@@ -1,21 +1,33 @@
 ---
-title: Konfigurera egenskaper i Adobe Target
-description: 'null'
-audience: administrator
-difficulty: 1
-author: Daniel Wright
-doc-type: setup
-activity-type: feature-video
+title: Så här ställer du in egenskaper
+description: I den här videon visas hur administratörer skapar egenskaper i Adobe Target.
+role: Administratör
+level: Nybörjare
+topic: Administration
+feature: Administration och konfiguration
+doc-type: feature video
+thumbnail: null
+kt: null
 badge: premium
 translation-type: tm+mt
-source-git-commit: 6ebdda26ef1e210cca495fe9ea73c67eca039d6f
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '10'
+source-wordcount: '43'
 ht-degree: 0%
 
 ---
 
 
-# Konfigurera egenskaper
+# Konfigurera egenskaper i Adobe Target
+
+## Beskrivning
+
+I den här videon får du lära dig att:
+
+* Skapa egenskaper i Adobe Target
+
+## Målgrupp
+
+* Administratör
 
 >[!VIDEO](https://video.tv.adobe.com/v/18990/?quality=12)
