@@ -1,21 +1,34 @@
 ---
-title: Förstå Enterprise-användarbehörigheter i Adobe Target
-description: 'null'
-audience: administrator
-difficulty: 1
-author: Daniel Wright
-doc-type: understand
-activity-type: feature-video
+title: Konfigurera Enterprise-användarbehörigheter
+description: I den här videon presenteras Adobe Target-administratörer för användarbehörigheter, egenskaper och arbetsytor. I den här videon får du lära dig mer om de olika användarnivåerna och hur du använder egenskaper och arbetsytor för att styra användaråtkomsten.
+role: Administratör
+level: Nybörjare
+topic: Administration
+feature: Administration och konfiguration
+doc-type: feature video
+thumbnail: null
+kt: null
 badge: premium
 translation-type: tm+mt
-source-git-commit: 6ebdda26ef1e210cca495fe9ea73c67eca039d6f
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '12'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
 
 
-# Förstå Enterprise-användarbehörigheter
+# Enterprise-användarbehörigheter i Adobe Target
+
+## Beskrivning
+
+I den här videon får du lära dig att:
+
+* Beskriv de tre användarnivåerna i Adobe Target
+* Förstå egenskaper och arbetsytor
+
+## Målgrupp
+
+* Administratör
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/?quality=12)
