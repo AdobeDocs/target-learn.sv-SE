@@ -1,16 +1,17 @@
 ---
-title: Använd Recommendations-erbjudanden i A/B-tester och upplevelseinriktade aktiviteter
-seo-title: Använd Recommendations-erbjudanden i A/B-tester och Experience Targeting-aktiviteter i Adobe Target
-description: Recommendations erbjudanden kan användas med A/B Test och Experience Targeting Activity.
-feature: recommendations
-kt: kt-3451
-audience: marketer
-doc-type: feature-video
-activity-type: use
+title: Så här använder du Recommendations-erbjudanden i A/B-tester och Experience Targeting-aktiviteter
+description: Lär dig hur du använder Recommendations erbjudanden i A/B-tester och Experience Targeting-aktiviteter i Adobe Target.
+role: Yrkesverksamma inom affärsverksamhet
+level: Mellanliggande
+topic: Personalisering
+feature: Recommendations, Automatiskt mål, Automatisk allokering
+doc-type: feature video
+thumbnail: null
+kt: 3451
 translation-type: tm+mt
-source-git-commit: cbc8499b9c4018d709d8d93405b3f816b091b36e
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 # Använd Recommendations-erbjudanden i A/B-tester och upplevelseinriktade aktiviteter
 
-Recommendations erbjudanden kan användas med A/B Test och Experience Targeting Activity. Den här funktionen öppnar upp helt nya funktioner, som:
+Recommendations erbjudanden kan användas med A/B Test och Experience Targeting Activity. Den här funktionaliteten öppnar upp en mängd funktioner som gör att du kan:
 
 * Blanda rekommendationer och icke-rekommendationsinnehåll inom samma aktivitet
 * Experimentera enkelt med olika rekommendationer på sidan, t.ex. i vilken ordning rekommendationerna ska skickas
