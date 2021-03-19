@@ -1,20 +1,32 @@
 ---
-title: Konfigurera kontoinställningar i Adobe Target
-description: 'null'
-audience: administrator
-difficulty: 1
-author: Daniel Wright
-doc-type: setup
-activity-type: feature-video
+title: Så här ställer du in kontoinställningar
+description: I den här videon beskrivs kontoinställningarna för Adobe Target. I den här videon finns exempel på hur olika inställningar påverkar Adobe Target.
+role: Administratör
+level: Nybörjare
+topic: Administration
+feature: Administration och konfiguration
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 6ebdda26ef1e210cca495fe9ea73c67eca039d6f
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '12'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
 
 
-# Konfigurera kontoinställningar
+# Konfigurera kontoinställningar i Adobe Target
+
+## Beskrivning
+
+I den här videon får du lära dig att:
+
+* Beskriv de olika kontoinställningarna i Adobe Target
+
+## Målgrupp
+
+* Administratör
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379/?quality=12)
