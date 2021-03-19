@@ -1,21 +1,33 @@
 ---
-title: Förstå feeds i Recommendations
-seo-title: Förstå feeds i Adobe Target Recommendations
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Vad är en feed i Recommendations?
+description: Läs vad en Adobe Target Recommendations-feed är och hur den används
+role: Yrkesverksamma inom affärsverksamhet
+level: Mellanliggande
+topic: Personalisering
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 5f1691ce33dc3379d8ae3fb6af2714ee682a68ee
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
 
 
 # Förstå feeds i Recommendations
+
+## Beskrivning
+
+I den här videon får du lära dig att:
+
+* Beskriv vad en feed är och förstå hur de används
+
+## Målgrupp
+
+* Yrkesverksamma inom affärsverksamhet
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?quality=12)
 
