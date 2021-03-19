@@ -1,16 +1,18 @@
 ---
-title: Så här fungerar Adobe Target at.js 2.0
-seo-title: Så här fungerar Adobe Target at.js 2.0
+title: Hur fungerar at.js 2.0?
 description: at.js 2.0 utökar Adobe Target stöd för single page-applikationer (SPA) och är integrerat med andra Experience Cloud-lösningar. I den här videon och tillhörande diagram förklaras hur allt hänger ihop.
-audience: developer
-difficulty: 3
+role: Utvecklare
+level: Mellanliggande
+topic: SPA, arkitektur, utveckling
+feature: Implementering
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
