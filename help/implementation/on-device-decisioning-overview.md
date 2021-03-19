@@ -1,18 +1,18 @@
 ---
-title: Beslutsöversikt på enheten
-description: Adobe Target On-device-beslut möjliggör nästan ingen latens för innehållsleverans.
-topics: implementation
-feature: implementation
-audience: architect
-activity: understand
+title: Vad är beslut på enheten?
+description: Adobe Target On-device-beslut möjliggör nästan ingen latens för innehållsleverans. I den här videon får du lära dig mer om enhetsbeslut och hur du aktiverar det.
+role: Arkitekt
+level: Nybörjare
+topic: Arkitektur, utveckling
+feature: Implementering, implementera serversidan, implementera klientsidan
 doc-type: feature video
 team: Evangelism
 kt: 6691
 thumbnail: null
 translation-type: tm+mt
-source-git-commit: 3c4e25461527c361a7eb2281504e56ddc2f9ea5b
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,6 @@ I slutet av videon kan du:
 * Skapa en formulärbaserad dispositionsaktivitet som är avsedd att användas med enhetsspecifik beslutsfattande
 * Läs mer om SDK-konfigurationen som krävs för enhetsbeslut genom att gå till [Adobe Target SDK-dokumentationen](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
 * Förstå vad slutanvändarna kommer att uppleva för innehåll som levereras genom att fatta beslut på enheten
-
 
 ## Målgrupp
 
