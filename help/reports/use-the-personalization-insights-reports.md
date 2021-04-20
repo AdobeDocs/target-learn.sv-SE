@@ -1,10 +1,10 @@
 ---
 title: Så här använder du Insights-rapporter för personalisering
 description: Automated Personalization- och Auto-Target-aktiviteter använder avancerad maskininlärning för att leverera den mest skräddarsydda upplevelsen till varje besökare baserat på hans eller hennes individuella kundprofil och beteendet hos tidigare besökare med liknande profiler. Personalisering Insights-rapporterna ger information om hur dessa modeller fattar sina beslut.
-role: Yrkesverksamma inom affärsverksamhet
-level: Mellanliggande
-topic: Personalisering
-feature: Rapporter, Automated Personalization, Automatiskt mål
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Reports, Automated Personalization, Auto-Target
 doc-type: feature video
 kt: null
 thumbnail: null

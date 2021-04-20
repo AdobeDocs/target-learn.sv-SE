@@ -1,10 +1,10 @@
 ---
 title: Hämta och uppdatera exempelappen Web.Travel
 description: 'Exempelappen We.Travel är förimplementerad med Adobe Mobile Services SDK v4. Du behöver bara uppdatera den så att den pekar på dina egna Experience Cloud Org- och Solution-konton.   '
-role: Utvecklare
-level: Mellanliggande
-topic: Mobil, personalisering
-feature: Implementera mobil
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

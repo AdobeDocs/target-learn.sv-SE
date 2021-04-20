@@ -1,9 +1,9 @@
 ---
 title: Så här skapar du en feed i Recommendations
 description: Lär dig hur du skapar en datafeed i Adobe Target Recommendations
-role: Yrkesverksamma inom affärsverksamhet
-level: Mellanliggande
-topic: Personalisering
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

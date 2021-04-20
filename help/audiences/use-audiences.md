@@ -1,10 +1,10 @@
 ---
 title: Vad är målgrupper och hur använder jag dem?
 description: I den här videon visas hur Adobe Target-användare använder målgrupper för att målinrikta aktiviteter och filtrera rapporter.
-role: Yrkesverksamma inom affärsverksamhet
-level: Nybörjare
-topic: Personalisering
-feature: Målgrupper, rapporter
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Audiences, Reports
 doc-type: feature video
 thumbnail: null
 kt: null

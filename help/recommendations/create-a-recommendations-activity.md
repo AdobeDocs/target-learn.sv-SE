@@ -1,9 +1,9 @@
 ---
 title: Så här skapar du en Recommendations-aktivitet
 description: Lär dig skapa en Adobe Target Recommendations-aktivitet
-role: Yrkesverksamma inom affärsverksamhet
-level: Mellanliggande
-topic: Personalisering
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

@@ -1,10 +1,10 @@
 ---
 title: Använda Data Providers för att integrera data från tredje part
 description: I den här självstudiekursen introduceras användare för Data Providers. Lär dig använda Data Providers för att enkelt skicka data från tredje part till Adobe Target.
-role: Affärsledare, utvecklare
-level: Erfaren
-topic: Personalisering, integrering
-feature: Implementering, integrering, API:er/SDK:er
+role: Business Practitioner, Developer
+level: Experienced
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: feature video
 kt: null
 thumbnail: null

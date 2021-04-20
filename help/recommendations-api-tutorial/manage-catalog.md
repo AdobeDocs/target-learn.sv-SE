@@ -1,10 +1,10 @@
 ---
 title: Hantera din Recommendations-katalog med API:er
 description: I den här delen av självstudiekursen får utvecklare hjälp med att använda Adobe Target API:er för att skapa, uppdatera, spara, hämta och ta bort entiteter i din Recommendations-katalog.
-role: Utvecklare
-level: Mellanliggande
-topic: Personalisering, administration, integrering, utveckling
-feature: API:er/SDK:er, Recommendations, administration och konfiguration
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
 thumbnail: null

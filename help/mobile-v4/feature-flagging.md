@@ -1,10 +1,10 @@
 ---
 title: Funktionsflaggning
 description: Adobe Target kan användas för att experimentera med UX-funktioner som färg, kopiering, knappar, text och bilder och för att ge dessa funktioner till specifika målgrupper.
-role: Utvecklare
-level: Mellanliggande
-topic: Mobil, personalisering
-feature: Implementera mobil
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

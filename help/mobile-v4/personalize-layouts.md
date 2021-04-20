@@ -1,10 +1,10 @@
 ---
 title: Anpassa layouter
 description: 'I den sista lektionen bygger vi två personaliseringsaktiviteter i Target för våra målgrupper. Lär dig hur du läser in och visar aktiviteterna i appen och validerar att innehållet visas vid rätt tidpunkt på rätt plats.  '
-role: Utvecklare
-level: Mellanliggande
-topic: Mobil, personalisering
-feature: Implementera mobil
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

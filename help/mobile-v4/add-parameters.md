@@ -1,10 +1,10 @@
 ---
 title: Lägg till parametrar i begäranden
 description: I den här lektionen ska vi lägga till Adobe livscykelvärden och anpassade parametrar i Target-begäranden som lades till i den föregående lektionen. Dessa mått och parametrar kommer att användas för att skapa personaliserade målgrupper senare i självstudiekursen.
-role: Utvecklare
-level: Mellanliggande
-topic: Mobil, personalisering
-feature: Implementera mobil
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

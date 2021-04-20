@@ -1,9 +1,9 @@
 ---
 title: Så här skapar du villkor i Recommendations
 description: Lär dig hur du skapar villkor i Adobe Target Recommendations
-role: Yrkesverksamma inom affärsverksamhet
-level: Mellanliggande
-topic: Personalisering
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

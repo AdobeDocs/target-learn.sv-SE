@@ -1,9 +1,9 @@
 ---
 title: Vad är en feed i Recommendations?
 description: Läs vad en Adobe Target Recommendations-feed är och hur den används
-role: Yrkesverksamma inom affärsverksamhet
-level: Mellanliggande
-topic: Personalisering
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

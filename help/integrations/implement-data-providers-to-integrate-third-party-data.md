@@ -1,10 +1,10 @@
 ---
 title: Implementera dataleverantörer för att integrera data från tredje part
 description: Den här självstudien innehåller implementeringsinformation och exempel på hur du kan använda funktionen Adobe Target Data Providers för att hämta data från tredjepartsleverantörer och skicka dem i Target-begäran.
-role: Utvecklare
-level: Erfaren
-topic: Personalisering, integrering
-feature: Implementering, integrering, API:er/SDK:er
+role: Developer
+level: Experienced
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: technical video
 kt: null
 thumbnail: null

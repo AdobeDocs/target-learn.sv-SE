@@ -1,10 +1,10 @@
 ---
 title: Konfigurera Enterprise-användarbehörigheter
 description: I den här videon presenteras Adobe Target-administratörer för användarbehörigheter, egenskaper och arbetsytor. I den här videon får du lära dig mer om de olika användarnivåerna och hur du använder egenskaper och arbetsytor för att styra användaråtkomsten.
-role: Administratör
-level: Nybörjare
+role: Administrator
+level: Beginner
 topic: Administration
-feature: Administration och konfiguration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

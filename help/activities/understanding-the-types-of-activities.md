@@ -1,10 +1,10 @@
 ---
 title: Vilka är de olika aktivitetstyperna?
 description: Läs mer om de olika aktiviteterna i Adobe Target och hur de kan hjälpa er att uppnå era mål. I den här videon får du lära dig grunderna om A/B-aktiviteter, multivariata tester (MVT), Experience Targeting-aktiviteter (XT), Recommendations och Automated Personalization-aktiviteter (AP).
-role: Yrkesverksamma inom affärsverksamhet
-level: Nybörjare
-topic: Personalisering
-feature: Verksamheter, A/B-tester, multivariata tester, Experience Targeting, Recommendations, Automated Personalization, Visual Experience Composer (VEC)
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Activities, A/B Tests, Multivariate Tests, Experience Targeting, Recommendations, Automated Personalization, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

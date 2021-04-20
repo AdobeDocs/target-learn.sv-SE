@@ -1,10 +1,10 @@
 ---
 title: Så här använder du svarstoken och anpassade at.js-händelser
 description: Lär dig hur du använder responstoken och anpassade at.js-händelser för att dela profilinformation från Target till tredjepartssystem.
-role: Utvecklare
-level: Erfaren
-topic: Personalisering, arkitektur, utveckling
-feature: Implementering
+role: Developer
+level: Experienced
+topic: Personalization, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

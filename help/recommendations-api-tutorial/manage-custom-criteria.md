@@ -1,10 +1,10 @@
 ---
 title: Hantera anpassade villkor
 description: I den här delen av självstudiekursen får utvecklare hjälp med att använda Adobe Target API:er för att hantera, skapa, lista, redigera, hämta och ta bort villkor för Adobe Target Recommendations.
-role: Utvecklare
-level: Mellanliggande
-topic: Personalisering, administration, integrering, utveckling
-feature: API:er/SDK:er, Recommendations, administration och konfiguration
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
 thumbnail: null

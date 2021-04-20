@@ -1,10 +1,10 @@
 ---
 title: Vad är Adobe Recommendations API?
 description: I den här självstudiekursen får utvecklare hjälp med praktiska övningar där Adobe Target Recommendations-API:er används för att konfigurera och hantera Recommendations-kataloger och anpassade villkor, samt att använda leverans-API:t för att hämta rekommendationsinnehåll.
-role: Utvecklare
-level: Mellanliggande
-topic: Personalisering, administration, integrering, utveckling
-feature: API:er/SDK:er, Recommendations, administration och konfiguration, översikt
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration, Overview
 doc-type: tutorial
 kt: 3815
 thumbnail: null

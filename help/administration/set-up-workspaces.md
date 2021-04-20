@@ -1,10 +1,10 @@
 ---
 title: Konfigurera arbetsytor
 description: I den här videon visas hur administratörer skapar arbetsytor i Adobe Target.
-role: Administratör
-level: Nybörjare
+role: Administrator
+level: Beginner
 topic: Administration
-feature: Administration och konfiguration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

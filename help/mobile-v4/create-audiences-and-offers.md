@@ -1,10 +1,10 @@
 ---
 title: Skapa publiker och erbjudanden i Adobe Target
 description: 'I den här lektionen bygger vi målgrupper och erbjudanden i Adobe Target för de tre platser vi implementerat i tidigare lektioner. De används för att visa personaliserade upplevelser i nästa lektion.   '
-role: Utvecklare
-level: Mellanliggande
-topic: Mobil, personalisering
-feature: Implementera mobil
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

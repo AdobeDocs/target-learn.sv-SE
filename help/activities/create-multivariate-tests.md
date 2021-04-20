@@ -1,10 +1,10 @@
 ---
 title: Skapa multivariata tester
 description: I den här videon får du hjälp med att skapa ett multivariat-test (MVT) i Adobe Target. Lär dig hur du skapar och tolkar MVT-filer.
-role: Yrkesverksamma inom affärsverksamhet
-level: Nybörjare
-topic: Personalisering
-feature: Multivariata tester, aktiviteter, Visual Experience Composer (VEC)
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Multivariate Tests, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

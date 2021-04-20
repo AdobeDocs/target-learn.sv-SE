@@ -12,7 +12,7 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/target-learn.sv-SE
 index: true
 mini-toc-levels: 2
 feature-set: Target
-type: Självstudiekurs
+type: Tutorial
 translation-type: tm+mt
 source-git-commit: 38125cff6d0c94d476f059442b592eaee39160ce
 workflow-type: tm+mt

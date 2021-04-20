@@ -1,10 +1,10 @@
 ---
 title: Felsöka med målspår
 description: Med Adobe Experience Cloud Debugger är det snabbt och enkelt att förstå hur Target-implementeringen fungerar. Lär dig hur du autentiserar dig i Experience Cloud och använder det kraftfulla verktyget Target Traces för att inspektera din aktivitet, dina målgruppskvalifikationer och din besökarprofil.
-role: Yrkesverksamma inom affärsverksamhet
-level: Mellanliggande
-topic: Personalisering, prestanda
-feature: Felsökning
+role: Business Practitioner
+level: Intermediate
+topic: Personalization, Performance
+feature: Troubleshooting
 doc-type: feature video
 kt: null
 thumbnail: null

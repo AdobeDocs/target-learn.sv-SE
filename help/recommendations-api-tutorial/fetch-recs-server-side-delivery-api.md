@@ -1,10 +1,10 @@
 ---
 title: Hämta Recommendations med leverans-API
 description: I den här delen av självstudiekursen får utvecklare hjälp med att hämta rekommendationer med Adobe Target Delivery API.
-role: Utvecklare
-level: Mellanliggande
-topic: Personalisering, administration, integrering, utveckling
-feature: API:er/SDK:er, Recommendations, administration och konfiguration
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
 thumbnail: null

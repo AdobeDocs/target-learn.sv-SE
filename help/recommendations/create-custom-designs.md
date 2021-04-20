@@ -1,9 +1,9 @@
 ---
 title: Skapa egna designer i Recommendations
 description: Lär dig hur du skapar anpassade designer i Adobe Target Recommendations.
-role: Yrkesverksamma inom affärsverksamhet
-level: Mellanliggande
-topic: Personalisering
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

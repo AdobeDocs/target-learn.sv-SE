@@ -1,9 +1,9 @@
 ---
 title: Skapa samlingar och undantag i Recommendations
 description: Lär dig vad en Recommendations-samling är och hur du använder den. Lär dig vad ett undantag från Recommendations är och hur du använder det.
-role: Yrkesverksamma inom affärsverksamhet
-level: Mellanliggande
-topic: Personalisering
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

@@ -1,10 +1,10 @@
 ---
 title: Implementera at.js 2.0 i ett enkelsidigt program (SPA)
 description: Adobe Target at.js 2.0 har många funktioner som gör det möjligt för ditt företag att utföra personalisering på nästa generations klienttekniker. Följ de här stegen för att implementera at.js 2.0 i ett enkelsidigt program (SPA).
-role: Utvecklare
-level: Mellanliggande
-topic: SPA, arkitektur, utveckling
-feature: Implementering
+role: Developer
+level: Intermediate
+topic: SPA, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

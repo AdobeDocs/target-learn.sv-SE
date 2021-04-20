@@ -1,10 +1,10 @@
 ---
 title: Så här skapar du profilskript
 description: I den här videon får Adobe Target-användare en introduktion till profilskript. Titta på den här videon om du har erfarenhet av Adobe Target och vill lära dig grunderna i hur du använder profilskript för att utföra mer specialiserad målgruppsanpassning eller skapa målgrupper.
-role: Affärsledare, utvecklare
-level: Erfaren
-topic: Personalisering
-feature: Målgrupper, administration och konfiguration
+role: Business Practitioner, Developer
+level: Experienced
+topic: Personalization
+feature: Audiences, Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

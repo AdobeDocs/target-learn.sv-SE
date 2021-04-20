@@ -1,10 +1,10 @@
 ---
 title: Implementera Mbox-parametrar med DTM
 description: I den här videon visas hur utvecklare implementerar mbox-parametrar med aktivering av Adobe, som tidigare kallades DTM (Adobe Dynamic Tag Management).
-role: Utvecklare
-level: Mellanliggande
-topic: Personalisering, arkitektur, utveckling
-feature: Implementering
+role: Developer
+level: Intermediate
+topic: Personalization, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

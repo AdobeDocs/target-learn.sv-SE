@@ -1,10 +1,10 @@
 ---
 title: Så här ställer du in kontoinställningar
 description: I den här videon beskrivs kontoinställningarna för Adobe Target. I den här videon finns exempel på hur olika inställningar påverkar Adobe Target.
-role: Administratör
-level: Nybörjare
+role: Administrator
+level: Beginner
 topic: Administration
-feature: Administration och konfiguration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

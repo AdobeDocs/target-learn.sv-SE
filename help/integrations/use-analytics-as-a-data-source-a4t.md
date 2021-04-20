@@ -1,10 +1,10 @@
 ---
 title: Använda Analytics som datakälla för mål (A4T)
 description: Den här videon presenterar marknadsförare för Analytics for Target (A4T).
-role: Yrkesverksamma inom affärsverksamhet
-level: Nybörjare
-topic: Personalisering, integrering
-feature: Analyser för mål (A4T), integreringar
+role: Business Practitioner
+level: Beginner
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Integrations
 doc-type: feature video
 thumbnail: null
 kt: null

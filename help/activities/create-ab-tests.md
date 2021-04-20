@@ -1,10 +1,10 @@
 ---
 title: Så här skapar du ett A/B-test
 description: I den här videon får du hjälp med att skapa A/B-aktiviteter i Adobe Target. I den här videon får du lära dig hur du skapar en grundläggande A/B-aktivitet med Visual Experience Composer (VEC).
-role: Yrkesverksamma inom affärsverksamhet
-level: Nybörjare
-topic: Personalisering
-feature: A/B-tester, aktiviteter, Visual Experience Composer (VEC)
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: A/B Tests, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

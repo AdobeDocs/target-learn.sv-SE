@@ -1,10 +1,10 @@
 ---
 title: Driftsättningsalternativ för hybrid
 description: I den här videon får du lära dig mer om Adobe Target unika hybriddriftsättningsmodell för personalisering - en kombination av implementeringar på både klient- och serversidan.
-role: Utvecklare, arkitekt
-level: Nybörjare
-topic: Personalisering, arkitektur, utveckling
-feature: Implementering, implementera serversidan, implementera klientsidan
+role: Developer, Architect
+level: Beginner
+topic: Personalization, Architecture, Development
+feature: Implementation, Implement Server-side, Implement Client-side
 doc-type: feature video
 thumbnail: null
 kt: 6165

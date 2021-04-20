@@ -1,10 +1,10 @@
 ---
 title: Vad är beslut på enheten?
 description: Adobe Target On-device-beslut möjliggör nästan ingen latens för innehållsleverans. I den här videon får du lära dig mer om enhetsbeslut och hur du aktiverar det.
-role: Arkitekt
-level: Nybörjare
-topic: Arkitektur, utveckling
-feature: Implementering, implementera serversidan, implementera klientsidan
+role: Architect
+level: Beginner
+topic: Architecture, Development
+feature: Implementation, Implement Server-side, Implement Client-side
 doc-type: feature video
 team: Evangelism
 kt: 6691
