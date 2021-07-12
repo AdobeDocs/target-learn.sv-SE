@@ -1,22 +1,21 @@
 ---
 title: Så här ställer du in egenskaper
 description: I den här videon visas hur administratörer skapar egenskaper i Adobe Target.
-role: Administrator
+role: Admin
 level: Beginner
 topic: Administration
-feature: Administration & Configuration
+feature: Administration och konfiguration
 doc-type: feature video
 thumbnail: null
 kt: null
 badge: premium
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '41'
 ht-degree: 0%
 
 ---
-
 
 # Konfigurera egenskaper i Adobe Target
 
