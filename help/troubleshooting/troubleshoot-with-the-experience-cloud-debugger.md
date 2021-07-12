@@ -1,22 +1,21 @@
 ---
 title: Felsöka Adobe Target med Experience Cloud Debugger
 description: Med Adobe Experience Cloud Debugger är det snabbt och enkelt att förstå hur Target-implementeringen fungerar. Du kan snabbt visa bibliotekskonfigurationen, granska förfrågningar för att se till att dina anpassade parametrar skickas korrekt, aktivera konsolloggning och inaktivera alla Target-förfrågningar. Logga in på Experience Cloud och använd det kraftfulla spårningsverktyget för Mbox för att kontrollera din aktivitet och dina målgruppskvalifikationer liksom din besökarprofil.
-role: Business Practitioner
+role: User
 level: Intermediate
-topic: Personalization, Performance
-feature: Troubleshooting
+topic: Personalisering, prestanda
+feature: Felsökning
 doc-type: feature video
 kt: null
 thumbnail: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: afdc531d-e54c-4612-b21b-67a3e8e65a26
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
-
 
 # Felsök med Experience Cloud Debugger
 
