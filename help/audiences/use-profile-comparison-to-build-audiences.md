@@ -1,22 +1,21 @@
 ---
 title: Så här använder du profiljämförelse för att skapa målgrupper
 description: I den här videon visas hur Adobe Target-användare använder funktionen Profiljämförelse för att jämföra två numeriska profilvärden med varandra när de skapar en målgrupp.
-role: Business Practitioner
+role: User
 level: Experienced
-topic: Personalization
-feature: Audiences
+topic: Personalisering
+feature: Målgrupper
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
-
 
 # Använd profiljämförelse för att skapa målgrupper i Adobe Target
 
