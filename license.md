@@ -1,24 +1,16 @@
 ---
-source-git-commit: ef3c016c2e7fdf12cefd340ec8ff988ad8e6c567
+source-git-commit: 8ef5421e5750bef5c52289d245c214a5a93e3fb8
 workflow-type: tm+mt
-translation-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
 
 ---
 # MIT-licens
 
-© Copyright 2018 Adobe. Med ensamrätt.
+© Copyright 2021 Adobe. all rights reserved.
 
-Tillstånd beviljas härmed, kostnadsfritt, till varje person som erhåller en kopia av denna programvara och tillhörande dokumentationsfiler (&quot;Programvaran&quot;), att utan begränsning definiera Programvaran, inklusive, utan begränsning, rätten att använda, kopiera, modifiera, slå samman, publicera, distribuera, underlicensiera och/eller sälja kopior av Programvaran, samt att ge personer till vilka Programvaran har tillhandahållits rätt att göra detta, på följande villkor:
+Härmed beviljas alla som erhåller en kopia av denna programvara och tillhörande dokumentationsfiler (&quot;Programvaran&quot;) rätt att handla i Programvaran utan begränsning, inklusive utan begränsning rätten att använda, kopiera, modifiera, slå samman, publicera, distribuera, underlicensiera och/eller sälja kopior av Programvaran, samt att ge personer som Programvaran tillhandahålls rätt att göra detta, på följande villkor:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Ovannämnda meddelande om upphovsrätt och detta tillståndsmeddelande ska finnas med i alla exemplar eller väsentliga delar av Programvaran.
 
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+PROGRAMVARAN TILLHANDAHÅLLS &quot;I BEFINTLIGT SKICK&quot; UTAN GARANTI AV NÅGON TYP, UTTRYCKLIG ELLER UNDERFÖRSTÅDD, INKLUSIVE MEN INTE BEGRÄNSAD TILL GARANTIER FÖR SÄLJBARHET, LÄMPLIGHET FÖR ETT VISST ÄNDAMÅL OCH ICKE-ÖVERTRÄDELSE. FÖRFATTARNA ELLER UPPHOVSRÄTTSINNEHAVARNA FÅR INTE I NÅGOT FALL ANSVARA FÖR ANSPRÅK, SKADOR ELLER ANDRA ANSVAR, OAVSETT OM DET ÄR EN AVTALSAVTAL, TORTERING ELLER ANNAT, SOM UPPSTÅR FRÅN, UTANFÖR ELLER I SAMBAND MED PROGRAMVARAN ELLER ANVÄNDNINGEN ELLER ANDRA I PROGRAMVARAN.
