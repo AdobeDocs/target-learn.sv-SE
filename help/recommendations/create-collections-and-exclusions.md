@@ -1,21 +1,20 @@
 ---
 title: Skapa samlingar och undantag i Recommendations
 description: Lär dig vad en Recommendations-samling är och hur du använder den. Lär dig vad ett undantag från Recommendations är och hur du använder det.
-role: Business Practitioner
+role: User
 level: Intermediate
-topic: Personalization
+topic: Personalisering
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 10448c36-44b8-4a2f-a3c5-9e0130593a17
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
-
 
 # Skapa samlingar och undantag i Recommendations
 
