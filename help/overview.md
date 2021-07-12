@@ -1,12 +1,11 @@
 ---
 title: Lär dig använda Adobe Target
 description: Lär dig använda Adobe Target med den här samlingen självstudiekurser och videor som täcker alla komponenter. Använd kraften i Adobe Target effektivt.
-role: Leader, Architect, Developer, Administrator, Business Practitioner
+role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
-topic: Personalization
+topic: Personalisering
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-translation-type: tm+mt
-source-git-commit: 62c9d6328f65945109c96f65d94659b59708ac82
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
