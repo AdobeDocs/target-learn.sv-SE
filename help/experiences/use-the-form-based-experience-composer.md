@@ -1,22 +1,21 @@
 ---
 title: Använda den formulärbaserade Experience Composer
 description: I den här videon visas hur och när Adobe Target ska använda den formulärbaserade upplevelsedispositionen.
-role: Business Practitioner
+role: User
 level: Beginner
-topic: Personalization
-feature: Form-based Experience Composer, Experiences and Offers, Visual Experience Composer (VEC)
+topic: Personalisering
+feature: Formulärbaserad Experience Composer, Experience and Offers, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 7d216524-03a7-4acd-bd06-345d37ba24be
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
-
 
 # Använda den formulärbaserade Experience Composer i Adobe Target
 
