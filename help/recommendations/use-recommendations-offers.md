@@ -1,21 +1,20 @@
 ---
 title: Så här använder du Recommendations-erbjudanden i A/B-tester och Experience Targeting-aktiviteter
 description: Lär dig hur du använder Recommendations erbjudanden i A/B-tester och Experience Targeting-aktiviteter i Adobe Target.
-role: Business Practitioner
+role: User
 level: Intermediate
-topic: Personalization
-feature: Recommendations, Auto-Target, Auto-Allocate
+topic: Personalisering
+feature: Recommendations, Automatiskt mål, Automatisk allokering
 doc-type: feature video
 thumbnail: null
 kt: 3451
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 16908f07-cda4-4a34-9e11-42b419e3917b
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
-
 
 # Använd Recommendations-erbjudanden i A/B-tester och upplevelseinriktade aktiviteter
 
