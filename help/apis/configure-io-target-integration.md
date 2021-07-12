@@ -1,22 +1,21 @@
 ---
 title: Konfigurera autentisering för Adobe Target API:er
 description: Den här självstudiekursen vägleder utvecklare genom de steg som krävs för att generera autentiseringstoken som behövs för att kunna interagera med Adobe Target API:er. Följ de här stegen för att använda Adobe Developer Console för att generera och testa en token för innehavaråtkomst, som behövs för att använda mål-API:erna.
-role: Developer, Administrator, Architect
+role: Developer, Admin, Architect
 level: Intermediate
-topic: Personalization, Administration, Integrations, Development
-feature: APIs/SDKs, Administration & Configuration
+topic: Personalisering, administration, integrering, utveckling
+feature: API:er/SDK:er, administration och konfiguration
 doc-type: tutorial
 kt: null
 thumbnail: null
 author: Judy Kim
-translation-type: tm+mt
-source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
+exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1841'
 ht-degree: 2%
 
 ---
-
 
 # Konfigurera autentisering för Adobe Target API:er
 
