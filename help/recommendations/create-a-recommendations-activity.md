@@ -1,21 +1,20 @@
 ---
 title: Så här skapar du en Recommendations-aktivitet
 description: Lär dig skapa en Adobe Target Recommendations-aktivitet
-role: Business Practitioner
+role: User
 level: Intermediate
-topic: Personalization
+topic: Personalisering
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 40014bac-e206-47f7-811e-bfd16fb761d3
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
-
 
 # Skapa en Adobe Target Recommendations-aktivitet
 
