@@ -8,14 +8,13 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 244bcf7a-b59b-4dd1-bd05-0a55ce7a7132
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
-
 
 # Hämta och uppdatera exempelappen Web.Travel
 
@@ -40,7 +39,7 @@ När lektionen är klar kan du:
 
 ## Verifiera och uppdatera SDK-inställningarna för mobila tjänster för [!DNL Target]
 
-Adobe Mobile Services SDK har förinstallerats i appen We.Travel [enligt dokumentationen](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html). Nu ska du uppdatera installationen så att den pekar på ditt eget [!DNL Target]-konto.
+Adobe Mobile Services SDK har förinstallerats i appen We.Travel [enligt dokumentationen](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en). Nu ska du uppdatera installationen så att den pekar på ditt eget [!DNL Target]-konto.
 
 Skapa först en ny app i användargränssnittet för Mobile Services:
 

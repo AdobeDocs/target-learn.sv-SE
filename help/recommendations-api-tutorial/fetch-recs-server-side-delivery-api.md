@@ -9,14 +9,13 @@ doc-type: tutorial
 kt: 3815
 thumbnail: null
 author: Judy Kim
-translation-type: tm+mt
-source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
+exl-id: 553d1208-647f-479d-acc7-d7760469d642
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
-
 
 # Hämtar [!DNL Recommendations] med leverans-API
 
@@ -94,8 +93,7 @@ Följande resurser innehåller exempel på olika implementeringar som inte är H
 
 | Resurs | Detaljer |
 | --- | --- |
-| [Använda RESTful-API:er i AEM](https://helpx.adobe.com/experience-manager/using/restful-services.html) | Så här skapar och driftsätter du ett Adobe Experience Manager OSGi-paket som förbrukar data från en RESTful-webbtjänst från en annan leverantör. |
-| [Adobe Target Everywhere - Implementera serversidan eller i IoT](https://expleague.azureedge.net/labs/L733/index.html) | Adobe Summit 2019 Lab som ger en praktisk upplevelse för React-applikationer som utnyttjar Adobe Target serversides-API:er. |
+| [Adobe Target Everywhere - Implementera serversidan eller i IoT](https://expleague.azureedge.net/labs/L733/index.html) | Adobe Summit 2019 Lab som ger dig en praktisk upplevelse av ett React-program som använder Adobe Target serversides-API:er. |
 | [Adobe Target i en mobilapp utan Adobe SDK](https://community.tealiumiq.com/t5/Universal-Data-Hub/Adobe-Target-in-a-Mobile-App-Without-the-Adobe-SDK/ta-p/26753) | Den här guiden visar hur du konfigurerar Adobe Target i din mobilapp utan att installera Adobe SDK. Den här lösningen använder Tealium SDK-webbvyn och Remote Commands-modulen för att skicka och ta emot begäranden till Adobe Visitor API (Experience Cloud) och Adobe Target API. |
 | [Så här fungerar Adobe Target i mobilappar](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html) | Hur [!DNL Target] fungerar med Mobile SDK |
 | [Konfigurera API: [!DNL Target] extension in Experience Platform Launch and Implementing [!DNL Target] erna](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Steg för att konfigurera tillägget [!DNL Target] i Experience Platform Launch, lägga till tillägget [!DNL Target] i programmet och implementera API:er för [!DNL Target] för att begära aktiviteter, förhämta erbjudanden och ange visuellt förhandsgranskningsläge. |

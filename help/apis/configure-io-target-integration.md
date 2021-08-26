@@ -3,16 +3,16 @@ title: Konfigurera autentisering för Adobe Target API:er
 description: Den här självstudiekursen vägleder utvecklare genom de steg som krävs för att generera autentiseringstoken som behövs för att kunna interagera med Adobe Target API:er. Följ de här stegen för att använda Adobe Developer Console för att generera och testa en token för innehavaråtkomst, som behövs för att använda mål-API:erna.
 role: Developer, Admin, Architect
 level: Intermediate
-topic: Personalisering, administration, integrering, utveckling
-feature: API:er/SDK:er, administration och konfiguration
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Administration & Configuration
 doc-type: tutorial
 kt: null
 thumbnail: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '1841'
+source-wordcount: '1833'
 ht-degree: 2%
 
 ---
@@ -93,8 +93,7 @@ Det finns många sätt att specificera projektdetaljer i Postman, men i det här
 > 2. Generera en åtkomsttoken med Postman
 
 >
-> 
-Dessa steg finns också nedan.
+> Dessa steg finns också nedan.
 
 1. Navigera fortfarande i [Adobe Developer Console](https://console.adobe.io/) och visa det nya projektets **[!UICONTROL Service Account (JWT)]**-autentiseringsuppgifter. Använd antingen den vänstra navigeringen eller **[!UICONTROL Credentials]**-avsnittet som visas.
    ![JWT1](assets/configure-io-target-jwt1.png)
@@ -197,4 +196,4 @@ I den här övningen använder du din nya innehavaråtkomsttoken genom att skick
 1. Skicka din begäran efter att du har valt rätt miljö. Du bör få ett svar med din lista över aktiviteter.
    ![testtoken6](assets/configure-io-target-testtoken6.png)
 
-Grattis! Nu när du har verifierat autentiseringen i Adobe kan du använda den för att interagera med Adobe Target API:er (och andra Adobe API:er). Du kan till exempel [använda Recommendations API:er](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html) för att skapa eller hantera rekommendationer.
+Grattis! Nu när du har verifierat autentiseringen i Adobe kan du använda den för att interagera med Adobe Target API:er (och andra Adobe API:er). Du kan till exempel [använda Recommendations API:er](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html?lang=en) för att skapa eller hantera rekommendationer.

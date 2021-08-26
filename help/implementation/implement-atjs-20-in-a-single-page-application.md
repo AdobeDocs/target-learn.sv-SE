@@ -9,14 +9,13 @@ doc-type: technical video
 kt: null
 thumbnail: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 955f0571-5791-4dbb-9931-e6d5c8bb42a7
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
-
 
 # Implementera Adobe Target at.js 2.0 i ett enkelsidigt program (SPA)
 
@@ -77,4 +76,4 @@ window.onhashchange = function() {
 
 * [Understanding How at.js 2.0 Works (Architecture Diagrams)](understanding-how-atjs-20-works.md)
 * [Använda Adobe Target Visual Experience Composer för enkelsidiga program (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
-* [Uppgradera från dokumentationen för at.js 1.x till at.js 2.0](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html)
+* [Uppgradera från dokumentationen för at.js 1.x till at.js 2.0](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=en)

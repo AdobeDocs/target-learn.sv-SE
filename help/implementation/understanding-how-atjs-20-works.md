@@ -9,14 +9,13 @@ doc-type: technical video
 kt: null
 thumbnail: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 7f037665-88a7-469c-8df5-c82cb0f65382
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
-
 
 # Så här fungerar Adobe Target at.js 2.0
 
@@ -62,4 +61,4 @@ ht-degree: 0%
 
 * [Implementera at.js 2.0 i ett enkelsidigt program](implement-atjs-20-in-a-single-page-application.md)
 * [Använda Adobe Target Visual Experience Composer för enkelsidiga program (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
-* [How at.js Works Documentation](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/at-js/how-atjs-works.html)
+* [How at.js Works Documentation](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=en)
