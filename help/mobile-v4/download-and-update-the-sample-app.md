@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3040
 thumbnail: null
 exl-id: 244bcf7a-b59b-4dd1-bd05-0a55ce7a7132
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: ee58c7c85708722cf040cd9b039a2855dd390a16
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Adobe Mobile Services SDK har förinstallerats i appen We.Travel [enligt dokumen
 
 Skapa först en ny app i användargränssnittet för Mobile Services:
 
-1. Logga in på gränssnittet [Adobe Mobile Services](https://mobilemarketing.adobe.com).
+1. Logga in på gränssnittet [Adobe Mobile Services](https://mobilemarketing.adobe.com/).
 1. Gå till [!UICONTROL Manage Apps] och klicka sedan på **[!UICONTROL Add]** för att lägga till ett nytt program som ska användas med den här självstudiekursen (**[!UICONTROL Manage Apps]** > **[!UICONTROL Add]**).
 1. Välj en analysrapportsserie med icke-produktionsdata, ge appen ett namn, välj typen **[!UICONTROL Standard]** och klicka på **[!UICONTROL Save]**.
 1. När appen har lagts till lägger du till din [!DNL Target]-klientkod på nästa skärm i avsnittet [!UICONTROL SDK Target Options] (du hittar din klientkod i gränssnittet [!DNL Target] under **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]**, bredvid knappen Hämta `at.js`).

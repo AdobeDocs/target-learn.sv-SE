@@ -8,14 +8,13 @@ feature: Implement Mobile, Overview
 doc-type: tutorial
 kt: 3040
 thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 20f8ed4f-a86d-4c5e-9296-71a93724caa3
+source-git-commit: ee58c7c85708722cf040cd9b039a2855dd390a16
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Target med Adobe Mobile Services SDK v4 för Android - översikt
 
@@ -25,7 +24,7 @@ Du får en demo-Android-app för att slutföra lektionerna. När du är klar med
 
 När du är klar med den här självstudiekursen kan du:
 
-* Verifiera installationen av [Adobe Mobile Services SDK](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)
+* Verifiera installationen av [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en)
 * Implementera följande typer av [!DNL Target]-begäranden:
    * Förhämtning av [!DNL Target]-innehåll
    * Gruppera flera [!DNL Target] platser (mbox) i en enda begäran
@@ -44,7 +43,7 @@ I dessa lektioner antas att du:
 
 * Ha ett Adobe-ID och åtkomst på godkännarnivå till Adobe Target-gränssnittet (se verifieringsstegen nedan)
 * Lär känna Adobe Target klientkod så att du kan göra förfrågningar till ditt eget konto. Klientkoden visas i Adobe Target-gränssnittet på   Inställningar > Implementering > Redigera skärmen för at.js-inställningar
-* Har tillgång till och är bekanta med användargränssnittet [Mobile Services](https://mobilemarketing.adobe.com)
+* Har tillgång till och är bekanta med användargränssnittet [Mobile Services](https://mobilemarketing.adobe.com/)
 * Utveckla mobilappar med IDE för Android. Den här självstudiekursen innehåller [Android Studio](https://developer.android.com/studio/install) i olika steg och skärmbilder
 
 Om du inte har den behörighet som krävs för Experience Cloud Solutions, kontakta din Experience Cloud-administratör.
