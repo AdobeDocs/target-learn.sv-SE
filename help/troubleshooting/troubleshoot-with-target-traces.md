@@ -3,16 +3,16 @@ title: Felsöka med målspår
 description: Med Adobe Experience Cloud Debugger är det snabbt och enkelt att förstå hur Target-implementeringen fungerar. Lär dig hur du autentiserar dig i Experience Cloud och använder det kraftfulla verktyget Target Traces för att inspektera din aktivitet, dina målgruppskvalifikationer och din besökarprofil.
 role: User
 level: Intermediate
-topic: Personalisering, prestanda
-feature: Felsökning
+topic: Personalization, Performance
+feature: Troubleshooting
 doc-type: feature video
 kt: null
 thumbnail: null
 author: Daniel Wright
 exl-id: 5a38ac7f-a75a-43a8-8034-5735676b6be2
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,6 @@ ht-degree: 0%
 ## Ytterligare resurser
 
 * [Adobe Experience Cloud Debugger in the Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
-* [Felsöka hjälpdokumentation för mål](https://docs.adobe.com/content/help/en/target/using/troubleshoot/troubleshooting-target.html)
+* [Felsöka hjälpdokumentation för mål](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en)
 * [Felsök Target med Experience Cloud Debugger-videon](troubleshoot-with-the-experience-cloud-debugger.md)
-* [Så här använder du Experience Cloud Debugger](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/use-the-experience-cloud-debugger.html)
+* [Så här använder du Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/use-the-experience-cloud-debugger.html?lang=en)

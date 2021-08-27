@@ -10,9 +10,9 @@ kt: null
 thumbnail: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1832'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ I det här avsnittet öppnar du utvecklarkonsolen i Adobe och skapar ett projekt
 
    ![configure-io-target-create-project3.png](assets/configure-io-target-createproject3.png)
 
-4. Klicka på **[!UICONTROL Add API]** om du vill lägga till ett REST API i ditt projekt för att få tillgång till tjänster och produkter från Adobe.
+4. Klicka på **[!UICONTROL Add API]** om du vill lägga till ett REST API i projektet för att få tillgång till Adobes tjänster och produkter.
 
    ![Lägg till API](assets/configure-io-target-createproject4.png)
 
@@ -87,7 +87,7 @@ Det finns många sätt att specificera projektdetaljer i Postman, men i det här
 
 >[!NOTE]
 >
->Instruktioner om hur du använder Experience Cloud, inklusive [!DNL Target], finns i [Använd Postman med Experience Platform API:er](https://docs.adobe.com/content/help/en/platform-learn/tutorials/apis/postman.html). Följande avsnitt är relevanta för API:erna för [!DNL Target]:
+>Instruktioner om hur du använder Experience Cloud, inklusive [!DNL Target], finns i [Använd Postman med Experience Platform API:er](https://experienceleague.adobe.com/docs/platform-learn/tutorials/platform-api-authentication.html?lang=en). Följande avsnitt är relevanta för API:erna för [!DNL Target]:
 >
 > 1. Exportera integreringsinformation för Adobe I/O till Postman
 > 2. Generera en åtkomsttoken med Postman

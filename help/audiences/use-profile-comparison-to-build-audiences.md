@@ -3,16 +3,16 @@ title: Så här använder du profiljämförelse för att skapa målgrupper
 description: I den här videon visas hur Adobe Target-användare använder funktionen Profiljämförelse för att jämföra två numeriska profilvärden med varandra när de skapar en målgrupp.
 role: User
 level: Experienced
-topic: Personalisering
-feature: Målgrupper
+topic: Personalization
+feature: Audiences
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ I den här videon får du lära dig att:
 
 ## Ytterligare resurser
 
-* [Skapa en målgrupp för jämförelse av profilattribut](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html)
-* [Metoder för att hämta data till Adobe Target](https://docs.adobe.com/content/help/en/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html)
-* [Bygga målgrupper](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
+* [Skapa en målgrupp för jämförelse av profilattribut](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
+* [Metoder för att hämta data till Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html?lang=en)
+* [Bygga målgrupper](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
 * [Video om att skapa aktiviteter för målinriktade upplevelser](../activities/create-experience-targeting-activities.md)

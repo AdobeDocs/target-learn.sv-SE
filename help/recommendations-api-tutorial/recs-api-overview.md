@@ -9,23 +9,22 @@ doc-type: tutorial
 kt: 3815
 thumbnail: null
 author: Judy Kim
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 10f80056-fb71-4362-86bc-d161f596cb91
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
 
-
 # Adobe Recommendations API - översikt
 
-API:er som är relevanta för [!DNL Recommendations] inkluderar [admin-API:er](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html) som gör att du kan:
+API:er som är relevanta för [!DNL Recommendations] inkluderar [admin-API:er](https://experienceleague.adobe.com/docs/target/using/apis/api-overview.html?lang=en) som gör att du kan:
 
 * Hantera din katalog med rekommenderade produkter eller innehåll
 * Hantera dina [!DNL Recommendations]-algoritmer och -aktiviteter
 
-Med hjälp av [!DNL Target] [leverans-API](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html) med Recommendations kan du även:
+Med hjälp av [!DNL Target] [leverans-API](https://experienceleague.adobe.com/docs/target/using/apis/api-overview.html?lang=en) med Recommendations kan du även:
 
 * Hämta rekommendationer i JSON-, HTML- eller XML-objekt så att de kan visas i webben, mobiler, e-post, sakernas internet (IOT) och andra kanaler.
 

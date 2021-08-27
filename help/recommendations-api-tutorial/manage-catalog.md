@@ -9,14 +9,13 @@ doc-type: tutorial
 kt: 3815
 thumbnail: null
 author: Judy Kim
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 8060b69b-e8e5-4fe7-895f-742410d8ed45
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '890'
 ht-degree: 1%
 
 ---
-
 
 # Hantera din [!DNL Recommendations]-katalog med API:er
 
@@ -154,7 +153,7 @@ Enhetsinformation kan bara hämtas för en enskild entitet åt gången. Du kan a
 Om du får ett felmeddelande om att enheten inte hittades, som visas i exemplet ovan, kontrollerar du att du skickar begäran till rätt  [!DNL Target] miljö.
 
    >[!NOTE]
-   Om ingen miljö uttryckligen anges försöker Get Entity att hämta entiteten från din [standardmiljö](https://docs.adobe.com/content/help/en/target/using/administer/hosts.html#section_4F8539B07C0C45E886E8525C344D5FB0). Om du vill hämta från någon annan miljö än standardmiljön måste du ange miljö-ID:t.
+   Om ingen miljö uttryckligen anges försöker Get Entity att hämta entiteten från din [standardmiljö](https://experienceleague.adobe.com/docs/target/using/administer/hosts.html?lang=en). Om du vill hämta från någon annan miljö än standardmiljön måste du ange miljö-ID:t.
 
 4. Om det behövs lägger du till parametern `environmentId` och skickar begäran igen.
 

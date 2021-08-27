@@ -3,16 +3,16 @@ title: Använda Data Providers för att integrera data från tredje part
 description: I den här självstudiekursen introduceras användare för Data Providers. Lär dig använda Data Providers för att enkelt skicka data från tredje part till Adobe Target.
 role: User, Developer
 level: Experienced
-topic: Personalisering, integrering
-feature: Implementering, integrering, API:er/SDK:er
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: feature video
 kt: null
 thumbnail: null
 author: Daniel Wright
 exl-id: 1892136e-14e3-4e52-8b1f-aee806d2f83a
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -37,4 +37,4 @@ ht-degree: 0%
 ## Stödmaterial
 
 * [Implementera Data Providers i at.js och Adobe Target](implement-data-providers-to-integrate-third-party-data.md)
-* [Dokumentation för dataleverantörer](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/targetgobalsettings.html#data-providers)
+* [Dokumentation för dataleverantörer](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/targetgobalsettings.html?lang=en#data-providers)

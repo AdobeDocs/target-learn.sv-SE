@@ -10,7 +10,7 @@ kt: 3815
 thumbnail: null
 author: Judy Kim
 exl-id: 553d1208-647f-479d-acc7-d7760469d642
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 0%
@@ -47,9 +47,9 @@ Följ de här stegen för att använda leverans-API:t för att leverera [!DNL Ta
 
 ## Skapa en rekommendation med den formulärbaserade Experience Composer
 
-Om du vill skapa rekommendationer som kan användas med leverans-API:t använder du [formulärbaserad disposition](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html).
+Om du vill skapa rekommendationer som kan användas med leverans-API:t använder du [formulärbaserad disposition](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html?lang=en).
 
-1. Först skapar och sparar du en JSON-baserad design som du kan använda i dina rekommendationer. Exempel-JSON, plus bakgrundsinformation om hur JSON-svar kan returneras när en formulärbaserad aktivitet konfigureras, finns i dokumentationen om [Skapa rekommendationsdesigner](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-design/create-design.html). I det här exemplet heter designen *enkel JSON.*
+1. Först skapar och sparar du en JSON-baserad design som du kan använda i dina rekommendationer. Exempel-JSON, plus bakgrundsinformation om hur JSON-svar kan returneras när en formulärbaserad aktivitet konfigureras, finns i dokumentationen om [Skapa rekommendationsdesigner](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-design/create-design.html?lang=en). I det här exemplet heter designen *enkel JSON.*
 
    ![server-side-create-recs-json-design.png](assets/server-side-create-recs-json-design.png)
 
@@ -60,7 +60,7 @@ Om du vill skapa rekommendationer som kan användas med leverans-API:t använder
 3. Markera en egenskap och klicka på **[!UICONTROL Next]**.
 4. Definiera den plats där du vill att användarna ska få rekommendationens svar. I exemplet nedan används en plats med namnet *api_charter*. Välj din JSON-baserade design, skapad tidigare, med namnet *Enkel JSON.*
    ![server-side-create-recs-form.png](assets/server-side-create-recs-form1.png)
-5. Spara och aktivera rekommendationen. Det kommer att generera resultat. [När resultatet är klart](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-activity/previewing-and-launching-your-recommendations-activity.html) kan du använda leverans-API:t för att hämta dem.
+5. Spara och aktivera rekommendationen. Det kommer att generera resultat. [När resultatet är klart](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-activity/previewing-and-launching-your-recommendations-activity.html?lang=en) kan du använda leverans-API:t för att hämta dem.
 
 ## Använda leverans-API
 
@@ -95,38 +95,38 @@ Följande resurser innehåller exempel på olika implementeringar som inte är H
 | --- | --- |
 | [Adobe Target Everywhere - Implementera serversidan eller i IoT](https://expleague.azureedge.net/labs/L733/index.html) | Adobe Summit 2019 Lab som ger dig en praktisk upplevelse av ett React-program som använder Adobe Target serversides-API:er. |
 | [Adobe Target i en mobilapp utan Adobe SDK](https://community.tealiumiq.com/t5/Universal-Data-Hub/Adobe-Target-in-a-Mobile-App-Without-the-Adobe-SDK/ta-p/26753) | Den här guiden visar hur du konfigurerar Adobe Target i din mobilapp utan att installera Adobe SDK. Den här lösningen använder Tealium SDK-webbvyn och Remote Commands-modulen för att skicka och ta emot begäranden till Adobe Visitor API (Experience Cloud) och Adobe Target API. |
-| [Så här fungerar Adobe Target i mobilappar](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html) | Hur [!DNL Target] fungerar med Mobile SDK |
+| [Så här fungerar Adobe Target i mobilappar](https://experienceleague.adobe.com/docs/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html?lang=en) | Hur [!DNL Target] fungerar med Mobile SDK |
 | [Konfigurera API: [!DNL Target] extension in Experience Platform Launch and Implementing [!DNL Target] erna](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Steg för att konfigurera tillägget [!DNL Target] i Experience Platform Launch, lägga till tillägget [!DNL Target] i programmet och implementera API:er för [!DNL Target] för att begära aktiviteter, förhämta erbjudanden och ange visuellt förhandsgranskningsläge. |
 | [Adobe Target Node Client](https://www.npmjs.com/package/@adobe/target-nodejs-sdk) | Öppen källa [!DNL Target] Node.js SDK v1.0 |
-| [Översikt över serversidan](https://docs.adobe.com/content/help/en/target/using/implement-target/server-side/api-and-sdk-overview.html) | Information om Adobe Target Server Side delivery APIs, Server Side Batch Delivery APIs, Node.js SDK och Adobe Target [!DNL Recommendations] API:er. |
+| [Översikt över serversidan](https://experienceleague.adobe.com/docs/target/using/implement-target/server-side/api-and-sdk-overview.html?lang=en) | Information om Adobe Target Server Side delivery APIs, Server Side Batch Delivery APIs, Node.js SDK och Adobe Target [!DNL Recommendations] API:er. |
 | [Adobe Campaign Content Recommendations in Email](https://medium.com/adobetech/adobe-campaign-content-recommendations-in-email-b51ced771d7f) | Blogg som beskriver hur du kan utnyttja innehållsrekommendationer i e-post via Adobe Target och Adobe I/O Runtime i Adobe Campaign. |
 
 ## Hantera [!DNL Recommendations]-inställningar med API:er
 
 Rekommendationer konfigureras oftast i Adobe Target-gränssnittet och används eller nås via [!DNL Target]-API:erna, av skäl som de som nämns i avsnitten ovan. Denna API-samordning är vanlig. Ibland kanske användare vill utföra alla åtgärder via API:er, både konfiguration och användning av resultat. Även om det är mycket mindre vanligt kan användare absolut konfigurera, köra, *och* utnyttja resultatet av rekommendationer helt och hållet med API:erna.
 
-I en [tidigare sektion](manage-catalog.md) lärde vi oss att hantera Adobe Target Recommendations-enheter och leverera dem på serversidan. På samma sätt kan du i Adobe I/O hantera villkor, kampanjer, samlingar och designmallar utan att behöva logga in på Adobe Target. En fullständig lista över alla [!DNL Recommendations] API:er finns [här](http://developers.adobetarget.com/api/recommendations/), men här är en sammanfattning som referens.
+I en [tidigare sektion](manage-catalog.md) lärde vi oss att hantera Adobe Target Recommendations-enheter och leverera dem på serversidan. På samma sätt kan du i Adobe I/O hantera villkor, kampanjer, samlingar och designmallar utan att behöva logga in på Adobe Target. En fullständig lista över alla [!DNL Recommendations] API:er finns [här](https://developers.adobetarget.com/api/recommendations/), men här är en sammanfattning som referens.
 
 | Resurs | Detaljer |
 | --- | --- |
-| [Samlingar](http://developers.adobetarget.com/api/recommendations/#tag/Collections) | Visa, skapa, hämta, redigera och ta bort samlingar. |
-| [Kriterier](http://developers.adobetarget.com/api/recommendations/#tag/Criteria) | Lista och hämta villkor. |
-| [Designs](http://developers.adobetarget.com/api/recommendations/#tag/Designs) | Lista, skapa, hämta, redigera, ta bort och validera designer. |
-| [Enheter](http://developers.adobetarget.com/api/recommendations/#tag/Entities) | Spara, ta bort och hämta enheter. |
-| [Erbjudanden](http://developers.adobetarget.com/api/recommendations/#tag/Promotions) | Visa, skapa, hämta, redigera och ta bort kampanjer. |
-| [Kategorivillkor](http://developers.adobetarget.com/api/recommendations/#tag/Category-Criteria) | Visa, skapa, hämta, redigera och ta bort kategorivillkor. |
-| [Anpassade villkor](http://developers.adobetarget.com/api/recommendations/#tag/Custom-Criteria) | Visa, skapa, hämta, redigera och ta bort anpassade villkor. |
-| [Artikelvillkor](http://developers.adobetarget.com/api/recommendations/#tag/Item-Criteria) | Visa, skapa, hämta, redigera och ta bort objektvillkor. |
-| [Popularitetskriterier](http://developers.adobetarget.com/api/recommendations/#tag/Popularity-Criteria) | Visa, skapa, hämta, redigera och ta bort popularitetskriterier. |
-| [Kriterier för profilattribut](http://developers.adobetarget.com/api/recommendations/#tag/Profile-Attribute-Criteria) | Visa, skapa, hämta, redigera och ta bort villkor för profilattribut. |
-| [Senaste villkor](http://developers.adobetarget.com/api/recommendations/#tag/Recent-Criteria) | Lista, skapa, hämta, redigera och ta bort senaste villkor. |
-| [Sekvensvillkor](http://developers.adobetarget.com/api/recommendations/#tag/Sequence-Criteria) | Visa, skapa, hämta, redigera och ta bort sekvensvillkor. |
+| [Samlingar](https://developers.adobetarget.com/api/recommendations/#tag/Collections) | Visa, skapa, hämta, redigera och ta bort samlingar. |
+| [Kriterier](https://developers.adobetarget.com/api/recommendations/#tag/Criteria) | Lista och hämta villkor. |
+| [Designs](https://developers.adobetarget.com/api/recommendations/#tag/Designs) | Lista, skapa, hämta, redigera, ta bort och validera designer. |
+| [Enheter](https://developers.adobetarget.com/api/recommendations/#tag/Entities) | Spara, ta bort och hämta enheter. |
+| [Erbjudanden](https://developers.adobetarget.com/api/recommendations/#tag/Promotions) | Visa, skapa, hämta, redigera och ta bort kampanjer. |
+| [Kategorivillkor](https://developers.adobetarget.com/api/recommendations/#tag/Category-Criteria) | Visa, skapa, hämta, redigera och ta bort kategorivillkor. |
+| [Anpassade villkor](https://developers.adobetarget.com/api/recommendations/#tag/Custom-Criteria) | Visa, skapa, hämta, redigera och ta bort anpassade villkor. |
+| [Artikelvillkor](https://developers.adobetarget.com/api/recommendations/#tag/Item-Criteria) | Visa, skapa, hämta, redigera och ta bort objektvillkor. |
+| [Popularitetskriterier](https://developers.adobetarget.com/api/recommendations/#tag/Popularity-Criteria) | Visa, skapa, hämta, redigera och ta bort popularitetskriterier. |
+| [Kriterier för profilattribut](https://developers.adobetarget.com/api/recommendations/#tag/Profile-Attribute-Criteria) | Visa, skapa, hämta, redigera och ta bort villkor för profilattribut. |
+| [Senaste villkor](https://developers.adobetarget.com/api/recommendations/#tag/Recent-Criteria) | Lista, skapa, hämta, redigera och ta bort senaste villkor. |
+| [Sekvensvillkor](https://developers.adobetarget.com/api/recommendations/#tag/Sequence-Criteria) | Visa, skapa, hämta, redigera och ta bort sekvensvillkor. |
 
 ## Referensdokumentation
 
 * [Adobe Target API-dokumentation](https://developers.adobetarget.com/api/#getting-started)
 * [Adobe Target Delivery API](https://developers.adobetarget.com/api/delivery-api/)
-* [Integrera  [!DNL Recommendations] med e-post](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-faq/integrating-recs-email.html)
+* [Integrera  [!DNL Recommendations] med e-post](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-faq/integrating-recs-email.html?lang=en)
 
 ## Sammanfattning och granskning
 

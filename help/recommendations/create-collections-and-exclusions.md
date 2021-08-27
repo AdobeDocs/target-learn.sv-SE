@@ -3,15 +3,15 @@ title: Skapa samlingar och undantag i Recommendations
 description: Lär dig vad en Recommendations-samling är och hur du använder den. Lär dig vad ett undantag från Recommendations är och hur du använder det.
 role: User
 level: Intermediate
-topic: Personalisering
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: 10448c36-44b8-4a2f-a3c5-9e0130593a17
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ I den här videon får du lära dig att:
 * [Skapa en feed](create-a-feed.md)
 * [Skapa villkor](create-criteria.md)
 * [Skapa egna designer](create-custom-designs.md)
-* [Recommendations Documentation](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations Documentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
