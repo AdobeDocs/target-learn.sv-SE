@@ -7,10 +7,9 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
-thumbnail: null
 author: Judy Kim
 exl-id: 553d1208-647f-479d-acc7-d7760469d642
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 0%
@@ -19,13 +18,13 @@ ht-degree: 0%
 
 # Hämtar [!DNL Recommendations] med leverans-API
 
-API:erna för Adobe Target och Adobe Target [!DNL Recommendations] kan användas för att leverera svar på webbsidor, men kan också användas i icke-HTML-baserade upplevelser som appar, skärmar, konsoler, e-post, kioskdatorer och andra visningsenheter. När det inte går att använda [!DNL Target]-bibliotek och JavaScript kan vi med andra ord fortfarande använda **[!DNL Target]-leverans-API**-funktionaliteten för att leverera personaliserade upplevelser med hjälp av [!DNL Target].
+API:erna för Adobe Target och Adobe Target [!DNL Recommendations] kan användas för att leverera svar på webbsidor, men kan också användas i upplevelser som inte är baserade på HTML, inklusive appar, skärmar, konsoler, e-post, kioskdatorer och andra visningsenheter. När det inte går att använda [!DNL Target]-bibliotek och JavaScript kan vi med andra ord fortfarande använda **[!DNL Target]-leverans-API**-funktionaliteten för att leverera personaliserade upplevelser med hjälp av [!DNL Target].
 
 >[!NOTE]
 >
 > När du begär innehåll som innehåller faktiska rekommendationer (rekommenderade produkter eller objekt) använder du [!DNL Target]-leverans-API:t.
 
-Om du vill hämta rekommendationer skickar du ett Adobe Target Delivery API POST-anrop med lämplig sammanhangsberoende information, som kan innehålla ett användar-ID (som kan användas med profilspecifika rekommendationer som användarens nyligen visade objekt), relevant mbox-namn, mbox-parametrar, profilparametrar eller andra attribut. Svaret inkluderar rekommenderade entity.ids (och kan inkludera andra entitetsdata) i JSON- eller HTML-format, som sedan kan visas i enheten.
+Om du vill hämta rekommendationer skickar du ett Adobe Target Delivery API POST-anrop med lämplig sammanhangsberoende information, som kan innehålla ett användar-ID (som kan användas med profilspecifika rekommendationer som användarens nyligen visade objekt), relevant mbox-namn, mbox-parametrar, profilparametrar eller andra attribut. Svaret innehåller rekommenderade entity.ids (och kan inkludera andra entitetsdata) i JSON- eller HTML-format, som sedan kan visas i enheten.
 
 Med [leverans-API](https://developers.adobetarget.com/api/delivery-api/) för Adobe Target visas alla befintliga funktioner som finns i en [!DNL Target]-standardbegäran.
 
@@ -71,7 +70,7 @@ Syntaxen för [leverans-API](https://developers.adobetarget.com/api/delivery-api
 1. Observera att klientkoden krävs. Som påminnelse hittar du din klientkod i Adobe Target genom att gå till **[!UICONTROL Recommendations]>[!UICONTROL Settings]**. Observera **[!UICONTROL Client Code]**-värdet i avsnittet **[!UICONTROL Recommendation API Token]**.
    ![client-code.png](assets/client-code.png)
 1. När du har fått din klientkod konstruerar du ett leverans-API-anrop. Exemplet nedan börjar med **[!UICONTROL Web Batched Mboxes Delivery API Call]** som finns i [Delivery API Postman-samlingen](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection), och gör relevanta ändringar. Exempel:
-   * **webbläsarobjekten** och **adress** har tagits bort från **brödtexten** eftersom de inte krävs för icke-HTML-användning
+   * **webbläsarobjekten** och **adress** har tagits bort från **brödtexten** eftersom de inte behövs för icke-HTML-fall
    * *api_* charteris listed as the location name in this example
    * entity.id anges eftersom den här rekommendationen baseras på innehållets likhet, vilket kräver att en aktuell objektnyckel skickas till [!DNL Target].
       ![server-side-Delivery-API-call.](assets/server-side-delivery-api-call2.png)
@@ -89,7 +88,7 @@ Med den metod som beskrivs i den här självstudiekursen kan du få vilket progr
 
 ## Exempelimplementeringar
 
-Följande resurser innehåller exempel på olika implementeringar som inte är HTML-fokuserade. Tänk på att varje implementering blir unik på grund av det system och de enheter som används.
+Följande resurser innehåller exempel på olika icke-HTML-inriktade implementeringar. Tänk på att varje implementering blir unik på grund av det system och de enheter som används.
 
 | Resurs | Detaljer |
 | --- | --- |
@@ -126,7 +125,7 @@ I en [tidigare sektion](manage-catalog.md) lärde vi oss att hantera Adobe Targe
 
 * [Adobe Target API-dokumentation](https://developers.adobetarget.com/api/#getting-started)
 * [Adobe Target Delivery API](https://developers.adobetarget.com/api/delivery-api/)
-* [Integrera  [!DNL Recommendations] med e-post](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-faq/integrating-recs-email.html?lang=en)
+* [ [!DNL Recommendations] Integrera med e-post](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-faq/integrating-recs-email.html?lang=en)
 
 ## Sammanfattning och granskning
 

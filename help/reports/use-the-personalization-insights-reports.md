@@ -7,11 +7,10 @@ topic: Personalization
 feature: Reports, Automated Personalization, Auto-Target
 doc-type: feature video
 kt: null
-thumbnail: null
 author: Daniel Wright
 badge: premium
 exl-id: 821c37e4-aae1-40bf-b64b-42d22bc1ad29
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%

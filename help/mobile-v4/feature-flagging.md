@@ -7,15 +7,13 @@ topic: Mobile, Personalization
 feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
-thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 034d13f2-63b1-44b0-b3dc-867efe37672f
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
-
 
 # Funktionsflaggning
 

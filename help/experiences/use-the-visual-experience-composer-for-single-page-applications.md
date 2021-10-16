@@ -6,11 +6,10 @@ level: Beginner
 topic: SPA, Personalization
 feature: Experiences and Offers, Visual Experience Composer (VEC)
 doc-type: feature video
-thumbnail: null
 kt: null
 author: Daniel Wright
 exl-id: 3e32d869-a94a-4253-93d7-58b615921067
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%

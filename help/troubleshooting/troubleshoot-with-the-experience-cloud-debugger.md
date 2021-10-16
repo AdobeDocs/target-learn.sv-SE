@@ -7,10 +7,9 @@ topic: Personalization, Performance
 feature: Troubleshooting
 doc-type: feature video
 kt: null
-thumbnail: null
 author: Daniel Wright
 exl-id: afdc531d-e54c-4612-b21b-67a3e8e65a26
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%

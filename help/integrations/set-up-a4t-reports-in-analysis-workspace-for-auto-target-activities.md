@@ -3,15 +3,14 @@ title: Ställa in A4T-rapporter i Analysis Workspace för Automatisk målaktivit
 description: När ni har er integrering med Analytics for Target (A4T) på plats och ni kör Auto-Target-aktiviteter, hur kan ni se till att ni tolkar resultaten korrekt? Följ de här stegen för att konfigurera A4T-rapporter i Analysis Workspace så att du får förväntade resultat när du kör Auto-Target-aktiviteter.
 role: User
 level: Intermediate
-topic: Personalisering, integrering
-feature: Analyser för mål (A4T), automål, integreringar
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
-thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '2192'
+source-wordcount: '2183'
 ht-degree: 0%
 
 ---
@@ -84,8 +83,8 @@ Låt oss jämföra rapporter på besökarnivå och besöksnivå:
 
 | Upplevelse | Unika besökare | Besök | Konverteringar | Besökarnorm. Konv. Hastighet | Besök norm. Konv. Hastighet |
 | --- | --- | --- | --- | --- | --- |
-| A | 3 | 1 | - | 0 % | 0 % |
-| B | 2 | 1 | 1 | 50 % | 33,3 % |
+| A | 1 | 1 | - | 0 % | 0 % |
+| B | 2 | 3 | 1 | 50 % | 33,3 % |
 | Summor | 2 | 4 | 1 | 50 % | 25 % |
 *Tabell 1: Exempel på jämförelse av besökarnormaliserade rapporter och besöknormaliserade rapporter för ett scenario där besluten är snäva mot ett besök (och inte besökare, som med vanlig A/B-testning). Interaktionella värden för besökare är förvirrande i det här scenariot.*
 

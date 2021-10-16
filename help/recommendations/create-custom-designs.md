@@ -6,10 +6,9 @@ level: Intermediate
 topic: Personalization
 feature: Recommendations
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: 19be02da-f5b8-4950-9bb5-7a0effec419c
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 0%

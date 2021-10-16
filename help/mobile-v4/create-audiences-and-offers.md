@@ -7,15 +7,13 @@ topic: Mobile, Personalization
 feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
-thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 4b153e4f-a979-49a8-8c26-f7ac95162a2f
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
-
 
 # Skapa publiker och erbjudanden i Adobe Target
 
@@ -106,7 +104,7 @@ Därefter ska vi skapa några målgrupper för några av de destinationer som er
 
 ## Skapa erbjudanden
 
-Nu ska vi skapa erbjudanden för att visa dessa meddelanden. Som en påminnelse är erbjudanden kodfragment/innehåll som levereras i [!DNL Target]-svaret. De skapas oftast i [!DNL Target]-användargränssnittet, men kan också skapas via API eller med Experience Fragments-integrering med Adobe Experience Manager. I mobilappar är JSON-erbjudanden vanliga. I den här självstudiekursen kommer vi att använda HTML-erbjudanden som kan användas för att leverera allt slags textinnehåll (inklusive JSON) i appen.
+Nu ska vi skapa erbjudanden för att visa dessa meddelanden. Som en påminnelse är erbjudanden kodfragment/innehåll som levereras i [!DNL Target]-svaret. De skapas oftast i [!DNL Target]-användargränssnittet, men kan också skapas via API eller med Experience Fragments-integrering med Adobe Experience Manager. I mobilappar är JSON-erbjudanden vanliga. I den här självstudiekursen kommer vi att använda HTML-erbjudanden, som kan användas för att leverera allt slags textinnehåll (inklusive JSON) i appen.
 
 ### Skapa erbjudandet för nya användare
 
@@ -122,17 +120,17 @@ Först ska vi skapa erbjudanden för nya användare:
 1. Ange _Välj Källa och Mål om du vill söka efter tillgängliga bussar_ som kod.
 1. Spara det nya erbjudandet.
 
-   ![Skapa HTML-erbjudande för hemanvändare](assets/offer_home_2.jpg)
+   ![Skapa Home HTML-erbjudande](assets/offer_home_2.jpg)
 
 ### Skapa erbjudandet för återkommande användare
 
 Nu ska vi skapa ett erbjudande för återkommande användare (det andra erbjudandet blir standardinnehåll, som visas som ingenting):
 
 1. Ange erbjudandet _Hem: Returnerar användare_.
-1. Ange _Välkommen tillbaka! Använd kampanjkoden BACK30 vid kassan för att få 10 % rabatt._ som HTML-kod.
+1. Ange _Välkommen tillbaka! Använd kampanjkoden BACK30 vid kassan för att få 10 % rabatt._ som HTML-koden.
 1. Spara det nya erbjudandet.
 
-   ![Skapa HTML-erbjudande för hemanvändare](assets/offer_home_returning_users.jpg)
+   ![Skapa Home HTML-erbjudande](assets/offer_home_returning_users.jpg)
 
 ### Skapa erbjudandet för San Diego
 

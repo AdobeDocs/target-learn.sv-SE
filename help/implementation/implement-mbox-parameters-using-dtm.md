@@ -7,11 +7,9 @@ topic: Personalization, Architecture, Development
 feature: Implementation
 doc-type: technical video
 kt: null
-thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---

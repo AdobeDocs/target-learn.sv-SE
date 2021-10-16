@@ -7,10 +7,9 @@ topic: Personalization, Integrations
 feature: Implementation, Integrations, APIs/SDKs
 doc-type: technical video
 kt: null
-thumbnail: null
 author: Daniel Wright
 exl-id: fcf6d1a8-e2a7-41ce-9c1c-02985b7afb5a
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%

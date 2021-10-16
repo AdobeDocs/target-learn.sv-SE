@@ -7,9 +7,8 @@ topic: Mobile, Personalization
 feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
-thumbnail: null
 exl-id: 244bcf7a-b59b-4dd1-bd05-0a55ce7a7132
-source-git-commit: ee58c7c85708722cf040cd9b039a2855dd390a16
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%

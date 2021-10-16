@@ -4,15 +4,14 @@ description: Läs mer om de olika aktiviteterna i Adobe Target och hur de kan hj
 landing-page-description: Lär dig grunderna i A/B-aktiviteter, multivariata tester, Experience Targeting-aktiviteter, Recommendations- och Automated Personalization-aktiviteter.
 role: User
 level: Beginner
-topic: Personalisering
-feature: Verksamheter, A/B-tester, multivariata tester, Experience Targeting, Recommendations, Automated Personalization, Visual Experience Composer (VEC)
+topic: Personalization
+feature: Activities, A/B Tests, Multivariate Tests, Experience Targeting, Recommendations, Automated Personalization, Visual Experience Composer (VEC)
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: effcb28d-56cc-4592-86b1-53b1c68e3672
-source-git-commit: 5e3fdcb2f86e4811a0cbcfde66c3d6a6c8270355
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---

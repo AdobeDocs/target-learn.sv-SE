@@ -4,15 +4,14 @@ description: Dessa två videor presenterar marknadsförare för Adobe Target Vis
 landing-page-description: Titta på dessa videofilmer och lär dig hur du skapar aktiviteter med Visual Experience Composer (VEC).
 role: User
 level: Beginner
-topic: Personalisering
-feature: Visual Experience Composer (VEC), Experience and Offers
+topic: Personalization
+feature: Visual Experience Composer (VEC), Experiences and Offers
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
-source-git-commit: 5e3fdcb2f86e4811a0cbcfde66c3d6a6c8270355
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---

@@ -6,10 +6,9 @@ level: Intermediate
 topic: Personalization
 feature: Recommendations, Auto-Target, Auto-Allocate
 doc-type: feature video
-thumbnail: null
 kt: 3451
 exl-id: 16908f07-cda4-4a34-9e11-42b419e3917b
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 0%

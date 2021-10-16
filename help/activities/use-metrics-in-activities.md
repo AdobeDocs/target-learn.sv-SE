@@ -3,15 +3,14 @@ title: Så här använder du statistik i aktiviteter
 description: Hur mäter man om en Adobe Target-aktivitet lyckas? I den här videon får du lära dig olika typer av målvärden och hur du använder dem för att mäta aktivitetens prestanda.
 role: User
 level: Intermediate
-topic: Personalisering
-feature: Verksamhet
+topic: Personalization
+feature: Activities
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: 02752f2c-2f61-44b8-a6a5-f36d576e4806
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---

@@ -6,10 +6,9 @@ level: Beginner
 topic: Personalization
 feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: 997d0902-ff30-4944-b08c-fe6d9f7bcc35
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%

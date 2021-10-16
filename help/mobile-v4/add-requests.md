@@ -7,9 +7,8 @@ topic: Mobile, Personalization
 feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
-thumbnail: null
 exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 0%
@@ -46,7 +45,7 @@ Nedan finns några viktiga Target-termer som vi kommer att använda i resten av 
 * **Gruppbegäran:**  en enstaka begäran som innehåller flera platser
 * **Förhämtningsbegäran:**  en enda begäran som hämtar erbjudanden och cachelagrar dem i minnet för framtida bruk i appen
 * **Förhämtningsbegäran för grupp:**  en enda begäran som förhämtar erbjudanden för flera platser
-* **Målgrupp:**  en grupp besökare som definieras i  [!DNL Target] gränssnittet eller delas till  [!DNL Target] från andra Adobe-program (t.ex. &quot;iPhone X-besökare&quot;,&quot;besökare i Kalifornien&quot;,&quot;First App Open&quot;)
+* **Målgrupp:**  en grupp besökare som definieras i  [!DNL Target] gränssnittet eller delas till  [!DNL Target] från andra Adobe-program (t.ex. &quot;iPhone X-besökare&quot;, &quot;besökare i Kalifornien&quot;, &quot;First App Open&quot;)
 * **Aktivitet:**  en  [!DNL Target] konstruktion som definieras i  [!DNL Target] användargränssnittet (eller med API) och som länkar platser, erbjudanden och målgrupper för att skapa en personaliserad upplevelse
 
 ## Lägg till en förhämtningsbegäran för grupp

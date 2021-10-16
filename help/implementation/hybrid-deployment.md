@@ -6,17 +6,15 @@ level: Beginner
 topic: Personalization, Architecture, Development
 feature: Implementation, Implement Server-side, Implement Client-side
 doc-type: feature video
-thumbnail: null
 kt: 6165
 team: Evangelism
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: e669d773-494f-4eb7-82da-6b3f23508d9f
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
-
 
 # Driftsättning av Adobe Target Hybrid
 

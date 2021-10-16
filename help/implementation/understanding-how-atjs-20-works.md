@@ -7,10 +7,9 @@ topic: SPA, Architecture, Development
 feature: Implementation
 doc-type: technical video
 kt: null
-thumbnail: null
 author: Daniel Wright
 exl-id: 7f037665-88a7-469c-8df5-c82cb0f65382
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
