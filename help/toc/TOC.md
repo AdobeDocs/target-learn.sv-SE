@@ -1,7 +1,7 @@
 ---
 user-guide-title: Adobe Target Tutorials
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: df4e2a7660e92ee87d9678d8bb9bb9d6a22bf6b4
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -41,14 +41,14 @@ ht-degree: 0%
    + [Integrera Target med Audience Manager](../dev101/3.3-target-dmp.md)
    + [Integrera Target med Experience Cloud-målgrupper](../dev101/3.4-target-exc-audiences.md)
    + [Integrera Target med Campaign](../dev101/3.6-target-campaign.md)
-   + [Integrera Target med Adobe I/O](../dev101/3.7-target-io.md)
+   + [Integrera Target med Adobe Developer Console](../dev101/3.7-target-io.md)
    + [Integrera Target med Scene7](../dev101/3.8-target-scene7.md)
    + [Integrera Target med Adobe Experience Manager](../dev101/3.5-target-aem.md)
    + [Använd AEM Experience Fragments i Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
    + [Data i: Använd Data Providers för att integrera data från tredje part](../integrations/use-data-providers-to-integrate-third-party-data.md)
    + [Data i: Implementera dataleverantörer för att integrera data från tredje part](../integrations/implement-data-providers-to-integrate-third-party-data.md)
    + [Data ut: Använd svarstoken och anpassade at.js-händelser](../integrations/use-response-tokens-and-atjs-custom-events.md)
-+ Aktiviteter{#activities}
++ Verksamhet{#activities}
    + [Förstå olika typer av aktiviteter](../activities/understanding-the-types-of-activities.md)
    + [Använd artificiell intelligens och automatisering för att möta utmaningarna med personalisering](../activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
    + [Skapa A/B-tester](../activities/create-ab-tests.md)
@@ -61,7 +61,7 @@ ht-degree: 0%
    + [Använd målgrupper](../audiences/use-audiences.md)
    + [Skapa profilskript](../audiences/create-profile-scripts.md)
    + [Använd profiljämförelse för att skapa målgrupper](../audiences/use-profile-comparison-to-build-audiences.md)
-+ Upplevelser{#experiences}
++ Erfarenheter{#experiences}
    + [Använda Visual Experience Composer](../experiences/use-the-visual-experience-composer.md)
    + [Använda Visual Experience Composer för Single Page-program (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
    + [Använda den formulärbaserade Experience Composer](../experiences/use-the-form-based-experience-composer.md)
