@@ -1,9 +1,9 @@
 ---
 user-guide-title: Adobe Target Tutorials
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: df4e2a7660e92ee87d9678d8bb9bb9d6a22bf6b4
+source-git-commit: 18f3badbdcad6467f350b6f30aa0643a5a9d0139
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,11 @@ ht-degree: 0%
 
 + [Adobe Target Tutorials - översikt](../overview.md)
 + Administration{#administration}
-   + [Implementeringsstrategi och systemstyrning](../dev101/1.1-implementation-strategy-sys-governance.md)
+   + [Strategi och tankeledarskap]{#strategy}
+      + [Snabbstart för personaliseringstestning och framtagning av vägkartor](../strategy/create-personalization-roadmap-testing-plan.md)
+      + [Implementeringsstrategi och systemstyrning](../dev101/1.1-implementation-strategy-sys-governance.md)
+      + [Bästa tillvägagångssätt för optimering med Adobe Target](../strategy/target-best-practices-for-optimization.md)
+      + [Optimera er implementering av Adobe Target](../strategy/optimize-your-target-implementation.md)
    + [Konfigurera kontoinställningar](../administration/set-up-account-preferences.md)
    + [Förstå Enterprise-användarbehörigheter](../administration/understanding-enterprise-user-permissions.md)
    + [Konfigurera Enterprise-användarbehörigheter](../dev101/1.2-configure-ent-user-permissions.md)
