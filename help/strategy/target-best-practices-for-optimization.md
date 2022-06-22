@@ -1,10 +1,11 @@
 ---
 title: Bästa tillvägagångssätt för optimering
-description: 'Lär dig Adobe 6 grundläggande optimeringsfunktioner och hur du använder dem. '
+description: Lär dig Adobe 6 grundläggande optimeringsfunktioner och hur du använder dem.
 solution: Target
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -115,3 +116,5 @@ Personalisering omfattar även aktivitetstypen Experience Targeting-test, som le
 Med tanke på ovanstående förståelse rekommenderar Adobe att ni optimerar innan ni personaliserar, och främjar personaliseringen från bred till granulär. Om du vill utveckla personaliseringsaktiviteter från breda till detaljerade börjar du med att använda en personaliseringsstil (bred) som är en-till-många (med A/B-testning) och sedan gå över till en-till-en-personalisering (granulär) (med hjälp av automatiserade personaliseringsaktiviteter).
 
 Mer information finns här: [webbinarium om att förstå och optimera implementeringen av Adobe Target](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), med Business Consultant, Katie Cozby.
+
+Läs mer om strategi och tankeledarskap på [Nöjda kunder](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) nav.

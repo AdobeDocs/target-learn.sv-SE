@@ -1,10 +1,11 @@
 ---
 title: QuickStart för personaliseringstestning och framtagning av färdplaner
-description: 'Lär dig ett ramverk som du kan använda för att börja validera personaliseringsaktiviteter och skapa en personaliseringskarta som kan köras via Adobe Target och Adobe Analytics.  '
+description: Lär dig ett ramverk som du kan använda för att börja validera personaliseringsaktiviteter och skapa en personaliseringskarta som kan köras via Adobe Target och Adobe Analytics.
 solution: Target,Analytics
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: c0b6f9a0-7074-4e25-81e6-9781a54e2156
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -86,3 +87,5 @@ När personaliseringsaktiviteten har engagerat ett representativt urval av besö
 ### Mer information
 
 Vi rekommenderar att du tittar på den här videon som beskriver vart och ett av dessa steg: [https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
+
+Läs mer om strategi och tankeledarskap på [Nöjda kunder](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) nav.

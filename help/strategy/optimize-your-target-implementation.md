@@ -1,10 +1,11 @@
 ---
 title: Optimera er implementering av Adobe Target
-description: 'Få en översikt över Adobe Target implementering och struktur. Lär dig hur du förstår och granskar din organisations konfiguration. Lär dig vanliga felsökningstekniker och tips om hur du skapar en kunskapsdatabas för ditt team. '
+description: Få en översikt över Adobe Target implementering och struktur. Lär dig hur du förstår och granskar din organisations konfiguration. Lär dig vanliga felsökningstekniker och tips om hur du skapar en kunskapsdatabas för ditt team.
 solution: Target
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: 49b69f41-0993-437c-bb69-84392be427df
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -162,3 +163,5 @@ Vanliga dokument i en kunskapsdatabas är:
 * **Kontrollpanel för program** - ett dokument som används för att följa upp programprestanda, avslut och intäktsfördelar över tid.
 
 Mer information finns i [webbinarium](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) med Senior Consultant, Wilder Freed.
+
+Läs mer om strategi och tankeledarskap på [Nöjda kunder](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) nav.
