@@ -1,9 +1,9 @@
 ---
 user-guide-title: Adobe Target Tutorials
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: 66635392b30ee5fecc15438736ef829894da53bc
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,7 @@ ht-degree: 0%
    + [Använd mått i aktiviteter](../activities/use-metrics-in-activities.md)
 + Målgrupper{#audiences}
    + [Använd målgrupper](../audiences/use-audiences.md)
+   + [Skapa målgrupper](../audiences/create-audiences.md)
    + [Skapa profilskript](../audiences/create-profile-scripts.md)
    + [Använd profiljämförelse för att skapa målgrupper](../audiences/use-profile-comparison-to-build-audiences.md)
 + Erfarenheter{#experiences}
