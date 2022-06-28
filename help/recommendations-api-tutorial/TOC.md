@@ -1,21 +1,20 @@
 ---
 user-guide-title: Använda Recommendations API:er
 user-guide-url: /content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html
-translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Använd Adobe Target Recommendations API:er{#recommendations-api-tutorial}
+# Använda Adobe Target Recommendations API:er{#recommendations-api-tutorial}
 
-+ [Recs API - översikt](recs-api-overview.md)
-+ [Hantera din katalog med API:er](manage-catalog.md)
-+ [Hantera anpassade villkor](manage-custom-criteria.md)
-+ [Använda leverans-API:t med Recommendations](fetch-recs-server-side-delivery-api.md)
++ [Recs API - översikt](https://developer.adobe.com/target/before-administer/recs-api/){target=_blank}
++ [Hantera din katalog med API:er](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=_blank}
++ [Hantera anpassade villkor](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
++ [Använda leverans-API:t med Recommendations](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}
 
 <!--+ [Debug API calls](6debug.md)
 + [Download the Calculated Recommendations CSV](7download-calc-recs-csv.md)-->

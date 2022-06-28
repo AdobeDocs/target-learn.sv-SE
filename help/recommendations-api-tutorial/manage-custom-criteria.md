@@ -9,16 +9,16 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: ee63bd3e-200a-4c08-b364-9f17a479033b
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
 
 # Hantera anpassade villkor
 
-Ibland kan algoritmerna som tillhandahålls av [!DNL Recommendations] inte visa vissa objekt som du vill befordra. I sådana fall kan du med anpassade kriterier leverera en specifik uppsättning rekommenderade objekt för ett visst nyckelobjekt eller en viss kategori. Du definierar mappningen mellan nyckelobjektet eller kategorin och de rekommenderade objekten och importerar mappningen som ett anpassat villkor. Den här processen beskrivs i [dokumentationen för anpassade villkor](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en). Som du kan se i den dokumentationen kan du skapa, redigera och ta bort anpassade villkor via användargränssnittet i [!DNL Target]. [!DNL Target] innehåller dock även en uppsättning API:er för anpassade kriterier som ger en mer detaljerad hantering av anpassade villkor.
+Ibland kan algoritmerna som tillhandahålls av [!DNL Recommendations] kan inte visa vissa objekt som du vill befordra. I sådana fall kan du med anpassade kriterier leverera en specifik uppsättning rekommenderade objekt för ett visst nyckelobjekt eller en viss kategori. Du definierar mappningen mellan nyckelobjektet eller kategorin och de rekommenderade objekten och importerar mappningen som ett anpassat villkor. Den här processen beskrivs i [dokumentation om anpassade kriterier](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en). Så som beskrivs i den dokumentationen kan du skapa, redigera och ta bort anpassade villkor via [!DNL Target] användargränssnitt. Men [!DNL Target] innehåller även en uppsättning API:er för anpassade kriterier som gör att du kan hantera dina anpassade villkor mer ingående.
 
 >[!IMPORTANT]
 >
@@ -28,21 +28,21 @@ Ibland kan algoritmerna som tillhandahålls av [!DNL Recommendations] inte visa 
 
 ## Skapa anpassade villkor
 
-Om du vill skapa anpassade villkor med hjälp av [API:t för att skapa anpassade kriterier är syntaxen:](https://developers.adobetarget.com/api/recommendations/#operation/createCriteriaCustom)
+Skapa anpassade villkor med [Skapa API för anpassade kriterier](https://developers.adobetarget.com/api/recommendations/#operation/createCriteriaCustom)är syntaxen:
 
 `POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom`
 
 >[!WARNING]
 >
->Anpassade villkor som skapats med API:t Skapa anpassade kriterier, som beskrivs i den här övningen, visas i användargränssnittet där de finns kvar. Du kan inte redigera eller ta bort dem från användargränssnittet. Du kan redigera eller ta bort dem **via API**, men på båda sätten visas de fortfarande i användargränssnittet för [!DNL Target]. Om du vill behålla möjligheten att redigera eller ta bort från användargränssnittet skapar du anpassade villkor med användargränssnittet per [dokumentationen](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en), i stället för att använda API:t Skapa anpassade kriterier.
+>Anpassade villkor som skapats med API:t Skapa anpassade kriterier, som beskrivs i den här övningen, visas i användargränssnittet där de finns kvar. Du kan inte redigera eller ta bort dem från användargränssnittet. Du kan redigera eller ta bort dem **via API** men hur som helst visas de även i [!DNL Target] Gränssnitt. Om du vill behålla möjligheten att redigera eller ta bort från användargränssnittet skapar du anpassade villkor med användargränssnittet per [dokumentationen](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en)i stället för att använda Create Custom Criteria API.
 
 Fortsätt bara med den här självstudiekursen när du har läst varningen ovan och är bekväm med att skapa nya anpassade villkor som inte kan tas bort från användargränssnittet.
 
-1. Verifiera `TENANT_ID` och `API_KEY` för **Skapa anpassade villkor** referera till Postman-miljövariablerna som etablerats tidigare. Använd bilden nedan för att jämföra.
+1. Verifiera `TENANT_ID` och `API_KEY` for **Skapa anpassade villkor** referera till Postman miljövariabler som fastställts tidigare. Använd bilden nedan för att jämföra.
 
    ![CreateCustomCriteria1](assets/CreateCustomCriteria1.png)
 
-2. Lägg till din **Body** som **rå** JSON som definierar platsen för din CSV-fil för anpassade kriterier. Använd exemplet i [Skapa API:t för anpassade kriterier](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom) som en mall och ange dina `environmentId`-värden och andra värden efter behov. I det här exemplet använder vi LAST_PURCHASED som nyckel.
+2. Lägg till **Brödtext** as **råformat** JSON som definierar platsen för CSV-filen med anpassade villkor. Använd exemplet i [Skapa API för anpassade kriterier](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom) som en mall, ange `environmentId` och andra värden efter behov. I det här exemplet använder vi LAST_PURCHASED som nyckel.
 
    ![CreateCustomCriteria2](assets/CreateCustomCriteria2.png)
 
@@ -50,30 +50,30 @@ Fortsätt bara med den här självstudiekursen när du har läst varningen ovan 
 
    ![CreateCustomCriteria3](assets/CreateCustomCriteria3.png)
 
-4. Om du vill verifiera att dina anpassade villkor har skapats går du till **[!UICONTROL Recommendations]>[!UICONTROL Criteria]** och söker efter villkoren efter namn. Du kan också använda **API för att lista anpassade kriterier** i nästa steg.
+4. Navigera i Adobe Target till **[!UICONTROL Recommendations]>[!UICONTROL Criteria]** och söka efter dina kriterier efter namn eller använda **Lista anpassat villkor-API** i nästa steg.
 
    ![CreateCustomCriteria4](assets/CreateCustomCriteria4.png)
 
-I det här fallet har vi ett fel. Låt oss undersöka felet närmare genom att undersöka de anpassade villkoren med **API:t för att lista anpassade kriterier**.
+I det här fallet har vi ett fel. Låt oss undersöka felet närmare genom att undersöka anpassade kriterier med hjälp av **Lista anpassat villkor-API**.
 
 ## Lista anpassade villkor
 
-Om du vill hämta en lista över alla anpassade villkor tillsammans med information för varje, använder du [API för att lista anpassade kriterier](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom). Syntaxen är:
+Använd [Lista anpassat villkor-API](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom). Syntaxen är:
 
 `GET https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom`
 
 1. Verifiera `TENANT_ID` och `API_KEY` som tidigare och skicka begäran. Observera det anpassade villkors-ID:t i svaret, liksom information om felmeddelandet som nämndes tidigare.
    ![ListCustomCriteria](assets/ListCustomCriteria.png)
 
-I det här fallet inträffade felet eftersom serverinformationen är felaktig, vilket innebär att [!DNL Target] inte kan komma åt CSV-filen som innehåller den anpassade villkorsdefinitionen. Låt oss redigera de anpassade villkoren för att korrigera detta.
+I det här fallet uppstod felet eftersom serverinformationen är felaktig, vilket innebär [!DNL Target] kan inte komma åt CSV-filen som innehåller den anpassade villkorsdefinitionen. Låt oss redigera de anpassade villkoren för att korrigera detta.
 
 ## Redigera anpassade villkor
 
-Om du vill ändra informationen för en anpassad villkorsdefinition använder du [API:t Redigera anpassade kriterier](https://developers.adobetarget.com/api/recommendations/#operation/updateCriteriaCustom). Syntaxen är:
+Om du vill ändra detaljerna för en anpassad villkorsdefinition använder du [Redigera API för anpassade villkor](https://developers.adobetarget.com/api/recommendations/#operation/updateCriteriaCustom). Syntaxen är:
 
 `POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom/:criteriaId`
 
-1. Kontrollera `TENANT_ID` och `API_KEY` som tidigare.
+1. Verifiera `TENANT_ID` och `API_KEY`, som tidigare.
    ![RedigeraAnpassatKriterium1](assets/EditCustomCriteria1.png)
 
 1. Ange villkor-ID för det (enkla) anpassade villkor som du vill redigera.
@@ -85,11 +85,11 @@ Om du vill ändra informationen för en anpassad villkorsdefinition använder du
 1. Skicka förfrågan och notera svaret.
    ![RedigeraAnpassatKriterium4](assets/EditCustomCriteria4.png)
 
-Låt oss kontrollera om de uppdaterade anpassade villkoren lyckades med hjälp av **API:t Hämta anpassade kriterier**.
+Låt oss kontrollera om de uppdaterade anpassade villkoren har lyckats med **Hämta API för anpassade villkor**.
 
 ## Hämta anpassade villkor
 
-Om du vill visa information om anpassade villkor för ett specifikt anpassat villkor använder du [API:t Hämta anpassade kriterier](https://developers.adobetarget.com/api/recommendations/#operation/getCriteriaCustom). Syntaxen är:
+Om du vill visa information om anpassade villkor för ett specifikt anpassat villkor använder du [Hämta API för anpassade villkor](https://developers.adobetarget.com/api/recommendations/#operation/getCriteriaCustom). Syntaxen är:
 
 `GET https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom/:criteriaId`
 
@@ -102,20 +102,20 @@ Om du vill visa information om anpassade villkor för ett specifikt anpassat vil
 
 ## Ta bort anpassade villkor
 
-Ta bort anpassade villkor med hjälp av det kriterier-ID som beskrivs ovan med hjälp av [API:t Ta bort anpassade kriterier](https://developers.adobetarget.com/api/recommendations/#operation/deleteCriteriaCustom). Syntaxen är:
+Ta bort dina anpassade villkor med hjälp av ID:t som nämndes tidigare med [Ta bort API för anpassade villkor](https://developers.adobetarget.com/api/recommendations/#operation/deleteCriteriaCustom). Syntaxen är:
 
 `DELETE https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom/:criteriaId`
 
-1. Ange kriterier-ID:t för det (enkla) anpassade villkor som du vill ta bort. Klicka på **Skicka**.
+1. Ange kriterier-ID:t för det (enkla) anpassade villkor som du vill ta bort. Klicka **Skicka**.
    ![TaBortAnpassatKriterium1](assets/DeleteCustomCriteria1.png)
 
 1. Kontrollera att villkoren har tagits bort med Hämta anpassade villkor.
-   ![DeleteCustomCriteria2](assets/DeleteCustomCriteria2.png)
+   ![TaBortAnpassatKriterium2](assets/DeleteCustomCriteria2.png)
 I det här fallet anger det förväntade 404-felet att det inte går att hitta de borttagna villkoren.
 
 >[!NOTE]
->Som en påminnelse kommer villkoren inte att tas bort från [!DNL Target]-gränssnittet även om det togs bort, eftersom det skapades med API:t Skapa anpassade kriterier.
+>Som en påminnelse tas inte villkoren bort från [!DNL Target] Gränssnittet togs bort eftersom det skapades med API:t Skapa anpassade villkor.
 
-Grattis! Du kan nu skapa, lista, redigera, ta bort och få information om anpassade villkor med hjälp av API:t [!DNL Recommendations]. I nästa avsnitt använder du leverans-API:t [!DNL Target] för att hämta rekommendationer.
+Grattis! Du kan nu skapa, lista, redigera, ta bort och få information om anpassade villkor med hjälp av [!DNL Recommendations] API. I nästa avsnitt använder du [!DNL Target] Leverans-API för att hämta rekommendationer.
 
-[Nästa&quot;Hämta Recommendations med leverans-API:t på serversidan&quot; >](fetch-recs-server-side-delivery-api.md)
+[Nästa&quot;Hämta Recommendations med leverans-API:t på serversidan&quot; >](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}
