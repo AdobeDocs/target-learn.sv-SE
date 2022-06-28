@@ -9,10 +9,10 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: 8060b69b-e8e5-4fe7-895f-742410d8ed45
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '905'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ Du kan använda [Recommendations API:er](https://developers.adobetarget.com/api/
 
 >[!TIP]
 >
->Skicka **[!UICONTROL IMS: JWT Generate + Auth via User Token]** begära när du behöver uppdatera din åtkomsttoken för autentisering, eftersom den upphör att gälla efter 24 timmar. Se [Konfigurera Adobe API-autentisering](https://developer.adobe.com/target/before-administer/configure-authentication/){target=_blank} för instruktioner.
+>Skicka **[!UICONTROL IMS: JWT Generate + Auth via User Token]** begära när du behöver uppdatera din åtkomsttoken för autentisering, eftersom den upphör att gälla efter 24 timmar. Se [Konfigurera Adobe API-autentisering](https://developer.adobe.com/target/before-administer/configure-authentication/){target=&quot;_blank&quot;} för instruktioner.
 
 ![JWT3ff](assets/configure-io-target-jwt3ff.png)
 
@@ -204,4 +204,4 @@ Om inga enhets-ID anges tas alla enheter i den angivna miljön bort. Om inget mi
 
 Grattis! Nu kan du använda [!DNL Recommendations] API:er för att skapa, uppdatera, ta bort och få information om enheterna i din katalog. I nästa avsnitt får du lära dig hur du hanterar anpassade villkor.
 
-[Nästa Hantera anpassade villkor >](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
+[Nästa Hantera anpassade villkor >](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=&quot;_blank&quot;}

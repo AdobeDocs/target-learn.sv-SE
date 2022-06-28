@@ -9,9 +9,9 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: ee63bd3e-200a-4c08-b364-9f17a479033b
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -118,4 +118,4 @@ I det här fallet anger det förväntade 404-felet att det inte går att hitta d
 
 Grattis! Du kan nu skapa, lista, redigera, ta bort och få information om anpassade villkor med hjälp av [!DNL Recommendations] API. I nästa avsnitt använder du [!DNL Target] Leverans-API för att hämta rekommendationer.
 
-[Nästa&quot;Hämta Recommendations med leverans-API:t på serversidan&quot; >](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}
+[Nästa&quot;Hämta Recommendations med leverans-API:t på serversidan&quot; >](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=&quot;_blank&quot;}

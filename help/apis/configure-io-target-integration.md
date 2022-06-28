@@ -9,10 +9,10 @@ doc-type: tutorial
 kt: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1831'
+ht-degree: 2%
 
 ---
 
@@ -178,7 +178,7 @@ I den här övningen använder du din nya innehavaråtkomsttoken genom att skick
    ![testtoken4](assets/configure-io-target-testtoken4a.png)
 1. Öppna modal Manage Environment (Hantera miljöer) och välj din miljö.
    ![JWT11](assets/configure-io-target-jwt11.png)
-1. Skriv för att lägga till en ny `{{TENANT_ID}}` miljövariabel. Kopiera och klistra in värdet för ditt klient-ID i **URSPRUNGLIGT VÄRDE** och **AKTUELLT VÄRDE** fält för dina nya `TENANT_ID` systemvariabel.
+1. Skriv för att lägga till en ny `{{TENANT_ID}}` systemvariabel. Kopiera och klistra in värdet för ditt klient-ID i **URSPRUNGLIGT VÄRDE** och **AKTUELLT VÄRDE** fält för dina nya `TENANT_ID` systemvariabel.
 
    ![testtoken5](assets/configure-io-target-testtoken5.png)
 
@@ -195,4 +195,4 @@ I den här övningen använder du din nya innehavaråtkomsttoken genom att skick
 1. Skicka din begäran efter att du har valt rätt miljö. Du bör få ett svar med din lista över aktiviteter.
    ![testtoken6](assets/configure-io-target-testtoken6.png)
 
-Grattis! Nu när du har verifierat autentiseringen i Adobe kan du använda den för att interagera med Adobe Target API:er (och andra Adobe API:er). Du kan till exempel [Använda Recommendations API:er](https://developer.adobe.com/target/before-administer/recs-api/){target=_blank} om du vill skapa eller hantera rekommendationer.
+Grattis! Nu när du har verifierat autentiseringen i Adobe kan du använda den för att interagera med Adobe Target API:er (och andra Adobe API:er). Du kan till exempel [Använda Recommendations API:er](https://developer.adobe.com/target/before-administer/recs-api/){target=&quot;_blank&quot;} för att skapa eller hantera rekommendationer.

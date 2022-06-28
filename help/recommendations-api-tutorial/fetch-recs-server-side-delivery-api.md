@@ -9,9 +9,9 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: 553d1208-647f-479d-acc7-d7760469d642
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Adobe Target och Adobe Target [!DNL Recommendations] API:er kan användas för a
 
 Om du vill hämta rekommendationer skickar du ett Adobe Target Delivery API POST-anrop med lämplig sammanhangsberoende information, som kan innehålla ett användar-ID (som kan användas med profilspecifika rekommendationer som användarens nyligen visade objekt), relevant mbox-namn, mbox-parametrar, profilparametrar eller andra attribut. Svaret innehåller rekommenderade entity.ids (och kan inkludera andra entitetsdata) i JSON- eller HTML-format, som sedan kan visas i enheten.
 
-The [Leverans-API](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} för Adobe Target visar alla befintliga funktioner som en standard [!DNL Target] begäran tillhandahåller.
+The [Leverans-API](https://developer.adobe.com/target/implement/delivery-api/){target=&quot;_blank&quot;} för Adobe Target visar alla befintliga funktioner som en standard [!DNL Target] begäran tillhandahåller.
 
 >[!NOTE]
 >Leverans-API:
@@ -63,7 +63,7 @@ Om du vill skapa rekommendationer som kan användas med leverans-API:t använder
 
 ## Använda leverans-API
 
-Syntaxen för [Leverans-API](https://developer.adobe.com/target/implement/delivery-api/#tag/Delivery-API){target=_blank} är:
+Syntaxen för [Leverans-API](https://developer.adobe.com/target/implement/delivery-api/#tag/Delivery-API){target=&quot;_blank&quot;} är:
 
 `POST https://{{CLIENT_CODE}}.tt.omtrdc.net/rest/v1/delivery`
 
@@ -104,7 +104,7 @@ Följande resurser innehåller exempel på olika icke-HTML-inriktade implementer
 
 Rekommendationer konfigureras oftast i Adobe Target-gränssnittet och används eller nås via [!DNL Target] API:er, av skäl som de som nämns i avsnitten ovan. Denna API-samordning är vanlig. Ibland kanske användare vill utföra alla åtgärder via API:er, både konfiguration och användning av resultat. Även om det är mycket mindre vanligt att användare konfigurerar, kör, *och* utnyttja resultatet av rekommendationerna helt med API:erna.
 
-Vi lärde oss [tidigare avsnitt](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=_blank} hur du hanterar Adobe Target Recommendations-entiteter och levererar dem på serversidan. På samma sätt kan du i Adobe I/O hantera villkor, kampanjer, samlingar och designmallar utan att behöva logga in på Adobe Target. En fullständig lista över alla [!DNL Recommendations] API:er kan hittas [här](https://developers.adobetarget.com/api/recommendations/), men här är en sammanfattning som du kan referera till.
+Vi lärde oss [tidigare avsnitt](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=&quot;_blank&quot;} hur du hanterar Adobe Target Recommendations-enheter och levererar dem på serversidan. På samma sätt kan du i Adobe I/O hantera villkor, kampanjer, samlingar och designmallar utan att behöva logga in på Adobe Target. En fullständig lista över alla [!DNL Recommendations] API:er kan hittas [här](https://developers.adobetarget.com/api/recommendations/), men här är en sammanfattning som du kan referera till.
 
 | Resurs | Detaljer |
 | --- | --- |
@@ -123,13 +123,13 @@ Vi lärde oss [tidigare avsnitt](https://developer.adobe.com/target/before-admin
 
 ## Referensdokumentation
 
-* [API-dokumentation för Adobe Target Admin](https://developer.adobe.com/target/administer/admin-api/){target=_blank}
-* [Adobe Target Delivery API](https://developer.adobe.com/target/implement/delivery-api/){target=_blank}
+* [API-dokumentation för Adobe Target Admin](https://developer.adobe.com/target/administer/admin-api/){target=&quot;_blank&quot;}
+* [Adobe Target Delivery API](https://developer.adobe.com/target/implement/delivery-api/){target=&quot;_blank&quot;}
 * [Integrera [!DNL Recommendations] med e-post](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-faq/integrating-recs-email.html)
 
 ## Sammanfattning och granskning
 
 Grattis! När du är klar med den här självstudiekursen har du lärt dig att:
-* [Hantera katalogen med Recommendations API](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=_blank}
-* [Hantera anpassade villkor med Recommendations API](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
-* [Använda leverans-API:t med Recommendations](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}
+* [Hantera katalogen med Recommendations API](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=&quot;_blank&quot;}
+* [Hantera anpassade villkor med Recommendations API](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=&quot;_blank&quot;}
+* [Använda leverans-API:t med Recommendations](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=&quot;_blank&quot;}
