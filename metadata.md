@@ -2,21 +2,20 @@
 cloud: Experience Cloud
 product: target
 solution: Target
-solution-title: Mål
+solution-title: Target
 solution-hub-url: https://helpx.adobe.com/support/target.html
-getting-started-title: Komma igång
+getting-started-title: Getting Started
 getting-started-url: https://helpx.adobe.com/target/get-started.html
 tutorials-title: Tutorials
 tutorials-url: /content/help/en/target-learn/tutorials/overview.html
-git-repo: https://git.corp.adobe.com/AdobeDocs/target-learn.sv-SE
+git-repo: https://github.com/AdobeDocs/target-learn.sv-SE
 index: true
 mini-toc-levels: 2
 feature-set: Target
 type: Tutorial
-translation-type: tm+mt
 source-git-commit: 38125cff6d0c94d476f059442b592eaee39160ce
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
