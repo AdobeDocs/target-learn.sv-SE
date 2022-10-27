@@ -8,7 +8,7 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 1c09ae58070d9f55aab555531f9a03dacbb26f03
+source-git-commit: e1acb84970b967625e0b6c7495067ed6456a6aa3
 workflow-type: tm+mt
 source-wordcount: '2575'
 ht-degree: 0%
@@ -86,6 +86,7 @@ Låt oss jämföra rapporter på besökarnivå och besöksnivå:
 | A | 1 | 1 | - | 0 % | 0 % |
 | B | 2 | 3 | 1 | 50 % | 33,3 % |
 | Summor | 2 | 4 | 1 | 50 % | 25 % |
+
 *Tabell 1: Exempel på jämförelse av besökarnormaliserade rapporter och besöknormaliserade rapporter för ett scenario där besluten är snäva mot ett besök (och inte besökare, som med vanlig A/B-testning). Besökarnormaliserade värden är förvirrande i det här scenariot.*
 
 Som framgår av tabellen finns det en tydlig inkonsekvens i besökarnivånummer. Trots att det finns två unika besökare totalt är detta inte en summa unika besökare för varje upplevelse. Även om konverteringsgraden på besökarnivå inte nödvändigtvis är fel, så är konverteringsgraden på besöksnivå mer begriplig när man jämför enskilda upplevelser. Formeligen är analysenheten (&quot;besök&quot;) densamma som enheten för att fatta beslut, vilket innebär att man kan lägga till och jämföra analysdata på erfarenhetsnivå.
@@ -135,7 +136,7 @@ Skillnaden mellan den attribuering som används av Target:s modeller (under utbi
 
 >[!TIP]
 >
->Om ML-modellerna optimerar för ett mätvärde som är tilldelat på ett annat sätt än de mätvärden du visar i en rapport, kanske modellerna inte fungerar som förväntat! För att undvika detta bör du se till att målmåtten i rapporten använder samma metriska definition och attribuering som används av Target:s ML-modeller.
+>Om ML-modellerna optimerar för ett mätvärde som är tilldelat på ett annat sätt än det mätvärde du visar i en rapport, kanske modellerna inte fungerar som förväntat! För att undvika detta bör du se till att målmåtten i rapporten använder samma metriska definition och attribuering som används av Target:s ML-modeller.
 
 Exakt måttdefinition och attribueringsinställningar beror på [optimeringskriterium](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported) du angav när aktiviteten skapades.
 
