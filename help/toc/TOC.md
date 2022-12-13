@@ -1,9 +1,9 @@
 ---
 user-guide-title: Adobe Target Tutorials
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 3b278c1286da5376375622c157bb5cc634e23888
+source-git-commit: 3d29d15e1463ed433cb085c9e01c857f31c33817
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
    + [Använd Opt-in för att styra Experience Cloud-lösningar baserat på användargodkännande](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [Förstå Adobe Target Hybrid-driftsättning](../implementation/hybrid-deployment.md)
    + [Beslutsöversikt på enheten](../implementation/on-device-decisioning-overview.md)
+   + [Implementeringsmönster för Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)
 + Integreringar{#integrations}
    + [Integrera Target med Analytics](../dev101/3.2-target-analytics.md)
    + [Använd Analytics som datakälla för mål (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
