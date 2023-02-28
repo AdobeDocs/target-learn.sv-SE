@@ -1,15 +1,15 @@
 ---
-user-guide-title: Adobe Target Tutorials
+user-guide-title: Självstudiekurser om Adobe Target
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 source-git-commit: 3d29d15e1463ed433cb085c9e01c857f31c33817
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Adobe Target Tutorials {#tutorials}
+# Självstudiekurser om Adobe Target {#tutorials}
 
 + [Adobe Target Tutorials - översikt](../overview.md)
 + Administration{#administration}
