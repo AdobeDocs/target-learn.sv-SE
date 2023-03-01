@@ -1,6 +1,8 @@
 ---
-title: Ställa in A4T-rapporter i Analysis Workspace för Automatisk målaktivitet
-description: När ni har er integrering med Analytics for Target (A4T) på plats och ni kör Auto-Target-aktiviteter, hur kan ni se till att ni tolkar resultaten korrekt? Följ de här stegen för att konfigurera A4T-rapporter i Analysis Workspace så att du får förväntade resultat när du kör Auto-Target-aktiviteter.
+title: Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!DNL Auto-Target] Verksamhet
+description: Hur jag konfigurerar A4T-rapporter i [!DNL Analysis Workspace] för att få det förväntade resultatet när programmet körs [!UICONTROL Auto-Target] aktiviteter?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -8,14 +10,18 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 2571964b557f696d8e0377b922d96e90611f2327
+source-git-commit: 12dc82a96a8df234d02dc56e9e5904571f2152ba
 workflow-type: tm+mt
-source-wordcount: '2504'
+source-wordcount: '2500'
 ht-degree: 0%
 
 ---
 
 # Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!DNL Auto-Target] verksamhet
+
+>[!NOTE]
+>
+>Den här funktionen finns för närvarande i betaversionen och kommer att vara tillgänglig för alla [Mål Premium](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium){target=_blank} i en kommande release.
 
 >[!IMPORTANT]
 >
@@ -88,9 +94,9 @@ Låt oss jämföra rapporter på besökarnivå och besöksnivå:
 
 | Upplevelse | Unika besökare | Besök | Konverteringar | Besökarnorm. Konv. Hastighet | Besök norm. Konv. Hastighet |
 | --- | --- | --- | --- | --- | --- |
-| A | 1 | 1 | - | 0 % | 0 % |
-| B | 2 | 3 | 1 | 50 % | 33,3 % |
-| Summor | 2 | 4 | 1 | 50 % | 25 % |
+| A | 1 | 1 | - | 0% | 0% |
+| B | 2 | 3 | 1 | 50% | 33.3% |
+| Summor | 2 | 4 | 1 | 50% | 25% |
 
 *Tabell 1: Exempel på jämförelse av besökarnormaliserade rapporter och besöknormaliserade rapporter för ett scenario där besluten är snäva mot ett besök (och inte besökare, som med vanlig A/B-testning). Besökarnormaliserade värden är förvirrande i det här scenariot.*
 
