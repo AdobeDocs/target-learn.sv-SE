@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: dd0c3ed5cd44d6b70b7c69bfcfbca5940900772b
+source-git-commit: ba33152906afda02ebf65365d9783ba8a4ea3c83
 workflow-type: tm+mt
-source-wordcount: '2107'
+source-wordcount: '2111'
 ht-degree: 0%
 
 ---
@@ -203,6 +203,8 @@ Den fullständiga definitionen för beräknade mätvärden visas här.
 ## Sammanfattning: Slutligt prov [!DNL Analysis Workspace] panel för [!UICONTROL Auto-Target] rapporter
 
 Om du kombinerar alla steg ovan till en enda panel visar bilden nedan en fullständig vy av den rekommenderade rapporten för [!UICONTROL Auto-Target] A4T-aktiviteter. Den här rapporten är densamma som den som används av [!DNL Target] ML-modeller för att optimera målmåtten. Rapporten innehåller alla nyanser och rekommendationer som diskuteras i den här självstudiekursen. Denna rapport ligger också närmast de beräkningsmetoder som använts i traditionell [!DNL Target]-rapporteringsdriven [!UICONTROL Auto-Target] verksamhet.
+
+Klicka för att expandera bilden.
 
 ![Final A4T report in [!DNL Analysis Workspace]](assets/Figure8.png "A4T-rapport i Analysis Workspace"){width="600" zoomable="yes"}
 
