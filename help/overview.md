@@ -1,31 +1,37 @@
 ---
 title: Lär dig använda Adobe Target
-description: Lär dig använda Adobe Target med den här samlingen självstudiekurser och videor som täcker alla komponenter. Använd kraften i Adobe Target effektivt.
+description: Lär dig använda [!DNL Adobe Target] med denna samling självstudiekurser och videor som täcker alla komponenter.
 role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: da8f839931f4c68d3ee8ef9e1c8ca377d79a4cb0
+source-git-commit: ca57cc6fae9bb68b9ad432afe64ffea726cd6872
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
 
 # Lär dig använda Adobe Target
 
-Adobe Target är en Adobe Experience Cloud-lösning som innehåller allt ni behöver för att skräddarsy och personalisera kundupplevelsen, så att ni kan maximera intäkterna från era webbplatser, mobilsajter, appar, sociala medier och andra digitala kanaler. Använd dessa videor och självstudiekurser för att lära dig de många komponenterna i Adobe Target.
+[!DNL Adobe Target] är [!DNL Adobe Experience Cloud] en lösning som innehåller allt ni behöver för att skräddarsy och personalisera kundernas upplevelse, så att ni kan maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler. Använd dessa videor och självstudiekurser för att lära dig de många komponenterna i [!DNL Adobe Target].
 
 <div id="whats-new-section">
 
 ## Nyheter
 
-* **[Ställa in A4T-rapporter i Analysis Workspace för Automatiskt mål-aktiviteter](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+* **[Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!DNL Auto-Allocate] verksamhet](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)**
 
-   *För yrkesverksamma: Använder du A4T som Auto-Target? Följ de här stegen för att konfigurera A4T-rapporter i Analysis Workspace för att se till att du får förväntade resultat när du kör Auto-Target-aktiviteter.*
-* **[Beslutsöversikt på enheten](implementation/on-device-decisioning-overview.md)**
+   För yrkesverksamma: The [!UICONTROL Analytics for Target] (A4T)-integrering för [!UICONTROL Auto-Allocate] gör att du kan se dina rapportdata i [!DNL Adobe Analytics]och du kan även optimera för anpassade händelser eller mätvärden som definieras i [!DNL Analytics].
 
-   *För arkitekter: Kom igång med att fatta beslut direkt på enheten för att leverera upplevelser som nästan inte ger någon fördröjning till era kunder!*
+* **[Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] verksamhet](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+
+   För yrkesverksamma: Använder du A4T för [!UICONTROL Auto-Target]? Följ de här stegen för att konfigurera A4T-rapporter i [!DNL Analysis Workspace] för att säkerställa att du får förväntade resultat när du kör [!UICONTROL Auto-Target] verksamhet.
+
+* **[Översikt över beslut på enheter](implementation/on-device-decisioning-overview.md)**
+
+   För arkitekter: Kom igång med [!UICONTROL on-device decisioning] för att leverera upplevelser som är nära noll till era kunder.
+
 <!-- * **[Use the Recommendations API (Tutorial)](recommendations-api-tutorial/recs-api-overview.md)**
     *For developers: Get hands-on practice using the [!DNL Recommendations] APIs to configure and manage [!DNL Recommendations] catalogs and custom criteria, and more.*-->
 
@@ -39,7 +45,6 @@ Adobe Target är en Adobe Experience Cloud-lösning som innehåller allt ni beh�
 * **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
     <br>
     *Recommend products to your customers at scale with this Premium feature.* -->
-
 
 </div>
 
