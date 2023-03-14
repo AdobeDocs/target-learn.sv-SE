@@ -2,6 +2,7 @@
 title: Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!DNL Auto-Target] Verksamhet
 description: Hur jag konfigurerar A4T-rapporter i [!DNL Analysis Workspace] för att få det förväntade resultatet när programmet körs [!UICONTROL Auto-Target] aktiviteter?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -10,7 +11,7 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 14a362214dce9d698c78438c3a47424b59aa4632
+source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 0%
@@ -51,7 +52,7 @@ Skapa en A4T för [!UICONTROL Auto-Target] rapport, antingen börja med **[!UICO
 
 ## Använd [!UICONTROL Control vs.Targeted] dimension för att jämföra [!DNL Target] enemble ML model to your control
 
-Standardpanelen för A4T är utformad för klassisk (manuell) [!UICONTROL A/B Test] eller [!UICONTROL Auto-Allocate] aktiviteter där målet är att jämföra de enskilda upplevelsernas resultat med kontrollupplevelsen. I [!UICONTROL Auto-Target] verksamheten, men den första orderjämförelsen bör vara mellan kontrollen *strategi* och målgruppen *strategi*. Med andra ord, fastställa lyften för den totala prestandan hos [!UICONTROL Auto-Target] ensemble ML-modell över kontrollstrategin).
+Standardpanelen för A4T är utformad för klassisk (manuell) [!UICONTROL A/B Test] eller [!UICONTROL Auto-Allocate] aktiviteter där målet är att jämföra de enskilda upplevelsernas resultat med kontrollupplevelsen. I [!UICONTROL Auto-Target] verksamheten, men den första orderjämförelsen bör vara mellan kontrollen *strategi* och målgruppen *strategi*. Med andra ord, fastställa lyften för den totala prestandan hos [!UICONTROL Auto-Target] ensemble ML-modell över kontrollstrategin.
 
 Om du vill göra den här jämförelsen använder du **[!UICONTROL Control vs Targeted (Analytics for Target)]** dimension. Dra och släpp för att ersätta **[!UICONTROL Target Experiences]** -dimension i standardrapporten för A4T.
 
