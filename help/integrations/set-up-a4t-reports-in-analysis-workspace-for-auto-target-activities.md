@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 0c15c9f448556ba4f5746de62f0673c16202d65f
+source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2469'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ Den sista panelen visas enligt följande:
 
 *Bild 6: Rapporteringspanelen med segmentet&quot;Träff med specifik aktivitet&quot; tillämpat på [!UICONTROL Visits] mätvärden. Detta segment säkerställer att endast de besök där en användare faktiskt interagerade med [!DNL Target] rapporten innehåller de berörda verksamheterna.*
 
-## Justera attribueringen mellan ML-modellutbildning och målmetrisk generering
+## Se till att målmåtten och målattribueringen är anpassade efter optimeringskriteriet
 
 A4T-integreringen tillåter [!UICONTROL Auto-Target] ML-modell som ska *utbildad* använda samma konverteringshändelsedata som [!DNL Adobe Analytics] använder *generera resultatrapporter*. Det finns dock vissa antaganden som måste användas för att tolka dessa data när man utbilda ML-modellerna, som skiljer sig från de standardantaganden som gjorts under rapporteringsfasen i [!DNL Adobe Analytics].
 
@@ -148,7 +148,13 @@ Skillnaden mellan den attribuering som används av [!DNL Target] modeller (under
 
 >[!TIP]
 >
->Om ML-modellerna optimerar för ett mätvärde som tilldelas på ett annat sätt än de mätvärden som du visar i en rapport, kanske modellerna inte fungerar som förväntat. För att undvika den här situationen bör du se till att målmåtten i din rapport använder samma attribut som används av [!DNL Target] ML-modeller.
+>Om ML-modellerna optimerar för ett mätvärde som tilldelas på ett annat sätt än de mätvärden som du visar i en rapport, kanske modellerna inte fungerar som förväntat. För att undvika detta bör du se till att målmåtten i rapporten använder samma metriska definition och attribuering som används av [!DNL Target] ML-modeller.
+
+Exakt måttdefinition och attribueringsinställningar beror på [optimeringskriterium](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported) du angav när aktiviteten skapades.
+
+### Måldefinierade konverteringar, eller [!DNL Analytics] mätvärden med *Maximera måttvärde per besök*
+
+När måttet är en [!DNL Target] konvertering, eller [!DNL Analytics] mätvärden med **Maximera måttvärde per besök** kan målmåttsdefinitionen göra att flera konverteringshändelser inträffar vid samma besök.
 
 Så här visar du målmått som har samma attribueringsmetod som används av [!DNL Target] ML-modeller, följ dessa steg:
 
@@ -170,9 +176,43 @@ Så här visar du målmått som har samma attribueringsmetod som används av [!D
 
 Med dessa steg ser du till att målmåttet i din rapport tilldelas till visningen av upplevelsen, om målmåtthändelsen inträffar *när* (&quot;deltagande&quot;) i samma besök som en upplevelse visades.
 
+### [!DNL Analytics] mätvärden med *Unika konverteringshastigheter för besök*
+
+**Definiera besöket med ett positivt mätsegment**
+
+I scenariot där du valde *Maximera konverteringsgraden för unika besök* som optimeringskriterier är den korrekta definitionen av konverteringsgraden den andel besök där mätvärdet är positivt. Detta kan uppnås genom att skapa en segmentfiltrering ned till besök med ett positivt värde för mätvärdet och sedan filtrera besöksmätningen.
+
+1. Som tidigare väljer du **[!UICONTROL Components > Create Segment]** i [!DNL Analysis Workspace] verktygsfält.
+2. Ange en **[!UICONTROL Title]** för segmentet.
+
+   I exemplet nedan namnges segmentet [!DNL "Visits with an order"].
+
+3. Dra basmåttet som du använde i optimeringsmålet till segmentet.
+
+   I exemplet nedan använder vi **order** mätvärden, så att konverteringsgraden mäter andelen besök där en order registreras.
+
+4. Välj längst upp till vänster i segmentdefinitionsbehållaren **[!UICONTROL Include]** **Besök**.
+5. Använd **[!UICONTROL is greater than]** och ange värdet till 0.
+
+   Om du anger värdet 0 innebär det att det här segmentet omfattar besök där ordermåttet är positivt.
+
+6. Klicka på **[!UICONTROL Save]**.
+
+![Figur7.png](assets/Figure7.png)
+
+*Bild 7: Segmentdefinitionsfiltrering till besök med en positiv ordning. Beroende på aktivitetens optimeringsmått måste du ersätta beställningarna med ett lämpligt mätvärde*
+
+**Använd detta för besök i aktivitetsfiltrerade mätvärden**
+
+Det här segmentet kan nu användas för att filtrera besök med ett positivt antal order och där det var en träff för [!DNL Auto-Target] aktivitet. Bearbetningen av ett mätvärde liknar den tidigare, och efter att det nya segmentet har tillämpats på det redan filtrerade besöksmätverket bör rapportpanelen se ut som i bild 8
+
+![Figur8.png](assets/Figure8.png)
+
+*Bild 8: Rapportpanelen med rätt konverteringsmått för unika besök: antalet besök där en träff från aktiviteten registrerades och där konverteringsmåttet (order i det här exemplet) inte var noll.*
+
 ## Slutligt steg: Skapa en konverteringsgrad som fångar magin ovan
 
-Med ändringarna i [!UICONTROL Visit] och målvärden i föregående avsnitt, den sista ändringen du bör göra i standardvärdet för A4T för [!UICONTROL Auto-Target] rapportpanelen ska skapa konverteringsgrader som har rätt proportioner (för ett målmått med rätt attribuering) till en lämpligt filtrerad [!UICONTROL Visits] mätvärden.
+Med ändringarna i [!UICONTROL Visit] och målmåtten i föregående avsnitt, den sista ändringen du bör göra i standardvärdet för A4T för [!DNL Auto-Target] ska man skapa konverteringsgrader som har rätt proportion - det korrigerade målmåttet - till ett lämpligt filtrerat besöksmått.
 
 Gör detta genom att skapa en [!UICONTROL Calculated Metric] med följande steg:
 
@@ -186,9 +226,13 @@ Gör detta genom att skapa en [!UICONTROL Calculated Metric] med följande steg:
 1. Dra **[!UICONTROL Visits]** mätvärden in i segmentbehållaren.
 1. Klicka på **[!UICONTROL Save]**.
 
+>[!TIP]
+>
+> Du kan också skapa det här måttet med [snabb beräknad mätfunktionalitet](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html).
+
 Den fullständiga definitionen för beräknade mätvärden visas här.
 
-![Figur7.png](assets/Figure7.png)
+![Figur 9.png](assets/Figure9.png)
 
 *Bild 7: Definitionen av besökskorrigerad och attribueringskorrigerad modellkonverteringsfaktor. (Observera att det här måttet är beroende av ditt målmått och din aktivitet. Den här måttdefinitionen kan alltså inte återanvändas i olika aktiviteter.)*
 
@@ -202,6 +246,6 @@ Om du kombinerar alla steg ovan till en enda panel visar bilden nedan en fullst�
 
 Klicka för att expandera bilden.
 
-![Final A4T report in [!DNL Analysis Workspace]](assets/Figure8.png "A4T-rapport i Analysis Workspace"){width="600" zoomable="yes"}
+![Final A4T report in [!DNL Analysis Workspace]](assets/Figure10.png "A4T-rapport i Analysis Workspace"){width="600" zoomable="yes"}
 
-*Bild 8: Den sista A4T [!UICONTROL Auto-Target] rapportera i [!DNL Adobe Analytics] [!DNL Workspace], som kombinerar alla justeringar av metriska definitioner som beskrivs i de föregående avsnitten i den här självstudien.*
+*Bild 10: Den sista A4T [!UICONTROL Auto-Target] rapportera i [!DNL Adobe Analytics] [!DNL Workspace], som kombinerar alla justeringar av metriska definitioner som beskrivs i de föregående avsnitten i den här självstudien.*

@@ -9,9 +9,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
+source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ I den här självstudiekursen går vi igenom de rekommenderade ändringarna för
    * Optimeringskriterierna&quot;maximera konverteringsgraden för unika besökare&quot; har en konverteringsgrad vars täljare är ett antal unika besökare med ett positivt värde av måttet.
    * &quot;maximize metric value per visitor* har en konverteringsgrad vars täljare är det reguljära måttvärdet i [!DNL Adobe Analytics]. Detta anges som standard i **[!UICONTROL Analytics for Target]** panel i [!DNL Analysis Workspace].
 * När optimeringsmåttet är en [!DNL Target] definierat konverteringsmått, standardvärde **[!UICONTROL Analytics for Target]** panel i [!DNL Analysis Workspace] handtag som konfigurerar panelen.
-* The [!UICONTROL Confidence] siffror i [!DNL Analysis Workspace] speglar inte [mer konservativ statistik som används av [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629), och borde därför ignoreras. Referera i stället till dessa värden i [!DNL Target] rapportering.
+* The [!UICONTROL Confidence] siffror i [!DNL Analysis Workspace] speglar inte [mer konservativ statistik som används av [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629)och ska därför tas bort från A4T-panelen. Referera i stället till dessa värden i [!DNL Target] rapportering.
 
 ## Skapa A4T för [!DNL Auto-Allocate] panel i [!DNL Analysis Workspace]
 
@@ -51,7 +51,7 @@ Skapa en A4T för [!DNL Auto-Allocate] rapporten börjar med **[!UICONTROL Analy
 
 Standardhandtagen för A4T-panelen [!DNL Auto-Allocate] aktiviteter där målmåttet antingen är en [!DNL Target] konvertering eller [!DNL Analytics] Mått med optimeringskriteriet&quot;Maximera måttvärde per besökare&quot;.
 
-Ett exempel på den här panelen visas för [!UICONTROL Revenue] mått, där Maximera måttvärde per besökare valdes som optimeringsvillkor när aktiviteten skapades. Som tidigare nämnts [!DNL Auto-Allocate] använder mer försiktiga konfidensberäkningar jämfört med dem som används i **[!UICONTROL Analytics for Target]** -panelen. Adobe rekommenderar att du tar bort såväl konfidensmåttet som de relaterade värdena för nedre och övre lyft.
+Ett exempel på den här panelen visas för [!UICONTROL Revenue] mått, där Maximera måttvärde per besökare valdes som optimeringsvillkor när aktiviteten skapades. Som tidigare nämnts [!DNL Auto-Allocate] använder mer försiktiga konfidensberäkningar jämfört med dem som används i **[!UICONTROL Analytics for Target]** -panelen. Adobe rekommenderar att du tar bort konfidensmåttet från A4T-panelen samt relaterade värden för nedre och övre lyft. Referera i stället till dessa värden i [!DNL Target] rapportering.
 
 ![[!UICONTROL Analytics for Target - AutoAllocate Report] panel](assets/AAFigure2.png)
 
