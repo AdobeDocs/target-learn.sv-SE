@@ -2,16 +2,16 @@
 title: Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] Verksamhet
 description: Hur jag konfigurerar A4T-rapporter i [!DNL Analysis Workspace] för att få det förväntade resultatet när programmet körs [!UICONTROL Auto-Allocate] verksamhet.
 role: User
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
+source-git-commit: 538dfe6a26b4f62c52b24d54a189738677e63bf3
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -20,16 +20,23 @@ ht-degree: 0%
 
 An [!DNL Auto-Allocate] aktivitet identifierar en vinnare bland två eller fler upplevelser och omfördelar automatiskt mer trafik till vinnaren medan testet fortsätter att köras och lära sig. The [!UICONTROL Analytics for Target] (A4T)-integrering för [!UICONTROL Auto-Allocate] gör att du kan se dina rapportdata i [!DNL Adobe Analytics]och du kan även optimera för anpassade händelser eller mätvärden som definieras i [!DNL Analytics].
 
-Även om det finns omfattande analysfunktioner i [!DNL Adobe Analytics] [!DNL Analysis Workspace], några ändringar av standardinställningen **[!UICONTROL Analytics for Target]** panel krävs för korrekt tolkning [!DNL Auto-Allocate] verksamhet på grund av nyanser i [optimeringskriterier](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported).
+Även om det finns omfattande analysfunktioner i [!DNL Adobe Analytics] [!DNL Analysis Workspace], några ändringar av standardinställningen **[!UICONTROL Analytics for Target]** panel krävs för korrekt tolkning [!DNL Auto-Allocate] verksamhet på grund av nyanser i [optimeringskriterier](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
 
 I den här självstudiekursen går vi igenom de rekommenderade ändringarna för analys [!DNL Auto-Allocate] verksamhet i [!DNL Analysis Workspace]. De viktigaste begreppen är:
 
 * [!UICONTROL Visitors] ska alltid användas som normaliseringsmått i [!DNL Auto-Allocate] verksamhet.
 * När måttet är en [!DNL Adobe Analytics] mätvärdet beror den lämpliga täljaren för konverteringsgraden på vilken typ av optimeringsvillkor som valts under aktivitetsinställningarna.
    * Optimeringskriterierna&quot;maximera konverteringsgraden för unika besökare&quot; har en konverteringsgrad vars täljare är ett antal unika besökare med ett positivt värde av måttet.
-   * &quot;maximize metric value per visitor* har en konverteringsgrad vars täljare är det reguljära måttvärdet i [!DNL Adobe Analytics]. Detta anges som standard i **[!UICONTROL Analytics for Target]** panel i [!DNL Analysis Workspace].
+   * &quot;maximize metric value per visitor&quot; har en konverteringsfrekvens vars täljare är det reguljära måttvärdet i [!DNL Adobe Analytics]. Detta anges som standard i **[!UICONTROL Analytics for Target]** panel i [!DNL Analysis Workspace].
 * När optimeringsmåttet är en [!DNL Target] definierat konverteringsmått, standardvärde **[!UICONTROL Analytics for Target]** panel i [!DNL Analysis Workspace] handtag som konfigurerar panelen.
-* The [!UICONTROL Confidence] siffror i [!DNL Analysis Workspace] speglar inte [mer konservativ statistik som används av [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629)och ska därför tas bort från A4T-panelen. Referera i stället till dessa värden i [!DNL Target] rapportering.
+* För alla [!UICONTROL Auto-Allocate] aktiviteter skapade före [!DNL Target Standard/Premium] 23.3.1-utgåvan (28 mars 2023) [!DNL Analytics Workspace] och [!DNL Target] visa samma värde för [!UICONTROL Confidence].
+
+   För alla [!UICONTROL Auto-Allocate] verksamhet som skapats efter den 28 mars 2023, [!UICONTROL Confidence] siffror i [!DNL Analysis Workspace] speglar inte [mer konservativ statistik som används av [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} om dessa verksamheter har *båda* av följande villkor:
+
+   * [!DNL Analytics] som rapportkälla (A4T)
+   * [!DNL Analytics] optimeringsmått
+
+   If *båda* av dessa villkor finns, [!UICONTROL Confidence] ska tas bort från A4T-panelen. Referera i stället till dessa värden i [!DNL Target] rapportering.
 
 ## Skapa A4T för [!DNL Auto-Allocate] panel i [!DNL Analysis Workspace]
 
@@ -84,7 +91,7 @@ När rätt segment har skapats används standardvärdet  **[!UICONTROL Analytics
 
    *Bild 4: Filtrering [!UICONTROL Unique Visitors] av det nya segmentet*
 
-3. En konverteringsgrad kan [snabbt beräknad](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=en) genom att markera både den första och den andra kolumnen, högerklicka, markera **[!UICONTROL Create Metric from selection]** > **[!UICONTROL Divide]**.
+3. En konverteringsgrad kan [snabbt beräknad](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html) genom att markera både den första och den andra kolumnen, högerklicka, markera **[!UICONTROL Create Metric from selection]** > **[!UICONTROL Divide]**.
 
    Standardkonverteringsgraden bör tas bort och ersättas med det nya beräknade måttet, vilket visas i bilden nedan. Du kan behöva redigera det nya beräknade måttet för att kunna visas som en **[!UICONTROL Format]** > **[!UICONTROL Percent]** upp till två decimaler, som visas.
 

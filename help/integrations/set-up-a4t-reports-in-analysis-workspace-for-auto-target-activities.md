@@ -1,8 +1,8 @@
 ---
 title: Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!DNL Auto-Target] Verksamhet
 description: Hur jag konfigurerar A4T-rapporter i [!DNL Analysis Workspace] för att få det förväntade resultatet när programmet körs [!UICONTROL Auto-Target] aktiviteter?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
+source-git-commit: 538dfe6a26b4f62c52b24d54a189738677e63bf3
 workflow-type: tm+mt
-source-wordcount: '2469'
+source-wordcount: '2463'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ The [!UICONTROL Analytics for Target] (A4T)-integrering för [!DNL Auto-Target] 
 I den här självstudiekursen går vi igenom de rekommenderade ändringarna för analys [!UICONTROL Auto-Target] verksamhet i [!DNL Analysis Workspace], som bygger på följande nyckelbegrepp:
 
 * The **[!UICONTROL Control vs Targeted]** kan användas för att skilja mellan [!UICONTROL Control] upplevelser jämfört med dem som [!UICONTROL Auto-Target] ensemble ML-algoritm.
-* Besök bör användas som normaliseringsmått vid visning av prestandadelningar på erfarenhetsnivå. Dessutom [Adobe Analytics standardberäkningsmetod kan omfatta besök där användaren inte ser aktivitetsinnehållet](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=en#metrics)men det här standardbeteendet kan ändras med ett segment med rätt omfång (se informationen nedan).
+* Besök bör användas som normaliseringsmått vid visning av prestandadelningar på erfarenhetsnivå. Dessutom [Adobe Analytics standardberäkningsmetod kan omfatta besök där användaren inte ser aktivitetsinnehållet](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}men det här standardbeteendet kan ändras med ett segment med rätt omfång (se informationen nedan).
 * Attribuering med omfånget Besök-Lookback, som också kallas &quot;Besök-Lookback&quot; på den förskrivna attribueringsmodellen, används av [!DNL Adobe Target] ML-modeller under deras utbildningsfaser, och samma (ej standard) attribueringsmodell bör användas vid uppdelning av målmåttet.
 
 ## Skapa A4T för [!UICONTROL Auto-Target] panel i [!DNL Analysis Workspace]
@@ -64,7 +64,7 @@ Observera att denna ersättning gör standardinställningen ogiltig [!UICONTROL 
 
 >[!NOTE]
 >
->För närvarande [!UICONTROL Lift and Confidence] tal är inte tillgängliga för [!UICONTROL Control vs Targeted] dimensioner för A4T-rapporter för [!UICONTROL Auto-Target]. Tills support har lagts till, [!UICONTROL Lift and Confidence] kan beräknas manuellt genom att ladda ned [konfidensräknare](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en).
+>För närvarande [!UICONTROL Lift and Confidence] tal är inte tillgängliga för [!UICONTROL Control vs Targeted] dimensioner för A4T-rapporter för [!UICONTROL Auto-Target]. Tills support har lagts till, [!UICONTROL Lift and Confidence] kan beräknas manuellt genom att ladda ned [konfidensräknare](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx).
 
 ## Lägg till analysstatistik på erfarenhetsnivå
 
@@ -150,7 +150,7 @@ Skillnaden mellan den attribuering som används av [!DNL Target] modeller (under
 >
 >Om ML-modellerna optimerar för ett mätvärde som tilldelas på ett annat sätt än de mätvärden som du visar i en rapport, kanske modellerna inte fungerar som förväntat. För att undvika detta bör du se till att målmåtten i rapporten använder samma metriska definition och attribuering som används av [!DNL Target] ML-modeller.
 
-Exakt måttdefinition och attribueringsinställningar beror på [optimeringskriterium](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported) du angav när aktiviteten skapades.
+Exakt måttdefinition och attribueringsinställningar beror på [optimeringskriterium](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank} du angav när aktiviteten skapades.
 
 ### Måldefinierade konverteringar, eller [!DNL Analytics] mätvärden med *Maximera måttvärde per besök*
 
