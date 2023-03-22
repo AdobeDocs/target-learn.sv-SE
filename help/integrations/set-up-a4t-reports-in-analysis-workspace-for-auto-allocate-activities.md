@@ -9,9 +9,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 538dfe6a26b4f62c52b24d54a189738677e63bf3
+source-git-commit: 1dc33affb1e9782f1b9c1d01402124dd40dac436
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
@@ -31,12 +31,12 @@ I den här självstudiekursen går vi igenom de rekommenderade ändringarna för
 * När optimeringsmåttet är en [!DNL Target] definierat konverteringsmått, standardvärde **[!UICONTROL Analytics for Target]** panel i [!DNL Analysis Workspace] handtag som konfigurerar panelen.
 * För alla [!UICONTROL Auto-Allocate] aktiviteter skapade före [!DNL Target Standard/Premium] 23.3.1-utgåvan (28 mars 2023) [!DNL Analytics Workspace] och [!DNL Target] visa samma värde för [!UICONTROL Confidence].
 
-   För alla [!UICONTROL Auto-Allocate] verksamhet som skapats efter den 28 mars 2023, [!UICONTROL Confidence] siffror i [!DNL Analysis Workspace] speglar inte [mer konservativ statistik som används av [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} om dessa verksamheter har *båda* av följande villkor:
+   För alla [!UICONTROL Auto-Allocate] verksamhet som skapats efter den 28 mars 2023, värdena för konfidensintervall som visas i [!DNL Analysis Workspace] speglar inte [mer konservativ statistik som används av [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} om dessa verksamheter har *båda* av följande villkor:
 
    * [!DNL Analytics] som rapportkälla (A4T)
    * [!DNL Analytics] optimeringsmått
 
-   If *båda* av dessa villkor finns, [!UICONTROL Confidence] ska tas bort från A4T-panelen. Referera i stället till dessa värden i [!DNL Target] rapportering.
+   If *båda* av dessa förhållanden bör konfidensmåtten tas bort från A4T-panelen. Referera i stället till dessa värden i [!DNL Target] rapportering.
 
 ## Skapa A4T för [!DNL Auto-Allocate] panel i [!DNL Analysis Workspace]
 
