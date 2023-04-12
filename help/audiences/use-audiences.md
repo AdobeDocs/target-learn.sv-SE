@@ -2,7 +2,7 @@
 title: Vad är målgrupper och hur använder jag dem?
 description: I den här videon visas hur Adobe Target-användare använder målgrupper för att målinrikta aktiviteter och filtrera rapporter.
 landing-page-description: Lär dig att definiera målgrupper, hitta målgrupper, målinrikta aktiviteter och filtrera rapporter.
-short-description: Learn to define audiences, find audiences, and target activities and filter reports.
+short-description: Lär dig att definiera målgrupper, hitta målgrupper, målinrikta aktiviteter och filtrera rapporter.
 role: User
 level: Beginner
 topic: Personalization
@@ -13,8 +13,8 @@ author: Daniel Wright
 exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
 source-git-commit: 72f7cfcc95bbfbe1bb054f98246305f25ce5cc0f
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 37%
+source-wordcount: '87'
+ht-degree: 45%
 
 ---
 
