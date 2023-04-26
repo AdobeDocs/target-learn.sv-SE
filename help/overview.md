@@ -5,10 +5,10 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: 0b160a9c72c922d184383c699cea463df46a5ecd
+source-git-commit: cc9f5d26ff0b2fdce1209e777838738e3b03bd47
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '460'
+ht-degree: 1%
 
 ---
 
@@ -41,6 +41,10 @@ För yrkesverksamma: Använder du A4T för [!UICONTROL Auto-Target]? Följ de h�
 
 För arkitekter: Kom igång med [!UICONTROL on-device decisioning] för att leverera upplevelser som är nära noll till era kunder. Se [Översikt över beslut på enheter](implementation/on-device-decisioning-overview.md).
 
+### Migrera [!DNL Target] från at.js 2.*x* till [!DNL Adobe Experience Platform Web SDK]
+
+Lär dig hur du migrerar en [!DNL Target] at.js implementering till [!DNL Adobe Experience Platform Web SDK]. Se [Migrera [!DNL Target] från at.js 2.x till [!DNL Platform Web SDK]](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html){target=_blank} i *Adobe Experience Platform Tutorials Guide*.
+
 ## Mest populära videor
 
 De flesta Target-kunder har tillgång till följande videofilmer:
@@ -67,20 +71,14 @@ The [!DNL Adobe Target] personal rekommenderar följande resurser:
 
 ### Implementera mål med Adobe Experience Platform-taggar
 
-Lär dig hur du implementerar Adobe Target-tillägget med en sidinläsningsbegäran och anpassade parametrar.
-
-Mer information finns i [Lägg till Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} i *Implementera webbplatser med självstudiekursen Taggar*.
+Lär dig hur du implementerar Adobe Target-tillägget med en sidinläsningsbegäran och anpassade parametrar. Mer information finns i [Lägg till Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} i *Implementera webbplatser med självstudiekursen Taggar*.
 
 ### Implementera at.js 2.0 i ett enkelsidigt program (SPA)
 
-Lär dig implementera at.js 2.0 (och senare) i SPA.
-
-Mer information finns i [Implementera Adobe Target at.js 2.0 i ett enkelsidigt program (SPA)](implementation/implement-atjs-20-in-a-single-page-application.md).
+Lär dig implementera at.js 2.0 (och senare) i SPA. Mer information finns i [Implementera Adobe Target at.js 2.0 i ett enkelsidigt program (SPA)](implementation/implement-atjs-20-in-a-single-page-application.md).
 
 ### Felsök Target med Experience Cloud Debugger
 
-Lär dig använda Adobe Experience Cloud Debugger för att förstå dina [!DNL Target] implementering. Lär dig hur du snabbt visar din bibliotekskonfiguration, undersöker begäranden för att se till att dina anpassade parametrar skickas korrekt, aktiverar konsolloggning och inaktiverar alla [!DNL Target] begär och använder Mbox Trace-verktyget.
-
-Mer information finns i [Felsökning [!DNL Target] med [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
+Lär dig använda Adobe Experience Cloud Debugger för att förstå dina [!DNL Target] implementering. Lär dig hur du snabbt visar din bibliotekskonfiguration, undersöker begäranden för att se till att dina anpassade parametrar skickas korrekt, aktiverar konsolloggning och inaktiverar alla [!DNL Target] begär och använder Mbox Trace-verktyget. Mer information finns i [Felsökning [!DNL Target] med [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
 
 
