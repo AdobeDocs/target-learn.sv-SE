@@ -5,9 +5,9 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: cc9f5d26ff0b2fdce1209e777838738e3b03bd47
+source-git-commit: bfb985f8f4d4d354b39dffacdda8c81fe828b9f1
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
@@ -29,56 +29,111 @@ ht-degree: 1%
 
 Följande resurser är nya:
 
-### Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!DNL Auto-Allocate] verksamhet
+* **[Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!DNL Auto-Allocate] verksamhet](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md){target=_blank}**
 
-För yrkesverksamma: The [!UICONTROL Analytics for Target] (A4T)-integrering för [!UICONTROL Auto-Allocate] gör att du kan se dina rapportdata i [!DNL Adobe Analytics]och du kan även optimera för anpassade händelser eller mätvärden som definieras i [!DNL Analytics]. Se [Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!DNL Auto-Allocate] verksamhet](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md).
+   *För yrkesverksamma: The [!UICONTROL Analytics for Target] (A4T)-integrering för [!UICONTROL Auto-Allocate] gör att du kan se dina rapportdata i [!DNL Adobe Analytics]och du kan även optimera för anpassade händelser eller mätvärden som definieras i [!DNL Analytics].*
 
-### Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] verksamhet
 
-För yrkesverksamma: Använder du A4T för [!UICONTROL Auto-Target]? Följ de här stegen för att konfigurera A4T-rapporter i [!DNL Analysis Workspace] för att säkerställa att du får förväntade resultat när du kör [!UICONTROL Auto-Target] verksamhet. Se [Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] verksamhet](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md).
+* **[Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] verksamhet](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md){target=_blank}**
 
-### Enhetsbeslut
+   *För yrkesverksamma: Använder du A4T för [!UICONTROL Auto-Target]? Följ de här stegen för att konfigurera A4T-rapporter i [!DNL Analysis Workspace] för att säkerställa att du får förväntade resultat när du kör [!UICONTROL Auto-Target] verksamhet.*
 
-För arkitekter: Kom igång med [!UICONTROL on-device decisioning] för att leverera upplevelser som är nära noll till era kunder. Se [Översikt över beslut på enheter](implementation/on-device-decisioning-overview.md).
+* **[Enhetsbeslut](implementation/on-device-decisioning-overview.md)**
 
-### Migrera [!DNL Target] från at.js 2.*x* till [!DNL Adobe Experience Platform Web SDK]
+   *För arkitekter: Kom igång med [!UICONTROL on-device decisioning] för att leverera upplevelser som är nära noll till era kunder.*
 
-Lär dig hur du migrerar en [!DNL Target] at.js implementering till [!DNL Adobe Experience Platform Web SDK]. Se [Migrera [!DNL Target] från at.js 2.x till [!DNL Platform Web SDK]](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html){target=_blank} i *Adobe Experience Platform Tutorials Guide*.
+* **[Migrera [!DNL Target] från at.js 2.x till [!DNL Platform Web SDK]](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html){target=_blank}**
+
+   *Lär dig hur du migrerar en [!DNL Target] at.js implementering till [!DNL Adobe Experience Platform Web SDK].*
 
 ## Mest populära videor
 
-De flesta Target-kunder har tillgång till följande videofilmer:
-
-### Översikt över beslut på enheter
-
->[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
-
-Mer information finns i [Översikt över beslut på enheter](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} i *Adobe Target Developer Guide*.
-
-### Introduktion till [!DNL Adobe Target] implementering
-
->[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
-
-Mer information finns i [Implementering på klientsidan](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} or [Server-side implementation](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} i *[!UICONTROL Adobe Target Developer Guide]*.
-
-### Skapa profilskript i [!DNL Adobe Target]
-
->[!VIDEO](https://video.tv.adobe.com/v/17394/?quality=12)
+<table>
+<tr>
+  <td>
+    <a href="https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html"> 
+      <img alt="Översikt över beslut på enheter" src="./assets/329032.png"/>
+    </a>
+    <div>
+      <a href="https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html">
+    <strong>Översikt över beslut på enheter</strong>
+    </a>
+    </div>
+    <!--- <p>
+    <em>Learn how to implement the Adobe Target extension with a page load request and custom parameters.</em>
+    <p> --->
+  </td>
+   <td>
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/2.1-intro-to-target-implementation.html">
+      <img alt="Introduktion till Adobe Target" src="./assets/35139.png" />
+    </a>
+    <div>
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/2.1-intro-to-target-implementation.html">
+    <strong>Introduktion till Adobe Target</strong>
+    </a>
+    </div>
+    <!--- <p>
+    <em> Learn how to implement at.js 2.0 (and later) in SPAs.</em>
+    <p> --->
+  </td>
+  <td>
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/audiences/create-profile-scripts.html">
+      <img alt="Skapa profilskript i Adobe Target" src="./assets/17394.png" />
+    </a>
+    <div>
+      <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/audiences/create-profile-scripts.html">
+    <strong>Skapa profilskript i Adobe Target</strong>
+    </a>
+    </div>
+    <!--- <p>
+    <em>Learn how to use the Adobe Experience Cloud Debugger to understand your [!DNL Target] implementation. Learn how to quickly view your library configuration, examine requests to make sure that your custom parameters are being passed correctly, turn on console logging, and disable all [!DNL Target] requests, and use the Mbox Trace tool.</em>
+    <p> --->
+  </td>
+</tr>
+</table>
 
 ## Personalval
 
-The [!DNL Adobe Target] personal rekommenderar följande resurser:
-
-### Implementera mål med Adobe Experience Platform-taggar
-
-Lär dig hur du implementerar Adobe Target-tillägget med en sidinläsningsbegäran och anpassade parametrar. Mer information finns i [Lägg till Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} i *Implementera webbplatser med självstudiekursen Taggar*.
-
-### Implementera at.js 2.0 i ett enkelsidigt program (SPA)
-
-Lär dig implementera at.js 2.0 (och senare) i SPA. Mer information finns i [Implementera Adobe Target at.js 2.0 i ett enkelsidigt program (SPA)](implementation/implement-atjs-20-in-a-single-page-application.md).
-
-### Felsök Target med Experience Cloud Debugger
-
-Lär dig använda Adobe Experience Cloud Debugger för att förstå dina [!DNL Target] implementering. Lär dig hur du snabbt visar din bibliotekskonfiguration, undersöker begäranden för att se till att dina anpassade parametrar skickas korrekt, aktiverar konsolloggning och inaktiverar alla [!DNL Target] begär och använder Mbox Trace-verktyget. Mer information finns i [Felsökning [!DNL Target] med [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
-
-
+<table>
+<tr>
+  <td>
+    <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html"> 
+      <img alt="Implementera mål med Adobe Experience Platform-taggar" src="./assets/add-adobe-target.png"/>
+    </a>
+    <div>
+      <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html">
+    <strong>Implementera mål med Adobe Experience Platform-taggar</strong>
+    </a>
+    </div>
+    <p>
+    <em>Lär dig hur du implementerar Adobe Target-tillägget med en sidinläsningsbegäran och anpassade parametrar.</em>
+    <p>
+  </td>
+   <td>
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
+      <img alt="Implementera Adobe Target at.js 2.0 i ett enkelsidigt program (SPA)" src="./assets/26248.png" />
+    </a>
+    <div>
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
+    <strong>Implementera Adobe Target at.js 2.0 i ett enkelsidigt program (SPA)</strong>
+    </a>
+    </div>
+    <p>
+    <em> Lär dig implementera at.js 2.0 (och senare) i SPA.</em>
+    <p>
+  </td>
+  <td>
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html">
+      <img alt="Felsök Target med Experience Cloud Debugger" src="./assets/23115.png" />
+    </a>
+    <div>
+      <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html">
+    <strong>Felsök Target med Experience Cloud Debugger</strong>
+    </a>
+    </div>
+    <p>
+    <em>Lär dig använda Adobe Experience Cloud Debugger för att förstå dina [!DNL Target] implementering. Lär dig hur du snabbt visar din bibliotekskonfiguration, undersöker begäranden för att se till att dina anpassade parametrar skickas korrekt, aktiverar konsolloggning och inaktiverar alla [!DNL Target] begär och använder Mbox Trace-verktyget.</em>
+    <p>
+  </td>
+</tr>
+</table>
