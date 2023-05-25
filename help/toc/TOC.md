@@ -1,9 +1,9 @@
 ---
 user-guide-title: Självstudiekurser om Adobe Target
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 3d29d15e1463ed433cb085c9e01c857f31c33817
+source-git-commit: 398828af41f4d2a1d7620d8a7d1c290aae2cf34a
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '446'
 ht-degree: 1%
 
 ---
@@ -48,6 +48,12 @@ ht-degree: 1%
    + [Integrera Target med Experience Cloud-målgrupper](../dev101/3.4-target-exc-audiences.md)
    + [Integrera Target med Campaign](../dev101/3.6-target-campaign.md)
    + [Integrera Target med Adobe Developer Console](../dev101/3.7-target-io.md)
+   + [Integrera Target med Real-Time CDP]{#rtcdp}
+      + [Nästa steg i personaliseringen med Adobe Target](../integrations/rtcdp/next-hit-personalization.md)
+      + [Konfigurera Adobe Target-målet](../integrations/rtcdp/configure-the-target-destination.md)
+      + [Aktivera segment och profilattribut](../integrations/rtcdp/activate-segments-and-profile-attributes.md)
+      + [Använda Real-Time CDP-segment i Target](../integrations/rtcdp/use-rtcdp-segments-in-target.md)
+      + [Använd Real-Time CDP-profilattribut i Target](../integrations/rtcdp/use-rtcdp-profile-attributes-in-target.md)
    + [Integrera Target med Scene7](../dev101/3.8-target-scene7.md)
    + [Integrera Target med Adobe Experience Manager](../dev101/3.5-target-aem.md)
    + [Använd AEM Experience Fragments i Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
