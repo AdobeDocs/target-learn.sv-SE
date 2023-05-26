@@ -1,7 +1,7 @@
 ---
 user-guide-title: Självstudiekurser om Adobe Target
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 398828af41f4d2a1d7620d8a7d1c290aae2cf34a
+source-git-commit: a61bec9451517f85db2d421b7cf09015d302b2aa
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 1%
@@ -48,7 +48,7 @@ ht-degree: 1%
    + [Integrera Target med Experience Cloud-målgrupper](../dev101/3.4-target-exc-audiences.md)
    + [Integrera Target med Campaign](../dev101/3.6-target-campaign.md)
    + [Integrera Target med Adobe Developer Console](../dev101/3.7-target-io.md)
-   + [Integrera Target med Real-Time CDP]{#rtcdp}
+   + Integrera Target med Real-Time CDP{#rtcdp}
       + [Nästa steg i personaliseringen med Adobe Target](../integrations/rtcdp/next-hit-personalization.md)
       + [Konfigurera Adobe Target-målet](../integrations/rtcdp/configure-the-target-destination.md)
       + [Aktivera segment och profilattribut](../integrations/rtcdp/activate-segments-and-profile-attributes.md)
