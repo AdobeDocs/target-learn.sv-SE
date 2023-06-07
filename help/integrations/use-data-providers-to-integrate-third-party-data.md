@@ -9,9 +9,9 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: 1892136e-14e3-4e52-8b1f-aee806d2f83a
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 ## Så här använder du Data Providers
 
-1. Implementeringsexperten lägger till kod före at.js (eller i bibliotekshuvudet i at.js) som gör API-anropet till tredje part, tolkar svaret och anger med namn/värde-par från svaret som ska skickas till [!DNL Target].
+1. Implementeringsexperten lägger till kod före at.js (eller i delen Library Header i at.js) som gör API-anropet till tredjepartsleverantören, tolkar svaret och anger med namn/värde-par från svaret som ska skickas till [!DNL Target].
 1. at.js hanterar flimmer och inkluderar namn/värde-par som anpassade parametrar i den globala Target-begäran.
-1. Marketer bygger målgrupper i [!DNL Target]-gränssnittet baserat på dessa anpassade parametrar.
+1. Marknadsförare bygger målgrupper i [!DNL Target] gränssnitt baserat på dessa anpassade parametrar.
 1. Marknadsförare använder dessa målgrupper för att inrikta sig på upplevelser, aktiviteter och mätvärden samt för att rapportera målgrupper.
 
 >[!NOTE]
@@ -36,4 +36,3 @@ ht-degree: 0%
 ## Stödmaterial
 
 * [Implementera Data Providers i at.js och Adobe Target](implement-data-providers-to-integrate-third-party-data.md)
-* [Dokumentation för dataleverantörer](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/targetgobalsettings.html?lang=en#data-providers)

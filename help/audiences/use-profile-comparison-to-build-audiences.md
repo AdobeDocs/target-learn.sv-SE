@@ -9,16 +9,16 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
 
 # Använd profiljämförelse för att skapa målgrupper i Adobe Target
 
-Med funktionen [!UICONTROL Profile Comparison] i Adobe Target kan du jämföra två numeriska profilvärden med varandra när du skapar en målgrupp. Detta är mycket användbart om du till exempel skickar skräddarsydda poängtal till [!DNL Target] och vill anpassa innehåll baserat på produkten med högst prioritet.
+The [!UICONTROL Profile Comparison] i Adobe Target kan du jämföra två numeriska profilvärden med varandra när du skapar en målgrupp. Detta är mycket användbart om du till exempel skickar skräddarsydda poängvärden till [!DNL Target] och vill personalisera innehåll baserat på produkten med högsta möjliga prioritet.
 
 ## Beskrivning
 
@@ -36,6 +36,5 @@ I den här videon får du lära dig att:
 ## Ytterligare resurser
 
 * [Skapa en målgrupp för jämförelse av profilattribut](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
-* [Metoder för att hämta data till Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html?lang=en)
 * [Bygga målgrupper](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
 * [Video om att skapa aktiviteter för målinriktade upplevelser](../activities/create-experience-targeting-activities.md)
