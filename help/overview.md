@@ -3,9 +3,10 @@ title: Lär dig använda Adobe Target
 description: Lär dig använda [!DNL Adobe Target] med denna samling självstudiekurser och videor som täcker alla komponenter.
 role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
+feature: Overview
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: fd4c69b1bf66da4e30dd38ed3e6cdec8906a4fa5
+source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 2%
@@ -23,7 +24,6 @@ ht-degree: 2%
 >* *[Användarhandbok om Adobe Target Business Practitioner](https://experienceleague.adobe.com/docs/target/using/target-home.html){target=_blank}*
 >
 >* *[Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}*
-
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>

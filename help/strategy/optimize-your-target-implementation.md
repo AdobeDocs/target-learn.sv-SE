@@ -2,8 +2,10 @@
 title: Optimera er implementering av Adobe Target
 description: Få en översikt över Adobe Target implementering och struktur. Lär dig hur du förstår och granskar din organisations konfiguration. Lär dig vanliga felsökningstekniker och tips om hur du skapar en kunskapsdatabas för ditt team.
 solution: Target
+feature: Overview
+role: Leader, User
 exl-id: 49b69f41-0993-437c-bb69-84392be427df
-source-git-commit: 389f754ff909752d89f74a2d6c698fc9f5d8c354
+source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 0%
