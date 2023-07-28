@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 8ef61ac0abf008039561bebe7d8d20b84f447487
+source-git-commit: dddb90e66d127782d4fe1347bd43553cd8c04d58
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,10 @@ I den här självstudiekursen går vi igenom de rekommenderade ändringarna för
 
 * [!UICONTROL Visitors] ska alltid användas som normaliseringsmått i [!DNL Auto-Allocate] verksamhet.
 * När måttet är en [!DNL Adobe Analytics] mätvärden varierar konverteringsgraden, beroende på vilken typ av optimeringskriterier som har definierats under aktivitetsinställningarna.
-   * Konverteringsgraden&quot;maximize metric value per visitor&quot;: täljaren är det reguljära måttvärdet i [!DNL Adobe Analytics] (detta anges som standard i [!UICONTROL Analytics for Target] panel i [!DNL Analysis Workspace]).
+   * &quot;maximize metric value per visitor&quot;: täljaren för konverteringsgraden är det reguljära måttvärdet i [!DNL Adobe Analytics] (detta anges som standard i [!UICONTROL Analytics for Target] panel i A[!DNL nalysis Workspace]).
       * Detta innebär: maximerar antalet konverteringar per besökare (&quot;antal per besökare&quot;).
       * Den här metoden kräver inget ytterligare segment för att matcha konverteringsgraden som visas i [!DNL Target] Gränssnitt.
-   * Konverteringsgraden&quot;Maximera konverteringsgraden för unika besökare&quot;: täljaren är ett antal unika besökare med ett positivt värde för mätvärdet.
+   * The&quot;maximize unique visitor conversion rate&quot;: conversion rate numerator is a count of the unique visitor with a positive value of the metric.
       * Detta innebär: maximerar antalet besökare som konverterar (&quot;antal en gång per besökare).
       * Den här metoden *GÖR* kräver att ytterligare ett segment skapas i rapporteringen för att matcha konverteringsgraden som visas i [!DNL Target] Gränssnitt.
 
@@ -74,7 +74,7 @@ Ett exempel på den här panelen visas för [!UICONTROL Revenue] mått, där Max
 
 ![[!UICONTROL Analytics for Target - AutoAllocate Report] panel](assets/AAFigure2.png)
 
-*Bild 2: Rekommenderad rapport för [!DNL Auto-Allocate] aktiviteter med [!DNL Analytics] mätkriterierna&quot;Maximera måttvärde per besökare&quot;. För dessa typer av mätvärden [!DNL Target] definierade konverteringsvärden, standardvärden **[!UICONTROL Analytics for Target]**panel i [!DNL Analysis Workspace] kan användas.*
+*Bild 2: Rekommenderad rapport för [!DNL Auto-Allocate] aktiviteter med [!DNL Analytics] metrisk optimeringsmetod&quot;Maximera mätvärde per besökare&quot;. För dessa typer av mätvärden [!DNL Target] definierade konverteringsvärden, standardvärden **[!UICONTROL Analytics for Target]**panel i [!DNL Analysis Workspace] kan användas.*
 
 ## [!DNL Analytics] mätvärden med optimeringskriterier för maximera konverteringsgraden för unika besökare
 
