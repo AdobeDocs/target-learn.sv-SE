@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: ef9e4667ab6e264f0dd324bfd8a7a14783952078
+source-git-commit: 99d49995ec7e3dd502a149376693e2770f3e2a9d
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1201'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,6 @@ I den här självstudiekursen går vi igenom de rekommenderade ändringarna för
 
 Skapa en A4T-panel för en [!DNL Auto-Allocate] rapporten börjar med **[!UICONTROL Analytics for Target]** panel i [!DNL Analysis Workspace], vilket visas nedan. Gör sedan följande val:
 
-1. Lägg till aktiviteten.
 1. **[!UICONTROL Control Experience]**: Du kan välja vilken upplevelse du vill.
 1. **[!UICONTROL Normalizing Metric]**: Välj besökare (Besökare inkluderas som standard i A4T-panelen). [!DNL Auto-Allocate] normaliserar alltid konverteringsgraden för unika besökare.
 1. **[!UICONTROL Success Metrics]**: Välj samma mått som du använde när du skapade aktiviteten. Om det här var en [!DNL Target] definierade konverteringsmått, välj **Aktivitetskonvertering**. I annat fall väljer du [!DNL Adobe Analytics] mätvärden som du använde.
