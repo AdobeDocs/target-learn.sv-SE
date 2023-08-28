@@ -9,7 +9,7 @@ doc-type: feature video
 kt: 6165
 team: Evangelism
 exl-id: e669d773-494f-4eb7-82da-6b3f23508d9f
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 17d2bc2929eed3c029705c3842c902141c639f02
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Driftsättning av Adobe Target Hybrid
 
-Adobe Target erbjuder en unik hybridmodell för personalisering, som kombinerar implementeringar på både klient- och serversidan. Med denna hybridmodell kan icke-tekniska användare skapa ett experiment eller en personaliseringsaktivitet med WYSIWYG Visual Experience Composer och få upplevelsen utförd, levererad och renderad av servern för en mycket prestandaoptimerad leverans. 
+Adobe Target erbjuder en unik hybridmodell för personalisering, som kombinerar implementeringar på både klient- och serversidan. Med denna hybridmodell kan icke-tekniska användare skapa ett experiment eller en personaliseringsaktivitet med WYSIWYG Visual Experience Composer och få upplevelsen utförd, levererad och renderad av servern för en mycket prestandaoptimerad leverans.
 
 ## Mål
 
