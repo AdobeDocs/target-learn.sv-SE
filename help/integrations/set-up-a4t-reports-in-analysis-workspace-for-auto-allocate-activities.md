@@ -1,6 +1,6 @@
 ---
 title: Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] Verksamhet
-description: Hur jag konfigurerar A4T-rapporter i [!DNL Analysis Workspace] för att få det förväntade resultatet när programmet körs [!UICONTROL Auto-Allocate] verksamhet.
+description: Hur konfigurerar jag [!UICONTROL Analytics for Target] (A4T) rapporter i [!DNL Adobe] [!DNL Analysis Workspace] vid körning [!UICONTROL Auto-Allocate] verksamhet.
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -8,122 +8,179 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: dddb90e66d127782d4fe1347bd43553cd8c04d58
+source-git-commit: 194579db80fdac60e204e36ab769975be2795eee
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
 
 # Konfigurera A4T-rapporter i [!DNL Analysis Workspace] for [!DNL Auto-Allocate] verksamhet
 
-An [!DNL Auto-Allocate] aktivitet identifierar en vinnare bland två eller fler upplevelser och omfördelar automatiskt trafiken till vinnaren medan testet fortsätter att köras och lära sig. The [!UICONTROL Analytics for Target] (A4T)-integrering för [!UICONTROL Auto-Allocate] kan du se dina rapportdata i [!DNL Adobe Analytics]och du kan även optimera för anpassade händelser eller mätvärden som definieras i [!DNL Analytics].
+An [!UICONTROL Auto-Allocate] aktivitet i [!DNL Adobe Target] identifierar en vinnare bland två eller flera upplevelser och omfördelar automatiskt besökstrafiken till vinnaren medan testet fortsätter att köras och lära sig. The [!UICONTROL Analytics for Target] (A4T)-integrering för [!UICONTROL Auto-Allocate] kan du visa rapportdata i [!DNL Adobe Analytics]och du kan optimera för anpassade händelser eller mätvärden som definieras i [!DNL Analytics].
 
-Även om det finns omfattande analysfunktioner i [!DNL Adobe Analytics] [!DNL Analysis Workspace], några ändringar av standardinställningen **[!UICONTROL Analytics for Target]** kan behövas för att tolka [!DNL Auto-Allocate] verksamhet, på grund av nyanser i [kriterier för optimeringsmått](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
+Även om det finns omfattande analysfunktioner i [!DNL Adobe Analytics] [!DNL Analysis Workspace], några ändringar av standardinställningen [!UICONTROL Analytics for Target] kan behövas för att tolka [!UICONTROL Auto-Allocate] verksamhet. Dessa ändringar behövs på grund av nyanserna i [kriterier för optimeringsmått](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
 
-I den här självstudiekursen går vi igenom de rekommenderade ändringarna för analys [!DNL Auto-Allocate] verksamhet i [!DNL Analysis Workspace]. De viktigaste begreppen är:
+Varje typ av optimeringsmått kräver en annan rapportkonfiguration i A4T, enligt följande:
 
-* [!UICONTROL Visitors] ska alltid användas som normaliseringsmått i [!DNL Auto-Allocate] verksamhet.
-* När måttet är en [!DNL Adobe Analytics] mätvärden varierar konverteringsgraden, beroende på vilken typ av optimeringskriterier som har definierats under aktivitetsinställningarna.
-   * &quot;maximize metric value per visitor&quot;: täljaren för konverteringsgraden är det reguljära måttvärdet i [!DNL Adobe Analytics] (detta anges som standard i [!UICONTROL Analytics for Target] panel i A[!DNL nalysis Workspace]).
-      * Detta innebär: maximerar antalet konverteringar per besökare (&quot;antal per besökare&quot;).
-      * Den här metoden kräver inget ytterligare segment för att matcha konverteringsgraden som visas i [!DNL Target] Gränssnitt.
-   * The&quot;maximize unique visitor conversion rate&quot;: conversion rate numerator is a count of the unique visitor with a positive value of the metric.
-      * Detta innebär: maximerar antalet besökare som konverterar (&quot;antal en gång per besökare).
-      * Den här metoden *GÖR* kräver att ytterligare ett segment skapas i rapporteringen för att matcha konverteringsgraden som visas i [!DNL Target] Gränssnitt.
+* Använda [!DNL Analytics] mått
 
-* När optimeringsmåttet är en [!DNL Target] definierat konverteringsmått, standardvärde **[!UICONTROL Analytics for Target]** panel i [!DNL Analysis Workspace] handtag som konfigurerar panelen.
-* För alla [!UICONTROL Auto-Allocate] aktiviteter skapade före [!DNL Target Standard/Premium] 23.3.1-utgåvan (30 mars 2023) [!DNL Analytics Workspace] och [!DNL Target] visa samma värde för [!UICONTROL Confidence].
+   * [!UICONTROL Maximize metric value per visitor]
+   * [!UICONTROL Maximize unique visitor conversion rate]
 
-  För alla [!UICONTROL Auto-Allocate] verksamhet som skapats efter den 30 mars 2023, värdena för konfidensintervall som visas i [!DNL Analysis Workspace] speglar inte [mer konservativ statistik som används av [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} om dessa aktiviteter *båda* av följande villkor:
+* Använda [!DNL Target]-definierad konverteringsmetod
 
-   * [!DNL Analytics] som rapportkälla (A4T)
-   * [!DNL Analytics] optimeringsmått
+Den här självstudiekursen omfattar övergripande A4T-vägledning och kriteriespecifika rapportkonfigurationssteg.
 
-  Konfidensmåtten ska tas bort från A4T-panelen. Referera i stället till dessa värden i [!DNL Target] rapportering.
+## Samlat riktlinjer för [!UICONTROL Analytics for Target] (A4T) {#guidance}
 
-## Skapa A4T för [!DNL Auto-Allocate] panel i [!DNL Analysis Workspace]
+Du kan navigera till en färdig [!UICONTROL Analytics for Target] genom att klicka på länken från rapportskärmen i [!UICONTROL Adobe Target] (detta hänvisas senare till i denna handbok som[!DNL Target]-triggered report&quot;). Du kan även skapa A4T-panelen i [!DNL Analytics] (information senare i det här avsnittet).
 
-Skapa en A4T-panel för en [!DNL Auto-Allocate] rapporten börjar med **[!UICONTROL Analytics for Target]** panel i [!DNL Analysis Workspace], vilket visas nedan. Gör sedan följande val:
+I följande avsnitt anges vilka konfigurationer som krävs, beroende på vilken av dessa metoder du väljer:
 
-1. **[!UICONTROL Control Experience]**: Du kan välja vilken upplevelse du vill.
-1. **[!UICONTROL Normalizing Metric]**: Välj besökare (besökare inkluderas som standard i A4T-panelen). [!DNL Auto-Allocate] normaliserar alltid konverteringsgraden för unika besökare.
-1. **[!UICONTROL Success Metrics]**: Välj samma mått som du använde när du skapade aktiviteten. Om det här var en [!DNL Target] definierade konverteringsmått, välj **Aktivitetskonvertering**. I annat fall väljer du [!DNL Adobe Analytics] mätvärden som du använde.
+* Konfidensmåtten ska tas bort från A4T-panelen oavsett hur panelen skapas (båda beskrivs nedan). Referera i stället till dessa värden i [!DNL Target] rapportering. Dessutom kan aktivitetsvinnare identifieras i [!DNL Target] rapportering. Information om identifiering av aktivitetsvinnare finns i [Identifiera aktivitetsvinnaren](#winner) nedan.
+>>
+* För att undvika förvirring avmarkerar du &quot;[!UICONTROL Percent]&quot; presentation av [!UICONTROL Conversion Rate] mätvärden. Mer information finns i [Dölj procentandelen i [!UICONTROL Conversion Rate] kolumn](#hide-percentage) nedan.
+>>
+* Om du skapar en A4T-panel måste du se till att datum- och tidsintervallen matchar dem i [!DNL Target] rapport. Mer information finns i [Justera datum och tid på A4T-panelen](#aligning-date-and-time) nedan.
 
-![[!UICONTROL Analytics for Target] panelinställningar för [!DNL Auto-Allocate] verksamhet.](assets/AAFigure1.png)
+### Dölj procentandelen i [!UICONTROL Conversion Rate] kolumn {#hide-percentage}
 
-*Bild 1: [!UICONTROL Analytics for Target] panelinställningar för [!DNL Auto-Allocate] verksamhet.*
+1. Klicka på **växel** -ikonen bredvid titeln på [!UICONTROL Conversion Rate] kolumn.
 
-Du kan också komma fram till en färdig **[!UICONTROL Analytics for Target]** om du klickar på länken från rapportskärmen i [!DNL Adobe Target].
+   ![Kugghjulsikonen i kolumnen Konverteringsfrekvens](/help/integrations/assets/coversion-rate-gear-icon.png)
 
-## [!DNL Target] [!UICONTROL Conversion] mätvärden eller [!DNL Analytics] mätvärden med optimeringskriterier för&quot;Maximera mätvärde per besökare&quot;
+   The [!UICONTROL Column] visas i dialogrutan Inställningar:
 
-När målmåttet är antingen:
+   ![Dialogrutan Kolumninställningar](/help/integrations/assets/column-settings-dialog-box.png)
 
-* Mått för målkonvertering
-* Analysmått med optimeringskriteriet&quot;Maximera mätvärde per besökare&quot;
+1. Avmarkera **[!UICONTROL Percent]** kryssrutan.
 
-A4T-standardpanelen konfigurerar automatiskt rapporten.
+A4T-panelen innehåller nu inga procentsatser som konverteringsgrad och matchningar [!DNL Target], enligt nedan:
 
-Ett exempel på den här panelen visas för [!UICONTROL Revenue] mått, där Maximera måttvärde per besökare valdes som optimeringsvillkor när aktiviteten skapades. Som tidigare nämnts [!DNL Auto-Allocate] använder mer försiktiga konfidensberäkningar jämfört med dem som används i **[!UICONTROL Analytics for Target]** -panelen. Adobe rekommenderar att du tar bort konfidensmåttet från A4T-panelen samt relaterade värden för nedre och övre lyft. I stället refererar du till konfidensvärdena i [!DNL Target] rapportering.
+![Kolumnen Konverteringsgrad visar inga procentandelar](/help/integrations/assets/no-percentages.png)
 
->[!NOTE]
->
->Konfidensvärden i A4T-rapportering är mindre försiktiga än [!DNL Target] och kan i förtid visa en vinnare för en [!UICONTROL Auto-Allocate] aktivitet.
+### Justera datum och tid på A4T-panelen {#aligning-date-and-time}
 
+1. Kontrollera datumintervallet som panelen refererar till ovanför varje panel för att se till att datumintervallet matchar datumintervallet för [!DNL Target] rapport.
 
-![[!UICONTROL Analytics for Target - AutoAllocate Report] panel](assets/AAFigure2.png)
+   ![Datumintervall i A4T-panelen](/help/integrations/assets/date-range.png)
 
-*Bild 2: Rekommenderad rapport för [!DNL Auto-Allocate] aktiviteter med [!DNL Analytics] metrisk optimeringsmetod&quot;Maximera mätvärde per besökare&quot;. För dessa typer av mätvärden [!DNL Target] definierade konverteringsvärden, standardvärden **[!UICONTROL Analytics for Target]**panel i [!DNL Analysis Workspace] kan användas.*
+1. I [!DNL Analytics], ställer in tidsintervallet till 12.00-11.59.
 
-## [!DNL Analytics] mätvärden med optimeringskriterier för maximera konverteringsgraden för unika besökare
+### Identifiera aktivitetsvinnaren {#winner}
 
-Optimeringskriteriet&quot;Maximera unik besökarkonverteringsgrad&quot; avser antalet besökare för vilka måttvärdet är positivt. Om konverteringsgraden till exempel definieras som intäkt, skulle villkoret&quot;Maximera konverteringsgraden för unika besökare&quot; vara optimerat utifrån antalet unika besökare för vilka intäkterna var större än 0. Detta kriterium skulle med andra ord maximera antalet besökare som genererar intäkter, snarare än värdet av intäkterna.
+[!DNL Auto-Allocate] vinnarna väljs när det finns en vinnande konverteringsgrad med konfidensvärden som är större än eller lika med 95 %. Dessa värden ska refereras i [!DNL Target] rapporter, eftersom konfidensberäkningar avspeglar de mer konservativa metoderna [!DNL Target] rekommenderar [!UICONTROL Auto-Allocate] verksamhet. Mer information finns i [Statistiska garantier för automatisk fördelning](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} i *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
 >[!NOTE]
 >
->Den konverteringsgrad som det hänvisas till här kan avse åtgärder som ligger utanför ordningarna, t.ex. klick, visningar osv. I dessa fall skulle kriteriet ändå vara att maximera antalet besökare som klickar eller visar sidan.
+Märken &quot;Ingen vinnare än&quot; och &quot;vinnare&quot; finns inte tillgängliga på A4T-panelen i [!DNL Analysis Workspace] och inte heller tillgängligt i [!DNL Target] rapport. Mer information finns i [Automatisk allokering](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter* i *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
-The [!DNL Analytics for Target] panel i [!DNL Analysis Workspace] måste ändras om detta optimeringskriterium används med ett [!DNL Adobe Analytics] mätvärden.
+## Skapa A4T för [!UICONTROL Auto-Allocate] panel i [!DNL Analysis Workspace]
 
-När det här optimeringskriteriet används är framgångsmåttet antalet unika besökare för vilka konverteringsmåttet var positivt. För att det här värdet ska kunna visas måste därför ett nytt segment skapas som filtrerar efter träffar med ett positivt värde för måttet.
+1. Skapa en A4T-panel för en [!UICONTROL Auto-Allocate] aktivitetsrapport, börja med [!UICONTROL Analytics for Target] panel i [!DNL Analysis Workspace], vilket visas nedan.
 
-Skapa det här segmentet på följande sätt:
+   ![Analyser för Target - rapporten Automatisk allokering](/help/integrations/assets/a4t-auto-allocate-report.png)
 
-1. Välj **[!UICONTROL Components]** > **[!UICONTROL Create Segment]** i [!DNL Analysis Workspace] verktygsfält.
-1. Dra mätvärdena som användes när aktiviteten skapades från den vänstra panelen till **[!UICONTROL Definition]** segmentets ruta.
-1. Välj värden för måttet som **större än** ett numeriskt värde på 0.
-1. Från **[!UICONTROL Include]** nedrullningsbar meny, välja **[!UICONTROL Visitors]**.
-1. Ge segmentet rätt namn.
+1. Gör följande val:
 
-Ett exempel på hur segmentet skapas visas i figuren nedan där framgångsmåttet är [!UICONTROL Visitors With Positive Revenue].
+   * **[!UICONTROL Control Experience]**: Välj en upplevelse.
+   * **[!UICONTROL Normalizing Metric]**: Välj **[!UICONTROL Visitors]** (ingår som standard i A4T-panelen). [!UICONTROL Auto-Allocate] normaliserar alltid konverteringsgraden för unika besökare.
+   * **Success Metrics**: Välj samma (optimeringsmätning) mått som du använde när du skapade aktiviteten. Om det här var en [!DNL Target]-definierade konverteringsmått, välj **[!UICONTROL Activity Conversion]**. I annat fall väljer du [!DNL Adobe Analytics] mätvärden som du använde.
 
-![[!UICONTROL Visitors with Positive Revenue] segment i [!DNL Analysis Workspace]](assets/AAFigure3.png)
+## Analysstatistik med &quot;[!UICONTROL Maximize Metric Value Per Visitor]&quot; optimeringskriterier
 
-*Bild 3: Skapa segment för [!DNL Adobe Analytics] mätvärden med optimeringskriterier lika med[!UICONTROL Maximize Unique Visitor Conversion Rate].&quot; I det här exemplet är måttet [!UICONTROL Revenue]och optimeringsmålet är att maximera antalet besökare med positiva intäkter.*
+**Definition**: (Totalt måttvärde) / (# av besökare)
 
-När rätt segment har skapats kan du ändra standardvärdet  **[!UICONTROL Analytics for Target]** panel i [!DNL Analysis Workspace] om du vill visa värdena för optimeringskriteriet. Detta uppnås genom att göra följande:
+Gör följande ändringar i A4T-rapporten om du vill konfigurera rapporten:
 
-1. Lägg till en sekund **Unika besökare** mätvärden vid sidan av befintliga [!UICONTROL Visitors] metrisk kolumn.
-2. Dra det nyskapade segmentet under den första kolumnen för att skapa en panel som liknar bild 4. Lägg märke till skillnaden i kolumnernas värden: antalet unika besökare med positiva intäkter bör vara en bråkdel av det totala antalet unika besökare som tilldelas varje upplevelse (se nedan).
+![Maximera mätvärdet för intäkter](/help/integrations/assets/maximize-metric-value-revenue.png)
 
-   ![Figur 4.png](assets/AAFigure4.png)
+| Ändringar krävs | [!DNL Target]-utlöst rapport | A4T-panelrapport |
+| --- | --- | --- |
+| Maximera måttvärdet för [!DNL Analytics] mått | <ul><li>[!UICONTROL Confidence] mätvärden ska tas bort.</li><li>[!UICONTROL Lift (Low)] och [!UICONTROL Lift (High)] tas bort.</li><li>Konverteringsgradsmåttet ska bytas till &quot;Mått/besökare&quot;.</li><li>Avmarkera procentpresentationen i dialogrutan [!UICONTROL Conversion Rate] för att undvika förvirring. Mer information finns i [Generell vägledning](#guidance) ovan.</li></ul> | <ul><li>[!UICONTROL Confidence] mätvärden ska tas bort.</li><li>[!UICONTROL Lift (Low)] och [!UICONTROL Lift (High)] tas bort.</li><li>Konverteringsgradsmåttet ska bytas till &quot;Mått/besökare&quot;.</li><li>Avmarkera procentpresentationen i dialogrutan [!UICONTROL Conversion Rate] för att undvika förvirring. Mer information finns i [Generell vägledning](#guidance) ovan.</li><li>Se till att datum- och tidsintervallen justeras mot de värden du ser i dialogrutan [!DNL Target] rapport. Mer information finns i [Generell vägledning](#guidance) ovan.</li></ul> |
 
-   *Bild 4: Filtrering [!UICONTROL Unique Visitors] av det nya segmentet*
+## [!DNL Analytics] med &quot;[!UICONTROL Unique Visitor Conversion Rate]&quot; optimeringskriterier
 
-3. En konverteringsgrad kan [snabbt beräknad](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html) genom att markera både den första och den andra kolumnen, högerklicka, markera **[!UICONTROL Create Metric from selection]** > **[!UICONTROL Divide]**.
+**Definition**: (# av unika besökare med ett positivt värde för måttet) / (totalt antal unika besökare)
 
-   Standardkonverteringsgraden bör tas bort och ersättas med det nya beräknade måttet, vilket visas i bilden nedan. Du kan behöva redigera det nya beräknade måttet för att kunna visas som en **[!UICONTROL Format]** > **[!UICONTROL Percent]** upp till två decimaler, som visas.
+Exempel: Anta att optimeringsmåttet är [!UICONTROL Revenue]. Det finns fem unika besökare i aktiviteten och tre av dessa unika besökare gör ett köp. I det här exemplet = (3 besökare för vilka [!UICONTROL Revenue] är positivt) / (totalt 5 unika besökare) = 0,6 = 60 %.
 
-   ![Figur 5.png](assets/AAFigure5.png)
+>[!NOTE]
+>
+Den konverteringsgrad som det hänvisas till här kan avse åtgärder som ligger utanför ordningarna, t.ex. klick, visningar osv. I dessa fall skulle kriteriet ändå vara att maximera antalet besökare som klickar eller visar sidan.
 
-   *Bild 5: Den sista [!UICONTROL Auto-Allocate] panel som visar konverteringsgraden för ett binärformat intäktskonverteringsmått*
+Gör följande ändringar i A4T-rapporten om du vill konfigurera rapporten:
 
-## Sammanfattning
+| Ändringar krävs | Målutlöst rapport | A4T-panelrapport |
+| --- | --- | --- |
+| Maximera konverteringarna för en [!DNL Analytics] mått | <ul><li>[!UICONTROL Confidence] mätvärden ska tas bort.</li><li>Alla [!UICONTROL Lift] mätvärden ska tas bort.</li><li>Avmarkera procentpresentationen i dialogrutan [!UICONTROL Conversion Rate] för att undvika förvirring. (Mer information finns i [Generell vägledning](#guidance) ovan.</li></ul> | <ul><li>[!UICONTROL Confidence] mätvärden ska tas bort.</li><li>Alla [!UICONTROL Lift] mätvärden ska tas bort.</li><li>Skapa ett segment för att filtrera besökare med ett positivt mätvärde som visade den analyserade aktiviteten. Mer information finns i [Skapa ett segment](#segment) nedan.</li><li>Ersätt den automatiskt ifyllda [!UICONTROL Conversion Rate] så att det är indelningen mellan [!UICONTROL Unique visitors] med ett positivt mätvärde och unika besökare. Mer information finns i [Uppdatera konverteringsgraden](#update-conversion-metric) nedan.</li><li>Avmarkera procentpresentationen i dialogrutan [!UICONTROL Conversion Rate] för att undvika förvirring. Mer information finns i [Generell vägledning](#guidance) ovan.</li><li>Se till att datum- och tidsintervallen justeras mot de värden du ser i dialogrutan [!DNL Target] rapport. Mer information finns i [Generell vägledning](#guidance) ovan.</li></ul> |
 
-Stegen i den här självstudiekursen visar hur du konfigurerar [!DNL Analysis Workspace] att visa [!UICONTROL Auto-Allocate] rapportdata.
+### Standardrapport för A4T-panelen - ytterligare vägledning
 
-Sammanfattning:
+Följande avsnitt innehåller mer information om ytterligare vägledning när du ställer in standardrapporten för A4T-panelen.
 
-* När måttet är en [!DNL Target] definierad konverteringsmetod eller [!DNL Adobe Analytics] Mått med optimeringskriteriet&quot;Maximera mätvärde per besökare&quot; ska användas. Den standardpanel för arbetsytan som konfigurerats med besökare som normaliseringsmått ska användas.
-* När måttet är en [!DNL Adobe Analytics] mätvärden med optimeringskriteriet&quot;Maximera konverteringsgraden för unika besökare&quot;, måste du fastställa andelen besökare med positivt mätvärde jämfört med det totala antalet besökare. Detta görs genom att skapa ett motsvarande segment som filtrerar [!UICONTROL Unique Visitor] på det måttet.
+#### Skapa ett segment {#segment}
+
+1. Klicka på **&quot;+&quot;-tecken** nästa **[!UICONTROL Segments]** till vänster.
+
+   ![Plustecken bredvid segment i den vänstra listen.](/help/integrations/assets/plus-sign.png)
+
+1. Ge segmentet rubriken&quot;Besökare med positivt mätvärde&quot;.
+1. Under **[!UICONTROL Definition]**, bredvid **[!UICONTROL Include]**, markera **[!UICONTROL Visitor]**.
+1. Under **[!UICONTROL Definition]** väljer du optimeringsmåttet i din aktivitet.
+
+   I det här exemplet antar du [!UICONTROL Revenue] som optimeringsmått.
+
+1. Välj &quot;[!UICONTROL is greater than]&quot; anger du sedan &quot;0&quot;.
+
+   Inställningarna filtrerar för alla besökare med ett positivt mätvärde.
+
+1. Klicka på **[!UICONTROL Save]**.
+
+   ![Positivt mätvärde](/help/integrations/assets/positive-metric-value.png)
+
+1. Lägg till det nya segmentet med namnet&quot;Besökare med positivt mätvärde&quot; på A4T-panelen.
+1. Dra och släpp [!UICONTROL Unique Visitors] i samma kolumn som &quot;Visitors with Positive Metric Value&quot;.
+
+   Den här konfigurationen skapar ett segment med alla unika besökare för vilka måttvärdet är positivt. I det här exemplet är alla unika besökare vars intäkter var större än noll.
+
+#### Uppdatera [!UICONTROL Conversion Rate] mått {#update-conversion-metric}
+
+1. Om du inte redan har gjort det tar du bort den befintliga [!UICONTROL Conversion Rate] från panelen enligt ovan.
+1. Lägg till ett mått genom att klicka på plustecknet (+) bredvid **[!UICONTROL Metrics]** till vänster.
+1. Namnge mätvärdet &quot;Conversion Rate&quot; och definiera det som &quot;([!UICONTROL Unique Visitors] med positivt mätvärde)&quot; dividerat med &quot;Unika besökare&quot;, vilket visas nedan.
+
+   Lägg till det nya segmentet (stegen som definieras ovan) för&quot;Besökare med positivt mätvärde&quot;, divisionsoperatorn,&quot;Unika besökare&quot;-måttet i täljaren och&quot;Unika besökare&quot; som nämnare.
+
+   ![Konverteringsgrad i A4T-panelen.](/help/integrations/assets/conversion-rate.png)
+
+1. Klicka på **[!UICONTROL Save]**.
+
+1. Dra och släpp det nya måttet &quot;Konverteringsgrad&quot; i den befintliga panelen.
+1. Klicka på kugghjulsikonen och avmarkera **[!UICONTROL Percent]** eftersom det här värdet kan orsaka förvirring.
+
+Den korrekta konfigurationen av rapporten bör ge ett resultat som liknar följande bild:
+
+![Unik besökskonverteringsfrekvens i A4T-panelrapport](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
+
+## [!DNL Target]-definierad konverteringsgrad
+
+Gör följande ändringar i A4T-rapporten om du vill konfigurera rapporten:
+
+| Ändringar krävs | Målutlöst rapport | A4T-panelrapport |
+| --- | --- | --- |
+| [!DNL Analytics] rapportera med [!DNL Target] konverteringsmått | <ul><li>[!UICONTROL Confidence] mätvärden ska tas bort.</li><li>[!UICONTROL Lift (Low)] och [!UICONTROL Lift (High)] tas bort.</li><li>Avmarkera procentpresentationen i dialogrutan [!UICONTROL Conversion Rate] för att undvika förvirring. Mer information finns i [Generell vägledning](#guidance) ovan.</li></ul> | <ul><li>[!UICONTROL Confidence] mätvärden ska tas bort.</li><li>[!UICONTROL Lift (Low)] och [!UICONTROL Lift (High)] tas bort.</li><li>Avmarkera procentpresentationen i dialogrutan [!UICONTROL Conversion Rate] för att undvika förvirring. Mer information finns i [Generell vägledning](#guidance) ovan.</li><li>Se till att datum- och tidsintervallen justeras mot de värden du ser i dialogrutan [!DNL Target] rapport. Mer information finns i [Generell vägledning](#guidance) ovan.</li></ul> |
+
+Den korrekta konfigurationen av rapporten bör ge ett resultat som liknar följande bild:
+
+![Aktivitetskonverteringar](/help/integrations/assets/optimized-table.png)
+
+
+
+
+
+
+
+
+
