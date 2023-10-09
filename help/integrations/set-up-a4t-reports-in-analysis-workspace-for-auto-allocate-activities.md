@@ -8,7 +8,7 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 194579db80fdac60e204e36ab769975be2795eee
+source-git-commit: d85e6510bf5243a4a37edff5d0ce9342af3162e2
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 0%
@@ -52,13 +52,13 @@ I följande avsnitt anges vilka konfigurationer som krävs, beroende på vilken 
 
    The [!UICONTROL Column] visas i dialogrutan Inställningar:
 
-   ![Dialogrutan Kolumninställningar](/help/integrations/assets/column-settings-dialog-box.png)
+   ![Dialogrutan Kolumninställningar](/help/integrations/assets/column-settings-dialog-box.png){width="200"}
 
 1. Avmarkera **[!UICONTROL Percent]** kryssrutan.
 
-A4T-panelen innehåller nu inga procentsatser som konverteringsgrad och matchningar [!DNL Target], enligt nedan:
+   A4T-panelen innehåller nu inga procentsatser som konverteringsgrad och matchningar [!DNL Target], enligt nedan:
 
-![Kolumnen Konverteringsgrad visar inga procentandelar](/help/integrations/assets/no-percentages.png)
+   ![Kolumnen Konverteringsgrad visar inga procentandelar](/help/integrations/assets/no-percentages.png)
 
 ### Justera datum och tid på A4T-panelen {#aligning-date-and-time}
 
@@ -160,9 +160,9 @@ Följande avsnitt innehåller mer information om ytterligare vägledning när du
 1. Dra och släpp det nya måttet &quot;Konverteringsgrad&quot; i den befintliga panelen.
 1. Klicka på kugghjulsikonen och avmarkera **[!UICONTROL Percent]** eftersom det här värdet kan orsaka förvirring.
 
-Den korrekta konfigurationen av rapporten bör ge ett resultat som liknar följande bild:
+   Den korrekta konfigurationen av rapporten bör ge ett resultat som liknar följande bild:
 
-![Unik besökskonverteringsfrekvens i A4T-panelrapport](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
+   ![Unik besökskonverteringsfrekvens i A4T-panelrapport](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
 
 ## [!DNL Target]-definierad konverteringsgrad
 
