@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: d85e6510bf5243a4a37edff5d0ce9342af3162e2
+source-git-commit: 3afbb97e2276ed98ea05e254026c8943acc6fee0
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1442'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ I följande avsnitt anges vilka konfigurationer som krävs, beroende på vilken 
 
 >[!NOTE]
 >
-Märken &quot;Ingen vinnare än&quot; och &quot;vinnare&quot; finns inte tillgängliga på A4T-panelen i [!DNL Analysis Workspace] och inte heller tillgängligt i [!DNL Target] rapport. Mer information finns i [Automatisk allokering](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter* i *[!UICONTROL Adobe Target Business Practitioner Guide]*.
+Märken &quot;Ingen vinnare än&quot; och &quot;vinnare&quot; finns inte tillgängliga på A4T-panelen i [!DNL Analysis Workspace]. Vinnaren av märket &quot;stjärna&quot; visas också i [!DNL Target] rapporter för [!UICONTROL Auto-Allocate] aktiviteter ska ignoreras. Mer information finns i [Automatisk allokering](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter* i *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
 ## Skapa A4T för [!UICONTROL Auto-Allocate] panel i [!DNL Analysis Workspace]
 
