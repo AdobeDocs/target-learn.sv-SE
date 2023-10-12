@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 3afbb97e2276ed98ea05e254026c8943acc6fee0
+source-git-commit: 9761412ba2f60e91152a6fd5ad9e50ec0df0adba
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Den här självstudiekursen omfattar övergripande A4T-vägledning och kriteries
 
 Du kan navigera till en färdig [!UICONTROL Analytics for Target] genom att klicka på länken från rapportskärmen i [!UICONTROL Adobe Target] (detta hänvisas senare till i denna handbok som[!DNL Target]-triggered report&quot;). Du kan även skapa A4T-panelen i [!DNL Analytics] (information senare i det här avsnittet).
 
-I följande avsnitt anges vilka konfigurationer som krävs, beroende på vilken av dessa metoder du väljer:
+I följande avsnitt anges vilka konfigurationer som krävs, beroende på vilken av dessa metoder du väljer. Följande steg fungerar dock som en allmän vägledning:
 
 * Konfidensmåtten ska tas bort från A4T-panelen oavsett hur panelen skapas (båda beskrivs nedan). Referera i stället till dessa värden i [!DNL Target] rapportering. Dessutom kan aktivitetsvinnare identifieras i [!DNL Target] rapportering. Information om identifiering av aktivitetsvinnare finns i [Identifiera aktivitetsvinnaren](#winner) nedan.
 >>
@@ -76,7 +76,7 @@ I följande avsnitt anges vilka konfigurationer som krävs, beroende på vilken 
 >
 Märken &quot;Ingen vinnare än&quot; och &quot;vinnare&quot; finns inte tillgängliga på A4T-panelen i [!DNL Analysis Workspace]. Vinnaren av märket &quot;stjärna&quot; visas också i [!DNL Target] rapporter för [!UICONTROL Auto-Allocate] aktiviteter ska ignoreras. Mer information finns i [Automatisk allokering](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *A4T-stöd för Automatisk allokering och Automatiskt mål-aktiviteter* i *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
-## Skapa A4T för [!UICONTROL Auto-Allocate] panel i [!DNL Analysis Workspace]
+### Skapa A4T för [!UICONTROL Auto-Allocate] panel i [!DNL Analysis Workspace]
 
 1. Skapa en A4T-panel för en [!UICONTROL Auto-Allocate] aktivitetsrapport, börja med [!UICONTROL Analytics for Target] panel i [!DNL Analysis Workspace], vilket visas nedan.
 
@@ -94,11 +94,11 @@ Märken &quot;Ingen vinnare än&quot; och &quot;vinnare&quot; finns inte tillgä
 
 Gör följande ändringar i A4T-rapporten om du vill konfigurera rapporten:
 
-![Maximera mätvärdet för intäkter](/help/integrations/assets/maximize-metric-value-revenue.png)
-
 | Ändringar krävs | [!DNL Target]-utlöst rapport | A4T-panelrapport |
 | --- | --- | --- |
 | Maximera måttvärdet för [!DNL Analytics] mått | <ul><li>[!UICONTROL Confidence] mätvärden ska tas bort.</li><li>[!UICONTROL Lift (Low)] och [!UICONTROL Lift (High)] tas bort.</li><li>Konverteringsgradsmåttet ska bytas till &quot;Mått/besökare&quot;.</li><li>Avmarkera procentpresentationen i dialogrutan [!UICONTROL Conversion Rate] för att undvika förvirring. Mer information finns i [Generell vägledning](#guidance) ovan.</li></ul> | <ul><li>[!UICONTROL Confidence] mätvärden ska tas bort.</li><li>[!UICONTROL Lift (Low)] och [!UICONTROL Lift (High)] tas bort.</li><li>Konverteringsgradsmåttet ska bytas till &quot;Mått/besökare&quot;.</li><li>Avmarkera procentpresentationen i dialogrutan [!UICONTROL Conversion Rate] för att undvika förvirring. Mer information finns i [Generell vägledning](#guidance) ovan.</li><li>Se till att datum- och tidsintervallen justeras mot de värden du ser i dialogrutan [!DNL Target] rapport. Mer information finns i [Generell vägledning](#guidance) ovan.</li></ul> |
+
+![Maximera mätvärdet för intäkter](/help/integrations/assets/maximize-metric-value-revenue.png)
 
 ## [!DNL Analytics] med &quot;[!UICONTROL Unique Visitor Conversion Rate]&quot; optimeringskriterier
 
