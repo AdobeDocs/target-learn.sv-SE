@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: b820a3f8a964d88027de5c27b45a76fcc878042d
+source-git-commit: 190a67832f378e15090115420bfaf8a4af4b9cb9
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Gör följande ändringar i A4T-rapporten om du vill konfigurera rapporten:
 
 | Ändringar krävs | [!DNL Target]-utlöst rapport | A4T-panelrapport |
 | --- | --- | --- |
-| Maximera måttvärdet för [!DNL Analytics] mått | <ul><li>Ta bort [!UICONTROL Confidence] mätvärden.</li><li>Ta bort [!UICONTROL Lift (Low)] och [!UICONTROL Lift (High)].</li><li>Avmarkera procentpresentationen i dialogrutan [!UICONTROL Conversion Rate] för att undvika förvirring. Se [Generell vägledning för A4T](#guidance) nedan.</li><li>Byt namn på [!UICONTROL Conversion] tariffmätvärdet är &quot;Metric/Visitor&quot;.</li></ul> | <ul><li>Ta bort [!UICONTROL Confidence] mätvärden.</li><li>Ta bort [!UICONTROL Lift (Low)] och [!UICONTROL Lift (High)].</li><li>Avmarkera procentpresentationen i dialogrutan [!UICONTROL Conversion Rate] för att undvika förvirring. Se [Generell vägledning för A4T](#guidance) nedan.</li><li>Byt namn på [!UICONTROL Conversion] tariffmätvärdet är &quot;Metric/Visitor&quot;.</li><li>Se till att datum- och tidsintervallen justeras mot de värden du ser i dialogrutan [!DNL Target] rapport. Se [Generell vägledning för A4T](#guidance) nedan.</li></ul> |
+| Maximera måttvärdet för [!DNL Analytics] mått | <ul><li>Ta bort [!UICONTROL Confidence] mätvärden.</li><li>Ta bort [!UICONTROL Lift (Low)] och [!UICONTROL Lift (High)]. Behåll [!UICONTROL Lift (Med)].</li><li>Avmarkera procentpresentationen i dialogrutan [!UICONTROL Conversion Rate] för att undvika förvirring. Se [Generell vägledning för A4T](#guidance) nedan.</li><li>Byt namn på [!UICONTROL Conversion] tariffmätvärdet är &quot;Metric/Visitor&quot;.</li></ul> | <ul><li>Ta bort [!UICONTROL Confidence] mätvärden.</li><li>Ta bort [!UICONTROL Lift (Low)] och [!UICONTROL Lift (High)] Behåll [!UICONTROL Lift (Med)].</li><li>Avmarkera procentpresentationen i dialogrutan [!UICONTROL Conversion Rate] för att undvika förvirring. Se [Generell vägledning för A4T](#guidance) nedan.</li><li>Byt namn på [!UICONTROL Conversion] tariffmätvärdet är &quot;Metric/Visitor&quot;.</li><li>Se till att datum- och tidsintervallen justeras mot de värden du ser i dialogrutan [!DNL Target] rapport. Se [Generell vägledning för A4T](#guidance) nedan.</li></ul> |
 
 ![Maximera mätvärdet för intäkter](/help/integrations/assets/maximize-metric-value-revenue.png)
 
@@ -58,7 +58,7 @@ Gör följande ändringar i A4T-rapporten om du vill konfigurera rapporten:
 
 | Ändringar krävs | Målutlöst rapport | A4T-panelrapport |
 | --- | --- | --- |
-| Maximera konverteringarna för en [!DNL Analytics] mått | <ul><li>Ta bort [!UICONTROL Confidence] mätvärden.</li><li>Ta bort alla [!UICONTROL Lift] mätvärden.</li><li>Avmarkera procentpresentationen i dialogrutan [!UICONTROL Conversion Rate] för att undvika förvirring. Se [Generell vägledning för A4T](#guidance) nedan.</li></ul> | <ul><li>Ta bort [!UICONTROL Confidence] mätvärden.</li><li>Ta bort alla [!UICONTROL Lift] mätvärden.</li><li>Skapa ett segment för att filtrera besökare med ett positivt mätvärde som visade aktiviteten som analyserades. Se [Skapa ett segment](#segment) nedan.</li><li>Ersätt den automatiskt ifyllda [!UICONTROL Conversion Rate] så att det är indelningen mellan [!UICONTROL Unique visitors] med ett positivt mätvärde och unika besökare. Se [Uppdatera konverteringsgraden](#update-conversion-metric) nedan.</li><li>Avmarkera procentpresentationen i dialogrutan [!UICONTROL Conversion Rate] för att undvika förvirring. Se [Generell vägledning för A4T](#guidance) nedan.</li><li>Se till att datum- och tidsintervallen justeras mot de värden du ser i dialogrutan [!DNL Target] rapport. Se [Generell vägledning för A4T](#guidance) nedan.</li></ul> |
+| Maximera konverteringarna för en [!DNL Analytics] mått | <ul><li>Ta bort [!UICONTROL Confidence] mätvärden.</li><li>Ta bort alla tre [!UICONTROL Lift] mätvärden.</li><li>Avmarkera procentpresentationen i dialogrutan [!UICONTROL Conversion Rate] för att undvika förvirring. Se [Generell vägledning för A4T](#guidance) nedan.</li></ul> | <ul><li>Ta bort [!UICONTROL Confidence] mätvärden.</li><li>Ta bort alla tre [!UICONTROL Lift] mätvärden.</li><li>Skapa ett segment för att filtrera besökare med ett positivt mätvärde som visade aktiviteten som analyserades. Se [Skapa ett segment](#segment) nedan.</li><li>Ersätt den automatiskt ifyllda [!UICONTROL Conversion Rate] så att det är indelningen mellan [!UICONTROL Unique visitors] med ett positivt mätvärde och unika besökare. Se [Uppdatera konverteringsgraden](#update-conversion-metric) nedan.</li><li>Avmarkera procentpresentationen i dialogrutan [!UICONTROL Conversion Rate] för att undvika förvirring. Se [Generell vägledning för A4T](#guidance) nedan.</li><li>Se till att datum- och tidsintervallen justeras mot de värden du ser i dialogrutan [!DNL Target] rapport. Se [Generell vägledning för A4T](#guidance) nedan.</li></ul> |
 
 ### Standardrapport för A4T-panelen - ytterligare vägledning
 
@@ -114,7 +114,7 @@ Gör följande ändringar i A4T-rapporten om du vill konfigurera rapporten:
 
 | Ändringar krävs | Målutlöst rapport | A4T-panelrapport |
 | --- | --- | --- |
-| [!DNL Analytics] rapportera med [!DNL Target] konverteringsmått | <ul><li>Ta bort [!UICONTROL Confidence] mätvärden.</li><li>Ta bort [!UICONTROL Lift (Low)] och [!UICONTROL Lift (High)].</li><li>Avmarkera procentpresentationen i dialogrutan [!UICONTROL Conversion Rate] för att undvika förvirring. Se [Generell vägledning för A4T](#guidance) nedan.</li></ul> | <ul><li>Ta bort [!UICONTROL Confidence] mätvärden.</li><li>Ta bort [!UICONTROL Lift (Low)] och [!UICONTROL Lift (High)].</li><li>Avmarkera procentpresentationen i dialogrutan [!UICONTROL Conversion Rate] för att undvika förvirring. Se [Generell vägledning för A4T](#guidance) nedan.</li><li>Se till att datum- och tidsintervallen justeras mot de värden du ser i dialogrutan [!DNL Target] rapport. Se [Generell vägledning för A4T](#guidance) nedan.</li></ul> |
+| [!DNL Analytics] rapportera med [!DNL Target] konverteringsmått | <ul><li>Ta bort [!UICONTROL Confidence] mätvärden.</li><li>Ta bort [!UICONTROL Lift (Low)] och [!UICONTROL Lift (High)]. Håll kvar (Med).</li><li>Avmarkera procentpresentationen i dialogrutan [!UICONTROL Conversion Rate] för att undvika förvirring. Se [Generell vägledning för A4T](#guidance) nedan.</li></ul> | <ul><li>Ta bort [!UICONTROL Confidence] mätvärden.</li><li>Ta bort [!UICONTROL Lift (Low)] och [!UICONTROL Lift (High)]. Behåll [!UICONTROL Lift (Med)].</li><li>Avmarkera procentpresentationen i dialogrutan [!UICONTROL Conversion Rate] för att undvika förvirring. Se [Generell vägledning för A4T](#guidance) nedan.</li><li>Se till att datum- och tidsintervallen justeras mot de värden du ser i dialogrutan [!DNL Target] rapport. Se [Generell vägledning för A4T](#guidance) nedan.</li></ul> |
 
 Den korrekta konfigurationen av rapporten bör ge ett resultat som liknar följande bild:
 
