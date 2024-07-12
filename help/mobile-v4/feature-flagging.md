@@ -10,7 +10,7 @@ kt: 3040
 exl-id: 034d13f2-63b1-44b0-b3dc-867efe37672f
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ I demoappen från våra tidigare lektioner ska vi lägga till en ny plats som he
 
 Kontrollera först att konstanten wetravel_feature_flag_recs har lagts till i filen Constant.java:
 
-![Lägg till konstant för funktionsflagga](assets/feature_flag_constant.jpg)
+![Lägg till konstanten för funktionsflagga](assets/feature_flag_constant.jpg)
 
 Här är koden:
 
@@ -110,11 +110,11 @@ När koden har lagts till kör du emulatorn på hemaktiviteten och tittar på Lo
 
 ## Skapa ett JSON-erbjudande för funktionsflagga
 
-Nu ska vi skapa ett enkelt JSON-erbjudande som fungerar som en flagga eller utlösare för en viss målgrupp - den målgrupp som skulle få tillgång till funktionen i sin app. Skapa ett nytt erbjudande i [!DNL Target]-gränssnittet:
+Nu ska vi skapa ett enkelt JSON-erbjudande som fungerar som en flagga eller utlösare för en viss målgrupp - den målgrupp som skulle få tillgång till funktionen i sin app. Skapa ett nytt erbjudande i gränssnittet [!DNL Target]:
 
-![JSON-erbjudande för Create Feature Flag](assets/feature_flag_json_offer.jpg)
+![Skapa funktionsflagga JSON-erbjudande](assets/feature_flag_json_offer.jpg)
 
-Låt oss kalla det&quot;Funktionsflagga v1&quot; med värdet {&quot;enable&quot;:1&quot;
+Låt oss kalla det&quot;Funktionsflagga v1&quot; med värdet {&quot;enable&quot;:1}
 
 ![feature_flag_v1 JSON-erbjudande](assets/feature_flag_json_name.jpg)
 
@@ -131,7 +131,7 @@ Nu ska vi skapa en A/B-testaktivitet med det erbjudandet. Mer information om hur
 1. Klicka på **[!UICONTROL Add Experience]** för att lägga till upplevelse B.
 1. Lämna platsen &quot;wetravel_feature_flag_recs&quot;
 1. Lämna **[!UICONTROL Default Content]** för innehållet
-1. Klicka på **[!UICONTROL Next]** för att gå vidare till skärmen [!UICONTROL Targeting]
+1. Klicka på **[!UICONTROL Next]** för att gå till skärmen [!UICONTROL Targeting]
 
    ![Aktivitetskonfiguration för funktionsflagga](assets/feature_flag_activity_2.jpg)
 
@@ -149,17 +149,17 @@ Aktivera aktiviteten.
 
 ## Validera aktiviteten för funktionsflagga
 
-Använd nu emulatorn för att bevaka begäran. Eftersom vi har angett målinriktningen till 50 % av användarna visas ett 50-procentigt svar på funktionsflaggan som innehåller `{enable:1}`-värdet.
+Använd nu emulatorn för att bevaka begäran. Eftersom vi har angett målinriktningen till 50 % av användarna visas ett 50-procentigt svar på funktionsflaggan som innehåller värdet `{enable:1}`.
 
 ![Validering av funktionsflagga](assets/feature_flag_validation.jpg)
 
-Om du inte kan se `{enable:1}`-värdet innebär det att du inte har något mål för upplevelsen. Som ett tillfälligt test kan du tvinga fram erbjudandet:
+Om du inte kan se värdet `{enable:1}` betyder det att du inte är målinriktad för upplevelsen. Som ett tillfälligt test kan du tvinga fram erbjudandet:
 
 1. Inaktivera aktiviteten.
 1. Ändra trafiktilldelningen till 100 % för den nya funktionsupplevelsen.
 1. Spara och återaktivera.
 1. Rensa data på emulatorn och starta sedan om programmet.
-1. Erbjudandet bör nu returnera `{enable:1}`-värdet.
+1. Erbjudandet bör nu returnera värdet `{enable:1}`.
 
 I ett livescenario kan `{enable:1}`-svaret användas för att aktivera mer anpassad logik i din app för att visa den specifika funktionsuppsättning som du vill visa målgruppen.
 

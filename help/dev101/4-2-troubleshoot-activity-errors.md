@@ -33,4 +33,4 @@ I den här videon får du lära dig att:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35154/?quality=12)
 
-Mer information finns på [dokumentation](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en).
+Mer information finns i [dokumentationen](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en).

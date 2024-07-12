@@ -13,8 +13,8 @@ thumbnail: 35139.jpg
 exl-id: ce615020-6775-486a-b0e0-f4298adbae39
 source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 56%
+source-wordcount: '107'
+ht-degree: 55%
 
 ---
 
@@ -35,5 +35,5 @@ I den här videon får du lära dig att:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
 
-Mer information finns i [Implementering på klientsidan](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} or [Server-side implementation](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} i *[!UICONTROL Adobe Target Developer Guide]*.
+Mer information finns i [Implementering på klientsidan](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} eller [Implementering på serversidan](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} i *[!UICONTROL Adobe Target Developer Guide]*.
 

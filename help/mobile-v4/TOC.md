@@ -1,10 +1,9 @@
 ---
 user-guide-title: Adobe Target med Adobe Mobile Services SDK v4 för Android
 user-guide-url: /content/help/en/target-learn/mobile-sdk-v4-android/overview.html
-translation-type: tm+mt
 source-git-commit: 79f64f63731d2e16118396c5e42c17f62fbd5304
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '40'
 ht-degree: 0%
 
 ---

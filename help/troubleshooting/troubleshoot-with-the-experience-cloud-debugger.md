@@ -11,7 +11,7 @@ author: Daniel Wright
 exl-id: afdc531d-e54c-4612-b21b-67a3e8e65a26
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Med Adobe Experience Cloud Debugger är det snabbt och enkelt att förstå hur T
 ## Ytterligare resurser
 
 * [Video om felsökning med målspår](troubleshoot-with-target-traces.md)
-* [Adobe Experience Cloud Debugger in the Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
-* [Lägg till videon Debugger Extension](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/add-the-extension.html?lang=en)
-* [Felsöka hjälpdokumentation för mål](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en)
-* [Så här använder du Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/use-the-experience-cloud-debugger.html?lang=en)
+* [Adobe Experience Cloud Debugger i Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
+* [Lägg till videon för felsökningstillägget](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/add-the-extension.html?lang=en)
+* [Felsökning av hjälpdokumentation för mål](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en)
+* [Så här använder du Experience Cloud Debugger-videon](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/use-the-experience-cloud-debugger.html?lang=en)

@@ -10,7 +10,7 @@ kt: null
 exl-id: 10448c36-44b8-4a2f-a3c5-9e0130593a17
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
@@ -37,4 +37,4 @@ I den här videon får du lära dig att:
 * [Skapa en feed](create-a-feed.md)
 * [Skapa villkor](create-criteria.md)
 * [Skapa egna designer](create-custom-designs.md)
-* [Recommendations Documentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Recommendations-dokumentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

@@ -30,6 +30,6 @@ I den här videon får du lära dig att:
 
 ## Anteckning
 
-I den här videon visas hur du integrerar med [Adobe Developer Console](https://developer.adobe.com/developer-console/). Om du vill ha stegvisa anvisningar om hur du använder Adobe Developer Console för att integrera med Adobe Target går du till [guide för konfigurering av autentisering i Adobe](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target="_blank"} i *Adobe Target Developer Guide*.
+I den här videon visas hur du integrerar med [Adobe Developer Console](https://developer.adobe.com/developer-console/). Om du vill ha stegvisa anvisningar om hur du använder Adobe Developer Console för att integrera med Adobe Target går du till den här [guiden om hur du konfigurerar autentisering med Adobe ](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target="_blank"} i *Adobe Target Developer Guide*.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35150/?quality=12)

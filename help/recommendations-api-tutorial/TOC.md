@@ -3,7 +3,7 @@ user-guide-title: Använda Recommendations API:er
 user-guide-url: /content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html
 source-git-commit: 542ff406fc24df54a2f1b007422492341ea46507
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '28'
 ht-degree: 0%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 0%
 # Använda Adobe Target Recommendations API:er{#recommendations-api-tutorial}
 
 + [Recs API - översikt](recs-api-overview.md)
-+ [Hantera din katalog med API:er](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html){target="_blank"}
++ [Hantera katalogen med API:er](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html){target="_blank"}
 + [Hantera anpassade villkor](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-custom-criteria.html){target="_blank"}
-+ [Använda leverans-API:t med Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/fetch-recs-server-side-delivery-api.html){target="_blank"}
++ [Använd leverans-API med Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/fetch-recs-server-side-delivery-api.html){target="_blank"}
 
 <!--+ [Debug API calls](6debug.md)
 + [Download the Calculated Recommendations CSV](7download-calc-recs-csv.md)-->

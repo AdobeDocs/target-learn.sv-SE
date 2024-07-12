@@ -7,7 +7,7 @@ role: Leader, User
 exl-id: 49b69f41-0993-437c-bb69-84392be427df
 source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Om du inte är van vid din organisation och vill bekanta dig med vad som är på plats från en testnings- och optimeringspraxis hjälper den här artikeln dig att komma igång. Vi börjar med en översikt över Adobe Target implementering och struktur. Du får lära dig att förstå och granska hur din organisation är konfigurerad. Slutligen diskuterar vi vanliga felsökningstekniker och tips om hur du skapar en kunskapsdatabas för ditt team.
 
-Adobe Target är ett verktyg som gör det möjligt att testa och målinrikta unikt innehåll för olika besökare. En översikt över tillgängliga funktioner finns här: [gå till den här guiden](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en).
+Adobe Target är ett verktyg som gör det möjligt att testa och rikta unikt innehåll till olika besökare. [Gå till den här guiden](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en) om du vill se en översikt över tillgängliga funktioner.
 
 ## Målgenomförande och struktur
 
@@ -30,7 +30,7 @@ Det finns tre typer av grundläggande målaktiviteter:
 2. Multivariata tester (MVT)
 3. Upplevelsetestning
 
-**A/B-testet** jämför två eller flera upplevelser för att se vilken som är bäst på att förbättra konverteringarna under en förspecificerad testperiod. A/B-testet är ett mycket kontrollerat experiment med trafikmätningar, uppdelat i procent i stället för i regel, vilket gör att du kan:
+**A/B-testet** jämför två eller flera upplevelser för att se vilka som förbättrar konverteringarna bäst under en fördefinierad testperiod. A/B-testet är ett mycket kontrollerat experiment med trafikmätningar, uppdelat i procent i stället för i regel, vilket gör att du kan:
 
 * för att analysera testdata.
 * för att få kunskap om er målgrupp.
@@ -42,7 +42,7 @@ Det finns tre typer av grundläggande målaktiviteter:
 * En metod för att testa den resulterande unika upplevelsen mot ett specifikt mål.
 * Insikt om vilka element som har störst negativ eller positiv inverkan på besökarinteraktioner.
 
-**Upplevelsetestning** (Erfaren målgruppsanpassning) levererar innehåll till en viss målgrupp baserat på en uppsättning marknadsföringsdefinierade regler och kriterier. Med den här metoden kan du rikta specifikt innehåll mot en viss målgrupp baserat på en uppsättning definierade allokeringsregler.
+**Experience testing** (Experience testing) levererar innehåll till en viss målgrupp baserat på en uppsättning marknadsföringsdefinierade regler och kriterier. Med den här metoden kan du rikta specifikt innehåll mot en viss målgrupp baserat på en uppsättning definierade allokeringsregler.
 
 Hur fungerar Target?
 
@@ -60,11 +60,11 @@ Target bygger på en&quot;global Mbox&quot; som ger möjlighet att påverka vad 
 
 Adobe rekommenderar att du granskar implementeringen av målanvändargränssnittet tillsammans med tagghanteraren och implementeringen av sidinläsning för att få en förståelse för den aktuella implementeringen.
 
-**Om du vill granska [!DNL Target] användargränssnitt:**
+**Så här granskar du [!DNL Target]-användargränssnittet:**
 
-1. Börja granska på [!DNL Target] Gränssnitt:
+1. Börja granska [!DNL Target]-gränssnittet:
 
-   * Granska [!DNL Target] teknikhög
+   * Granska teknikstacken [!DNL Target]
    * Bekräfta tillgängliga funktioner
    * Identifiera var distributionen finns
 
@@ -74,7 +74,7 @@ Adobe rekommenderar att du granskar implementeringen av målanvändargränssnitt
 
 1. Inaktivera gamla aktiviteter:
 
-   * Arkivera och städa upp [!DNL Target] tillgång som inte längre har aktuell eller framtida användning
+   * Arkivera och rensa [!DNL Target]-resurs som inte längre har aktuell eller framtida användning
 
 1. Granska målgrupper.
 
@@ -89,20 +89,20 @@ Så här granskar du tagghanteraren och sidinläsningen:
 
 1. Bekräfta följande i tagghanteraren:
 
-   * Distributionen av den förväntade [!DNL Target] JavaScript-kod
+   * Distributionen av den förväntade [!DNL Target] JavaScript-koden
    * Lämplig lösning för att dölja innehåll
-   * Ange nödvändiga regler för att fylla i [!DNL Target] anrop med förväntade parametrar
+   * Ange nödvändiga regler för att fylla i [!DNL Target]-anropen med förväntade parametrar
 
 1. Bekräfta följande under sidinläsning:
 
-   * Matchande versionsnummer för begärande-URL och [!DNL Target] Begär URL
+   * Matchande versionsnummer för begärande-URL och [!DNL Target] begärande-URL
    * Populerat upplevelsebaserat moln-ID-värde (molninnehåll)
    * Visa förväntade integreringsvärden (molninnehåll)
-   * Fylld [!DNL Target] parametrar på lämpliga sidor
+   * Fyllda [!DNL Target] parametrar på lämpliga sidor
 
-## [!DNL Target] revisionsverksamhet
+## [!DNL Target] granskningsaktiviteter
 
-Undvika att gå igenom varje sida manuellt för granskning [!DNL Target] använder du Adobe Auditor för att få en förståelse för hur den nuvarande tekniska utvecklingen av er implementering ser ut. Adobe Auditor drivs av ObservePoint och kan konfigureras för att köras manuellt för att identifiera implementeringsproblem på hög nivå på din webbplats.
+Om du vill undvika att gå igenom varje sida manuellt för att granska [!DNL Target]-aktiviteter kan du använda Adobe Auditor för att få en förståelse för det aktuella tekniska tillståndet för implementeringen. Adobe Auditor drivs av ObservePoint och kan konfigureras för att köras manuellt för att identifiera implementeringsproblem på hög nivå på din webbplats.
 
 Adobe Auditor tillhandahåller
 
@@ -126,7 +126,7 @@ Här följer allmänna felsökningstips när du går in i upplevelsen:
 
 ### Cache och cookies**
 
-* Clearing av cache och cookies
+* Clearing av cacheminne och cookies
 * Var försiktig i privat läge (till exempel: privat läge i Firefox kan blockera [!DNL Target])
 
 ### Är du kvalificerad för aktiviteten?
@@ -136,9 +136,9 @@ Här följer allmänna felsökningstips när du går in i upplevelsen:
 
 ### Allmänna felsökningstips vid validering av visuella/funktionella
 
-Om finns i [!DNL Target] och du inte ser den förväntade visuella upplevelsen:
+Om finns i [!DNL Target]-upplevelsen och du inte ser den förväntade visuella upplevelsen:
 
-Kontrollera [!DNL Target] svar:
+Kontrollera [!DNL Target]-svaret:
 
 * Om koden inte körs:
 
@@ -157,13 +157,13 @@ Helst bör databasen tillåta redigering och automatiskt sparande inom plattform
 
 Vanliga dokument i en kunskapsdatabas är:
 
-* **Översikt** - ett dokument som tydligt förklarar programmens mål, mål, processer och struktur,
-* **Identifieringsdatabas** - ett dokument som används för att hantera och prioritera potentiella idéer som inte är redo för testprocessen
-* **Programplanering** - ett dokument som används för att hantera alla aspekter av testningsaktiviteter när idéer är klara att starta testprocessen
-* **Dokument för aktivitetsplan** - ett dokument som används för att ge en översikt över den information som behövs för att bygga upp och starta aktiviteter
+* **Översiktsdokument** - ett dokument som används för att tydligt förklara programmens mål, mål, processer och struktur
+* **Identifieringsdatabas** - ett dokument som används för att hantera och prioritera potentiella idéer som inte är klara för testprocessen
+* **Programfärdplan** - ett dokument som används för att hantera alla aspekter av testningsaktiviteter när idéer är klara att starta testprocessen
+* **Dokument för aktivitetsplan** - ett dokument som används för att skapa information som behövs för att skapa och starta aktiviteter
 * **Dokument för aktivitetsplan** - ett dokument som används för att förmedla resultat och rekommenderade nästa steg till intressenter
-* **Kontrollpanel för program** - ett dokument som används för att följa upp programprestanda, avslut och intäktsfördelar över tid.
+* **Programkontrollpanel** - ett dokument som används för att spåra programmets prestanda, avslut och intäktsfördelar över tid.
 
-Mer information finns i [webbinarium](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) med Senior Consultant, Wilder Freed.
+Mer information finns i vårt [webbinarium](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) med Senior Consultant, Wilder Freed.
 
-Läs mer om strategi och tankeledarskap på [Nöjda kunder](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) nav.
+Läs mer om strategi och tankeledarskap på navet [Nöjda kunder](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).

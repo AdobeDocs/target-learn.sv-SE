@@ -1,6 +1,6 @@
 ---
 title: Använda Data Providers för att integrera data från tredje part
-description: I den här självstudiekursen introduceras användare för Data Providers. Lär dig använda Data Providers för att enkelt skicka data från tredje part till Adobe Target.
+description: I den här självstudien introduceras användare för Data Providers. Lär dig använda Data Providers för att enkelt skicka data från tredje part till Adobe Target.
 role: User, Developer
 level: Experienced
 topic: Personalization, Integrations
@@ -11,7 +11,7 @@ author: Daniel Wright
 exl-id: 1892136e-14e3-4e52-8b1f-aee806d2f83a
 source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/22349/?quality=12)
 
-## Så här använder du Data Providers
+## Använda Data Providers
 
-1. Implementeringsexperten lägger till kod före at.js (eller i delen Library Header i at.js) som gör API-anropet till tredjepartsleverantören, tolkar svaret och anger med namn/värde-par från svaret som ska skickas till [!DNL Target].
+1. Implementeringsexperten lägger till kod före at.js (eller i bibliotekshuvudet i at.js) som gör API-anropet till tredje part, tolkar svaret och anger med namn/värde-par från svaret som ska skickas till [!DNL Target].
 1. at.js hanterar flimmer och inkluderar namn/värde-par som anpassade parametrar i den globala Target-begäran.
-1. Marknadsförare bygger målgrupper i [!DNL Target] gränssnitt baserat på dessa anpassade parametrar.
+1. Marketer bygger målgrupper i gränssnittet [!DNL Target] baserat på dessa anpassade parametrar.
 1. Marknadsförare använder dessa målgrupper för att inrikta sig på upplevelser, aktiviteter och mätvärden samt för att rapportera målgrupper.
 
 >[!NOTE]

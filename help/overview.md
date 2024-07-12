@@ -1,6 +1,6 @@
 ---
 title: Lär dig använda Adobe Target
-description: Lär dig använda [!DNL Adobe Target] med denna samling självstudiekurser och videor som täcker alla komponenter.
+description: Lär dig hur du använder  [!DNL Adobe Target] med den här samlingen självstudiekurser och videoklipp som omfattar alla komponenter.
 role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 feature: Overview
@@ -8,20 +8,20 @@ topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
 source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 2%
+source-wordcount: '186'
+ht-degree: 0%
 
 ---
 
 # Adobe Target självstudiekurser
 
-[!DNL Adobe Target] är [!DNL Adobe Experience Cloud] som innehåller allt ni behöver för att skräddarsy och personalisera kundernas upplevelse. [!DNL Target] hjälper er att maximera intäkterna från era webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler. Använd dessa videor och självstudiekurser för att lära dig de många komponenterna i [!DNL Adobe Target].
+[!DNL Adobe Target] är lösningen [!DNL Adobe Experience Cloud] som innehåller allt du behöver för att skräddarsy och personalisera dina kunders upplevelse. [!DNL Target] hjälper dig att maximera intäkterna på dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler. Använd dessa videoklipp och självstudiekurser för att lära dig de många komponenterna i [!DNL Adobe Target].
 
 >[!NOTE]
 >
->Utöver den här guiden finns följande [!DNL Adobe Target] Det finns även stödlinjer:
+>Förutom den här guiden finns även följande [!DNL Adobe Target] stödlinjer tillgängliga:
 >
->* *[Användarhandbok om Adobe Target Business Practitioner](https://experienceleague.adobe.com/docs/target/using/target-home.html){target=_blank}*
+>* *[Adobe Target Business Practitioner Guide](https://experienceleague.adobe.com/docs/target/using/target-home.html){target=_blank}*
 >
 >* *[Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}*
 
@@ -42,7 +42,7 @@ ht-degree: 2%
     </a>
     <div>
       <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html">
-    <strong>Migrera mål från at.js till Platform Web SDK</strong>
+    <strong> Migrera mål från at.js till Platform Web SDK </strong>
     </a>
     </div>
     <p>
@@ -55,7 +55,7 @@ ht-degree: 2%
     </a>
     <div>
       <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html">
-    <strong>Implementera mål med Adobe Experience Platform-taggar</strong>
+    <strong> Implementera mål med Adobe Experience Platform-taggar </strong>
     </a>
     </div>
     <p>
@@ -72,7 +72,7 @@ ht-degree: 2%
     </a>
     </div>
     <p>
-    <em> Lär dig hur du implementerar Adobe Target at.js 2.0 (och senare) i Single Page Applications (SPA).</em>
+    <em> Lär dig hur du implementerar Adobe Target at.js 2.0 (och senare) i Single Page-program (SPA).</em>
     <p>
   </td>
 </tr>

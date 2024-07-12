@@ -10,14 +10,14 @@ kt: 3040
 exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
 # Lägg till parametrar i begäranden
 
-I den här lektionen ska vi lägga till livscykelvärden och anpassade parametrar för Adobe i [!DNL Target]-begäranden som lagts till i föregående lektion. Dessa mått och parametrar kommer att användas för att skapa personaliserade målgrupper senare i självstudiekursen.
+I den här lektionen ska vi lägga till livscykelvärden och anpassade parametrar för Adobe i [!DNL Target]-begäranden som lades till i den föregående lektionen. Dessa mått och parametrar kommer att användas för att skapa personaliserade målgrupper senare i självstudiekursen.
 
 ## Utbildningsmål
 
@@ -34,14 +34,14 @@ Låt oss aktivera [Adobe mobil livscykelstatistik](https://experienceleague.adob
 
 Om du vill aktivera livscykelmått öppnar du HomeActivity-kontrollen igen och lägger till `Config.collectLifecycleData(this);` i onResume()-funktionen:
 
-![Begäran om livscykel](assets/lifecycle_code.jpg)
+![Livscykelbegäran](assets/lifecycle_code.jpg)
 
 ### Validera livscykelparametrar för förhämtningsbegäran
 
 Kör emulatorn och använd Logcat för att validera livscykelparametrarna. Filtrera efter &quot;prefetch&quot; för att hitta prefetch-svaret och leta efter de nya parametrarna:
 ![Livscykelvalidering](assets/lifecycle_validation.jpg)
 
-Även om vi bara har lagt till `Config.collectLifecycleData()` i HomeActivity-kontrollen, bör du också se livscykelvärdena som skickas med Target-begäran på Tack-skärmen.
+Även om vi bara har lagt till `Config.collectLifecycleData()` i HomeActivity-styrenheten bör du också se livscykelvärdena som skickas med Target-begäran på TackYou-skärmen.
 
 ## Lägg till parametern at_property i förhämtningsbegäran
 
@@ -49,14 +49,14 @@ Adobe Target-egenskaper definieras i [!DNL Target]-gränssnittet och används f�
 
 >[!NOTE]
 >
->Beroende på din licens kan du eventuellt se egenskapsalternativen i [!DNL Target]-gränssnittet. Om du inte har de här alternativen, eller om du inte använder Egenskaper i ditt företag, går du vidare till nästa avsnitt i den här lektionen.
+>Beroende på din licens kan du eventuellt se egenskapsalternativen i gränssnittet [!DNL Target]. Om du inte har de här alternativen, eller om du inte använder Egenskaper i ditt företag, går du vidare till nästa avsnitt i den här lektionen.
 
-Du kan hämta at_property-värdet i gränssnittet [!DNL Target] under [!UICONTROL Setup] > [!UICONTROL Properties].  Håll markören över egenskapen, markera kodfragmentsikonen och kopiera `at_property`-värdet:
+Du kan hämta at_property-värdet i [!DNL Target]-gränssnittet under [!UICONTROL Setup] > [!UICONTROL Properties].  Håll markören över egenskapen, markera ikonen för kodfragment och kopiera värdet `at_property`:
 
-![Kopiera till_egenskap](assets/at_property_interface.jpg)
+![Kopiera vid_egenskap](assets/at_property_interface.jpg)
 
 Lägg till den som en parameter för varje plats i förhämtningsbegäran enligt följande:
-![Lägg till vid_property-parameter](assets/params_at_property.jpg)
+![Lägg till parametern at_property](assets/params_at_property.jpg)
 Här är den uppdaterade koden för funktionen `targetPrefetchContent()` (kom ihåg att uppdatera platshållartexten för _[!UICONTROL your at_property value goes here]_!):
 
 ```java
@@ -89,7 +89,7 @@ public void targetPrefetchContent() {
 
 ### Kommentarer om parametrar
 
-För framtida projekt kanske du vill implementera ytterligare parametrar. Metoden `createTargetPrefetchObject()` tillåter tre typer av parametrar: `locationParams`, `orderParams` och `productParams`. Mer information om hur du lägger till de här parametrarna i förhämtningsbegäran](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en) finns i dokumentationen för [.
+För framtida projekt kanske du vill implementera ytterligare parametrar. Metoden `createTargetPrefetchObject()` tillåter tre typer av parametrar: `locationParams`, `orderParams` och `productParams`. I dokumentationen finns [mer information om hur du lägger till de här parametrarna i förhämtningsbegäran](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
 
 Observera också att olika platsparametrar kan läggas till på varje plats i förhämtningsbegäran. Du kan t.ex. skapa en annan karta med namnet param2, lägga in en ny parameter och sedan ange param2 på en plats och param1 på den andra platsen. Här är ett exempel:
 
@@ -142,11 +142,11 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 ### Validera de anpassade parametrarna i Live-platsbegäran
 
 Kör emulatorn och öppna Logcat. Filtrera efter en av parametrarna för att verifiera att begäran innehåller de parametrar som krävs:
-![Validera de anpassade parametrarna i Live-platsbegäran](assets/parameters_live_location_validation.jpg)
+![Verifiera anpassade parametrar i Live-platsbegäran](assets/parameters_live_location_validation.jpg)
 
 >[!NOTE]
 >
->Begäranden och parametrar för orderbekräftelse: Även om de inte används i det här demoprojektet hämtas orderinformation vanligtvis i en verklig implementering så att [!DNL Target] kan använda orderdetaljer som mått. Se dokumentationen för instruktioner om hur du [implementerar orderbekräftelsebegäran och parametrar](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
+>Begäranden och parametrar för orderbekräftelse: Även om de inte används i det här demoprojektet registreras orderinformationen vanligtvis i en verklig implementering så att [!DNL Target] kan använda orderdetaljer som mått/dimensioner. I dokumentationen finns instruktioner om hur du [implementerar beställningsbekräftelsebegäran och parametrar](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
 
 >[!NOTE]
 >
@@ -154,4 +154,4 @@ Kör emulatorn och öppna Logcat. Filtrera efter en av parametrarna för att ver
 
 Snyggt jobbat! Nu när parametrarna finns på plats är vi redo att använda dessa parametrar för att skapa målgrupper och erbjudanden i Adobe Target.
 
-**[NÄSTA: &quot;Skapa publiker och erbjudanden&quot; >](create-audiences-and-offers.md)**
+**[NÄSTA :&quot;Skapa publiker och erbjudanden&quot; >](create-audiences-and-offers.md)**

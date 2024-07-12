@@ -10,12 +10,12 @@ kt: null
 exl-id: 997d0902-ff30-4944-b08c-fe6d9f7bcc35
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
 
-# Skapa aktiviteter för målinriktad upplevelse
+# Skapa aktiviteter för målinriktning på upplevelser
 
 Experience Targeting är ett första steg in i personaliseringsvärlden och börjar ofta med A/B-testning. En marknadsförare kör ett A/B-test och genom att använda rapportmålgrupper upptäcker den att olika upplevelser fungerar med olika målgrupper. Med Experience Targeting (eller XT) kan marknadsföraren enkelt utnyttja den upptäckten och gå över till långsiktig målinriktning av innehåll för de olika användarsegmenten.
 
@@ -27,17 +27,17 @@ I den här videon får du lära dig att:
 
 ## Målgrupp
 
-* Yrkesverksamma inom affärsverksamhet
+* Affärskommunikation
 
 >[!VIDEO](https://video.tv.adobe.com/v/22418?quality=12)
 
 ## Ytterligare resurser
 
-* [Ladda ned Playbook for Experience Personalization](https://guided.adobe.com/?promoid=K42KVXHD&amp;mv=other&amp;search=personalization+playbook#recommended/solutions/target)
+* [Ladda ned Playbook för Experience Personalization](https://guided.adobe.com/?promoid=K42KVXHD&amp;mv=other&amp;search=personalization+playbook#recommended/solutions/target)
 * [Experience Targeting-dokumentation](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
 
 ## Andra funktioner som används i den här videon
 
-* [Målgrupper för rapportdokumentation](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
-* [Skapa publikdokumentation](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
-* [Skapa upplevelser med Visual Experience Composer-dokumentationen](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)
+* [Publiker för rapportdokumentation](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [Skapar publikdokumentation](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [Skapa upplevelser med dokumentationen för Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)

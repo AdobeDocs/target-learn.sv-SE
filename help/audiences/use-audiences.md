@@ -26,7 +26,7 @@ I den här videon får du lära dig att:
 
 * Definiera vad en Adobe Target &quot;målgrupp&quot; är
 * Hitta målgrupper i publiklistan
-* Använd målgrupper för att målinrikta aktiviteter och filtrera rapporter
+* Använd målgrupper för att rikta aktiviteter och filtrera rapporter
 
 ## Målgrupp
 

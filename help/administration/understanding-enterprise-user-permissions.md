@@ -7,11 +7,11 @@ topic: Administration
 feature: Administration & Configuration
 doc-type: feature video
 kt: null
-badge: premium
+badge: premie
 exl-id: bb8d691b-4cf5-468d-8f47-bd3d7a713124
 source-git-commit: 0e2f4824fcef96841ace2460f68033530f384c93
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---

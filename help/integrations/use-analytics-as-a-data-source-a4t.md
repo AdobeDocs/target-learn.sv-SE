@@ -1,5 +1,5 @@
 ---
-title: Använda Analytics som datakälla för mål (A4T)
+title: Så här använder du Analytics som ett Data Source for Target-objekt (A4T)
 description: Den här videon presenterar marknadsförare för Analytics for Target (A4T).
 role: User
 level: Beginner
@@ -10,12 +10,12 @@ kt: null
 exl-id: 6ea8e127-ada7-4a13-8160-ac83cdb20d03
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
 
-# Använd Adobe Analytics som datakälla för Adobe Target (A4T)
+# Använd Adobe Analytics som Data Source for Adobe Target (A4T)
 
 ## Beskrivning
 

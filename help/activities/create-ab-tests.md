@@ -31,4 +31,4 @@ I den här videon får du lära dig att:
 
 ## Andra resurser
 
-Stegvisa instruktioner finns i [Skapa ett A/B-test](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html){target=_blank} i *Adobe Target Business Practitioner Guide*.
+Stegvisa instruktioner finns i [Skapa ett A/B-test](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html){target=_blank} i *Adobe Target Business Practitioner-handboken*.

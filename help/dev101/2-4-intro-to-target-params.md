@@ -1,6 +1,6 @@
 ---
 title: Administrera och implementera parametrar
-description: Den här videon visar Adobe Target arkitekter och utvecklare hur man skiljer mellan parametrarna för förfrågningar och profilparametrar, konfigurerar och utlöser förfrågningar med JavaScript och tagghanteringssystem samt förstår implementeringskraven för mobiler, e-postmarknadsföring och API:er.
+description: Den här videon visar Adobe Target arkitekter och utvecklare hur man skiljer mellan parametrarna för förfrågningar och profilparametrar, konfigurerar och utlöser förfrågningar med hjälp av JavaScript och tagghanteringssystem samt förstår implementeringskraven för mobiler, e-postmarknadsföring och API:er.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -23,7 +23,7 @@ ht-degree: 0%
 I den här videon får du lära dig att:
 
 * Skillnaden mellan parametrarna för begäran och profilparametrarna
-* Konfigurera och utlösa begäranden med JavaScript och tagghanteringssystem
+* Konfigurera och utlösa förfrågningar med hjälp av JavaScript och tagghanteringssystem
 * Ange implementeringskraven för mobiler, e-postmarknadsföring och API:er
 
 ## Målgrupp
@@ -33,4 +33,4 @@ I den här videon får du lära dig att:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35142/?quality=12)
 
-Mer information finns på [dokumentation](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en).
+Mer information finns i [dokumentationen](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en).

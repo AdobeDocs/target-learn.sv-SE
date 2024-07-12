@@ -18,6 +18,6 @@ ht-degree: 0%
 
 # Aktivera segment och profilattribut
 
-Lär dig hur du aktiverar segment och profilattribut från Adobe Real-time Customer Data Platform till Adobe Target för att visa personaliserat innehåll i realtid på dina webbplatser, mobilappar och andra digitala resurser. Mer information finns i [Aktivera målgruppsdata för att profilera destinationsdokumentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html).
+Lär dig hur du aktiverar segment och profilattribut från Adobe Real-time Customer Data Platform till Adobe Target för att visa personaliserat innehåll i realtid på dina webbplatser, mobilappar och andra digitala resurser. Mer information finns i [Aktivera målgruppsdata för att profilera måldokumentationen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html).
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)

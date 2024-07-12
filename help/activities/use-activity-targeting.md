@@ -1,6 +1,6 @@
 ---
 title: Så här använder du aktivitetsmål
-description: Adobe Target har olika funktioner för att styra vilka upplevelser som visas för olika målgrupper när en aktivitet publiceras. Lär dig hur du styr vilka som ser vad genom att använda målgrupper och trafiktilldelning.
+description: Adobe Target har olika funktioner för att styra vilka upplevelser som visas för olika målgrupper när en aktivitet publiceras. Lär dig hur du styr vilka som ser vad genom att använda målgrupper och trafikallokering.
 role: User
 level: Intermediate
 topic: Personalization
