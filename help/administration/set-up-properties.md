@@ -9,9 +9,9 @@ doc-type: feature video
 kt: null
 badge: premie
 exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
-source-git-commit: d1088178a874437aea181f6048ab20977fe85e84
+source-git-commit: 35f64f388eb0bfb2809bdacd07d1398405196b99
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,4 @@ Användarna måste ha följande behörigheter för att kunna skapa egenskaper:
 
 >[!NOTE]
 >
->Användargränssnittet [!DNL Target] har uppdaterats sedan videon spelades in. Tills en ny video är tillgänglig är sökvägen för att skapa egenskaper **[!UICONTROL Administration]** > **[!UICONTROL Properties]** > **[!UICONTROL Create Property]**.
+>Användargränssnittet [!DNL Target] har uppdaterats sedan videon spelades in. Om du vill skapa egenskaper går du till [!UICONTROL Administration] > [!UICONTROL Properties] > [!UICONTROL Create Property]. En ny video kommer snart.
