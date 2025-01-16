@@ -8,14 +8,16 @@ feature: A/B Tests, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 kt: null
 exl-id: 752f77db-d17b-4255-ae71-cb7b4a215922
-source-git-commit: c4182249f5063bd83c0c6c44c1628ed76bb45385
+source-git-commit: 6970ec7a821a7ea93e35da8b20f9ac1d719e9c51
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
-# Skapa A/B-tester
+# Skapa ett A/B-test
+
+Lär dig hur du skapar A/B-aktiviteter i [!DNL Adobe Target]. Skapa en grundläggande A/B-aktivitet med Visual Experience Composer (VEC).
 
 ## Beskrivning
 
