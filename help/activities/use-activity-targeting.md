@@ -1,6 +1,6 @@
 ---
 title: Så här använder du aktivitetsmål
-description: Adobe Target har olika funktioner för att styra vilka upplevelser som visas för olika målgrupper när en aktivitet publiceras. Lär dig hur du styr vilka som ser vad genom att använda målgrupper och trafikallokering.
+description: Lär dig mer om de olika funktionerna för att styra vilka upplevelser som visas för olika målgrupper när en aktivitet blir aktiv.
 role: User
 level: Intermediate
 topic: Personalization
@@ -8,16 +8,14 @@ feature: Activities, Audiences
 doc-type: feature video
 kt: null
 exl-id: fa330c1d-4a67-4927-bd4c-adb57c10c769
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '58'
 ht-degree: 0%
 
 ---
 
 # Använd aktivitetsmål
-
-## Beskrivning
 
 I den här videon får du lära dig att:
 

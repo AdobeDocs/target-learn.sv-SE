@@ -1,6 +1,6 @@
 ---
 title: Så här skapar du profilskript
-description: I den här videon får Adobe Target-användare en introduktion till profilskript. Titta på den här videon om du har erfarenhet av Adobe Target och vill lära dig grunderna i hur du använder profilskript för att utföra mer specialiserad målgruppsanpassning eller skapa målgrupper.
+description: Lär dig grunderna i att använda profilskript för att utföra mer specialiserad målgruppsanpassning eller skapa målgrupper.
 role: User, Developer
 level: Experienced
 topic: Personalization
@@ -10,16 +10,14 @@ kt: null
 badge: premie
 author: Daniel Wright
 exl-id: b5c44d8b-20a2-4842-a879-91d1ee68a3ec
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
 
 # Skapa profilskript i Adobe Target
-
-## Beskrivning
 
 I den här videon får du lära dig att:
 

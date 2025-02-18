@@ -1,6 +1,6 @@
 ---
 title: Vilka är fördelarna med att använda platser?
-description: I den här videon beskrivs fördelarna med att använda platser i Adobe Target-implementeringar. I den här videon får du lära dig hur du väljer den bästa implementeringstypen för ett givet scenario.
+description: Lär dig hur du väljer den bästa Adobe Target-implementeringstypen för ett givet scenario.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5380
 thumbnail: 35140.jpg
 exl-id: 5b20a321-058c-4ef6-8c2e-3ac28cba6cde
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---
 
 # Fördelar med att använda platser
-
-## Beskrivning
 
 I den här videon får du lära dig att:
 

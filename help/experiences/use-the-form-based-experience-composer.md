@@ -9,16 +9,14 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: 7d216524-03a7-4acd-bd06-345d37ba24be
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
 
 # Använda den formulärbaserade Experience Composer i Adobe Target
-
-## Beskrivning
 
 I den här videon får du lära dig att:
 

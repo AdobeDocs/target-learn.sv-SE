@@ -1,5 +1,5 @@
 ---
-title: Så här skapar du en Recommendations-aktivitet
+title: Skapa en rekommendationsaktivitet
 description: Lär dig hur du skapar en Adobe Target Recommendations-aktivitet.
 role: User
 level: Intermediate
@@ -8,9 +8,9 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: 40014bac-e206-47f7-811e-bfd16fb761d3
-source-git-commit: 39a8a9807b2910f12d07a56f0df06cacf2145ba7
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 Lär dig hur du skapar en Adobe Target Recommendations-aktivitet.
 
-## Beskrivning
+## Vad du kommer att lära dig
 
 I den här videon får du lära dig att:
 
-* Skapa en Recommendations-aktivitet
+* Skapa en rekommendationsaktivitet
 
 ## Målgrupp
 
@@ -33,10 +33,10 @@ I den här videon får du lära dig att:
 
 ## Ytterligare resurser
 
-* [Använd Recommendations-erbjudanden i A/B-tester och upplevelseinriktade aktiviteter](use-recommendations-offers.md)
+* [Använd rekommendationserbjudanden i A/B-tester och aktivitetsmål för upplevelser](use-recommendations-offers.md)
 * [Förstå flöden](understanding-feeds.md)
 * [Skapa en feed](create-a-feed.md)
 * [Skapa villkor](create-criteria.md)
 * [Skapa egna designer](create-custom-designs.md)
 * [Skapa samlingar och undantag](create-collections-and-exclusions.md)
-* [Recommendations-dokumentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Dokumentation om rekommendationer](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

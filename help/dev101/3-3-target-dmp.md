@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5391
 thumbnail: 35151.jpg
 exl-id: 2d4eb4c9-912d-48c7-a048-5269aa68adb5
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '43'
 ht-degree: 0%
 
 ---
 
-# Integrera Target med Audience Manager
-
-## Beskrivning
+# Integrera [!DNL Target] med [!DNL Audience Manager]
 
 I den här videon får du lära dig att:
 

@@ -1,6 +1,6 @@
 ---
-title: Vad är en feed i Recommendations?
-description: Läs om vad Adobe Target Recommendations är och hur det används
+title: Vad är en feed i rekommendationerna?
+description: Läs vad en Adobe Target Recommendations-feed är och hur den används
 role: User
 level: Intermediate
 topic: Personalization
@@ -8,16 +8,16 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: f9de86e7-1967-4ab7-a600-00e86220f209
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
 
-# Förstå feeds i Recommendations
+# Förstå feeds i rekommendationer
 
-## Beskrivning
+## Vad du kommer att lära dig
 
 I den här videon får du lära dig att:
 
@@ -35,5 +35,5 @@ I den här videon får du lära dig att:
 * [Skapa villkor](create-criteria.md)
 * [Skapa egna designer](create-custom-designs.md)
 * [Skapa samlingar och undantag](create-collections-and-exclusions.md)
-* [Skapa en Recommendations-aktivitet](create-a-recommendations-activity.md)
-* [Recommendations-dokumentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Skapa en rekommendationsaktivitet](create-a-recommendations-activity.md)
+* [Dokumentation om rekommendationer](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

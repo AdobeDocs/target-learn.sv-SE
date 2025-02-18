@@ -1,6 +1,6 @@
 ---
 title: Driftsättningsalternativ för hybrid
-description: I den här videon får du lära dig mer om Adobe Target unika hybriddriftsättningsmodell för personalisering - en kombination av implementeringar på både klient- och serversidan.
+description: Lär dig mer om Adobe Target unika hybriddistributionsmodell för personaliseringsblandande implementeringar på både klient- och serversidan.
 role: Developer, Architect
 level: Beginner
 topic: Personalization, Architecture, Development
@@ -9,16 +9,16 @@ doc-type: feature video
 kt: 6165
 team: Evangelism
 exl-id: e669d773-494f-4eb7-82da-6b3f23508d9f
-source-git-commit: f7d130040c74cb2dd79edadf7090bc8a4501557e
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
 
-# Driftsättning av Adobe Target Hybrid
+# Hybridinstallation av Adobe Target
 
-Adobe Target erbjuder en unik hybridmodell för personalisering, som kombinerar implementeringar på både klient- och serversidan. Med denna hybridmodell kan icke-tekniska användare skapa ett experiment eller en personaliseringsaktivitet med WYSIWYG Visual Experience Composer och få upplevelsen utförd, levererad och renderad av servern för en mycket prestandaoptimerad leverans.
+Adobe Target erbjuder en unik hybriddriftsättningsmodell för personaliseringsblandande implementeringar på både klient- och serversidan. Med denna hybridmodell kan icke-tekniska användare skapa ett experiment eller en personaliseringsaktivitet med WYSIWYG Visual Experience Composer och få upplevelsen utförd, levererad och renderad av servern för en högpresterande leverans.
 
 ## Mål
 

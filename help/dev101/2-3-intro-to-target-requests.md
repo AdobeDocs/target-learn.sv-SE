@@ -1,6 +1,6 @@
 ---
 title: Hur fungerar Target-begäranden?
-description: I den här videon beskrivs förfallofaktorn för målcookies och målprofiler. Lär dig hur du avgör antalet och typerna av Target-begäranden, skiljer mellan synkron och asynkron distribution och förklarar flimmerhanteringen.
+description: Lär dig hur du avgör antalet och typerna av Adobe Target-begäranden, skiljer mellan synkron och asynkron distribution och förklarar flimmerhanteringen.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5381
 thumbnail: 35141.jpg
 exl-id: b5182e70-551c-43e4-bca3-a9889740cecc
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
 
-# Introduktion till Target-begäranden
-
-## Beskrivning
+# Introduktion till [!DNL Target] förfrågningar
 
 I den här videon får du lära dig att:
 

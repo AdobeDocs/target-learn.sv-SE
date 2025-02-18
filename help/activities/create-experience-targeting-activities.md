@@ -1,6 +1,6 @@
 ---
 title: Så här skapar du aktiviteter för målinriktad upplevelse
-description: Med XT-aktiviteter (Experience Targeting) kan marknadsförare rikta specifikt innehåll till en viss målgrupp. Lär dig fördelarna med XT-aktiviteter och hur du skapar och använder dem.
+description: Lär dig fördelarna med XT-aktiviteter och hur du skapar och använder dem. Med XT-aktiviteter (Experience Targeting) kan marknadsförare rikta specifikt innehåll till en viss målgrupp.
 role: User
 level: Beginner
 topic: Personalization
@@ -8,18 +8,18 @@ feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 kt: null
 exl-id: 997d0902-ff30-4944-b08c-fe6d9f7bcc35
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
-# Skapa aktiviteter för målinriktning på upplevelser
+# Skapa aktiviteter för målinriktning mot upplevelser
 
 Experience Targeting är ett första steg in i personaliseringsvärlden och börjar ofta med A/B-testning. En marknadsförare kör ett A/B-test och genom att använda rapportmålgrupper upptäcker den att olika upplevelser fungerar med olika målgrupper. Med Experience Targeting (eller XT) kan marknadsföraren enkelt utnyttja den upptäckten och gå över till långsiktig målinriktning av innehåll för de olika användarsegmenten.
 
-## Beskrivning
+## Vad du kommer att lära dig
 
 I den här videon får du lära dig att:
 

@@ -1,8 +1,7 @@
 ---
 title: Implementera mål
-description: I den här videon får Adobe Target-utvecklare och -arkitekter en genomgång av att implementera Adobe Target. I den här videon lär du dig de olika teknikerna för att implementera Target och använder bästa praxis för att implementera Taget.
-landing-page-description: I den här videon lär du dig de olika teknikerna för att implementera Target och använder bästa praxis för att implementera Taget.
-short-description: I den här videon lär du dig de olika teknikerna för att implementera Target och använder bästa praxis för att implementera Taget.
+description: Lär dig de olika implementeringsteknikerna från Adobe Target och använd de bästa metoderna för implementering av Target.
+landing-page-description: Lär dig de olika implementeringsteknikerna från Adobe Target och använd de bästa metoderna för implementering av Target.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -11,16 +10,14 @@ doc-type: technical video
 kt: 5379
 thumbnail: 35139.jpg
 exl-id: ce615020-6775-486a-b0e0-f4298adbae39
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 55%
+source-wordcount: '73'
+ht-degree: 0%
 
 ---
 
 # Introduktion till Adobe Target
-
-## Beskrivning
 
 I den här videon får du lära dig att:
 

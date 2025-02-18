@@ -1,6 +1,6 @@
 ---
-title: Så här skapar du villkor i Recommendations
-description: Lär dig skapa villkor i Adobe Target Recommendations
+title: Skapa villkor i rekommendationer
+description: Läs om hur du skapar villkor i Adobe Target Recommendations
 role: User
 level: Intermediate
 topic: Personalization
@@ -8,16 +8,16 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: 14135335-9f51-4e5d-905f-3cd6760c54cd
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
 
-# Skapa villkor i Recommendations
+# Skapa villkor i rekommendationer
 
-## Beskrivning
+## Vad du kommer att lära dig
 
 I den här videon får du lära dig att:
 
@@ -33,7 +33,7 @@ I den här videon får du lära dig att:
 
 * [Skapa egna designer](create-custom-designs.md)
 * [Skapa samlingar och undantag](create-collections-and-exclusions.md)
-* [Skapa en Recommendations-aktivitet](create-a-recommendations-activity.md)
+* [Skapa en rekommendationsaktivitet](create-a-recommendations-activity.md)
 * [Förstå flöden](understanding-feeds.md)
 * [Skapa en feed](create-a-feed.md)
-* [Recommendations-dokumentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Dokumentation om rekommendationer](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

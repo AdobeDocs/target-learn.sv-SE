@@ -1,6 +1,6 @@
 ---
 title: Integrera Target med AEM
-description: I den här videon visas hur utvecklare kan integrera Adobe Target med AEM (3 metoder). Utvecklarna får lära sig hur de använder processen för att importera upplevelsefragment från AEM, samt lära sig om integreringskraven för Target och AEM.
+description: Lär dig hur du integrerar Adobe Target med AEM (3-metoder). Lär dig hur du använder processen för att importera upplevelsefragment från AEM. Bekanta dig med integrationskraven för Adobe Target och AEM.
 role: Developer
 level: Intermediate
 topic: Personalization, Integrations
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5387
 thumbnail: 35147.jpg
 exl-id: e7792ff4-7289-485e-af46-c89431a7a122
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
 
-# Integrera Target med Adobe Experience Manager (AEM)
-
-## Beskrivning
+# Integrera [!DNL Target] med Adobe Experience Manager (AEM)
 
 I den här videon får du lära dig att:
 

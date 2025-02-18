@@ -1,6 +1,6 @@
 ---
 title: Vilka är de olika aktivitetstyperna?
-description: Lär dig mer om de olika aktiviteterna i Adobe Target och hur de kan hjälpa dig att uppnå dina mål. I den här videon får du lära dig grunderna om A/B-aktiviteter, multivariata tester (MVT), Experience Targeting-aktiviteter (XT), Recommendations och Automated Personalization-aktiviteter (AP).
+description: Läs mer om de olika aktiviteterna i Adobe Target och hur de kan hjälpa er att uppnå era mål.
 landing-page-description: Lär dig grunderna i A/B-aktiviteter, multivariata tester, Experience Targeting-aktiviteter, Recommendations- och Automated Personalization-aktiviteter.
 short-description: Lär dig grunderna i A/B-aktiviteter, multivariata tester, Experience Targeting-aktiviteter, Recommendations- och Automated Personalization-aktiviteter.
 role: User
@@ -10,20 +10,18 @@ feature: Activities, A/B Tests, Multivariate Tests, Experience Targeting, Recomm
 doc-type: feature video
 kt: null
 exl-id: effcb28d-56cc-4592-86b1-53b1c68e3672
-source-git-commit: 72f7cfcc95bbfbe1bb054f98246305f25ce5cc0f
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 55%
+source-wordcount: '114'
+ht-degree: 29%
 
 ---
 
 # Förstå Adobe Target aktivitetstyper
 
-## Beskrivning
-
 I den här videon får du lära dig att:
 
-* Beskriv A/B-aktiviteter, MVT-aktiviteter (Multivariate Tests), XT-aktiviteter (Experience Targeting), Recommendations- och Automated Personalization-aktiviteter i Adobe Target
+* Beskriv A/B-aktiviteter, MVT-aktiviteter (Multivariate Tests), XT-aktiviteter (Experience Targeting), rekommendationer och Automated Personalization-aktiviteter i Adobe Target
 * Välj den bästa aktivitetstypen för att uppnå dina affärsmål
 * Beskriv det grundläggande arbetsflödet som är gemensamt för alla aktivitetstyper
 

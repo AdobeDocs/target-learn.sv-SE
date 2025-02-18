@@ -1,6 +1,6 @@
 ---
 title: Utöver grunderna, vad är nästa steg för att utforma en målinriktad implementering?
-description: I den här videon visas hur Adobe Target-utvecklare och -arkitekter implementerar Target med tagghanteringsbibliotek, hur relevanta profilskript är för användarmodellen samt hur användningen och tillämpningen av en request-parameter och en profile-parameter skiljer sig åt.
+description: Lär dig hur du implementerar Target med tagghanteringsbibliotek. Lär dig hur relevanta profilskript är för användarmodellen och hur du differentierar användningen och tillämpningen av en request-parameter och en profile-parameter.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development, Architecture
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5384
 thumbnail: 35144.jpg
 exl-id: c9c907dd-4574-40cb-b5b8-93f4ab6ff609
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
 
-# Nästa steg för att designa en Target-implementering
-
-## Beskrivning
+# Nästa steg för att utforma en [!DNL Target]-implementering
 
 I den här videon får du lära dig att:
 

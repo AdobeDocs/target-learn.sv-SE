@@ -1,6 +1,6 @@
 ---
 title: Felsöka Mbox-fel
-description: Den här videon visar Adobe Target-utvecklare några vanliga loggfel för konsolen och enhetsparametrar för rekommendationer. Lär dig hur du felsöker textutdragsproblemet och hur du inspekterar och förstår spårningsutdata.
+description: Lär dig vanliga loggfel för konsolen och enhetsparametrar för rekommendationer. Lär dig hur du felsöker textutdragsproblemet och hur du inspekterar och förstår spårningsutdata.
 role: Developer
 level: Intermediate
 topic: Performance
@@ -9,22 +9,20 @@ doc-type: technical video
 kt: 5393
 thumbnail: 35153.jpg
 exl-id: cf95e97c-3b91-43a5-97b1-b7e57133358e
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
 
 # Felsöka mbox-fel
 
-## Beskrivning
-
 I den här videon får du lära dig att:
 
 * Förklara vanliga loggfel för konsolen och enhetsparametrar för rekommendationer
 * Felsöka problem med textutdrag som döljs i förväg
-* Inspect och förstå kalkeringsresultatet
+* Kontrollera och förstå spårningsutdata
 
 ## Målgrupp
 

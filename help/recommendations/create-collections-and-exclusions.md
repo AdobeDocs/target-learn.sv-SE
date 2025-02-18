@@ -1,6 +1,6 @@
 ---
-title: Skapa samlingar och undantag i Recommendations
-description: Lär dig vad en Recommendations-samling är och hur du använder den. Lär dig vad ett undantag från Recommendations är och hur du använder det.
+title: Skapa samlingar och undantag i rekommendationer
+description: Lär dig vad en rekommendationssamling är och hur du använder den. Lär dig vad ett undantag för rekommendationer är och hur du använder det.
 role: User
 level: Intermediate
 topic: Personalization
@@ -8,16 +8,16 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: 10448c36-44b8-4a2f-a3c5-9e0130593a17
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
 
-# Skapa samlingar och undantag i Recommendations
+# Skapa samlingar och undantag i rekommendationer
 
-## Beskrivning
+## Vad du kommer att lära dig
 
 I den här videon får du lära dig att:
 
@@ -32,9 +32,9 @@ I den här videon får du lära dig att:
 
 ## Ytterligare resurser
 
-* [Skapa en Recommendations-aktivitet](create-a-recommendations-activity.md)
+* [Skapa en rekommendationsaktivitet](create-a-recommendations-activity.md)
 * [Förstå flöden](understanding-feeds.md)
 * [Skapa en feed](create-a-feed.md)
 * [Skapa villkor](create-criteria.md)
 * [Skapa egna designer](create-custom-designs.md)
-* [Recommendations-dokumentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Dokumentation om rekommendationer](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

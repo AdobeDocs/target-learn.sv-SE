@@ -1,6 +1,6 @@
 ---
 title: Felsöka integreringsfel
-description: I den här videon lär sig utvecklare om A4T-integreringsproblem.
+description: Läs mer om A4T-integreringsproblem.
 role: Developer
 level: Intermediate
 topic: Performance
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5395
 thumbnail: 35155.jpg
 exl-id: eb00bb01-4d03-4153-b866-e6e3e8d979ae
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '34'
 ht-degree: 0%
 
 ---
 
 # Felsöka integreringsfel
-
-## Beskrivning
 
 I den här videon får du lära dig att:
 

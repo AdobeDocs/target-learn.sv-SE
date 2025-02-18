@@ -1,6 +1,6 @@
 ---
 title: Så här inriktar du dig på implementeringsstrategi och systemstyrning
-description: I den här videon får administratörer och arkitekter en genomgång av att administrera och implementera Adobe Target. I den här videon får du lära dig hur du identifierar och tillämpar bästa praxis för styrning och listar implementeringskrav för Target.
+description: Lär dig hur du identifierar och tillämpar bästa praxis för styrning och listar implementeringskrav för Target.
 landing-page-description: I den här videon får du lära dig hur du identifierar och tillämpar bästa praxis för styrning och listar implementeringskrav för Target.
 short-description: I den här videon får du lära dig hur du identifierar och tillämpar bästa praxis för styrning och listar implementeringskrav för Target.
 role: Admin, Developer, Architect
@@ -11,16 +11,14 @@ doc-type: technical video
 kt: 5063
 thumbnail: 33753.jpg
 exl-id: 750fc1a2-ed15-45e8-9ad3-32049ca36ba8
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 58%
+source-wordcount: '98'
+ht-degree: 36%
 
 ---
 
 # Implementeringsstrategi och systemstyrning
-
-## Beskrivning
 
 I den här videon får du lära dig att:
 

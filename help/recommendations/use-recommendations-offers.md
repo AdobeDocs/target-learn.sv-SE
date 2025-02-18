@@ -1,6 +1,6 @@
 ---
-title: Så här använder du Recommendations-erbjudanden i A/B-tester och Experience Targeting-aktiviteter
-description: Lär dig hur du använder Recommendations erbjudanden i A/B-tester och Experience Targeting-aktiviteter i Adobe Target.
+title: Så här använder du rekommendationer i A/B-tester och aktiviteter för målinriktning mot upplevelser
+description: Lär dig hur du använder rekommendationer i A/B-tester och Experience Targeting-aktiviteter i Adobe Target.
 role: User
 level: Intermediate
 topic: Personalization
@@ -8,16 +8,16 @@ feature: Recommendations, Auto-Target, Auto-Allocate
 doc-type: feature video
 kt: 3451
 exl-id: 16908f07-cda4-4a34-9e11-42b419e3917b
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 0%
 
 ---
 
-# Använd Recommendations-erbjudanden i A/B-tester och upplevelseinriktade aktiviteter
+# Använd rekommendationserbjudanden i A/B-tester och aktivitetsmål för upplevelser
 
-Recommendations erbjudanden kan användas med A/B Test och Experience Targeting Activity. Den här funktionaliteten öppnar upp en mängd funktioner som gör att du kan:
+Rekommendationserbjudanden kan användas med A/B-tester och aktiviteter för målinriktning mot upplevelser. Den här funktionaliteten öppnar upp en mängd funktioner som gör att du kan:
 
 * Blanda rekommendationer och icke-rekommendationsinnehåll inom samma aktivitet
 * Experimentera enkelt med olika rekommendationer på sidan, t.ex. i vilken ordning olika rekommendationer ska användas
@@ -28,5 +28,5 @@ Recommendations erbjudanden kan användas med A/B Test och Experience Targeting 
 
 ## Ytterligare resurser
 
-* [Recommendations som erbjudandedokumentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
-* [Skapa en Recommendations Activity Video](create-a-recommendations-activity.md)
+* [Rekommendationer som erbjudandedokumentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
+* [Videofilm om aktiviteten Rekommendationer](create-a-recommendations-activity.md)

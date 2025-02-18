@@ -1,6 +1,6 @@
 ---
 title: Konfigurera Enterprise-användarbehörigheter
-description: I den här videon visas administratörer och arkitekter hur du kan differentiera behörigheter på administratörsnivå, konfigurera Target-behörigheter och skapa arbetsytor och reglera åtkomsten.
+description: Lär dig hur du differentierar behörigheter på användarnivå för administratörer, konfigurerar behörigheter för Adobe Target och skapar arbetsytor och styr åtkomsten.
 role: Admin, Developer, Architect
 level: Intermediate
 topic: Personalization, Administration
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5064
 thumbnail: 33754.jpg
 exl-id: ce159244-c541-4d7a-880d-cff7bf6f9fe9
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
 
-# Konfigurera Enterprise-användarbehörigheter
-
-## Beskrivning
+# Konfigurera behörigheter för företagsanvändare
 
 I den här videon får du lära dig att:
 
