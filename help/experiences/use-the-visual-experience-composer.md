@@ -1,6 +1,6 @@
 ---
 title: Så här använder du Visual Experience Composer (VEC)
-description: Lär dig hur du skapar aktiviteter med VEC.
+description: Läs mer om hur du skapar aktiviteter med VEC.
 landing-page-description: Titta på dessa videor och lär dig hur du skapar aktiviteter med Visual Experience Composer (VEC).
 short-description: Titta på dessa videor och lär dig hur du skapar aktiviteter med Visual Experience Composer (VEC).
 role: User
@@ -13,7 +13,7 @@ exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 24%
+ht-degree: 30%
 
 ---
 

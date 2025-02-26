@@ -1,7 +1,7 @@
 ---
 title: Implementera mål
-description: Lär dig de olika implementeringsteknikerna från Adobe Target och använd de bästa metoderna för implementering av Target.
-landing-page-description: Lär dig de olika implementeringsteknikerna från Adobe Target och använd de bästa metoderna för implementering av Target.
+description: Läs mer om de olika teknikerna för implementering av Adobe Target och använd bästa praxis för implementering av Target.
+landing-page-description: Läs mer om de olika teknikerna för implementering av Adobe Target och använd bästa praxis för implementering av Target.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -13,7 +13,7 @@ exl-id: ce615020-6775-486a-b0e0-f4298adbae39
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 0%
+ht-degree: 35%
 
 ---
 

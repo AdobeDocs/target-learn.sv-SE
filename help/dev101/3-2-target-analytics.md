@@ -1,6 +1,6 @@
 ---
 title: Integrera Target med Analytics
-description: Lär dig implementeringskraven för Adobe Analytics med Adobe Target (A4T).
+description: Läs mer om implementeringskraven för Adobe Analytics med Adobe Target (A4T).
 landing-page-description: I den här videon lär du dig implementeringskraven för Adobe Analytics med Adobe Target (A4T).
 short-description: I den här videon lär du dig implementeringskraven för Adobe Analytics med Adobe Target (A4T).
 role: Developer
@@ -14,7 +14,7 @@ exl-id: 29292873-91f5-40c4-8f4c-d26ed4ce24d8
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 34%
+ht-degree: 46%
 
 ---
 

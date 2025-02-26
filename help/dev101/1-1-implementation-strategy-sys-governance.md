@@ -1,6 +1,6 @@
 ---
 title: Så här inriktar du dig på implementeringsstrategi och systemstyrning
-description: Lär dig hur du identifierar och tillämpar bästa praxis för styrning och listar implementeringskrav för Target.
+description: Läs mer om hur du identifierar och tillämpar bästa praxis för styrning och listar kraven för implementering av Target.
 landing-page-description: I den här videon får du lära dig hur du identifierar och tillämpar bästa praxis för styrning och listar implementeringskrav för Target.
 short-description: I den här videon får du lära dig hur du identifierar och tillämpar bästa praxis för styrning och listar implementeringskrav för Target.
 role: Admin, Developer, Architect
@@ -14,7 +14,7 @@ exl-id: 750fc1a2-ed15-45e8-9ad3-32049ca36ba8
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 36%
+ht-degree: 51%
 
 ---
 
