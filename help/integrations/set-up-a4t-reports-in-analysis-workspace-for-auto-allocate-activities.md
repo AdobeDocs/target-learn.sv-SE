@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Konfigurera A4T-rapporter i [!DNL Analysis Workspace] för [!DNL Auto-Allocate]-aktiviteter
 
-En [[!UICONTROL Auto-Allocate]-aktivitet ](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html){target=_blank} i [!DNL Adobe Target] identifierar en vinnare bland två eller fler upplevelser och omfördelar automatiskt besökstrafiken till vinnaren medan testet fortsätter att köras och lära sig. Integreringen [!UICONTROL Analytics for Target] (A4T) för [!UICONTROL Auto-Allocate] gör att du kan visa rapportdata i [!DNL Adobe Analytics], och du kan optimera för anpassade händelser eller mått som definieras i [!DNL Analytics].
+En [[!UICONTROL Auto-Allocate]-aktivitet ](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=sv-SE){target=_blank} i [!DNL Adobe Target] identifierar en vinnare bland två eller fler upplevelser och omfördelar automatiskt besökstrafiken till vinnaren medan testet fortsätter att köras och lära sig. Integreringen [!UICONTROL Analytics for Target] (A4T) för [!UICONTROL Auto-Allocate] gör att du kan visa rapportdata i [!DNL Adobe Analytics], och du kan optimera för anpassade händelser eller mått som definieras i [!DNL Analytics].
 
-Även om det finns omfattande analysfunktioner i [!DNL Adobe Analytics] [!DNL Analysis Workspace] kan det behövas några ändringar av standardpanelen [!UICONTROL Analytics for Target] för att [!UICONTROL Auto-Allocate]-aktiviteter ska kunna tolkas korrekt. Dessa ändringar behövs på grund av nyanserna i [kriterierna för optimeringsmått](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
+Även om det finns omfattande analysfunktioner i [!DNL Adobe Analytics] [!DNL Analysis Workspace] kan det behövas några ändringar av standardpanelen [!UICONTROL Analytics for Target] för att [!UICONTROL Auto-Allocate]-aktiviteter ska kunna tolkas korrekt. Dessa ändringar behövs på grund av nyanserna i [kriterierna för optimeringsmått](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=sv-SE#supported){target=_blank}.
 
 Varje typ av optimeringsmått kräver en annan rapportkonfiguration i A4T, enligt följande:
 
@@ -158,11 +158,11 @@ I följande avsnitt anges vilka konfigurationer som krävs, beroende på vilken 
 
 ### Identifiera aktivitetsvinnaren {#winner}
 
-[!DNL Auto-Allocate] aktivitetsvinnare väljs när det finns en vinnande konverteringsgrad med konfidensvärden som är större än eller lika med 95 %. Dessa värden bör refereras i [!DNL Target]-rapporterna, eftersom konfidensberäkningar avspeglar de mer konservativa metoderna som [!DNL Target] rekommenderar för [!UICONTROL Auto-Allocate]-aktiviteter. Se [Statistiska garantier för automatisk fördelning](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} i *[!UICONTROL Adobe Target Business Practitioner Guide]*.
+[!DNL Auto-Allocate] aktivitetsvinnare väljs när det finns en vinnande konverteringsgrad med konfidensvärden som är större än eller lika med 95 %. Dessa värden bör refereras i [!DNL Target]-rapporterna, eftersom konfidensberäkningar avspeglar de mer konservativa metoderna som [!DNL Target] rekommenderar för [!UICONTROL Auto-Allocate]-aktiviteter. Se [Statistiska garantier för automatisk fördelning](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html?lang=sv-SE#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} i *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
 >[!NOTE]
 >
->Märken &quot;Ingen vinnare än&quot; och &quot;vinnare&quot; är inte tillgängliga på A4T-panelen i [!DNL Analysis Workspace]. Vinnarmärket &quot;star&quot; som visas i [!DNL Target] rapporter för [!UICONTROL Auto-Allocate]-aktiviteter ska också ignoreras. Se [Automatisk allokering](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} i *A4T-stöd för aktiviteterna Automatisk allokering och Automatisk målning* i *[!UICONTROL Adobe Target Business Practitioner Guide]*.
+>Märken &quot;Ingen vinnare än&quot; och &quot;vinnare&quot; är inte tillgängliga på A4T-panelen i [!DNL Analysis Workspace]. Vinnarmärket &quot;star&quot; som visas i [!DNL Target] rapporter för [!UICONTROL Auto-Allocate]-aktiviteter ska också ignoreras. Se [Automatisk allokering](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=sv-SE#aa){target=_blank} i *A4T-stöd för aktiviteterna Automatisk allokering och Automatisk målning* i *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
 ### Skapa A4T för panelen [!UICONTROL Auto-Allocate] i [!DNL Analysis Workspace]
 

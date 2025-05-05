@@ -1,7 +1,7 @@
 ---
 title: Så här konfigurerar du A4T-rapporter i [!DNL Analysis Workspace] för [!DNL Auto-Target] aktiviteter
 description: Hur konfigurerar jag A4T-rapporter i [!DNL Analysis Workspace]  för att få det förväntade resultatet när jag kör [!UICONTROL Auto-Target]-aktiviteter?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -30,7 +30,7 @@ Integrationen [!UICONTROL Analytics for Target] (A4T) för [!DNL Auto-Target]-ak
 I den här självstudiekursen går vi igenom de rekommenderade ändringarna för att analysera [!UICONTROL Auto-Target]-aktiviteter i [!DNL Analysis Workspace], som baseras på följande nyckelbegrepp:
 
 * Dimensionen **[!UICONTROL Control vs Targeted]** kan användas för att skilja mellan [!UICONTROL Control]-upplevelser och de som hanteras av algoritmen [!UICONTROL Auto-Target] ensemble ML.
-* Besök bör användas som normaliseringsmått vid visning av prestandadelningar på erfarenhetsnivå. Dessutom kan [Adobe Analytics standardberäkningsmetod omfatta besök där användaren inte ser aktivitetsinnehållet ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}, men detta standardbeteende kan ändras med ett segment med rätt omfång (se informationen nedan).
+* Besök bör användas som normaliseringsmått vid visning av prestandadelningar på erfarenhetsnivå. Dessutom kan [Adobe Analytics standardberäkningsmetod omfatta besök där användaren inte ser aktivitetsinnehållet ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=sv-SE#metrics){target=_blank}, men detta standardbeteende kan ändras med ett segment med rätt omfång (se informationen nedan).
 * Omfattad attribuering av besök-lookback, som också kallas &quot;besökslookback window&quot; (Besök-lookback-fönstret) för den föreskrivna attribueringsmodellen, används av [!DNL Adobe Target] ML-modellerna under deras utbildningsfaser, och samma (ej standard) attribueringsmodell bör användas när målmåttet bryts ned.
 
 ## Skapa A4T för panelen [!UICONTROL Auto-Target] i [!DNL Analysis Workspace]
@@ -63,7 +63,7 @@ Observera att den här ersättningen gör standardberäkningarna för [!UICONTRO
 
 >[!NOTE]
 >
->För närvarande är [!UICONTROL Lift and Confidence] siffror inte tillgängliga för [!UICONTROL Control vs Targeted] dimensioner för A4T-rapporter för [!UICONTROL Auto-Target]. Tills support har lagts till kan [!UICONTROL Lift and Confidence] beräknas manuellt genom att hämta [konfidensräknaren](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx).
+>För närvarande är [!UICONTROL Lift and Confidence] siffror inte tillgängliga för [!UICONTROL Control vs Targeted] dimensioner för A4T-rapporter för [!UICONTROL Auto-Target]. Tills support har lagts till kan [!UICONTROL Lift and Confidence] beräknas manuellt genom att hämta [konfidensräknaren](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=sv-SE).
 
 ## Lägg till analysstatistik på erfarenhetsnivå
 
@@ -149,7 +149,7 @@ Skillnaden mellan attribueringen som används av modellerna [!DNL Target] (under
 >
 >Om ML-modellerna optimerar för ett mätvärde som tilldelas på ett annat sätt än de mätvärden som du visar i en rapport, kanske modellerna inte fungerar som förväntat. För att undvika detta bör du se till att målmåtten i din rapport använder samma metriska definition och attribuering som används av [!DNL Target] ML-modellerna.
 
-Den exakta måttdefinitionen och attribueringsinställningarna beror på det [optimeringskriterium](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank} du angav när aktiviteten skapades.
+Den exakta måttdefinitionen och attribueringsinställningarna beror på det [optimeringskriterium](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=sv-SE#supported){target=_blank} du angav när aktiviteten skapades.
 
 ### Måldefinierade konverteringar, eller [!DNL Analytics] mått med *Maximera måttvärde per besök*
 
@@ -227,7 +227,7 @@ Gör detta genom att skapa en [!UICONTROL Calculated Metric] med följande steg:
 
 >[!TIP]
 >
-> Du kan också skapa det här måttet med [funktionen för snabbberäknade mått](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html).
+> Du kan också skapa det här måttet med [funktionen för snabbberäknade mått](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=sv-SE).
 
 Den fullständiga definitionen för beräknade mätvärden visas här.
 

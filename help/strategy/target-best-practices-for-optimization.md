@@ -120,4 +120,4 @@ Med tanke på ovanstående förståelse rekommenderar Adobe att du Optimerar inn
 
 Om du vill ha mer information kan du lyssna på [webbinariet om att förstå och optimera din Adobe Target-implementering](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/) med Business Consultant, Katie Cozby.
 
-Läs mer om strategi och tankeledarskap på navet [Nöjda kunder](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).
+Läs mer om strategi och tankeledarskap på navet [Nöjda kunder](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=sv-SE).

@@ -150,7 +150,7 @@ Kör emulatorn och öppna Logcat. Filtrera efter en av parametrarna för att ver
 
 >[!NOTE]
 >
->Analyser för mål (A4T): Adobe Analytics kan konfigureras som rapportkälla för [!DNL Target]. Detta gör att alla mått som samlas in av mål-SDK kan visas i Adobe Analytics. Mer information finns i [A4T-översikten](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en).
+>Analyser för mål (A4T): Adobe Analytics kan konfigureras som rapportkälla för [!DNL Target]. Detta gör att alla mått som samlas in av mål-SDK kan visas i Adobe Analytics. Mer information finns i [A4T-översikten](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=sv-SE).
 
 Snyggt jobbat! Nu när parametrarna finns på plats är vi redo att använda dessa parametrar för att skapa målgrupper och erbjudanden i Adobe Target.
 
