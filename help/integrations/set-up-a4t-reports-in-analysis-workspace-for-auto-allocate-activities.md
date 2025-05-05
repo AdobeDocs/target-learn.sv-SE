@@ -127,9 +127,9 @@ Du kan navigera till en fördefinierad [!UICONTROL Analytics for Target]-panel g
 I följande avsnitt anges vilka konfigurationer som krävs, beroende på vilken av dessa metoder du väljer. Följande steg fungerar dock som en allmän vägledning för A4T:
 
 * Ta bort konfidensmåtten från A4T-panelen oavsett hur panelen skapas (båda beskrivs nedan). Referera i stället dessa värden i [!DNL Target]-rapportering. Dessutom kan aktivitetsvinnare identifieras i [!DNL Target]-rapporter. Information om identifiering av aktivitetsvinnare finns i avsnittet [Identifiera aktivitetsvinnaren](#winner) nedan.
->>
+&#x200B;>>
 * För att undvika missförstånd avmarkerar du presentationen [!UICONTROL Percent] av måttet [!UICONTROL Conversion Rate]. Se [Dölj procentandelen i kolumnen [!UICONTROL Conversion Rate] nedan](#hide-percentage).
->>
+&#x200B;>>
 * Om du skapar en A4T-panel måste du se till att datum- och tidsintervallen matchar dem i din [!DNL Target]-rapport. Se [Justera datum och tid på A4T-panelen](#aligning-date-and-time) nedan.
 
 ### Dölj procentandelen från kolumnen [!UICONTROL Conversion Rate] {#hide-percentage}
@@ -162,7 +162,7 @@ I följande avsnitt anges vilka konfigurationer som krävs, beroende på vilken 
 
 >[!NOTE]
 >
-Märken &quot;Ingen vinnare än&quot; och &quot;vinnare&quot; är inte tillgängliga på A4T-panelen i [!DNL Analysis Workspace]. Vinnarmärket &quot;star&quot; som visas i [!DNL Target] rapporter för [!UICONTROL Auto-Allocate]-aktiviteter ska också ignoreras. Se [Automatisk allokering](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} i *A4T-stöd för aktiviteterna Automatisk allokering och Automatisk målning* i *[!UICONTROL Adobe Target Business Practitioner Guide]*.
+>Märken &quot;Ingen vinnare än&quot; och &quot;vinnare&quot; är inte tillgängliga på A4T-panelen i [!DNL Analysis Workspace]. Vinnarmärket &quot;star&quot; som visas i [!DNL Target] rapporter för [!UICONTROL Auto-Allocate]-aktiviteter ska också ignoreras. Se [Automatisk allokering](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} i *A4T-stöd för aktiviteterna Automatisk allokering och Automatisk målning* i *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
 ### Skapa A4T för panelen [!UICONTROL Auto-Allocate] i [!DNL Analysis Workspace]
 
