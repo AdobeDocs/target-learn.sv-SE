@@ -1,6 +1,6 @@
 ---
 title: Vilka är de olika aktivitetstyperna?
-description: 'Läs mer om de olika aktiviteterna i Adobe Target och hur de kan hjälpa dig att uppnå dina mål. '
+description: Läs mer om de olika aktiviteterna i Adobe Target och hur de kan hjälpa dig att uppnå dina mål.
 landing-page-description: Lär dig grunderna i A/B-aktiviteter, multivariata tester, Experience Targeting-aktiviteter, Recommendations- och Automated Personalization-aktiviteter.
 short-description: Lär dig grunderna i A/B-aktiviteter, multivariata tester, Experience Targeting-aktiviteter, Recommendations- och Automated Personalization-aktiviteter.
 role: User
