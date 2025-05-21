@@ -30,7 +30,7 @@ När lektionen är klar kan du:
 
 ## Lägg till livscykelparametrar
 
-Låt oss aktivera [Adobe mobil livscykelstatistik](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en). Detta lägger till parametrar i platsförfrågningar som innehåller omfattande information om användarens enhet och hur appen används. Vi bygger målgrupper i nästa lektion med hjälp av data som tillhandahålls i livscykelbegäran.
+Låt oss aktivera [Adobe mobil livscykelstatistik](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=sv-SE). Detta lägger till parametrar i platsförfrågningar som innehåller omfattande information om användarens enhet och hur appen används. Vi bygger målgrupper i nästa lektion med hjälp av data som tillhandahålls i livscykelbegäran.
 
 Om du vill aktivera livscykelmått öppnar du HomeActivity-kontrollen igen och lägger till `Config.collectLifecycleData(this);` i onResume()-funktionen:
 
@@ -89,7 +89,7 @@ public void targetPrefetchContent() {
 
 ### Kommentarer om parametrar
 
-För framtida projekt kanske du vill implementera ytterligare parametrar. Metoden `createTargetPrefetchObject()` tillåter tre typer av parametrar: `locationParams`, `orderParams` och `productParams`. I dokumentationen finns [mer information om hur du lägger till de här parametrarna i förhämtningsbegäran](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
+För framtida projekt kanske du vill implementera ytterligare parametrar. Metoden `createTargetPrefetchObject()` tillåter tre typer av parametrar: `locationParams`, `orderParams` och `productParams`. I dokumentationen finns [mer information om hur du lägger till de här parametrarna i förhämtningsbegäran](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=sv-SE).
 
 Observera också att olika platsparametrar kan läggas till på varje plats i förhämtningsbegäran. Du kan t.ex. skapa en annan karta med namnet param2, lägga in en ny parameter och sedan ange param2 på en plats och param1 på den andra platsen. Här är ett exempel:
 
@@ -146,7 +146,7 @@ Kör emulatorn och öppna Logcat. Filtrera efter en av parametrarna för att ver
 
 >[!NOTE]
 >
->Begäranden och parametrar för orderbekräftelse: Även om de inte används i det här demoprojektet registreras orderinformationen vanligtvis i en verklig implementering så att [!DNL Target] kan använda orderdetaljer som mått/dimensioner. I dokumentationen finns instruktioner om hur du [implementerar beställningsbekräftelsebegäran och parametrar](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
+>Begäranden och parametrar för orderbekräftelse: Även om de inte används i det här demoprojektet registreras orderinformationen vanligtvis i en verklig implementering så att [!DNL Target] kan använda orderdetaljer som mått/dimensioner. I dokumentationen finns instruktioner om hur du [implementerar beställningsbekräftelsebegäran och parametrar](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=sv-SE).
 
 >[!NOTE]
 >
