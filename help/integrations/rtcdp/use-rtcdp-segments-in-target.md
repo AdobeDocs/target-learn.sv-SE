@@ -21,4 +21,4 @@ ht-degree: 0%
 
 Lär dig hur du använder Real-Time Customer Data Platform-segment i Adobe Target för att leverera personaliserade upplevelser på din webbplats och i dina mobilappar. Mer information finns i [dokumentationen](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html?lang=sv-SE).
 
->[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446831/?learn=on&captions=swe)
