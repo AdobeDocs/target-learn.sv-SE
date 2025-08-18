@@ -32,4 +32,4 @@ I den här videon får du lära dig att:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35141/?quality=12)
 
-Mer information finns i [dokumentationen](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en).
+Mer information finns i [dokumentationen](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=sv-SE).

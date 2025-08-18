@@ -38,7 +38,7 @@ När lektionen är klar kan du:
 
 ## Verifiera och uppdatera SDK-inställningarna för mobiltjänster för [!DNL Target]
 
-Adobe Mobile Services SDK har förinstallerats i appen We.Travel [enligt dokumentationen](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en). Nu uppdaterar du installationen så att den pekar på ditt eget [!DNL Target]-konto.
+Adobe Mobile Services SDK har förinstallerats i appen We.Travel [enligt dokumentationen](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=sv-SE). Nu uppdaterar du installationen så att den pekar på ditt eget [!DNL Target]-konto.
 
 Skapa först en ny app i användargränssnittet för Mobile Services:
 

@@ -35,6 +35,6 @@ I den här videon får du lära dig att:
 
 ## Ytterligare resurser
 
-* [Skapar en målgrupp för profilattributsjämförelse](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
-* [Bygger målgrupper](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
+* [Skapar en målgrupp för profilattributsjämförelse](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=sv-SE)
+* [Bygger målgrupper](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=sv-SE)
 * [Video om att skapa aktiviteter för målinriktade upplevelser](../activities/create-experience-targeting-activities.md)

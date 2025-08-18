@@ -28,4 +28,4 @@ I den här videon får du lära dig att:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35149/?quality=12)
 
-Mer information finns i [dokumentationen](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=en).
+Mer information finns i [dokumentationen](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=sv-SE).

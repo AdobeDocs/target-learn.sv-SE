@@ -12,9 +12,9 @@ ht-degree: 0%
 # Använda Adobe Target Recommendations API:er{#recommendations-api-tutorial}
 
 + [Recs API - översikt](recs-api-overview.md)
-+ [Hantera katalogen med API:er](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html){target="_blank"}
-+ [Hantera anpassade villkor](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-custom-criteria.html){target="_blank"}
-+ [Använd leverans-API med rekommendationer](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/fetch-recs-server-side-delivery-api.html){target="_blank"}
++ [Hantera katalogen med API:er](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html?lang=sv-SE){target="_blank"}
++ [Hantera anpassade villkor](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-custom-criteria.html?lang=sv-SE){target="_blank"}
++ [Använd leverans-API med rekommendationer](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/fetch-recs-server-side-delivery-api.html?lang=sv-SE){target="_blank"}
 
 <!--+ [Debug API calls](6debug.md)
 + [Download the Calculated Recommendations CSV](7download-calc-recs-csv.md)-->

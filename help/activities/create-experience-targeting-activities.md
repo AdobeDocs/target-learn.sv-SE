@@ -34,10 +34,10 @@ I den här videon får du lära dig att:
 ## Ytterligare resurser
 
 * [Ladda ned Playbook för Experience Personalization](https://guided.adobe.com/?promoid=K42KVXHD&mv=other&search=personalization+playbook#recommended/solutions/target)
-* [Experience Targeting-dokumentation](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
+* [Experience Targeting-dokumentation](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=sv-SE)
 
 ## Andra funktioner som används i den här videon
 
-* [Publiker för rapportdokumentation](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
-* [Skapar publikdokumentation](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
-* [Skapa upplevelser med dokumentationen för Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)
+* [Publiker för rapportdokumentation](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=sv-SE)
+* [Skapar publikdokumentation](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=sv-SE)
+* [Skapa upplevelser med dokumentationen för Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=sv-SE)

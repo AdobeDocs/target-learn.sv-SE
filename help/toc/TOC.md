@@ -27,7 +27,7 @@ ht-degree: 1%
 + Implementering{#implementation}
    + [Introduktion till målimplementering](../dev101/2-1-intro-to-target-implementation.md)
    + [Integrera Target med Launch](../dev101/3-1-target-launch.md)
-   + [Implementera webbplatser med Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
+   + [Implementera webbplatser med Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=sv-SE)
    + [Fördelar med att använda platser](../dev101/2-2-benefits-of-locations.md)
    + [Introduktion till målbegäranden](../dev101/2-3-intro-to-target-requests.md)
    + [Introduktion till målparametrar](../dev101/2-4-intro-to-target-params.md)
@@ -35,7 +35,7 @@ ht-degree: 1%
    + [Implementera at.js 2.0 i ett Single Page Application (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Designa en målinriktad implementering](../dev101/2-5-design-target-implementation.md)
    + [Nästa steg för att utforma en målinriktad implementering](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [Använd deltagande för att styra Experience Cloud-lösningar baserat på användargodkännande](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
+   + [Använd deltagande för att styra Experience Cloud-lösningar baserat på användargodkännande](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=sv-SE)
    + [Förstå Adobe Target Hybrid Deployment](../implementation/hybrid-deployment.md)
    + [Beslutsöversikt på enheten](../implementation/on-device-decisioning-overview.md)
    + [Implementeringsmönster för Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)

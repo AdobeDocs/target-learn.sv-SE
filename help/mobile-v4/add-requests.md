@@ -52,7 +52,7 @@ Nedan finns några viktiga Target-termer som vi kommer att använda i resten av 
 
 Den första begäran som vi implementerar i We.Travel är en förhämtningsbegäran för batch med två [!DNL Target] platser på hemskärmen. I en senare lektion kommer vi att konfigurera erbjudanden för dessa platser som visar meddelanden som hjälper nya användare genom bokningsprocessen.
 
-En förhämtningsbegäran hämtar [!DNL Target]-innehåll så minimalt som möjligt genom att cachelagra Adobe Target-serversvar (erbjudande). En begäran om batchförhämtning hämtar och cachelagrar flera erbjudanden, som var och en är kopplad till en annan plats. Alla förhämtade platser cachelagras på enheten för framtida bruk i användarsessionen. Genom att förhämta flera platser på hemskärmen kan vi hämta erbjudanden som kan användas senare när besökaren navigerar genom appen. Mer information om förhämtningsmetoder finns i [förhämtningsdokumentationen](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
+En förhämtningsbegäran hämtar [!DNL Target]-innehåll så minimalt som möjligt genom att cachelagra Adobe Target-serversvar (erbjudande). En begäran om batchförhämtning hämtar och cachelagrar flera erbjudanden, som var och en är kopplad till en annan plats. Alla förhämtade platser cachelagras på enheten för framtida bruk i användarsessionen. Genom att förhämta flera platser på hemskärmen kan vi hämta erbjudanden som kan användas senare när besökaren navigerar genom appen. Mer information om förhämtningsmetoder finns i [förhämtningsdokumentationen](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=sv-SE).
 
 ### Lägg till förhämtningsbegäran för grupp
 
