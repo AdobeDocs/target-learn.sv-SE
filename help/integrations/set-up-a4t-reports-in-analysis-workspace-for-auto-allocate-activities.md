@@ -127,9 +127,9 @@ Du kan navigera till en fördefinierad [!UICONTROL Analytics for Target]-panel g
 I följande avsnitt anges vilka konfigurationer som krävs, beroende på vilken av dessa metoder du väljer. Följande steg fungerar dock som en allmän vägledning för A4T:
 
 * Ta bort konfidensmåtten från A4T-panelen oavsett hur panelen skapas (båda beskrivs nedan). Referera i stället dessa värden i [!DNL Target]-rapportering. Dessutom kan aktivitetsvinnare identifieras i [!DNL Target]-rapporter. Information om identifiering av aktivitetsvinnare finns i avsnittet [Identifiera aktivitetsvinnaren](#winner) nedan.
->>
+&#x200B;>>
 * För att undvika missförstånd avmarkerar du presentationen [!UICONTROL Percent] av måttet [!UICONTROL Conversion Rate]. Se [Dölj procentandelen i kolumnen [!UICONTROL Conversion Rate] nedan](#hide-percentage).
->>
+&#x200B;>>
 * Om du skapar en A4T-panel måste du se till att datum- och tidsintervallen matchar dem i din [!DNL Target]-rapport. Se [Justera datum och tid på A4T-panelen](#aligning-date-and-time) nedan.
 
 ### Dölj procentandelen från kolumnen [!UICONTROL Conversion Rate] {#hide-percentage}
