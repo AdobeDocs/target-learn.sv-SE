@@ -39,4 +39,4 @@ I den här videon får du lära dig att:
 * [Skapa villkor](create-criteria.md)
 * [Skapa egna designer](create-custom-designs.md)
 * [Skapa samlingar och undantag](create-collections-and-exclusions.md)
-* [Dokumentation om rekommendationer](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=sv-SE)
+* [Dokumentation om rekommendationer](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

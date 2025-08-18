@@ -1,6 +1,6 @@
 ---
 title: Hämta och uppdatera exempelappen Web.Travel
-description: Exempelappen We.Travel är förimplementerad med Adobe Mobile Services SDK v4. Du behöver bara uppdatera den så att den pekar på dina egna Experience Cloud Org- och Solution-konton.
+description: Exempelappen We.Travel är förimplementerad med Adobe Mobile Services SDK v4. Du behöver bara uppdatera den så att den pekar på dina egna Experience Cloud Org- och lösningskonton.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -17,14 +17,14 @@ ht-degree: 0%
 
 # Hämta och uppdatera exempelappen Web.Travel
 
-Exempelappen We.Travel är förimplementerad med Adobe Mobile Services SDK v4. Du behöver bara uppdatera den så att den pekar på dina egna Experience Cloud-Org- och lösningskonton.
+Exempelappen We.Travel är förimplementerad med Adobe Mobile Services SDK v4. Du behöver bara uppdatera den så att den pekar på dina egna Experience Cloud Org- och lösningskonton.
 
 ## Utbildningsmål
 
 När lektionen är klar kan du:
 
 * Ladda ned och öppna exempelappen We.Travel i Android Studio
-* Verifiera och uppdatera SDK-inställningarna för mobila tjänster för [!DNL Target]
+* Verifiera och uppdatera SDK-inställningarna för mobiltjänster för [!DNL Target]
 
 ## Ladda ned appen We.Travel
 
@@ -36,20 +36,20 @@ När lektionen är klar kan du:
 
   ![Öppna appen](assets/wetravel_homeScreen.png)![Bekräftelseskärmen](assets/wetravel_confirmationScreen.png)
 
-## Verifiera och uppdatera SDK-inställningarna för mobila tjänster för [!DNL Target]
+## Verifiera och uppdatera SDK-inställningarna för mobiltjänster för [!DNL Target]
 
-Adobe Mobile Services SDK har förinstallerats i appen We.Travel [enligt dokumentationen ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=sv-SE). Nu uppdaterar du installationen så att den pekar på ditt eget [!DNL Target]-konto.
+Adobe Mobile Services SDK har förinstallerats i appen We.Travel [enligt dokumentationen](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en). Nu uppdaterar du installationen så att den pekar på ditt eget [!DNL Target]-konto.
 
 Skapa först en ny app i användargränssnittet för Mobile Services:
 
-1. Logga in på gränssnittet [Adobe Mobile Services](https://mobilemarketing.adobe.com/).
+1. Logga in på [Adobe Mobile Services-gränssnittet](https://mobilemarketing.adobe.com/).
 1. Gå till [!UICONTROL Manage Apps] och klicka sedan på **[!UICONTROL Add]** för att lägga till en ny app som ska användas med den här självstudiekursen (**[!UICONTROL Manage Apps]** > **[!UICONTROL Add]**).
 1. Välj en analysrapportsserie med icke-produktionsdata, ge appen ett namn, välj typen **[!UICONTROL Standard]** och klicka på **[!UICONTROL Save]**.
 1. När appen har lagts till lägger du till din [!DNL Target]-klientkod på nästa skärm i avsnittet [!UICONTROL SDK Target Options] (du hittar din klientkod i gränssnittet [!DNL Target] under **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]**, bredvid knappen Hämta `at.js`).
 1. Inställningen [!UICONTROL Request Timeout] avgör hur lång tid programmet väntar på svar från servern [!DNL Target] innan timeoutinstruktionerna körs. Lämna bara standardinställningen.
 1. Aktivera [!UICONTROL Visitor ID Service] och kontrollera att [!UICONTROL Organization] är markerad i listrutan.
 1. Spara ändringarna genom att klicka på **[!UICONTROL Save]** längst upp till höger i fönstret (inte den i [!UICONTROL Universal Links]-, [!UICONTROL App Links]- eller [!UICONTROL Push Services]-avsnittet).
-1. Bläddra till hämtningsavsnittet för App SDK längst ned på sidan och hämta konfigurationsfilen:
+1. Bläddra till hämtningsavsnittet för SDK App Downloads längst ned på sidan och hämta konfigurationsfilen:
 
    ![Hämta konfigurationsfilen](assets/config_file.jpg)
 

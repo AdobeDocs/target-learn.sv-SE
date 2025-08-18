@@ -37,5 +37,5 @@ I slutet av videon kommer du att:
 
 ## Ytterligare resurser
 
-* [Beslutsöversikt på enheten](https://experienceleague.adobe.com/sv/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
-* [Adobe Target SDK-dokumentation](https://experienceleague.adobe.com/sv/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* [Beslutsöversikt på enheten](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
+* [Adobe Target SDK-dokumentation](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)

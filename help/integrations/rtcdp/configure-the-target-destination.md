@@ -1,6 +1,6 @@
 ---
 title: Hur konfigurerar jag Adobe Target-målet i Adobe Real-Time CDP?
-description: Lär dig hur du konfigurerar Adobe Target-målet i Real-time Customer Data Platform så att du kan börja skicka segment och profilattribut från Real-Time CDP till Target.
+description: Lär dig hur du konfigurerar Adobe Target-målet i Real-Time Customer Data Platform så att du kan börja skicka segment och profilattribut från Real-Time CDP till Target.
 feature-set: Experience Platform, Target
 feature: Destinations, Profiles, Integrations
 role: Admin, Architect, User
@@ -16,8 +16,8 @@ ht-degree: 0%
 
 ---
 
-# Konfigurera Adobe Target-målet i Real-time Customer Data Platform
+# Konfigurera Adobe Target-målet i Real-Time Customer Data Platform
 
-Lär dig hur du konfigurerar Adobe Target-målet i Real-time Customer Data Platform så att du kan börja skicka segment och profilattribut från Real-Time CDP till Target. Mer information finns i [Adobe Target-anslutningsdokumentationen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=sv-SE).
+Lär dig hur du konfigurerar Adobe Target-målet i Real-Time Customer Data Platform så att du kan börja skicka segment och profilattribut från Real-Time CDP till Target. Mer information finns i [Adobe Target-anslutningsdokumentationen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html).
 
->[!VIDEO](https://video.tv.adobe.com/v/3449797/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)

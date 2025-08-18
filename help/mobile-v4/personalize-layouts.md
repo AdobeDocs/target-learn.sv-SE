@@ -75,7 +75,7 @@ Gör följande i gränssnittet [!DNL Target]:
    ![Ny målgrupp för mobilappsanvändare](assets/activity_create_7.jpg)
 
 1. Välj platsen _wetravel_engage_search_.
-1. Ändra HTML.
+1. Byt HTML.
 
    ![Ny målgrupp för mobilappsanvändare](assets/activity_create_8.jpg)
 
@@ -193,7 +193,7 @@ Välj nu **[!UICONTROL Done]** och försök med en annan bokning med Los Angeles
 
 ## Slutsats
 
-Grattis! Detta avslutar huvuddelen av självstudiekursen för Adobe Target SDK 4.x för Android. Nu har du kunskapen att implementera personalisering i Android-appar! Du kan använda den här dokumentationen och demoappen som referens för dina framtida projekt.
+Grattis! Här är huvuddelen av självstudiekursen för Adobe Target SDK 4.x för Android. Nu har du kunskapen att implementera personalisering i Android-appar! Du kan använda den här dokumentationen och demoappen som referens för dina framtida projekt.
 
 Därefter: Funktionsflaggning är en annan funktion som kan implementeras med Adobe Target i Android. Läs nästa lektion om hur du flaggar funktioner.
 

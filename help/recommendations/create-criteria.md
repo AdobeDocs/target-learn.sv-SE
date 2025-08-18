@@ -36,4 +36,4 @@ I den här videon får du lära dig att:
 * [Skapa en rekommendationsaktivitet](create-a-recommendations-activity.md)
 * [Förstå flöden](understanding-feeds.md)
 * [Skapa en feed](create-a-feed.md)
-* [Dokumentation om rekommendationer](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=sv-SE)
+* [Dokumentation om rekommendationer](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

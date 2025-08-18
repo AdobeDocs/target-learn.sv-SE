@@ -31,4 +31,4 @@ I den här videon får du lära dig att:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35146/?quality=12)
 
-Mer information finns i [dokumentationen](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4timplementation.html?lang=sv-SE).
+Mer information finns i [dokumentationen](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4timplementation.html?lang=en).

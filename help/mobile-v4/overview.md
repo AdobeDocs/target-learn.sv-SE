@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# Adobe Target med Adobe Mobile Services SDK v4 för Android - översikt
+# Adobe Target med Adobe Mobile Services SDK v4 for Android - översikt
 
 _Adobe Target med Adobe Mobile Services SDK v4 för Android_ är den perfekta startpunkten för Android-utvecklare som redan använder Adobe Mobile Services SDK v4 och vill börja personalisera appupplevelser med Adobe Target.
 
@@ -23,7 +23,7 @@ Du får en Android-demoapp för att slutföra lektionerna. När du är klar med 
 
 När du är klar med den här självstudiekursen kan du:
 
-* Verifiera installationen av [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=sv-SE)
+* Verifiera installationen av [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en)
 * Implementera följande typer av [!DNL Target]-begäranden:
    * Förhämtning av [!DNL Target]-innehåll
    * Gruppera flera [!DNL Target] platser (mbox) i en enda begäran
@@ -40,12 +40,12 @@ När du är klar med den här självstudiekursen kan du:
 
 I dessa lektioner antas att du:
 
-* Ha ett Adobe-ID och åtkomst på godkännarnivå till Adobe Target-gränssnittet (se verifieringsstegen nedan)
+* Ha ett Adobe-id och åtkomst på godkännarnivå till Adobe Target-gränssnittet (se verifieringsstegen nedan)
 * Lär känna Adobe Target klientkod så att du kan göra förfrågningar till ditt eget konto. Klientkoden visas i Adobe Target-gränssnittet på   Inställningar > Implementering > Redigera skärmen för at.js-inställningar
 * Har tillgång till och känner till användargränssnittet för [Mobile Services](https://mobilemarketing.adobe.com/)
 * Utveckla Android mobilappar med en integrerad utvecklingsmiljö. Den här självstudien innehåller [Android Studio](https://developer.android.com/studio/install) i olika steg och skärmbilder
 
-Om du inte har den behörighet som krävs för Experience Cloud Solutions, kontakta din Experience Cloud-administratör.
+Om du inte har tillgång till Experience Cloud Solutions kontaktar du Experience Cloud-administratören.
 
 Man utgår också från att du är bekant med Android utveckling i Java. Du behöver inte vara Java-expert för att slutföra lektionerna, men du får ut mer av dem om du kan läsa och förstå koden på ett bekvämt sätt.
 
@@ -58,7 +58,7 @@ Den här lektionen kräver tillgång till Adobe Target. Innan du går igenom de 
    ![Experience Cloud hemskärm](assets/aec_homeScreen_clickTarget.png)
 1. Du bör gå till aktivitetslistan i Adobe Target, som bilden nedan visar, och du bör se att din användare har åtkomst på godkännarnivå. Om du inte kan komma åt [!DNL Target] eller verifiera åtkomsten på godkännarnivå kontaktar du en av ditt företags Experience Cloud-administratörer, begär den här åtkomsten och återupptar den här självstudiekursen när den har beviljats:
 
-   ![Adobe-gränssnitt](assets/targetUI_approver.png)
+   ![Adobe UI](assets/targetUI_approver.png)
 
 ## Om lektionerna
 

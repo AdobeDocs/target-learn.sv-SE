@@ -18,7 +18,7 @@ Personalization kan vara kraftfullt, men det måste valideras genom tester för 
 
 När vi lanserar 2000-talets andra årtionde skiljer organisationer som er från mängden med föråldrade strategier för kundanpassning och felaktig dataanalys. Det här är designen av personalisering, en era där konsumenterna har kommit att förvänta sig ingenting mindre än en anpassad upplevelse. Personalization på företagsnivå är en komplicerad och ständigt föränderlig process, men om den görs effektivt kommer den att maximera kundnöjdheten och avsevärt öka avkastningen.
 
-I följande artikel finns ett ramverk som du kan använda för att börja validera personaliseringsaktiviteter och skapa en personaliseringskarta som kan köras via Adobe Target och Adobe Analytics. Adobe QuickStart-ramverket innehåller
+I följande artikel finns ett ramverk som du kan använda för att börja validera personaliseringsaktiviteter och skapa en personaliseringskarta som kan köras via Adobe Target och Adobe Analytics. Adobe QuickStart-ramverk innehåller:
 
 1. **Identifiera personaliseringsmöjligheter** - Använd dataanalys för att identifiera möjligheter att påverka viktiga resultatindikatorer på din webbplats, beroende på organisationens affärsmål.
 
@@ -47,7 +47,7 @@ Det här är utgångspunkten när du börjar skapa Personalization-färdplanen. 
 
 Ibland kan man ha mål som från början verkar immateriella också, som varumärkesvärde eller lojalitet. Det är viktigt att ni kan mäta dessa för att kunna använda dem som målmått för Personalization-aktiviteter. Vanligtvis kan dessa mål fortfarande anpassas till intäktseffekten, som kundlivslängd eller anskaffningskostnader.Under tiden du går ska du kontrollera att programmet presterar i förhållande till dina huvudverksamhetsmål regelbundet för att se till att värdet drivs av ditt Personalization-program.
 
-Fokusera på dataanalys för att identifiera specifika delar av webbplatsen som kan förbättras. Adobe rekommenderar att man börjar med Adobe Analytics för att generera riktade användningsfall. Om du har ett analysteam på plats kan du be dem att titta på följande:
+Fokusera på dataanalys för att identifiera specifika delar av webbplatsen som kan förbättras. Adobe rekommenderar att man börjar med Adobe Analytics för att generera riktade användningsexempel. Om du har ett analysteam på plats kan du be dem att titta på följande:
 
 1. Personliga förformulärstabeller - En funktion som ger obegränsade uppdelningar och kan hjälpa dig att besvara frågor eller antaganden som du har.
 1. Avancerad segmentering - Med segmenterings-IQ kan du jämföra besökare i olika delar av webbplatsen.
@@ -76,7 +76,7 @@ Prioriteringssteget är uppdelat i två faktorer:
 
 * Kostnad - Det är en naturlig kostnad att bygga ut dina designvarianter inom Target och sedan den potentiella lanseringen. Nu måste du beräkna kostnaden för varje användningsfall. Kostnaden omfattar tid och resurser som krävs för att skapa testupplevelser, schemaläggning och analys efter testet.
 
-Adobe rekommenderar att du rangordnar varje användningsfall på en skala från 1 till 5, där 1 är enkel och 5 är komplex. Du har nu en uppsättning prioriterade aktiviteter som du kan testa i Adobe Target. Dessa aktiviteter kommer att utgöra grunden för din årliga personalisering. Adobe rekommenderar att Personalization färdplan utvärderas regelbundet. Inlärningarna från varje aktivitet bör påverka era framtida prioriteringar för färdplanen. Insatser och rekommendationer kommer att bli mer effektiva om de vidtas i rätt tid. Prioriteringarna under hela året kan ändras, men med en iterativ metod kan du vara säker på att du alltid har en strategisk handlingsplan och att du kan följa upp målen för ditt team och ditt företag.
+Adobe rekommenderar att du rangordnar varje användningsfall på en skala från 1 till 5, där 1 är enkelt och 5 är komplext. Du har nu en uppsättning prioriterade aktiviteter som du kan testa i Adobe Target. Dessa aktiviteter kommer att utgöra grunden för din årliga personalisering. Adobe rekommenderar att Personalization Roadmap utvärderas regelbundet. Inlärningarna från varje aktivitet bör påverka era framtida prioriteringar för färdplanen. Insatser och rekommendationer kommer att bli mer effektiva om de vidtas i rätt tid. Prioriteringarna under hela året kan ändras, men med en iterativ metod kan du vara säker på att du alltid har en strategisk handlingsplan och att du kan följa upp målen för ditt team och ditt företag.
 
 ## Steg 4: Designa och kör
 
@@ -90,4 +90,4 @@ När personaliseringsaktiviteten har engagerat ett representativt urval av besö
 
 Vi rekommenderar att du tittar på den här videon som beskriver vart och ett av dessa steg: [https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
 
-Läs mer om strategi och tankeledarskap på navet [Nöjda kunder](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=sv-SE).
+Läs mer om strategi och tankeledarskap på navet [Nöjda kunder](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).

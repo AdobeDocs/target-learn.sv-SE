@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Adobe Target med Adobe Mobile Services SDK v4 för Android {#mobile-sdk-v4-android}
 
-+ [Översikt](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=sv-SE)
++ [Översikt](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html)
 + [Hämta och uppdatera exempelappen](download-and-update-the-sample-app.md)
 + [Lägg till begäranden](add-requests.md)
 + [Lägg till parametrar](add-parameters.md)

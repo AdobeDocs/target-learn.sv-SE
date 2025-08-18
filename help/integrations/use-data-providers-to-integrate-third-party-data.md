@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Använd Data Providers för att integrera data från tredje part i Adobe Target
 
-[!UICONTROL Data Providers] är en funktion som gör att du enkelt kan skicka data från tredje part till Target.  En tredje part kan vara en vädertjänst, en datahanteringsplattform eller till och med en egen webbtjänst. Sedan kan ni använda dessa data för att skapa målgrupper, målinnehåll och berika besökarprofilen.
+[!UICONTROL Data Providers] är en funktion som gör att du enkelt kan skicka data från tredje part till Target.  En tredje part kan vara en vädertjänst, en DMP eller till och med en egen webbtjänst. Sedan kan ni använda dessa data för att skapa målgrupper, målinnehåll och berika besökarprofilen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22349/?quality=12)
 

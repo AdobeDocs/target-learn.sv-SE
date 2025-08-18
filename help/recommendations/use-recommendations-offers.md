@@ -28,5 +28,5 @@ Rekommendationserbjudanden kan användas med A/B-tester och aktiviteter för må
 
 ## Ytterligare resurser
 
-* [Rekommendationer som erbjudandedokumentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=sv-SE)
+* [Rekommendationer som erbjudandedokumentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
 * [Videofilm om aktiviteten Rekommendationer](create-a-recommendations-activity.md)

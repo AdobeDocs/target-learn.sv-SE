@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Om du inte är van vid din organisation och vill bekanta dig med vad som är på plats från en testnings- och optimeringspraxis hjälper den här artikeln dig att komma igång. Vi börjar med en översikt över Adobe Target implementering och struktur. Du får lära dig att förstå och granska hur din organisation är konfigurerad. Slutligen diskuterar vi vanliga felsökningstekniker och tips om hur du skapar en kunskapsdatabas för ditt team.
 
-Adobe Target är ett verktyg som gör det möjligt att testa och rikta unikt innehåll till olika besökare. [Gå till den här guiden](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE) om du vill se en översikt över tillgängliga funktioner.
+Adobe Target är ett verktyg som gör det möjligt att testa och rikta unikt innehåll till olika besökare. [Gå till den här guiden](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en) om du vill se en översikt över tillgängliga funktioner.
 
 ## Målgenomförande och struktur
 
@@ -58,7 +58,7 @@ Target bygger på en&quot;global Mbox&quot; som ger möjlighet att påverka vad 
 
 ## Förstå er nuvarande implementering
 
-Adobe rekommenderar att du granskar implementeringen av målanvändargränssnittet tillsammans med tagghanteraren och implementeringen av sidinläsning för att få en förståelse för den aktuella implementeringen.
+Adobe rekommenderar att du granskar implementeringen av målanvändargränssnittet tillsammans med tagghanteraren och implementeringen av sidinläsning för att få en bättre förståelse för den aktuella implementeringen.
 
 **Så här granskar du [!DNL Target]-användargränssnittet:**
 
@@ -102,9 +102,9 @@ Så här granskar du tagghanteraren och sidinläsningen:
 
 ## [!DNL Target] granskningsaktiviteter
 
-Om du vill undvika att gå igenom varje sida manuellt för att granska [!DNL Target]-aktiviteter kan du använda Adobe Auditor för att få en förståelse för det aktuella tekniska tillståndet för implementeringen. Adobe Auditor drivs av ObservePoint och kan konfigureras för att köras manuellt för att identifiera implementeringsproblem på hög nivå på din webbplats.
+Om du vill undvika att gå igenom varje sida manuellt för att granska [!DNL Target]-aktiviteter kan du använda Adobe Auvisor för att få en förståelse för det aktuella tekniska tillståndet för implementeringen. Adobe Auditor är baserad på ObservePoint och kan konfigureras för att köras manuellt för att identifiera implementeringsproblem på hög nivå på din webbplats.
 
-Adobe Auditor tillhandahåller
+Adobe Auditor tillhandahåller:
 
 * Hälsa på hög plats
 * Snabba utlysningar för implementeringsfrågor
@@ -166,4 +166,4 @@ Vanliga dokument i en kunskapsdatabas är:
 
 Mer information finns i vårt [webbinarium](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) med Senior Consultant, Wilder Freed.
 
-Läs mer om strategi och tankeledarskap på navet [Nöjda kunder](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=sv-SE).
+Läs mer om strategi och tankeledarskap på navet [Nöjda kunder](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).

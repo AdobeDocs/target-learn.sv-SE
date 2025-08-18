@@ -26,6 +26,6 @@ Med Adobe Experience Cloud Debugger är det snabbt och enkelt att förstå hur T
 
 * [Video om felsökning med målspår](troubleshoot-with-target-traces.md)
 * [Adobe Experience Cloud Debugger i Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
-* [Lägg till videon för felsökningstillägget](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/add-the-extension.html?lang=sv-SE)
-* [Felsökning av hjälpdokumentation för mål](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=sv-SE)
-* [Så här använder du felsökningsvideon för Experience Cloud](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/use-the-experience-cloud-debugger.html?lang=sv-SE)
+* [Lägg till videon för felsökningstillägget](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/add-the-extension.html?lang=en)
+* [Felsökning av hjälpdokumentation för mål](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en)
+* [Så här använder du felsökningsvideon för Experience Cloud](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/use-the-experience-cloud-debugger.html?lang=en)

@@ -11,9 +11,9 @@ ht-degree: 1%
 
 # Självstudiekurser om Adobe Target {#tutorials}
 
-+ [Adobe Target Tutorials - översikt](../overview.md)
++ [Adobe Target självstudiekurser - översikt](../overview.md)
 + Administration{#administration}
-   + Strategi- och tankeledarskap{#strategy}
+   + Strategi och tankeledarskap{#strategy}
       + [Snabbstart för personaliseringstestning och framtagning av vägkartor](../strategy/create-personalization-roadmap-testing-plan.md)
       + [Implementeringsstrategi och systemstyrning](../dev101/1-1-implementation-strategy-sys-governance.md)
       + [Bästa tillvägagångssätt för optimering med Adobe Target](../strategy/target-best-practices-for-optimization.md)
@@ -27,19 +27,19 @@ ht-degree: 1%
 + Implementering{#implementation}
    + [Introduktion till målimplementering](../dev101/2-1-intro-to-target-implementation.md)
    + [Integrera Target med Launch](../dev101/3-1-target-launch.md)
-   + [Implementera webbplatser med Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=sv-SE)
+   + [Implementera webbplatser med Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
    + [Fördelar med att använda platser](../dev101/2-2-benefits-of-locations.md)
    + [Introduktion till målbegäranden](../dev101/2-3-intro-to-target-requests.md)
    + [Introduktion till målparametrar](../dev101/2-4-intro-to-target-params.md)
    + [Se hur at.js 2.0 Works](../implementation/understanding-how-atjs-20-works.md)
-   + [Implementera at.js 2.0 i ett enkelsidigt program (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
+   + [Implementera at.js 2.0 i ett Single Page Application (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Designa en målinriktad implementering](../dev101/2-5-design-target-implementation.md)
    + [Nästa steg för att utforma en målinriktad implementering](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [Använd Opt-In för att styra Experience Cloud-lösningar baserat på användargodkännande](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=sv-SE)
+   + [Använd deltagande för att styra Experience Cloud-lösningar baserat på användargodkännande](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [Förstå Adobe Target Hybrid Deployment](../implementation/hybrid-deployment.md)
    + [Beslutsöversikt på enheten](../implementation/on-device-decisioning-overview.md)
    + [Implementeringsmönster för Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)
-+ Integrationer{#integrations}
++ Integreringar{#integrations}
    + [Integrera Target med Analytics](../dev101/3-2-target-analytics.md)
    + [Använd Analytics som Data Source for Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
    + [Ställ in A4T-rapporter i Analysis Workspace för automatisk allokering av aktiviteter](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)
@@ -48,7 +48,7 @@ ht-degree: 1%
    + [Integrera Target med Experience Cloud-målgrupper](../dev101/3-4-target-exc-audiences.md)
    + [Integrera Target med Campaign](../dev101/3-6-target-campaign.md)
    + [Integrera Target med Adobe Developer Console](../dev101/3-7-target-io.md)
-   + Integrera mål med Real-Time CDP{#rtcdp}
+   + Integrera Target med Real-Time CDP{#rtcdp}
       + [Nästa steg i personaliseringen med Adobe Target](../integrations/rtcdp/next-hit-personalization.md)
       + [Konfigurera Adobe Target-målet](../integrations/rtcdp/configure-the-target-destination.md)
       + [Aktivera segment och profilattribut](../integrations/rtcdp/activate-segments-and-profile-attributes.md)
@@ -60,7 +60,7 @@ ht-degree: 1%
    + [Data i: Använd Data Providers för att integrera data från tredje part](../integrations/use-data-providers-to-integrate-third-party-data.md)
    + [Data in: Implementera Data Providers för att integrera data från tredje part](../integrations/implement-data-providers-to-integrate-third-party-data.md)
    + [Data ut: Använd svarstoken och anpassade at.js-händelser](../integrations/use-response-tokens-and-atjs-custom-events.md)
-+ Aktiviteter{#activities}
++ Verksamhet{#activities}
    + [Förstå olika typer av aktiviteter](../activities/understanding-the-types-of-activities.md)
    + [Använd artificiell intelligens och automatisering för att möta Personalization utmaningar](../activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
    + [Skapa A/B-tester](../activities/create-ab-tests.md)
@@ -69,7 +69,7 @@ ht-degree: 1%
    + [Använd aktivitetsmål](../activities/use-activity-targeting.md)
    + [Använd aktivitetsinställningar](../activities/use-activity-settings.md)
    + [Använd mått i aktiviteter](../activities/use-metrics-in-activities.md)
-+ Publiker{#audiences}
++ Målgrupper{#audiences}
    + [Använd målgrupper](../audiences/use-audiences.md)
    + [Skapa målgrupper](../audiences/create-audiences.md)
    + [Skapa profilskript](../audiences/create-profile-scripts.md)
@@ -81,9 +81,9 @@ ht-degree: 1%
    + [Använd AEM Experience Fragments i Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Rapporter{#reports}
    + [Använd Personalization Insights-rapporter](../reports/use-the-personalization-insights-reports.md)
-+ Recommendations{#recommendations}
-   + [Skapa en Recommendations-aktivitet](../recommendations/create-a-recommendations-activity.md)
-   + [Använd Recommendations-erbjudanden](../recommendations/use-recommendations-offers.md)
++ Rekommendationer{#recommendations}
+   + [Skapa en rekommendationsaktivitet](../recommendations/create-a-recommendations-activity.md)
+   + [Använd rekommendationer](../recommendations/use-recommendations-offers.md)
    + [Förstå flöden](../recommendations/understanding-feeds.md)
    + [Skapa en feed](../recommendations/create-a-feed.md)
    + [Skapa villkor](../recommendations/create-criteria.md)

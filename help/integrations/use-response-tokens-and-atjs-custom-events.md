@@ -34,5 +34,5 @@ Med svarstoken och anpassade `at.js`-händelser kan du dela profilinformation fr
 ## Ytterligare resurser
 
 * [Använda Experience Cloud Debugger med Adobe Target](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
-* [Svarstokendokumentation](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html?lang=sv-SE)
+* [Svarstokendokumentation](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html?lang=en)
 * [Använda Data Providers i Adobe Target](use-data-providers-to-integrate-third-party-data.md)

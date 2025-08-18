@@ -36,4 +36,4 @@ I den här videon får du lära dig att:
 * [Förstå flöden](understanding-feeds.md)
 * [Skapa en feed](create-a-feed.md)
 * [Skapa villkor](create-criteria.md)
-* [Dokumentation om rekommendationer](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=sv-SE)
+* [Dokumentation om rekommendationer](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

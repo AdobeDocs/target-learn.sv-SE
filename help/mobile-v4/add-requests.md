@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Lägg till Adobe Target-förfrågningar
 
-Adobe Mobile Services SDK (v4) innehåller metoder och funktioner från Adobe Target som gör att du kan anpassa din app med olika upplevelser för olika användare. Normalt görs en eller flera förfrågningar från appen till Adobe Target för att hämta det personaliserade innehållet och mäta effekten av det innehållet.
+Adobe Mobile Services SDK (v4) innehåller Adobe Target metoder och funktioner som gör att du kan anpassa din app med olika upplevelser för olika användare. Normalt görs en eller flera förfrågningar från appen till Adobe Target för att hämta det personaliserade innehållet och mäta effekten av det innehållet.
 
 I den här lektionen förbereder du appen We.Travel för personalisering genom att implementera [!DNL Target]-begäranden.
 
@@ -52,7 +52,7 @@ Nedan finns några viktiga Target-termer som vi kommer att använda i resten av 
 
 Den första begäran som vi implementerar i We.Travel är en förhämtningsbegäran för batch med två [!DNL Target] platser på hemskärmen. I en senare lektion kommer vi att konfigurera erbjudanden för dessa platser som visar meddelanden som hjälper nya användare genom bokningsprocessen.
 
-En förhämtningsbegäran hämtar [!DNL Target]-innehåll så minimalt som möjligt genom att cachelagra Adobe Target-serversvar (erbjudande). En begäran om batchförhämtning hämtar och cachelagrar flera erbjudanden, som var och en är kopplad till en annan plats. Alla förhämtade platser cachelagras på enheten för framtida bruk i användarsessionen. Genom att förhämta flera platser på hemskärmen kan vi hämta erbjudanden som kan användas senare när besökaren navigerar genom appen. Mer information om förhämtningsmetoder finns i [förhämtningsdokumentationen](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=sv-SE).
+En förhämtningsbegäran hämtar [!DNL Target]-innehåll så minimalt som möjligt genom att cachelagra Adobe Target-serversvar (erbjudande). En begäran om batchförhämtning hämtar och cachelagrar flera erbjudanden, som var och en är kopplad till en annan plats. Alla förhämtade platser cachelagras på enheten för framtida bruk i användarsessionen. Genom att förhämta flera platser på hemskärmen kan vi hämta erbjudanden som kan användas senare när besökaren navigerar genom appen. Mer information om förhämtningsmetoder finns i [förhämtningsdokumentationen](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
 
 ### Lägg till förhämtningsbegäran för grupp
 
@@ -285,7 +285,7 @@ import com.adobe.mobile.TargetPrefetchObject;
 | Code | Beskrivning |
 |--- |--- |
 | `targetLoadRequest()` | En användardefinierad funktion (ingår inte i SDK) som utlöser `Target.loadRequest()` som läser in och visar platsen wetravel_context_dest |
-| `Target.loadRequest()` | SDK-metoden som skickar begäran till målservern |
+| `Target.loadRequest()` | Den SDK-metod som skickar begäran till målservern |
 | Constant.wetravel_context_dest | Platsnamnet som tilldelats den begäran som vi kommer att använda senare när vi skapar aktiviteten i gränssnittet [!DNL Target] |
 | `filterRecommendationBasedOnOffer()` | En användardefinierad funktion i appen som hämtar platsens erbjudande från Target-svaret och avgör hur appen ska ändras baserat på erbjudandets innehåll |
 | `recommandations.addAll()` | En användardefinierad funktion i appen som kördes som standard när TackYou-skärmen lästes in, men som nu körs efter att Target-svaret har tagits emot och tolkats av `filterRecommendationBasedOnOffer()` |

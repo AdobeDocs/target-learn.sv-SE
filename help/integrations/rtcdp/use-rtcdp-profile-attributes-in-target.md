@@ -1,6 +1,6 @@
 ---
 title: Hur använder jag Real-Time CDP-profilattribut i Adobe Target?
-description: Lär dig hur du använder Real-time Customer Data Platform-profilattribut i Adobe Target för att leverera personaliserade upplevelser på din webbplats och i dina mobilappar.
+description: Lär dig hur du använder Real-Time Customer Data Platform-profilattribut i Adobe Target för att leverera personaliserade upplevelser på din webbplats och i dina mobilappar.
 feature-set: Experience Platform, Target
 feature: Destinations, Profiles, Integrations
 solution: Experience Platform, Target
@@ -19,10 +19,10 @@ ht-degree: 0%
 
 # Använda Real-Time CDP-profilattribut i Adobe Target
 
-Lär dig hur du använder Adobe Real-time Customer Data Platform-profilattribut i Adobe Target för att leverera personaliserade upplevelser på din webbplats och i dina mobilappar. Mer information finns i [dokumentationen](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html?lang=sv-SE).
+Lär dig hur du använder Adobe Real-Time Customer Data Platform-profilattribut i Adobe Target för att leverera personaliserade upplevelser på din webbplats och i dina mobilappar. Mer information finns i [dokumentationen](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html).
 
->[!VIDEO](https://video.tv.adobe.com/v/3451897/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
 >[!CAUTION]
 >
->Plattformsprofilattribut kan användas i Recommendations-designer för att generera attributvärden, men kan inte användas i snabblogik eller åtgärder.
+>Plattformsprofilattribut kan användas i Recommendations-designer för att generera attributvärden, men kan inte användas i Farocity-logik eller -åtgärder.

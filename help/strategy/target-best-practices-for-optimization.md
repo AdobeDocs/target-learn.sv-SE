@@ -1,6 +1,6 @@
 ---
 title: Bästa tillvägagångssätt för optimering
-description: Lär dig Adobe 6 grundläggande optimeringsfunktioner och hur du använder dem.
+description: Lär dig Adobe sex viktiga optimeringsfunktioner och hur du använder dem.
 solution: Target
 role: Leader, Architect, Developer, Admin
 feature: Overview
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Bästa tillvägagångssätt för optimering med Adobe Target
 
-Lär dig Adobe 6 grundläggande optimeringsfunktioner och hur du använder dem.
+Lär dig Adobe sex viktiga optimeringsfunktioner och hur du använder dem.
 
 När det gäller att bygga upp en stark digital närvaro finns det ett antal utmaningar som ditt team kommer att ställas inför. Ni behöver inte bara engagera hundratals, till och med tusentals kunder, utan även en mängd unika beteenden och önskemål som förändras över tid, och det är upp till er att inte bara hålla jämna steg med dessa ändringar, utan också förutse dem och genomföra era strategier effektivt och korrekt. Det är en tävling mot konkurrenter i en ständig innehållsmaraton som kräver konstant upprepning och förstklassig teknik.
 
@@ -116,8 +116,8 @@ Personalization innehåller även testaktivitetstypen Experience Targeting, som 
 
 ## Optimering före personalisering
 
-Med tanke på ovanstående förståelse rekommenderar Adobe att du Optimerar innan du personaliserar och går från bred till granulär till Personalization. Om du vill utveckla Personalization-aktiviteter från breda till detaljerade, börjar du med att använda en personalisering (bred) från en till många (med A/B-testning) och går sedan över till en personalisering (granulär) (med hjälp av automatiserade personaliseringsaktiviteter).
+Med tanke på ovanstående förståelse rekommenderar Adobe att du Optimerar innan du personaliserar, och går från bred till granulerad Personalization. Om du vill utveckla Personalization-aktiviteter från breda till detaljerade, börjar du med att använda en personalisering (bred) från en till många (med A/B-testning) och går sedan över till en personalisering (granulär) (med hjälp av automatiserade personaliseringsaktiviteter).
 
 Om du vill ha mer information kan du lyssna på [webbinariet om att förstå och optimera din Adobe Target-implementering](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/) med Business Consultant, Katie Cozby.
 
-Läs mer om strategi och tankeledarskap på navet [Nöjda kunder](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=sv-SE).
+Läs mer om strategi och tankeledarskap på navet [Nöjda kunder](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).

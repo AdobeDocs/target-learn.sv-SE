@@ -78,7 +78,7 @@ Följ stegen ovan för att skapa en publik som returnerar användare.
 
 >[!NOTE]
 >
->Alla livscykelvärden och dimensioner som samlas in i den mobila SDK:n [!DNL Target] är prepended med a (a.Launches) och finns tillgängliga i alternativet Custom (Egen) på den nedrullningsbara menyn och kan användas för att skapa målgrupper.
+>Alla livscykelvärden och dimensioner som samlas in i den mobila SDK:n [!DNL Target] är fördefinierade med&quot;a&quot; (t.ex. a.Launches) och är tillgängliga i alternativet&quot;Custom&quot; (Anpassad) på den nedrullningsbara menyn och kan användas för att skapa målgrupper.
 
 ### Skapa en publik för användare som bokar en resa till San Diego
 
@@ -120,7 +120,7 @@ Först ska vi skapa erbjudanden för nya användare:
 1. Ange _Välj Source och Mål om du vill söka efter tillgängliga bussar_ som kod.
 1. Spara det nya erbjudandet.
 
-   ![Skapa Home HTML-erbjudande](assets/offer_home_2.jpg)
+   ![Skapa HTML-erbjudande hemma](assets/offer_home_2.jpg)
 
 ### Skapa erbjudandet för återkommande användare
 
@@ -130,7 +130,7 @@ Nu ska vi skapa ett erbjudande för återkommande användare (det andra erbjudan
 1. Ange _Välkommen tillbaka! Använd kampanjkoden BACK30 vid kassan för att få 10 % rabatt._ som HTML-kod.
 1. Spara det nya erbjudandet.
 
-   ![Skapa Home HTML-erbjudande](assets/offer_home_returning_users.jpg)
+   ![Skapa HTML-erbjudande hemma](assets/offer_home_returning_users.jpg)
 
 ### Skapa erbjudandet för San Diego
 

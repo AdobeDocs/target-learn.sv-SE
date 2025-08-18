@@ -25,4 +25,4 @@ Automated Personalization- och Auto-Target-aktiviteter använder avancerad maski
 
 ## Ytterligare information
 
-* [Personalization Insights i hjälpdokumentationen](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=sv-SE)
+* [Personalization Insights i hjälpdokumentationen](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=en)

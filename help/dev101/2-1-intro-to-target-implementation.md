@@ -32,5 +32,5 @@ I den här videon får du lära dig att:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
 
-Mer information finns i [Implementering på klientsidan](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=sv-SE){target=_blank} eller [Implementering på serversidan](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=sv-SE){target=_blank} i *[!UICONTROL Adobe Target Developer Guide]*.
+Mer information finns i [Implementering på klientsidan](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} eller [Implementering på serversidan](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} i *[!UICONTROL Adobe Target Developer Guide]*.
 

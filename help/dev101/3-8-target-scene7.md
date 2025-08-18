@@ -28,4 +28,4 @@ I den här videon får du lära dig att:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35148/?quality=12)
 
-Mer information finns i [dokumentationen](https://experienceleague.adobe.com/docs/target/using/administer/scene7-settings.html?lang=sv-SE).
+Mer information finns i [dokumentationen](https://experienceleague.adobe.com/docs/target/using/administer/scene7-settings.html?lang=en).
