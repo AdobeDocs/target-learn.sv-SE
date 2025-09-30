@@ -1,7 +1,9 @@
 ---
 user-guide-title: Självstudiekurser om Adobe Target
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+landing-page-breadcrumb-title: Adobe Target
+landing-page-name: target
+source-git-commit: a416f01d695b7f2b1686c93e3c777b8ae005ca09
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 1%
@@ -27,7 +29,7 @@ ht-degree: 1%
 + Implementering{#implementation}
    + [Introduktion till målimplementering](../dev101/2-1-intro-to-target-implementation.md)
    + [Integrera Target med Launch](../dev101/3-1-target-launch.md)
-   + [Implementera webbplatser med Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=sv-SE)
+   + [Implementera webbplatser med Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
    + [Fördelar med att använda platser](../dev101/2-2-benefits-of-locations.md)
    + [Introduktion till målbegäranden](../dev101/2-3-intro-to-target-requests.md)
    + [Introduktion till målparametrar](../dev101/2-4-intro-to-target-params.md)
@@ -35,7 +37,7 @@ ht-degree: 1%
    + [Implementera at.js 2.0 i ett Single Page Application (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Designa en målinriktad implementering](../dev101/2-5-design-target-implementation.md)
    + [Nästa steg för att utforma en målinriktad implementering](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [Använd deltagande för att styra Experience Cloud-lösningar baserat på användargodkännande](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=sv-SE)
+   + [Använd deltagande för att styra Experience Cloud-lösningar baserat på användargodkännande](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [Förstå Adobe Target Hybrid Deployment](../implementation/hybrid-deployment.md)
    + [Beslutsöversikt på enheten](../implementation/on-device-decisioning-overview.md)
    + [Implementeringsmönster för Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)
