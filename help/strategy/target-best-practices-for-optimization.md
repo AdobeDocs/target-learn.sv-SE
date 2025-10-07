@@ -6,9 +6,9 @@ role: Leader, Architect, Developer, Admin
 feature: Overview
 level: Beginner
 exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
-source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
+source-git-commit: d65720ae992a3079462ba59421c3b7a8d4f5ea7b
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
@@ -118,6 +118,6 @@ Personalization innehåller även testaktivitetstypen Experience Targeting, som 
 
 Med tanke på ovanstående förståelse rekommenderar Adobe att du Optimerar innan du personaliserar, och går från bred till granulerad Personalization. Om du vill utveckla Personalization-aktiviteter från breda till detaljerade, börjar du med att använda en personalisering (bred) från en till många (med A/B-testning) och går sedan över till en personalisering (granulär) (med hjälp av automatiserade personaliseringsaktiviteter).
 
-Om du vill ha mer information kan du lyssna på [webbinariet om att förstå och optimera din Adobe Target-implementering](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/) med Business Consultant, Katie Cozby.
+Mer information finns i [QuickStart för personaliseringstestning och framtagning av färdplaner](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
 
-Läs mer om strategi och tankeledarskap på navet [Nöjda kunder](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=sv-SE).
+Läs mer om strategi och tankeledarskap i navet [Perspective](https://experienceleague.adobe.com/en/perspectives) .
