@@ -118,6 +118,6 @@ Personalization innehåller även testaktivitetstypen Experience Targeting, som 
 
 Med tanke på ovanstående förståelse rekommenderar Adobe att du Optimerar innan du personaliserar, och går från bred till granulerad Personalization. Om du vill utveckla Personalization-aktiviteter från breda till detaljerade, börjar du med att använda en personalisering (bred) från en till många (med A/B-testning) och går sedan över till en personalisering (granulär) (med hjälp av automatiserade personaliseringsaktiviteter).
 
-Mer information finns i [QuickStart för personaliseringstestning och framtagning av färdplaner](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
+Mer information finns i [QuickStart för personaliseringstestning och framtagning av färdplaner](https://experienceleague.adobe.com/sv/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
 
-Läs mer om strategi och tankeledarskap i navet [Perspective](https://experienceleague.adobe.com/en/perspectives) .
+Läs mer om strategi och tankeledarskap i navet [Perspective](https://experienceleague.adobe.com/sv/perspectives) .
