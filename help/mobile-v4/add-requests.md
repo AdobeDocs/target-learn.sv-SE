@@ -247,7 +247,7 @@ targetLoadRequest(recommandation.recommandations);
 ```
 
 Nu måste vi definiera funktionen `targetLoadRequest()`:
-![ Lägg till en plats i realtid på Tack-skärmen ](assets/thankyou2.jpg)
+![&#x200B; Lägg till en plats i realtid på Tack-skärmen &#x200B;](assets/thankyou2.jpg)
 
 Lägg till det här kodblocket efter funktionen `filterRecommendationBasedOnOffer()`:
 

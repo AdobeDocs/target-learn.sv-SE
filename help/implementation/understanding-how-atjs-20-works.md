@@ -44,7 +44,7 @@ Beteendet ![at.js 2.0 vid sidinläsning](assets/pageload.png)
 1. [!DNL Analytics] data har skickats från sidan till [!UICONTROL Data Collection]-servrarna
 1. [!DNL Target] data matchas mot analysdata via SDID och bearbetas till rapportlagringen [!DNL Analytics]. [!DNL Analytics] data kan sedan visas i både [!DNL Analytics] och [!DNL Target] via A4T-rapporter.
 
-Beteendet ![ at.js 2.0 när funktionen triggerView() används](assets/triggerview.png)
+Beteendet ![&#x200B; at.js 2.0 när funktionen triggerView() används](assets/triggerview.png)
 
 1. `adobe.target.triggerView()` anropas i enkelsidigt program
 1. Målinnehåll för vyn läses från cachen

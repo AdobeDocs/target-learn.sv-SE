@@ -30,7 +30,7 @@ Integrationen [!UICONTROL Analytics for Target] (A4T) för [!DNL Auto-Target]-ak
 I den här självstudiekursen går vi igenom de rekommenderade ändringarna för att analysera [!UICONTROL Auto-Target]-aktiviteter i [!DNL Analysis Workspace], som baseras på följande nyckelbegrepp:
 
 * Dimensionen **[!UICONTROL Control vs Targeted]** kan användas för att skilja mellan [!UICONTROL Control]-upplevelser och de som hanteras av algoritmen [!UICONTROL Auto-Target] ensemble ML.
-* Besök bör användas som normaliseringsmått vid visning av prestandadelningar på erfarenhetsnivå. Dessutom kan [Adobe Analytics standardberäkningsmetod omfatta besök där användaren inte ser aktivitetsinnehållet ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=sv-SE#metrics){target=_blank}, men detta standardbeteende kan ändras med ett segment med rätt omfång (se informationen nedan).
+* Besök bör användas som normaliseringsmått vid visning av prestandadelningar på erfarenhetsnivå. Dessutom kan [Adobe Analytics standardberäkningsmetod omfatta besök där användaren inte ser aktivitetsinnehållet &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=sv-SE#metrics){target=_blank}, men detta standardbeteende kan ändras med ett segment med rätt omfång (se informationen nedan).
 * Omfattad attribuering av besök-lookback, som också kallas &quot;besökslookback window&quot; (Besök-lookback-fönstret) för den föreskrivna attribueringsmodellen, används av [!DNL Adobe Target] ML-modellerna under deras utbildningsfaser, och samma (ej standard) attribueringsmodell bör användas när målmåttet bryts ned.
 
 ## Skapa A4T för panelen [!UICONTROL Auto-Target] i [!DNL Analysis Workspace]
