@@ -2,11 +2,11 @@
 title: Bästa tillvägagångssätt för optimering
 description: Lär dig Adobe sex viktiga optimeringsfunktioner och hur du använder dem.
 solution: Target
-role: Leader, Architect, Developer, Admin
+role: Leader, Developer, Admin
 feature: Overview
 level: Beginner
 exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
-source-git-commit: d65720ae992a3079462ba59421c3b7a8d4f5ea7b
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 0%
@@ -118,6 +118,6 @@ Personalization innehåller även testaktivitetstypen Experience Targeting, som 
 
 Med tanke på ovanstående förståelse rekommenderar Adobe att du Optimerar innan du personaliserar, och går från bred till granulerad Personalization. Om du vill utveckla Personalization-aktiviteter från breda till detaljerade, börjar du med att använda en personalisering (bred) från en till många (med A/B-testning) och går sedan över till en personalisering (granulär) (med hjälp av automatiserade personaliseringsaktiviteter).
 
-Mer information finns i [QuickStart för personaliseringstestning och framtagning av färdplaner](https://experienceleague.adobe.com/sv/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
+Mer information finns i [QuickStart för personaliseringstestning och framtagning av färdplaner](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
 
-Läs mer om strategi och tankeledarskap i navet [Perspective](https://experienceleague.adobe.com/sv/perspectives) .
+Läs mer om strategi och tankeledarskap i navet [Perspective](https://experienceleague.adobe.com/en/perspectives) .
